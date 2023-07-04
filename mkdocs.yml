@@ -1,4 +1,5 @@
 site_name: MR2 manual
+remote_branch: website
 theme:
   name: material
   icon:
