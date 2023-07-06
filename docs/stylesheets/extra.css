@@ -1,0 +1,8 @@
+:root {
+    --md-accent-fg-color: #429845;
+}
+
+/* Adjust illustration colors for dark mode */
+[data-md-color-scheme=slate] img[src$="illustration"] {
+    filter: invert(100%) sepia(0%) saturate(7496%) hue-rotate(56deg) brightness(93%) contrast(92%);
+}

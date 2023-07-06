@@ -4,3 +4,6 @@
 # IDEs
 .idea
 *.iml
+
+# Markdown editor
+.obsidian/

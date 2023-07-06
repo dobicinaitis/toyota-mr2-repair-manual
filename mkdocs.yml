@@ -15,7 +15,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: green
-      accent: green
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
@@ -23,20 +23,27 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: green
-      accent: green
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to light mode
 plugins:
   - search:
       lang: en
+  - glightbox
 extra:
   # generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dobicinaitis/toyota-mr2-repair-manual
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
