@@ -4,7 +4,6 @@
 
 A digitized version of the 1991 Toyota MR2 repair manuals.
 
-
 Completion checklist:
 
 * [ ] Volume 1
@@ -394,3 +393,44 @@ Completion checklist:
         * [ ] 20
         * [ ] 21
         * [ ] 22
+
+## Getting started
+
+### Installation
+
+Start off by setting up a virtual Python environment and installing the required dependencies:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+
+pip install mkdocs-material mkdocs-glightbox
+```
+
+Refer to the Material for
+MkDocs [installation docs](https://squidfunk.github.io/mkdocs-material/getting-started) for more information.
+
+### Previewing the site
+
+Start the MkDocs build-in dev-server:
+
+```bash
+source venv/bin/activate
+mkdocs serve
+```
+
+Open http://127.0.0.1:8000 in your browser to preview the site.
+
+### How to upgrade
+
+```bash
+pip install --upgrade --force-reinstall mkdocs-material
+```
+
+Refer to the Material for MkDocs [upgrade documentation](https://squidfunk.github.io/mkdocs-material/upgrade) for more
+information.
+
+## Powered by
+* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+* [MkDocs](https://www.mkdocs.org)
+* [MkDocs GLightbox](https://blueswen.github.io/mkdocs-glightbox)
