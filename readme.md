@@ -7,10 +7,10 @@ A digitized version of the 1991 Toyota MR2 repair manuals.
 Completion checklist:
 
 * [ ] Volume 1
-    * [x] ~~Contents~~
+    * [x] Contents
     * [ ] Introduction
         * [x] How to use this manual
-        * [ ] Identification information
+        * [x] Identification information
         * [ ] General repair instructions
         * [ ] Precautions for vehicles with Airbag
         * [ ] Precautions for vehicles with catalytic converter
