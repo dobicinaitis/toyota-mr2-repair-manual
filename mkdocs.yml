@@ -2,6 +2,8 @@ site_name: MR2 manual
 remote_branch: website
 theme:
   name: material
+  font:
+    text: Roboto
   icon:
     logo: material/book-open-blank-variant
   features:
@@ -14,7 +16,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: green
+      primary: custom
       accent: custom
       toggle:
         icon: material/weather-sunny
@@ -22,7 +24,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
+      primary: custom
       accent: custom
       toggle:
         icon: material/weather-night

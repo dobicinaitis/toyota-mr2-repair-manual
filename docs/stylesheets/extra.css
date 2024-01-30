@@ -1,8 +1,29 @@
 :root {
-    --md-accent-fg-color: #429845;
+    --md-primary-fg-color: #289151;
+    --md-accent-fg-color: #289151;
+    --md-primary-fg-color--light: #75e8a2;
+    --md-primary-fg-color--dark: #208047;
+}
+
+::selection {
+    color: #ffffff;
+    background-color: var(--md-primary-fg-color);
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: hsl(225, 6%, 13%);
+    --md-footer-bg-color: hsla(0, 0%, 0%, 0.22);
+    --md-footer-bg-color--dark: hsla(0, 0%, 0%, 0.23);
+    --md-default-fg-color--light: #d2d0d0;
+    --md-accent-fg-color--transparent: #2c2c2c;
 }
 
 /* Adjust illustration colors for dark mode */
 [data-md-color-scheme=slate] img[src$="illustration"] {
     filter: invert(100%) sepia(0%) saturate(7496%) hue-rotate(56deg) brightness(93%) contrast(92%);
+}
+
+[data-md-color-scheme=slate] code {
+    background-color: var(--md-accent-fg-color--transparent);
 }
