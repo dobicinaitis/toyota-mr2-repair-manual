@@ -7,7 +7,10 @@ theme:
   icon:
     logo: material/book-open-blank-variant
   features:
+    - navigation.indexes
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
     - navigation.footer
     # - toc.integrate
     - search.highlight
@@ -33,6 +36,7 @@ plugins:
   - search:
       lang: en
   - glightbox
+  - awesome-pages
 extra:
   # generator: false
   social:

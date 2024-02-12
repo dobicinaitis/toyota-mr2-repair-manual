@@ -11,7 +11,7 @@ Completion checklist:
     * [ ] Introduction
         * [x] How to use this manual
         * [x] Identification information
-        * [ ] General repair instructions
+        * [x] General repair instructions
         * [ ] Precautions for vehicles with Airbag
         * [ ] Precautions for vehicles with catalytic converter
         * [ ] Precautions for vehicles with audio and anti-theft systems
@@ -393,6 +393,7 @@ Completion checklist:
         * [ ] 20
         * [ ] 21
         * [ ] 22
+* [ ] Fix "See page" references 
 
 ## Getting started
 
@@ -404,7 +405,7 @@ Start off by setting up a virtual Python environment and installing the required
 python -m venv venv
 source venv/bin/activate
 
-pip install mkdocs-material mkdocs-glightbox
+pip install mkdocs-material mkdocs-glightbox mkdocs-awesome-pages-plugin
 ```
 
 Refer to the Material for
@@ -434,3 +435,4 @@ information.
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 * [MkDocs](https://www.mkdocs.org)
 * [MkDocs GLightbox](https://blueswen.github.io/mkdocs-glightbox)
+* [MkDocs Awesome Pages Plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)

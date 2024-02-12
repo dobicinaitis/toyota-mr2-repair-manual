@@ -17,4 +17,7 @@ C. Certification Regulation Label
 
 The engine serial number is stamped on the rear of the cylinder block.
 
-![](images/IN0146_IN0100.webp#illustration){ width="50%" }
+<br/>
+<figure markdown="span">
+  ![](images/IN0146_IN0100.webp#illustration){ width="400px" }
+</figure>
