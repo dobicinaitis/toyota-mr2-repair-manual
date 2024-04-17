@@ -12,7 +12,7 @@ Completion checklist:
         * [x] How to use this manual
         * [x] Identification information
         * [x] General repair instructions
-        * [ ] Precautions for vehicles with Airbag
+        * [x] Precautions for vehicles with Airbag
         * [ ] Precautions for vehicles with catalytic converter
         * [ ] Precautions for vehicles with audio and anti-theft systems
         * [ ] Vehicle lift and support locations
