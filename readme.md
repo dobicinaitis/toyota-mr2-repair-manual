@@ -14,7 +14,7 @@ Completion checklist:
         * [x] General repair instructions
         * [x] Precautions for vehicles with Airbag
         * [x] Precautions for vehicles with catalytic converter
-        * [ ] Precautions for vehicles with audio and anti-theft systems
+        * [x] Precautions for vehicles with audio and anti-theft systems
         * [ ] Vehicle lift and support locations
         * [ ] Abbreviations
     * [ ] Maintenance
