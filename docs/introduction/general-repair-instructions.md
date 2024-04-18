@@ -17,7 +17,7 @@
     7. Be sure the cover for the positive (`+`) terminal is properly in place.
 
     <figure markdown="span">
-      ![](images/FI1066.webp#illustration)
+      ![](images/FI1066.webp#illustration){ width="400px" }
     </figure>
 
 4. Check hose and wiring connectors to make sure that they are secure and correct.

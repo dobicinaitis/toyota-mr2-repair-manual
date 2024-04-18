@@ -20,15 +20,15 @@ following items carefully, then follow the correct procedure described in this m
    source of information when troubleshooting. When troubleshooting the airbag system, always inspect the diagnostic
    codes before disconnecting the battery (See page AB-24).
 2. Work must be started after approx. 20 seconds or loner from the time the ignition switch is turned to the LOCK
-   position and the negative (-) terminal cable is disconnected from the battery. (The airbag system is equipped with a
-   back-up power source so that if work is started within 20 seconds of disconnecting the negative (-) terminal cable of
-   the battery, the airbag may be deployed.) When the negative (-) terminal cable is disconnected from the battery,
+   position and the negative (`-`) terminal cable is disconnected from the battery. (The airbag system is equipped with a
+   back-up power source so that if work is started within 20 seconds of disconnecting the negative (`-`) terminal cable of
+   the battery, the airbag may be deployed.) When the negative (`-`) terminal cable is disconnected from the battery,
    memory of the clock and audio systems will be cancelled. So before starting work, make a record of the contents
    memorized by the audio memory system. Then when work is finished, reset the audio system as before and adjust the
    clock. To avoid erasing the memory of each memory system, never use a back-up power supply from outside the vehicle.
 
     <figure markdown="span">
-      ![](images/FI1066.webp#illustration)
+      ![](images/FI1066.webp#illustration){ width="400px" }
     </figure>
 
 3. Even in cases of a minor collision where the airbag does not deploy, the front airbag sensors and the steering wheel
@@ -51,7 +51,7 @@ following items carefully, then follow the correct procedure described in this m
 ## Front airbag sensor
 
 <figure markdown="span">
-![](images/AB0255.webp#illustration)
+![](images/AB0255.webp#illustration){ width="400px" }
 </figure>
 
 1. Never reuse the front airbag sensors involved in a collision when the airbag has deployed. (Replace both the left and
@@ -66,7 +66,7 @@ following items carefully, then follow the correct procedure described in this m
 ## Spiral cable (in combination switch)
 
 <figure markdown="span">
-![](images/AB0244.webp#illustration)
+![](images/AB0244.webp#illustration){ width="400px" }
 </figure>
 
 The steering wheel must be fitted correctly to the steering column with the spiral cable at the neutral position;
@@ -82,7 +82,7 @@ steering wheel installation.
    some reason.)
 
     <figure markdown="span">
-    ![](images/AB0256.webp#illustration)
+    ![](images/AB0256.webp#illustration){ width="400px" }
     </figure>
 
 2. Never measure the resistance of the airbag squib. (This may cause the airbag to deploy, which is very dangerous.)
