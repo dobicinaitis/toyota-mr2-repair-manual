@@ -8,7 +8,7 @@ Completion checklist:
 
 * [ ] Volume 1
     * [x] Contents
-    * [ ] Introduction
+    * [x] Introduction
         * [x] How to use this manual
         * [x] Identification information
         * [x] General repair instructions
@@ -16,7 +16,7 @@ Completion checklist:
         * [x] Precautions for vehicles with catalytic converter
         * [x] Precautions for vehicles with audio and anti-theft systems
         * [x] Vehicle lift and support locations
-        * [ ] Abbreviations
+        * [x] Abbreviations
     * [ ] Maintenance
         * [ ] Maintenance schedule
         * [ ] Maintenance operations
