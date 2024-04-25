@@ -15,7 +15,7 @@ sed -i ':a;N;$!ba;s/-\n//g' "$SCRATCH_FILE"
 # join sentences that were split across lines
 sed -i ':a;N;$!ba;s/\([^\n]\)\(\n\)\(^[a-z]\)/\1 \3/g' "$SCRATCH_FILE"
 
-# prettyfy
+# prettify
 sed -i "s/negative (-)/negative (\`-\`)/g" "$SCRATCH_FILE"
 sed -i "s/positive (+)/positive (\`+\`)/g" "$SCRATCH_FILE"
 sed -i "s/^CAUTION:/:warning: **CAUTION**:/g" "$SCRATCH_FILE"
