@@ -19,3 +19,13 @@ sed -i ':a;N;$!ba;s/\([^\n]\)\(\n\)\(^[a-z]\)/\1 \3/g' "$SCRATCH_FILE"
 sed -i "s/negative (-)/negative (\`-\`)/g" "$SCRATCH_FILE"
 sed -i "s/positive (+)/positive (\`+\`)/g" "$SCRATCH_FILE"
 sed -i "s/^CAUTION:/:warning: **CAUTION**:/g" "$SCRATCH_FILE"
+sed -i "s/^HINT:/:material-lightbulb: **HINT**:/g" "$SCRATCH_FILE"
+
+# other
+sed -i "s/[\“\”]/\"/g" "$SCRATCH_FILE"
+
+sed -i "s/^HINT:/:material-lightbulb: **HINT**:/g" "$SCRATCH_FILE"
+
+# other
+sed -i "s/[\“\”]/\"/g" "$SCRATCH_FILE"
+
