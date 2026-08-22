@@ -9,6 +9,8 @@
     --md-primary-bg-color: #ffffff;
     --md-primary-bg-color--light: #ffffffb3;
     --md-accent-fg-color--transparent: #2891511a;
+    /* custom */
+    --code-bg-color-dark: #414141;
 }
 
 ::selection {
@@ -67,7 +69,7 @@
 }
 
 [data-md-color-scheme=slate] code {
-    background-color: var(--md-accent-fg-color--transparent);
+    background-color: var(--code-bg-color-dark);
 }
 
 /* The "Made with Zensical" bar uses --md-default-fg-color--lightest, a light
