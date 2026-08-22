@@ -1,7 +1,5 @@
 # Abbreviations
 
-<center>
-
 | Abbreviation    | Meaning                          |
 |-----------------|----------------------------------|
 | **ABS**         | Anti-Lock Brake System           |
@@ -66,5 +64,3 @@
 | **VSV**         | Vacuum Switching Valve           |
 | **w/**          | With                             |
 | **w/o**         | Without                          |
-
-</center>

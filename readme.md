@@ -394,22 +394,21 @@ Completion checklist:
 Start off by setting up a virtual Python environment and installing the required dependencies:
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 
-pip install mkdocs-material mkdocs-glightbox mkdocs-awesome-pages-plugin
+pip install zensical==0.0.57
 ```
 
-Refer to the Material for
-MkDocs [installation docs](https://squidfunk.github.io/mkdocs-material/getting-started) for more information.
+Refer to the Zensical [installation docs](https://zensical.org/docs/get-started/) for more information.
 
 ### Previewing the site
 
-Start the MkDocs build-in dev-server:
+Start the Zensical build-in dev-server:
 
 ```bash
-source venv/bin/activate
-mkdocs serve
+source .venv/bin/activate
+zensical serve
 ```
 
 Open http://127.0.0.1:8000 in your browser to preview the site.
@@ -417,14 +416,10 @@ Open http://127.0.0.1:8000 in your browser to preview the site.
 ### How to upgrade
 
 ```bash
-pip install --upgrade --force-reinstall mkdocs-material
+pip install --upgrade --force-reinstall zensical
 ```
 
-Refer to the Material for MkDocs [upgrade documentation](https://squidfunk.github.io/mkdocs-material/upgrade) for more
-information.
+Refer to the [Zensical documentation](https://zensical.org/docs/) for more information.
 
 ## Powered by
-* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
-* [MkDocs](https://www.mkdocs.org)
-* [MkDocs GLightbox](https://blueswen.github.io/mkdocs-glightbox)
-* [MkDocs Awesome Pages Plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
+* [Zensical](https://zensical.org)

@@ -1,0 +1,89 @@
+[project]
+site_name = "The Big Green Book"
+site_url = "https://mr2.dobicinaitis.dev/"
+docs_dir = "docs"
+extra_css = ["stylesheets/extra.css"]
+
+nav = [
+  { "Home" = "index.md" },
+  { "Introduction" = [
+      "introduction/how-to-use-this-manual.md",
+      "introduction/identification-information.md",
+      "introduction/general-repair-instructions.md",
+      "introduction/precautions-for-vehicles-equipped-with-srs-airbag.md",
+      "introduction/precautions-for-vehicles-equipped-with-a-catalytic-converter.md",
+      "introduction/precautions-for-vehicles-with-audio-and-anti-theft-systems.md",
+      "introduction/vehicle-lift-and-support-locations.md",
+      "introduction/abbreviations.md",
+  ] },
+  { "Maintenance" = [
+      "maintenance/maintenance-schedule.md",
+      "maintenance/maintenance-operations.md",
+  ] },
+]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/dobicinaitis/toyota-mr2-repair-manual"
+
+[project.theme]
+language = "en"
+font.text = "Roboto"
+icon.logo = "material/book-open-blank-variant"
+features = [
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.progress",
+  "navigation.top",
+  "navigation.footer",
+  "search.highlight",
+  "search.share",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "material/weather-sunny"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "material/weather-night"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}
+tables = {}
+zensical.extensions.glightbox = {}
