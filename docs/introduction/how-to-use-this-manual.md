@@ -1,3 +1,4 @@
+[](){ #p-in-2 }
 # How to use this manual
 
 To assist you in finding your way through the manual, the Section Title and major headings are given on the left side of
@@ -20,6 +21,7 @@ together.
 Example:
 ![Example](images/AB0268.webp#illustration)
 
+[](){ #p-in-3 }
 The procedures are presented in a step-by-step format:
 
 * The illustration shows `what` to do and `where` to do it.
@@ -45,7 +47,16 @@ They are also found in Appendix A, for quick reference.
 
 ## Cautions, notices, hints
 
-* **CAUTIONS** are presented in bold type, and indicate there is a possibility of injury to you or other people.
-* **NOTICES** are also presented in bold type, and indicate the possibility of damaged to the components being repaired.
-* **HINTS** are separated from the text but do not appear in bold. They provide additional information to help you
-  efficiently perform the repair.
+In this edition the manual's cautions, notices and hints are shown as coloured boxes:
+
+!!! warning "Caution"
+
+    Cautions indicate there is a possibility of injury to you or other people.
+
+!!! note "Notice"
+
+    Notices indicate the possibility of damage to the components being repaired.
+
+!!! tip "Hint"
+
+    Hints provide additional information to help you efficiently perform the repair.

@@ -79,3 +79,20 @@
     /*background-color: var(--md-default-bg-color);*/
     background-color: #111511;
 }
+/* The manual numbers its sub-steps (a), (b), (c) under each numbered step;
+   nested ordered lists reproduce that without hard-coding the letters */
+.md-typeset ol ol {
+    list-style-type: lower-alpha;
+}
+
+.md-typeset ol ol ol {
+    list-style-type: lower-roman;
+}
+
+/* Hidden page markers ([](){ #p-em-11 }) must not take up space or catch
+   clicks; they only serve as link targets for cross-references */
+.md-typeset a[id^="p-"]:empty {
+    display: inline-block;
+    height: 0;
+    width: 0;
+}

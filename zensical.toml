@@ -5,8 +5,8 @@ docs_dir = "docs"
 extra_css = ["stylesheets/extra.css"]
 
 nav = [
-  { "Home" = "index.md" },
   { "Introduction" = [
+      "introduction/index.md",
       "introduction/how-to-use-this-manual.md",
       "introduction/identification-information.md",
       "introduction/general-repair-instructions.md",
@@ -17,8 +17,10 @@ nav = [
       "introduction/abbreviations.md",
   ] },
   { "Maintenance" = [
+      "maintenance/index.md",
       "maintenance/maintenance-schedule.md",
       "maintenance/maintenance-operations.md",
+      "maintenance/general-maintenance.md",
   ] },
 ]
 
@@ -31,13 +33,21 @@ language = "en"
 font.text = "Roboto"
 icon.logo = "material/book-open-blank-variant"
 features = [
+  "content.tooltips",
+  "navigation.expand",
   "navigation.indexes",
   "navigation.instant",
+  "navigation.instant.preview",
   "navigation.instant.progress",
+  "navigation.path",
+  "navigation.prune",
+  "navigation.sections",
   "navigation.top",
   "navigation.footer",
   "search.highlight",
   "search.share",
+  "search.suggest",
+  "toc.follow",
 ]
 
 [[project.theme.palette]]
@@ -78,6 +88,7 @@ pymdownx.keys = {}
 pymdownx.magiclink = {}
 pymdownx.mark = {}
 pymdownx.smartsymbols = {}
+pymdownx.snippets.auto_append = ["includes/abbreviations.md"]
 pymdownx.superfences.custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]

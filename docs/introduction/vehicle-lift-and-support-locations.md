@@ -1,3 +1,4 @@
+[](){ #p-in-12 }
 # Vehicle lift and support locations
 
 <figure markdown="span">

@@ -1,26 +1,30 @@
+[](){ #p-in-4 }
 # General repair instructions
 
 1. Use fender seat and floor covers to keep the vehicle clean and prevent damage.
 2. During disassembly, keep parts in the appropriate order to facilitate reassembly.
 3. Observe the following:
-    1. **CAUTION: Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to
-       the `LOCK` position and the negative (`—`) terminal cable is disconnected from the battery (See page AB-2).**
-    2. Before performing electrical work, disconnect the negative cable from the battery terminal.
-    3. If it is necessary to disconnect the battery for inspection or repair, always disconnect the cable from the
-       negative (`—`) terminal which is grounded to the vehicle body.
-    4. To prevent damage to the battery terminal post, loosen the terminal nut and raise the cable straight up without
-       twisting or prying it.
-    5. Clean the battery terminal posts and cable terminals with a shop rag. Do not scrape them with a file or other
-       abrasive object.
-    6. Install the cable terminal to the battery post with the nut loose, and tighten the nut after installation. Do not
-       use a hammer to tap the terminal onto the post.
-    7. Be sure the cover for the positive (`+`) terminal is properly in place.
+    1.  !!! warning "Caution"
+
+            Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
+            `LOCK` position and the negative (`—`) terminal cable is disconnected from the battery (See page AB-2).
+
+    2.  Before performing electrical work, disconnect the negative cable from the battery terminal.
+    3.  If it is necessary to disconnect the battery for inspection or repair, always disconnect the cable from the
+        negative (`—`) terminal which is grounded to the vehicle body.
+    4.  To prevent damage to the battery terminal post, loosen the terminal nut and raise the cable straight up without
+        twisting or prying it.
+    5.  Clean the battery terminal posts and cable terminals with a shop rag. Do not scrape them with a file or other
+        abrasive object.
+    6.  Install the cable terminal to the battery post with the nut loose, and tighten the nut after installation. Do
+        not use a hammer to tap the terminal onto the post.
+    7.  Be sure the cover for the positive (`+`) terminal is properly in place.
 
     <figure markdown="span">
       ![](images/FI1066.webp#illustration){ width="400px" }
     </figure>
 
-4. Check hose and wiring connectors to make sure that they are secure and correct.
+4. [](){ #p-in-5 } Check hose and wiring connectors to make sure that they are secure and correct.
 5. Non-reusable parts
     1. Always replace cotter pins, gaskets, O-rings and oil seals etc. with new ones.
     2. Non-reusable parts are indicated in the component illustrations by the `🔶` symbol.
@@ -54,14 +58,13 @@
     </figure>
 
 11. Care must be taken when jacking up and supporting the vehicle. Be sure to lift and support the vehicle at the proper
-    locations (See page IN-12).
+    locations (See [Vehicle lift and support locations](vehicle-lift-and-support-locations.md#vehicle-lift-and-support-locations)).
     1. If the vehicle is to be jacked up only at the front or rear end, be sure to block the wheels at the opposite end
        in order to ensure safety.
     2. After the vehicle is jacked up, be sure to support it on stands. It is extremely dangerous to do any work on a
        vehicle raised on a jack alone, even for a small job that can be finished quickly.
 
-12. Observe the following precautions to avoid damage to
-    the parts:
+12. [](){ #p-in-6 } Observe the following precautions to avoid damage to the parts:
     1. **Do not open the cover or case of the ECU unless absolutely necessary.<br/>(If the IC terminals are touched, the
        IC may be destroyed by static electricity.)**
     2. To pull apart electrical connectors, pull on the connector itself, not the wires.
