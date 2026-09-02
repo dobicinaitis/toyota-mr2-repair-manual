@@ -1,0 +1,2 @@
+# Minimal set needed to lint and build the site in CI
+zensical==0.0.57

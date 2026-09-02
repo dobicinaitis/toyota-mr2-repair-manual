@@ -1,0 +1,9 @@
+# Site generator
+zensical==0.0.57
+
+# Manual digitization tooling (utils/)
+pymupdf==1.28.2
+opencv-python-headless==5.0.0.93
+numpy==2.5.2
+pillow==12.3.0
+pytesseract==0.3.13

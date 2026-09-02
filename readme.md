@@ -9,10 +9,10 @@ Completion checklist:
 * [ ] Volume 1
     * [x] Contents
     * [x] Introduction
-    * [ ] Maintenance
+    * [x] Maintenance
         * [x] Maintenance schedule
-        * [ ] Maintenance operations
-        * [ ] General maintenance
+        * [x] Maintenance operations
+        * [x] General maintenance
     * [ ] Engine Mechanical
         * [ ] Description (3S-GTE)
         * [ ] Description (5S-FE)
@@ -391,20 +391,33 @@ Completion checklist:
 
 ### Installation
 
-Start off by setting up a virtual Python environment and installing the required dependencies:
+Set up a virtual Python environment and install the dependencies (the site generator plus the tooling used to digitize
+the scanned manual):
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip install zensical==0.0.57
+pip install -r requirements.txt
+```
+
+Digitizing pages also needs Tesseract OCR:
+
+```bash
+sudo apt install tesseract-ocr
+```
+
+Point the tooling at the scanned manual:
+
+```bash
+export MR2_DOCS_MANUAL_PATH="path/to/Toyota MR2 MK2 1991 Repair Manual.pdf"
 ```
 
 Refer to the Zensical [installation docs](https://zensical.org/docs/get-started/) for more information.
 
 ### Previewing the site
 
-Start the Zensical build-in dev-server:
+Start the Zensical built-in dev-server:
 
 ```bash
 source .venv/bin/activate
@@ -412,6 +425,37 @@ zensical serve
 ```
 
 Open http://127.0.0.1:8000 in your browser to preview the site.
+
+### Digitizing a section
+
+The manual is converted one outline section at a time. `utils/manual_map.py` maps the PDF outline to page ranges and
+target files, `utils/prepare_pages.py` stages the pages (page previews, illustrations, OCR text) under `.staging/`, and
+Claude Code writes the markdown from the staged material — see [CLAUDE.md](CLAUDE.md).
+
+```bash
+python utils/manual_map.py --topic "Engine tune-up"
+python utils/prepare_pages.py --topic "Engine tune-up" --images-dir docs/engine-mechanical/images
+```
+
+Supporting scripts:
+
+| Script                     | Purpose                                                                    |
+|----------------------------|----------------------------------------------------------------------------|
+| `utils/crop_figure.py`     | Crop a figure, chart or table that has no printed frame                    |
+| `utils/zoom.py`            | View or OCR a region of a page at high resolution                          |
+| `utils/resolve_refs.py`    | Turn "See page EM-11" references into links to the corresponding sections  |
+| `utils/lint_docs.py`       | Check style, images, page anchors and numbers against the OCR text         |
+| `utils/build_glossary.py`  | Regenerate `includes/abbreviations.md` from the abbreviations page         |
+| `utils/image_benchmark.py` | Compare image encodings for the extracted illustrations                    |
+
+Before committing:
+
+```bash
+python utils/lint_docs.py --ocr-audit .staging
+python utils/resolve_refs.py
+python utils/build_glossary.py
+zensical build --clean --strict
+```
 
 ### How to upgrade
 
