@@ -233,8 +233,8 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
 
 ### 12. Adjust valve clearance
 
-* 3S-GTE (See page EM-11)
-* 5S-FE (See page EM-16)
+* 3S-GTE (See [Engine tune-up › Inspection and adjustment of valve clearance (3S-GTE)](../engine-mechanical/engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte))
+* 5S-FE (See [Engine tune-up › Inspection and adjustment of valve clearance (5S-FE)](../engine-mechanical/engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-5s-fe))
 
 **Valve clearance (cold):**
 

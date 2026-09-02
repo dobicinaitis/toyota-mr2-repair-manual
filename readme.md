@@ -17,7 +17,7 @@ Completion checklist:
         * [ ] Description (3S-GTE)
         * [ ] Description (5S-FE)
         * [ ] Troubleshooting
-        * [ ] Engine tune-up
+        * [x] Engine tune-up
         * [ ] Toyota-variable induction system
         * [ ] Idle and/or 2,500 RPM HC/CO checking
         * [ ] Compression check

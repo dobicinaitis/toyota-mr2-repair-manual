@@ -22,6 +22,10 @@ nav = [
       "maintenance/maintenance-operations.md",
       "maintenance/general-maintenance.md",
   ] },
+  { "Engine mechanical" = [
+      "engine-mechanical/index.md",
+      "engine-mechanical/engine-tune-up.md",
+  ] },
 ]
 
 [[project.extra.social]]

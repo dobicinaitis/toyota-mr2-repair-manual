@@ -1,0 +1,12 @@
+{
+  "env": {
+    "MR2_DOCS_MANUAL_PATH": "<path-to-manual>.pdf"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python utils/*)",
+      "Bash(.venv/bin/zensical build*)",
+      "Read(.staging/**)"
+    ]
+  }
+}
