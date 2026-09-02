@@ -14,13 +14,13 @@ Completion checklist:
         * [x] Maintenance operations
         * [x] General maintenance
     * [ ] Engine Mechanical
-        * [ ] Description (3S-GTE)
-        * [ ] Description (5S-FE)
-        * [ ] Troubleshooting
+        * [x] Description (3S-GTE)
+        * [x] Description (5S-FE)
+        * [x] Troubleshooting
         * [x] Engine tune-up
-        * [ ] Toyota-variable induction system
-        * [ ] Idle and/or 2,500 RPM HC/CO checking
-        * [ ] Compression check
+        * [x] Toyota-variable induction system
+        * [x] Idle and/or 2,500 RPM HC/CO checking
+        * [x] Compression check
         * [ ] Timing belt (3S-GTE)
         * [ ] Timing belt (5S-FE)
         * [ ] Cylinder head (3S-GTE)

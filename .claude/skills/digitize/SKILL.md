@@ -55,6 +55,10 @@ Per page:
 3. Write the content following `style-guide.md` (worked example in `example-page.md`).
 4. Place every figure from `manifest.json` **under** the step it sits beside (`near_step` / `steps_beside`), not to the
    side. Tick each one off; if a figure genuinely belongs to no step, say so in the summary.
+
+    Framed tables are detected as figures too, and a page code in the bottom right corner of one (a troubleshooting
+    table's "Page" column, say) can be read as an illustration ID — `IG-17, 22` became `IG1722.webp`. Transcribe the
+    table and delete the extracted image; `lint_docs.py` reports it as unreferenced if you forget.
 5. For a chart or table with no printed frame, estimate its box from `page.png` (percent of page, same system as
    `bbox_pct`), then:
    ```bash

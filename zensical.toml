@@ -24,7 +24,13 @@ nav = [
   ] },
   { "Engine mechanical" = [
       "engine-mechanical/index.md",
+      "engine-mechanical/description-3s-gte.md",
+      "engine-mechanical/description-5s-fe.md",
+      "engine-mechanical/troubleshooting.md",
       "engine-mechanical/engine-tune-up.md",
+      "engine-mechanical/toyota-variable-induction-system.md",
+      "engine-mechanical/idle-and-or-2-500-rpm-hc-co-checking.md",
+      "engine-mechanical/compression-check.md",
   ] },
 ]
 
