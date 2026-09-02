@@ -65,6 +65,25 @@ def find_steps(tsv, shape):
     return steps
 
 
+def edge_ink(image, gutter=12):
+    """
+    Sides of an extracted illustration that still carry ink hard against the edge with a
+    blank gutter behind it — what a frame line looks like when trimming missed it.
+    :return: names of the offending sides
+    """
+    ink = image < hf.INK_THRESHOLD
+    sides = {"left": ink.mean(axis=0), "right": ink.mean(axis=0)[::-1],
+             "top": ink.mean(axis=1), "bottom": ink.mean(axis=1)[::-1]}
+    found = []
+    for name, profile in sides.items():
+        n = 0
+        while n < len(profile) and n < 25 and profile[n] > 0:
+            n += 1
+        if 0 < n <= 8 and profile[n:n + gutter].max() == 0:
+            found.append(name)
+    return found
+
+
 def nearest_step(frame_box, steps):
     """
     The step label printed beside a frame: figures are aligned with the top of the step
@@ -136,6 +155,10 @@ def process_page(doc, entries, page_number, args, previous_code):
     unnamed = 0
     for frame in frames:
         cut = hf.trim_border(hf.extract_frame(bitmap, frame))
+        edges = edge_ink(cut)
+        if edges:
+            warnings.append(f"frame at {frame.bbox_pct} still has ink on its {', '.join(edges)} edge "
+                            f"(leftover border line?)")
         ids = hf.read_frame_ids(cut)
         if ids:
             name = "_".join(ids)

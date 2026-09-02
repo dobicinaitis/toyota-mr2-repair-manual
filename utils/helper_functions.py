@@ -338,6 +338,42 @@ def trim_border(image, max_scan=40, ink_ratio=0.5, pad=4):
     bottom = edge(rows[::-1], min(max_scan, height // 4))
     left = edge(cols, min(max_scan, width // 4))
     right = edge(cols[::-1], min(max_scan, width // 4))
+    return strip_edge_slivers(image[top:height - bottom, left:width - right])
+
+
+def strip_edge_slivers(image, max_scan=8, min_blank=12, max_ink_ratio=0.5):
+    """
+    Remove what is left of a frame line after trimming: a few pixels of ink hard against
+    an edge, with a clear white gutter just inside it. The frames are not perfectly
+    rectangular, so the perspective warp can leave a fragment of one side behind — too
+    little ink for trim_border's threshold, but visible as a hairline along the edge
+    (and, inverted, as a white line in dark mode).
+    :param image: grayscale illustration
+    :param max_scan: at most this many pixels are stripped from a side
+    :param min_blank: the gutter inside the sliver must be at least this wide
+    :param max_ink_ratio: leave anything denser than this alone; a real border is trim_border's job
+    :return: cropped image
+    """
+    ink = image < INK_THRESHOLD
+    height, width = ink.shape
+
+    def sliver(profile, limit):
+        offset = 0
+        while offset < min(max_scan, limit) and profile[offset] > 0:
+            offset += 1
+        if offset == 0 or offset >= min(max_scan, limit):
+            return 0
+        if profile[:offset].max() > max_ink_ratio:
+            return 0
+        gutter = profile[offset:offset + min_blank]
+        return offset if len(gutter) == min_blank and gutter.max() == 0 else 0
+
+    rows = ink.mean(axis=1)
+    cols = ink.mean(axis=0)
+    top = sliver(rows, height // 4)
+    bottom = sliver(rows[::-1], height // 4)
+    left = sliver(cols, width // 4)
+    right = sliver(cols[::-1], width // 4)
     return image[top:height - bottom, left:width - right]
 
 
