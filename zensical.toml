@@ -31,6 +31,7 @@ nav = [
       "engine-mechanical/toyota-variable-induction-system.md",
       "engine-mechanical/idle-and-or-2-500-rpm-hc-co-checking.md",
       "engine-mechanical/compression-check.md",
+      "engine-mechanical/timing-belt-3s-gte.md",
   ] },
 ]
 

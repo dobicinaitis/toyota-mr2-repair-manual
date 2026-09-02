@@ -360,21 +360,25 @@ def read_frame_ids(image):
     :return: list of IDs, e.g. ["EC0003", "EC0004"]
     """
     height, width = image.shape[:2]
-    box_height = min(160, height)
-    box_width = min(630, width)
-    crop = image[height - box_height:, width - box_width:]
-    # native resolution reads the small print best; sparse mode (11) copes with drawing strokes
-    # in the crop; upscaling and the whitelist are last resorts (the whitelist merges I/1 and O/0)
+    # widest box first: a composite figure lists its IDs side by side and needs the room.
+    # Narrower boxes are the fallback for drawings whose strokes reach into the corner and
+    # drown the ID; a narrow box can only ever find fewer IDs, never different ones.
+    boxes = ((160, 630), (130, 500), (110, 430), (90, 350))
+    # native resolution reads the small print best; sparse mode (11) copes with drawing strokes;
+    # upscaling and the whitelist are last resorts (the whitelist merges I/1 and O/0)
     attempts = (
         (1, "--psm 6"), (1, "--psm 7"), (1, "--psm 11"),
         (2, "--psm 6"), (2, "--psm 7"), (2, "--psm 11"),
         (2, "--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "),
     )
-    for scale, config in attempts:
-        scaled = crop if scale == 1 else cv2.resize(crop, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
-        ids = parse_frame_ids(pytesseract.image_to_string(scaled, config=config))
-        if ids:
-            return ids
+    for box_height, box_width in boxes:
+        crop = image[height - min(box_height, height):, width - min(box_width, width):]
+        for scale, config in attempts:
+            scaled = crop if scale == 1 else cv2.resize(crop, None, fx=scale, fy=scale,
+                                                        interpolation=cv2.INTER_CUBIC)
+            ids = parse_frame_ids(pytesseract.image_to_string(scaled, config=config))
+            if ids:
+                return ids
     return []
 
 

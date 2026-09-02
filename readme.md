@@ -2,7 +2,7 @@
 
 > **Note**: Work in progress ...
 
-A digitized version of the 1991 Toyota MR2 repair manuals.
+Digitized version of the 1991 Toyota MR2 repair manual.
 
 Completion checklist:
 
@@ -21,7 +21,7 @@ Completion checklist:
         * [x] Toyota-variable induction system
         * [x] Idle and/or 2,500 RPM HC/CO checking
         * [x] Compression check
-        * [ ] Timing belt (3S-GTE)
+        * [x] Timing belt (3S-GTE)
         * [ ] Timing belt (5S-FE)
         * [ ] Cylinder head (3S-GTE)
         * [ ] Cylinder head (5S-FE)
