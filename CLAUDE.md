@@ -7,10 +7,12 @@ Zensical static site under `docs/`. The PDF outline is the unit of work: one lea
 
 ```bash
 source .venv/bin/activate                    # Python 3.14, see requirements.txt
-export MR2_DOCS_MANUAL_PATH="$HOME/Documents/MR2/1991 Toyota MR2 Service Repair Manual/Toyota MR2 MK2 1991 Repair Manual.pdf"
+export MR2_DOCS_MANUAL_PATH="<path-to-manual>.pdf"
 ```
 
-`.claude/settings.json` already sets `MR2_DOCS_MANUAL_PATH`. Run every script with `.venv/bin/python`.
+The scripts read the path to the scanned manual from `MR2_DOCS_MANUAL_PATH`, which
+`.claude/settings.local.json` sets (`.claude/settings.json` holds the placeholder). Run every script with
+`.venv/bin/python`.
 
 ## Digitizing a section
 
