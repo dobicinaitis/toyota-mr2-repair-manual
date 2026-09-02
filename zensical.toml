@@ -38,14 +38,12 @@ font.text = "Roboto"
 icon.logo = "material/book-open-blank-variant"
 features = [
   "content.tooltips",
-  "navigation.expand",
   "navigation.indexes",
   "navigation.instant",
   "navigation.instant.preview",
   "navigation.instant.progress",
   "navigation.path",
   "navigation.prune",
-  "navigation.sections",
   "navigation.top",
   "navigation.footer",
   "search.highlight",
