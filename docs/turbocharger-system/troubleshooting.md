@@ -9,7 +9,7 @@
 
 | Possible cause | Check procedure and correction method |
 |----------------|---------------------------------------|
-| 1. Turbocharging pressure too low | Check turbocharging pressure. (See Page TC-7)<br>**Turbocharging pressure:** 0.50 – 0.83 kg/cm² (7.1 – 11.8 psi, 49 – 81 kPa)<br>If the pressure is below specification, begin diagnosis from item 2. |
+| 1. Turbocharging pressure too low | Check turbocharging pressure. (See [Turbocharger](turbocharger.md#turbocharger))<br>**Turbocharging pressure:** 0.50 – 0.83 kg/cm² (7.1 – 11.8 psi, 49 – 81 kPa)<br>If the pressure is below specification, begin diagnosis from item 2. |
 | 2. Restricted intake system | Check intake air system, and repair or replace parts as necessary. (See [Turbocharger › Removal of turbocharger](turbocharger.md#p-tc-9)) |
 | 3. Leak in intake air system | Check intake air system, and repair or replace parts as necessary. (See [Turbocharger › Removal of turbocharger](turbocharger.md#p-tc-9)) |
 | 4. Restricted exhaust system | Check exhaust system, and repair or replace parts as necessary. (See [Turbocharger › Removal of turbocharger](turbocharger.md#p-tc-9)) |

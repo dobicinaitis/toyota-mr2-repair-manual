@@ -34,6 +34,10 @@ IMAGE = re.compile(r"!\[[^\]]*\]\((?P<src>[^)\s]+)\)(?P<attrs>\{[^}]*\})?")
 LEGACY = re.compile(r":warning:|:material-lightbulb:|\*\*(CAUTION|HINT|NOTICE)\*\*|^\s*(?:\d+\.\s+|\*\s+)?\*?\*?(CAUTION|HINT|NOTICE):", re.M)
 FULL_WIDTH_PX = 3000
 NUMBER = re.compile(r"\d+(?:\.\d+)?")
+# already a link, in backticks, or a page anchor: not a loose reference
+PROTECTED = re.compile(r"`[^`]*`|!?\[[^\]]*\]\([^)]*\)|\[\]\(\)\{[^}]*\}")
+# looser than resolve_refs.REF on purpose, to catch wordings it does not know
+LOOSE_REF = re.compile(r"(?:see|refer to)[^.\n]{0,40}?\b([A-Za-z]{1,3})-(\d{1,3})\b", re.I)
 ACRONYM_HEADING_OK = re.compile(r"^[A-Z0-9/\- ()]+$")
 
 
@@ -176,6 +180,33 @@ class Linter:
                 if image.is_file() and image.resolve() not in self.used_images:
                     self.warn(str(image), 0, "image not referenced by any page")
 
+    def lint_unlinked_refs(self, doc):
+        """
+        A "see page XX-n" whose target exists but which is still plain text.
+
+        resolve_refs.py leaves a reference alone when its target is not digitized
+        yet, which is normal. What is not normal is a reference whose anchor does
+        exist: that means its wording did not match the resolver's pattern, and
+        neither the resolver nor its --check can see the problem. This looks for
+        them with a deliberately looser pattern than the resolver's own.
+        """
+        path = f"docs/{doc.path}"
+        in_fence = False
+        for number, line in enumerate(doc.lines, 1):
+            if re.match(r"^\s*(```|~~~)", line):
+                in_fence = not in_fence
+                continue
+            if in_fence:
+                continue
+            # drop anything already linked, or in backticks, or an anchor
+            bare = PROTECTED.sub(" ", line)
+            for match in LOOSE_REF.finditer(bare):
+                code = f"{match.group(1).upper()}-{int(match.group(2))}"
+                if self.index.resolve(code, doc.volume):
+                    self.error(path, number,
+                               f"reference to {code} is not linked although the page exists; "
+                               f"resolve_refs.py did not recognise the wording: {match.group(0).strip()}")
+
     def lint_chapter_indexes(self):
         """
         Every digitized topic is linked from its chapter's contents page. That page
@@ -272,6 +303,7 @@ def main():
     for rel, doc in index.files.items():
         if selected is None or rel in selected:
             linter.lint_file(doc)
+            linter.lint_unlinked_refs(doc)
     if selected is None:
         linter.lint_images()
         linter.lint_chapter_indexes()

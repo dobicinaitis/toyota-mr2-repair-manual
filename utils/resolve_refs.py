@@ -29,8 +29,11 @@ from docs_index import DocsIndex  # noqa: E402
 CODE = r"(?P<sec>[A-Z]{1,3})-(?P<num>\d{1,3})"
 SEP = r"\s*(?:,|and|or|to|–|-)\s*"
 NUMS = rf"\d+(?:{SEP}\d+)*"
-STEPS = rf"(?:procedure\s+)?steps?\s+(?P<steps>{NUMS})"
-PAGES = rf"pages?\s+{CODE}(?P<more>(?:{SEP}(?:[A-Z]{{1,3}}-)?\d{{1,3}})*)"
+# "page" and "step" are matched case-insensitively: the manual is not consistent
+# about it ("Check turbocharging pressure. (See Page TC-7)" on TC-5). The section
+# code stays upper case on purpose, so ordinary prose is not mistaken for a code.
+STEPS = rf"(?:[Pp]rocedure\s+)?[Ss]teps?\s+(?P<steps>{NUMS})"
+PAGES = rf"[Pp]ages?\s+{CODE}(?P<more>(?:{SEP}(?:[A-Z]{{1,3}}-)?\d{{1,3}})*)"
 # parenthesised form first so an unresolved "(See page X)" is not matched again by the bare form
 REF = re.compile(rf"(?P<paren>\((?P<verb>See|Refer to)\s+(?:{STEPS}\s+on\s+)?{PAGES}\))"
                  rf"|(?P<bare>(?<![\[(])(?:{STEPS.replace('?P<steps>', '?P<steps2>')}\s+on\s+)?"
