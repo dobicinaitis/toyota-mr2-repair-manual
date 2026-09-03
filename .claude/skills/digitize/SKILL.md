@@ -117,9 +117,13 @@ Fix what it reports before moving on.
 ## Batch mode
 
 When several chapters are digitized in parallel worktrees (`utils/worktree.sh`, driven by
-`utils/digitize_chapter.sh`), one agent owns one chapter and the rules change slightly:
+`utils/digitize_chapter.sh`), the rules change slightly:
 
-* Do the chapter's topics in outline order, and commit each finished topic on its own.
+* **You are given exactly one topic. Digitize that topic and stop.** Do not carry on into the rest of the chapter,
+  however small the remaining topics look. `digitize_chapter.sh` invokes you once per topic, in outline order, and
+  commits each one on its own; a run that writes several topics collapses them into a single commit under the
+  first topic's name and loses the fresh context per topic that keeps long chapters accurate.
+* **Do not commit.** The loop commits for you once the page exists.
 * **Do not run `resolve_refs.py`, `build_glossary.py`, `sync_nav.py` or the zensical build.** They are site-wide.
   `resolve_refs.py` in particular rewrites already-committed pages across the whole site as new anchors appear, so
   two worktrees running it produce conflicting edits to the same files. They run once, on the integration branch,

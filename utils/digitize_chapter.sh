@@ -69,8 +69,11 @@ while IFS= read -r topic; do
     log="logs/$slug.log"
     echo "=== $topic ==="
 
+    # </dev/null matters: claude reads stdin, and this loop is being fed the topic
+    # list on stdin. Without it the first run swallows the remaining topics and the
+    # loop exits after one iteration, whatever --limit says.
     if ! claude -p "/digitize $topic --chapter $chapter" \
-            "${add_dir[@]}" --permission-mode acceptEdits 2>&1 | tee "$log"; then
+            "${add_dir[@]}" --permission-mode acceptEdits < /dev/null 2>&1 | tee "$log"; then
         echo "FAILED: $topic (see $log)" >&2
         failed+=("$topic")
         continue
