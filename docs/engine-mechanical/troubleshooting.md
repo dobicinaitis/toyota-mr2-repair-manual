@@ -12,7 +12,7 @@
 
 | Problem                                        | Possible cause                                                                                                    | Remedy                     | Page      |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------|-----------|
-| Engine will not crank or cranks slowly         | Starting system faulty                                                                                              | Troubleshoot starting system | ST-2    |
+| Engine will not crank or cranks slowly         | Starting system faulty                                                                                              | Troubleshoot starting system | [Troubleshooting](../starting-system/troubleshooting.md#troubleshooting) |
 | Engine will not start / hard to start (cranks OK) | No fuel supply to injector<ul><li>No fuel in tank</li><li>Fuel pump no working</li><li>Fuel filter clogged</li><li>Fuel line clogged or leaking</li></ul> | Troubleshoot EFI system | FI-11 |
 |                                                | EFI system problems                                                                                                 | Repair as necessary        |           |
 |                                                | Ignition problems<ul><li>Ignition coil</li><li>Igniter</li><li>Distributor</li></ul>                                | Perform spark test         | IG-5, 10  |

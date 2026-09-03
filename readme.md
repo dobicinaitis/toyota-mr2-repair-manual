@@ -121,11 +121,11 @@ Completion checklist:
         * [ ] On-vehicle inspection (5S-FE)
         * [ ] Distributor (3S-GTE)
         * [ ] Distributor (5S-FE)
-    * [ ] Starting System
-        * [ ] Troubleshooting
-        * [ ] Starter
-        * [ ] Starter relay
-        * [ ] Clutch start switch (M/T only)
+    * [x] Starting System
+        * [x] Troubleshooting
+        * [x] Starter
+        * [x] Starter relay
+        * [x] Clutch start switch (M/T only)
     * [ ] Charging System
         * [ ] Precautions
         * [ ] Troubleshooting

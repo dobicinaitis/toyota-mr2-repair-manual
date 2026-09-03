@@ -45,6 +45,13 @@ nav = [
       "turbocharger-system/turbocharger.md",
       "turbocharger-system/intercooler.md",
   ] },
+  { "Starting system" = [
+      "starting-system/index.md",
+      "starting-system/troubleshooting.md",
+      "starting-system/starter.md",
+      "starting-system/starter-relay.md",
+      "starting-system/clutch-start-switch-m-t-only.md",
+  ] },
 ]
 
 [[project.extra.social]]
