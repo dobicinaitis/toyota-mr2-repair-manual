@@ -9,7 +9,7 @@
 * [Idle and/or 2,500 rpm HC/CO concentration check method](idle-and-or-2-500-rpm-hc-co-checking.md)
 * [Compression check](compression-check.md)
 * [Timing belt (3S-GTE)](timing-belt-3s-gte.md)
-* Timing belt (5S-FE)
+* [Timing belt (5S-FE)](timing-belt-5s-fe.md)
 * Cylinder head (3S-GTE)
 * Cylinder head (5S-FE)
 * Cylinder block (3S-GTE)
