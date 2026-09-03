@@ -12,7 +12,7 @@
     !!! warning "Caution"
 
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
-        "LOCK" position and the negative (–) terminal cable is disconnected from the battery.
+        "LOCK" position and the negative (`–`) terminal cable is disconnected from the battery.
 
 2.  **Remove drive belt**
 
@@ -273,7 +273,7 @@
       ![](images/CH0808.webp#illustration){ width="400px" }
     </figure>
 
-    1.  Using an ohmmeter, connect one test probe to the positive (+) terminal and the other to each rectifier
+    1.  Using an ohmmeter, connect one test probe to the positive (`+`) terminal and the other to each rectifier
         terminal.
     2.  Reverse the polarity of the tester and repeat (a).
     3.  Check that one shows continuity and the other shows no continuity.
@@ -286,7 +286,7 @@
       ![](images/CH0809.webp#illustration){ width="400px" }
     </figure>
 
-    1.  Using an ohmmeter, connect one test probe to each negative (–) terminal and the other to each rectifier
+    1.  Using an ohmmeter, connect one test probe to each negative (`–`) terminal and the other to each rectifier
         terminal.
     2.  Reverse the polarity of the tester probes and repeat (a).
     3.  Check that one shows continuity and the other shows no continuity.

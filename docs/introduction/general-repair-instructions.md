@@ -7,11 +7,11 @@
     1.  !!! warning "Caution"
 
             Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
-            `LOCK` position and the negative (`—`) terminal cable is disconnected from the battery (See page AB-2).
+            `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery (See page AB-2).
 
     2.  Before performing electrical work, disconnect the negative cable from the battery terminal.
     3.  If it is necessary to disconnect the battery for inspection or repair, always disconnect the cable from the
-        negative (`—`) terminal which is grounded to the vehicle body.
+        negative (`–`) terminal which is grounded to the vehicle body.
     4.  To prevent damage to the battery terminal post, loosen the terminal nut and raise the cable straight up without
         twisting or prying it.
     5.  Clean the battery terminal posts and cable terminals with a shop rag. Do not scrape them with a file or other

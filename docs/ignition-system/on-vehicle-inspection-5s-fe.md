@@ -29,7 +29,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Check power supply to ignition coil and igniter**
 
     1.  Ignition switch turn to ON.
-    2.  Check that there is battery voltage at Ignition coil positive (+) terminal.
+    2.  Check that there is battery voltage at Ignition coil positive (`+`) terminal.
 
     **BAD:** Check wiring between ignition switch to ignition coil.
 
@@ -161,7 +161,7 @@ If the spark does not occurs, perform the test as follows:
       ![](images/IG1371.webp#illustration){ width="400px" }
     </figure>
 
-    Using an ohmmeter, measure the resistance between positive (+) and negative (–) terminals.
+    Using an ohmmeter, measure the resistance between positive (`+`) and negative (`–`) terminals.
 
     **Primary coil resistance (Cold):** 0.40 – 0.50 Ω
 
@@ -173,7 +173,7 @@ If the spark does not occurs, perform the test as follows:
       ![](images/IG1372.webp#illustration){ width="400px" }
     </figure>
 
-    Using an ohmmeter, measure the resistance between positive (+) and high-tension terminals
+    Using an ohmmeter, measure the resistance between positive (`+`) and high-tension terminals
 
     **Secondary coil resistance (Cold):** 10.0 – 14.0 kΩ
 

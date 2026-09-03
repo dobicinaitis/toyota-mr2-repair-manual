@@ -12,7 +12,7 @@
     !!! warning "Caution"
 
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
-        "LOCK" position and the negative (–) terminal cable is disconnected from the battery.
+        "LOCK" position and the negative (`–`) terminal cable is disconnected from the battery.
 
 2.  **Disconnect distributor connector**
 3.  **Disconnect high-tension cord from ignition coil**

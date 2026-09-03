@@ -57,6 +57,8 @@ admonition's last paragraph — the following list items disappear into the caut
   `**Turbocharging pressure:** 0.50 – 0.83 kg/cm² (7.1 – 11.8 psi, 49 – 81 kPa)` between `<br>`s, not three
   `<br>`-separated lines.
 * SST numbers, part numbers and literal switch positions in backticks: `` `09350-30020` ``, `` `PK20R8` ``.
+* A terminal's polarity sign goes in backticks too, the negative one as an en dash: positive (`` `+` ``),
+  negative (`` `–` ``). `lint_docs.py --fix` rewrites the plain forms.
 * Ranges use a spaced en dash: `0.15 – 0.25 mm`. Tolerances use `±`. Watch for the OCR reading `±` as `+` and `lb` as
   `Ib`.
 

@@ -20,10 +20,10 @@ following items carefully, then follow the correct procedure described in this m
    source of information when troubleshooting. When troubleshooting the airbag system, always inspect the diagnostic
    codes before disconnecting the battery (See page AB-24).
 2. Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the LOCK
-   position and the negative (`-`) terminal cable is disconnected from the battery. (The airbag system is equipped with a
-   back-up power source so that if work is started within 20 seconds of disconnecting the negative (`-`) terminal cable of
+   position and the negative (`–`) terminal cable is disconnected from the battery. (The airbag system is equipped with a
+   back-up power source so that if work is started within 20 seconds of disconnecting the negative (`–`) terminal cable of
    the battery, the airbag may be deployed.)
-   [](){ #p-in-8 } When the negative (`-`) terminal cable is disconnected from the battery, memory of the clock and audio systems will be cancelled. So before starting work, make a record of the contents
+   [](){ #p-in-8 } When the negative (`–`) terminal cable is disconnected from the battery, memory of the clock and audio systems will be cancelled. So before starting work, make a record of the contents
    memorized by the audio memory system. Then when work is finished, reset the audio system as before and adjust the
    clock. To avoid erasing the memory of each memory system, never use a back-up power supply from outside the vehicle.
 

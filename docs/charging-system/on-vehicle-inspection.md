@@ -115,11 +115,11 @@
 
     1.  If a tester is not available, connect a voltmeter and ammeter to the charging circuit as follows:
 
-        * Disconnect the wire from terminal B of the alternator and connect it to the negative (–) probe of the
+        * Disconnect the wire from terminal B of the alternator and connect it to the negative (`–`) probe of the
           ammeter.
-        * Connect the positive (+) probe of the ammeter to terminal B of the alternator.
-        * Connect the positive (+) probe of the voltmeter to terminal B of the alternator.
-        * Ground the negative (–) probe of the voltmeter.
+        * Connect the positive (`+`) probe of the ammeter to terminal B of the alternator.
+        * Connect the positive (`+`) probe of the voltmeter to terminal B of the alternator.
+        * Ground the negative (`–`) probe of the voltmeter.
 
     2.  Check the charging circuit as follows:
 

@@ -138,7 +138,7 @@
         </figure>
 
     2.  Remove the upper and lower covers from the relay box.
-    3.  Disconnect the positive (+) cable and two connectors of the engine wire from the relay box.
+    3.  Disconnect the positive (`+`) cable and two connectors of the engine wire from the relay box.
 
         <figure markdown="span">
           ![](images/EM9131.webp#illustration){ width="400px" }
@@ -1985,7 +1985,7 @@
 
 29. Connect engine wire, and install engine relay box.
 
-    1.  Connect the two connectors and positive (+) cable of the engine wire to the relay box.
+    1.  Connect the two connectors and positive (`+`) cable of the engine wire to the relay box.
 
     2.  Install the upper and lower covers to the relay box.
 

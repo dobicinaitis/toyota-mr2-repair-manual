@@ -40,6 +40,14 @@ PROTECTED = re.compile(r"`[^`]*`|!?\[[^\]]*\]\([^)]*\)|\[\]\(\)\{[^}]*\}")
 # looser than resolve_refs.REF on purpose, to catch wordings it does not know
 LOOSE_REF = re.compile(r"(?:see|refer to)[^.\n]{0,40}?\b([A-Za-z]{1,3})-(\d{1,3})\b", re.I)
 ACRONYM_HEADING_OK = re.compile(r"^[A-Z0-9/\- ()]+$")
+# A terminal's polarity sign is set in backticks, and the negative one is an en dash:
+# "positive (`+`)", "negative (`–`)". Was ocr-fixup.sh's prettify rule; --fix applies it.
+POLARITY = re.compile(r"\b(?P<word>positive|negative)\s*\((?P<tick>`?)(?P<sign>[-+–—])(?P=tick)\)")
+
+
+def polarity_canonical(match):
+    sign = "–" if match.group("sign") in "-–—" else "+"
+    return f"{match.group('word')} (`{sign}`)"
 
 
 def webp_size(path):
@@ -172,6 +180,10 @@ class Linter:
                 self.error(path, number, "unfinished page marker")
             if re.search(r"\bIb\b|\bIbf\b", line):
                 self.error(path, number, "OCR typo 'Ib' for 'lb'")
+            for match in POLARITY.finditer(line):
+                if match.group(0) != polarity_canonical(match):
+                    self.error(path, number, f"polarity sign needs backticks and an en dash "
+                                             f"({match.group(0)} -> {polarity_canonical(match)}); run --fix")
 
             previous_line = line
 
@@ -278,17 +290,40 @@ class Linter:
         return text
 
 
+def fix_prose(docs_dir):
+    """Apply the mechanical text conventions (POLARITY) to every page, outside code fences."""
+    changed = {}
+    for path in sorted(Path(docs_dir).rglob("*.md")):
+        lines, in_fence, fixes = [], False, 0
+        for line in path.read_text().split("\n"):
+            if re.match(r"^\s*(```|~~~)", line):
+                in_fence = not in_fence
+            elif not in_fence:
+                fixed = POLARITY.sub(polarity_canonical, line)
+                if fixed != line:
+                    fixes += 1
+                    line = fixed
+            lines.append(line)
+        if fixes:
+            path.write_text("\n".join(lines))
+            changed[path] = fixes
+    return changed
+
+
 def main():
     parser = argparse.ArgumentParser(description="Lint the markdown documentation.")
     parser.add_argument("paths", nargs="*", help="files to lint (default: all of docs/)")
     parser.add_argument("--docs", default="docs")
     parser.add_argument("--config", default="zensical.toml")
     parser.add_argument("--ocr-audit", metavar="STAGING", help="cross-check numbers against staged OCR text")
-    parser.add_argument("--fix", action="store_true", help="regenerate generated files")
+    parser.add_argument("--fix", action="store_true",
+                        help="regenerate generated files and apply the mechanical text conventions")
     args = parser.parse_args()
 
     if args.fix:
         here = os.path.dirname(__file__)
+        for path, count in fix_prose(args.docs).items():
+            print(f"{path}: fixed {count} line(s)")
         subprocess.run([sys.executable, os.path.join(here, "build_glossary.py")], check=True)
         # the nav and the checklist are derived from the outline, so this needs
         # the PDF; skip it (with a warning) where it is not available, as in CI
