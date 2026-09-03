@@ -27,12 +27,12 @@ Completion checklist:
         * [ ] Cylinder head (5S-FE)
         * [ ] Cylinder block (3S-GTE)
         * [ ] Cylinder block (5S-FE)
-    * [ ] Exhaust System
-        * [ ] Exhaust pipes and heat insulators
+    * [x] Exhaust System
+        * [x] Exhaust pipes and heat insulators
     * [ ] Turbocharger System
-        * [ ] Description
-        * [ ] Precautions
-        * [ ] Troubleshooting
+        * [x] Description
+        * [x] Precautions
+        * [x] Troubleshooting
         * [ ] Turbocharger
         * [ ] Intercooler
     * [ ] Emission Control Systems
