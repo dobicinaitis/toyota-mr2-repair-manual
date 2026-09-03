@@ -176,6 +176,26 @@ class Linter:
                 if image.is_file() and image.resolve() not in self.used_images:
                     self.warn(str(image), 0, "image not referenced by any page")
 
+    def lint_chapter_indexes(self):
+        """
+        Every digitized topic is linked from its chapter's contents page. That page
+        is transcribed from the printed one, so it cannot be generated (its wording
+        is the manual's, not the outline's) — but it does drift as topics land.
+        """
+        for rel, doc in self.index.files.items():
+            if not rel.endswith("/index.md"):
+                continue
+            chapter = str(Path(rel).parent)
+            linked = set()
+            for line in doc.lines:
+                for match in re.finditer(r"\[[^\]]*\]\(([^)#]+\.md)[^)]*\)", line):
+                    linked.add((Path(rel).parent / match.group(1)).as_posix())
+            for other in self.index.files:
+                if other == rel or not other.startswith(chapter + "/") or other.endswith("/index.md"):
+                    continue
+                if other not in linked:
+                    self.warn(f"docs/{rel}", 0, f"chapter contents page does not link {other}")
+
     def lint_nav(self):
         nav = set(self.index.nav_paths)
         for rel in self.index.files:
@@ -236,7 +256,15 @@ def main():
     args = parser.parse_args()
 
     if args.fix:
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), "build_glossary.py")], check=True)
+        here = os.path.dirname(__file__)
+        subprocess.run([sys.executable, os.path.join(here, "build_glossary.py")], check=True)
+        # the nav and the checklist are derived from the outline, so this needs
+        # the PDF; skip it (with a warning) where it is not available, as in CI
+        if os.environ.get("MR2_DOCS_MANUAL_PATH"):
+            subprocess.run([sys.executable, os.path.join(here, "sync_nav.py"),
+                            "--docs", args.docs, "--config", args.config], check=True)
+        else:
+            print("warning: MR2_DOCS_MANUAL_PATH is not set, skipping the nav and checklist")
 
     index = DocsIndex(args.docs, args.config)
     linter = Linter(index)
@@ -246,6 +274,7 @@ def main():
             linter.lint_file(doc)
     if selected is None:
         linter.lint_images()
+        linter.lint_chapter_indexes()
         linter.lint_nav()
     if args.ocr_audit:
         linter.ocr_audit(args.ocr_audit)

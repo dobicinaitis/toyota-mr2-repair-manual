@@ -209,9 +209,26 @@ def describe(entry, entries):
     }
 
 
-def find_topic(entries, query):
-    """Find an outline entry by title (case-insensitive; exact, then substring match)."""
+def find_topic(entries, query, chapter=None):
+    """
+    Find an outline entry by title (case-insensitive; exact, then substring match),
+    or by its docs/ path, which is unique — titles like "Description" and
+    "Troubleshooting" repeat in a dozen chapters, so scripts should address a topic
+    by path or pass a chapter to disambiguate.
+    """
     q = query.strip().lower()
+    if "/" in q or q.endswith(".md"):
+        path = q[5:] if q.startswith("docs/") else q
+        for entry in entries:
+            if (doc_path(entry, entries) or "").lower() == path:
+                return entry
+        raise SystemExit(f"No outline entry maps to '{query}'. Try --list.")
+    if chapter:
+        pool = [e for e in entries if e.level >= 2
+                and (chapter_dir(e) == chapter or e.chapter.title.lower() == chapter.lower())]
+        if not pool:
+            raise SystemExit(f"Chapter '{chapter}' not found. Try --list.")
+        entries = pool
     exact = [e for e in entries if e.title.lower() == q]
     if len(exact) == 1:
         return exact[0]
@@ -240,6 +257,20 @@ def find_page(entries, page):
     return best
 
 
+def remaining(entries, docs_dir="docs", chapter_filter=None):
+    """Leaf topics that have no markdown file yet, in outline order."""
+    todo = []
+    for entry in entries:
+        if entry.children or entry.level < 2 or entry.title == "Contents":
+            continue
+        if chapter_filter and chapter_dir(entry) != chapter_filter and entry.chapter.title.lower() != chapter_filter.lower():
+            continue
+        path = doc_path(entry, entries)
+        if path and not os.path.exists(os.path.join(docs_dir, path)):
+            todo.append(entry)
+    return todo
+
+
 def print_tree(entries, chapter_filter=None):
     for entry in entries:
         if chapter_filter and entry.level >= 2 and entry.chapter.title.lower() != chapter_filter.lower():
@@ -256,7 +287,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pdf", help="path to the manual PDF (default: $MR2_DOCS_MANUAL_PATH)")
     parser.add_argument("--list", action="store_true", help="print the outline tree with page ranges")
-    parser.add_argument("--chapter", help="restrict --list to one chapter")
+    parser.add_argument("--list-remaining", action="store_true",
+                        help="print the leaf topics that have no markdown file yet, one title per line")
+    parser.add_argument("--chapter", help="restrict --list/--list-remaining to one chapter (title or directory)")
+    parser.add_argument("--docs", default="docs", help="documentation root, for --list-remaining")
     parser.add_argument("--topic", help="resolve a topic title to pages/path")
     parser.add_argument("--page", type=int, help="resolve a PDF page to its chapter/topic")
     parser.add_argument("--json", action="store_true", help="machine readable output")
@@ -268,8 +302,16 @@ def main():
     if args.list:
         print_tree(entries, args.chapter)
         return
+    if args.list_remaining:
+        todo = remaining(entries, args.docs, args.chapter)
+        if args.json:
+            print(json.dumps([describe(e, entries) for e in todo], indent=2))
+        else:
+            for entry in todo:
+                print(entry.title)
+        return
     if args.topic:
-        entry = find_topic(entries, args.topic)
+        entry = find_topic(entries, args.topic, args.chapter)
     elif args.page:
         entry = find_page(entries, args.page)
     else:

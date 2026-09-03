@@ -235,7 +235,8 @@ def main():
     parser.add_argument("--pdf", help="path to the manual PDF (default: $MR2_DOCS_MANUAL_PATH)")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--pages", help="PDF page range, e.g. 40-51 or 40,42,45-47")
-    group.add_argument("--topic", help="outline topic title (see manual_map.py --list)")
+    group.add_argument("--topic", help="outline topic title or docs/ path (see manual_map.py --list)")
+    parser.add_argument("--chapter", help="chapter of --topic, where the title repeats across chapters")
     parser.add_argument("--images-dir", required=True, help="where named illustration WebPs are written")
     parser.add_argument("--staging", default=".staging", help="staging directory (default: .staging)")
     parser.add_argument("--preview-dpi", type=int, default=120)
@@ -245,9 +246,11 @@ def main():
 
     doc = mm.open_manual(args.pdf)
     entries = mm.load_outline(doc)
+    slug = None
     if args.topic:
-        entry = mm.find_topic(entries, args.topic)
+        entry = mm.find_topic(entries, args.topic, args.chapter)
         pages = list(range(entry.page, entry.end_page + 1))
+        slug = mm.slugify(entry.title)
         print(f"{entry.title}: PDF pages {entry.page}-{entry.end_page} -> {mm.doc_path(entry, entries)}")
     else:
         pages = parse_pages(args.pages)
@@ -282,7 +285,15 @@ def main():
 
     Path(args.staging).mkdir(parents=True, exist_ok=True)
     (Path(args.staging) / "run.json").write_text(json.dumps(run, indent=2))
-    print(f"\n{len(pages)} pages staged in {args.staging}/pages, summary in {args.staging}/run.json")
+    summary = f"{args.staging}/run.json"
+    if slug:
+        # run.json is overwritten by every run; a per-topic copy survives staging
+        # several topics up front, so each one can still be read back afterwards
+        runs_dir = Path(args.staging) / "runs"
+        runs_dir.mkdir(parents=True, exist_ok=True)
+        (runs_dir / f"{slug}.json").write_text(json.dumps(run, indent=2))
+        summary += f" and {args.staging}/runs/{slug}.json"
+    print(f"\n{len(pages)} pages staged in {args.staging}/pages, summary in {summary}")
 
 
 if __name__ == "__main__":

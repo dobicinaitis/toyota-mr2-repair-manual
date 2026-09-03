@@ -20,6 +20,10 @@ resume the topic whose file already has some page anchors.
 Gives the PDF page range, the section code (EM, FI, …), the volume and the suggested `docs/…` path. With `--continue`,
 read the target file first and resume after its last `[](){ #p-… }` anchor.
 
+Titles like "Description", "Precautions" and "Troubleshooting" occur in a dozen chapters, so `--topic` alone is
+ambiguous for them. Add `--chapter <chapter-slug>`, or address the topic by its path
+(`--topic efi-system/troubleshooting.md`), which is always unique.
+
 If the topic spans more than ~40 pages, split it: do the first chunk, then continue.
 
 ## 2. Stage the pages
@@ -28,8 +32,9 @@ If the topic spans more than ~40 pages, split it: do the first chunk, then conti
 .venv/bin/python utils/prepare_pages.py --topic "<topic>" --images-dir docs/<chapter>/images
 ```
 
-Read `.staging/run.json`. **Stop and ask the user** if it reports rotated pages, `code_source: "unknown"`, or
-non-monotonic page codes — those mean the page structure is not what the script expects.
+Read `.staging/run.json` — or `.staging/runs/<topic-slug>.json`, the copy that survives a later run, when the pages
+were staged ahead of time by `stage_chapter.py`. **Stop and ask the user** if it reports rotated pages,
+`code_source: "unknown"`, or non-monotonic page codes — those mean the page structure is not what the script expects.
 
 Per page, `.staging/pages/NNNN/` holds:
 
@@ -80,17 +85,27 @@ Fix what it reports before moving on.
 
 ## 4. Finish the topic
 
-1. Add the page to `nav` in `zensical.toml` (inside its chapter, in manual order). The nav is flat — chapters at the
-   top level, no volume grouping; the printed volumes are not part of the site.
-2. Create `docs/<chapter>/index.md` if the chapter is new — the chapter's contents page as a bulleted list of links to
-   its topics, plus any general notes printed on it. Do not carry over the printed page-code column: the codes are
-   meaningless on the web, and the link already goes to the right place.
-3. Tick the topic in the `readme.md` checklist.
-4. Run the full check:
+1. Link the topic from `docs/<chapter>/index.md`, creating that contents page if the chapter is new — a bulleted list
+   of links to its topics, plus any general notes printed on it. Transcribe the titles as the printed contents page
+   spells them, not as the outline does. Do not carry over the printed page-code column: the codes are meaningless on
+   the web, and the link already goes to the right place. `lint_docs.py` reports a topic the page does not link.
+2. Regenerate what is derived from the outline — the `nav` in `zensical.toml`, the `readme.md` checklist and the
+   glossary. Never edit the first two by hand; they are generated so that parallel branches do not conflict.
+   ```bash
+   .venv/bin/python utils/lint_docs.py --fix
+   ```
+3. Check the topic:
    ```bash
    .venv/bin/python utils/lint_docs.py --ocr-audit .staging
+   .venv/bin/python utils/verify_topic.py docs/<chapter>/<topic>.md
+   ```
+   `verify_topic.py` reports what was left out — a page anchor missing from the sequence, a figure extracted and
+   never placed, steps the manual numbers that the markdown never uses. Not every finding is a fault, but account
+   for each one.
+4. Run the site-wide steps — **unless you are working in a chapter worktree**, where they belong to the merge pass
+   (see "Batch mode" below):
+   ```bash
    .venv/bin/python utils/resolve_refs.py
-   .venv/bin/python utils/build_glossary.py
    .venv/bin/zensical build --clean --strict
    ```
    `resolve_refs.py` runs site-wide on purpose: earlier pages gain links as their targets appear.
@@ -98,3 +113,18 @@ Fix what it reports before moving on.
    OCR-audit mismatches you checked by hand, and anything you had to guess.
 6. **Stop.** The user reviews `zensical serve` before anything is committed. Never commit unasked, never stage
    `.staging/`.
+
+## Batch mode
+
+When several chapters are digitized in parallel worktrees (`utils/worktree.sh`, driven by
+`utils/digitize_chapter.sh`), one agent owns one chapter and the rules change slightly:
+
+* Do the chapter's topics in outline order, and commit each finished topic on its own.
+* **Do not run `resolve_refs.py`, `build_glossary.py`, `sync_nav.py` or the zensical build.** They are site-wide.
+  `resolve_refs.py` in particular rewrites already-committed pages across the whole site as new anchors appear, so
+  two worktrees running it produce conflicting edits to the same files. They run once, on the integration branch,
+  after the merge.
+* `lint_docs.py <file> --ocr-audit .staging` is the per-chunk check: given explicit paths it skips the whole-tree nav
+  and image checks, which are incomplete inside a worktree by design.
+* Where step 2 above says to stop and ask the user, there is no user to ask: leave the topic undone, say so, and let
+  a human pick it up. Never guess at a page whose structure the staging flagged.

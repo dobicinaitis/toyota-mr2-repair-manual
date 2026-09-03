@@ -27,7 +27,35 @@ Use the `/digitize` skill (`.claude/skills/digitize/SKILL.md`). In short:
 `ocr.tsv`, `figures/*.png` and `manifest.json`; named illustrations go straight to `--images-dir` as lossless WebP.
 
 Helpers: `crop_figure.py` (unframed figures and charts), `zoom.py` (read a region at high dpi, `--ocr` to OCR it),
-`resolve_refs.py` (link "See page EM-11" phrases), `lint_docs.py`, `build_glossary.py`.
+`resolve_refs.py` (link "See page EM-11" phrases), `lint_docs.py`, `build_glossary.py`, `verify_topic.py` (what a
+finished page left out), `sync_nav.py` (regenerates the nav and the checklist).
+
+## Digitizing several chapters at once
+
+A chapter is the unit of parallel work: `docs/<chapter>/` and its `images/` are disjoint, so one agent per chapter
+shares no mutable state with its peers. A topic is never split between agents — heading continuity needs the previous
+page in context.
+
+```bash
+.venv/bin/python utils/stage_chapter.py <chapter> …    # render + OCR ahead of time (~3 s/page, no model)
+utils/worktree.sh <chapter>                            # ../mr2-<chapter> on branch digitize/<chapter>
+cd ../mr2-<chapter> && utils/digitize_chapter.sh <chapter>
+```
+
+`worktree.sh` exists because `.venv`, `.staging` and `.claude/settings.local.json` are all gitignored: a plain
+`git worktree add` gives a tree where every script fails. It symlinks the first two and copies the third (which holds
+`MR2_DOCS_MANUAL_PATH`). Worktrees check out committed code, so commit tooling changes before creating one.
+
+Then merge a wave on `main`:
+
+```bash
+git merge digitize/<chapter> …
+.venv/bin/python utils/lint_docs.py --fix                  # nav, checklist, glossary
+.venv/bin/python utils/resolve_refs.py                     # site-wide, only here
+.venv/bin/python utils/lint_docs.py --ocr-audit .staging
+.venv/bin/python utils/verify_topic.py --all
+.venv/bin/zensical build --clean --strict
+```
 
 ## Hard rules
 
@@ -42,13 +70,16 @@ Helpers: `crop_figure.py` (unframed figures and charts), `zoom.py` (read a regio
 ## Before every commit
 
 ```bash
+.venv/bin/python utils/lint_docs.py --fix                  # nav, checklist and glossary are generated
 .venv/bin/python utils/lint_docs.py --ocr-audit .staging
+.venv/bin/python utils/verify_topic.py --all
 .venv/bin/python utils/resolve_refs.py
-.venv/bin/python utils/build_glossary.py
 .venv/bin/zensical build --clean --strict
 ```
 
-Then add the new pages to `nav` in `zensical.toml` and tick the checklist in `readme.md`.
+The `nav` in `zensical.toml` and the `readme.md` checklist are generated from the PDF outline by `sync_nav.py`
+(via `lint_docs.py --fix`) — do not edit them by hand. Chapter contents pages are still written by hand: their
+wording is the printed page's, not the outline's.
 
 Markdown conventions live in `.claude/skills/digitize/style-guide.md`, with a worked example in
 `.claude/skills/digitize/example-page.md`.
