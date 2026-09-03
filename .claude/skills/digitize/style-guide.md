@@ -24,11 +24,14 @@ into a single column.
 
 ## Admonitions
 
-| Manual  | Markdown                |
-|---------|-------------------------|
-| CAUTION | `!!! warning "Caution"` |
-| NOTICE  | `!!! note "Notice"`     |
-| HINT    | `!!! tip "Hint"`        |
+| Manual     | Markdown                |
+|------------|-------------------------|
+| CAUTION    | `!!! warning "Caution"` |
+| NOTICE     | `!!! note "Notice"`     |
+| HINT       | `!!! tip "Hint"`        |
+| EXAMPLE:   | `!!! example`           |
+
+`EXAMPLE:` takes no title — the admonition renders its own — and the printed colon is dropped.
 
 Body indented 4 spaces below the `!!!` line. Inside a list item the admonition can be the item's content — the manual
 often prints a whole sub-step as a CAUTION, and this keeps the lettering intact:

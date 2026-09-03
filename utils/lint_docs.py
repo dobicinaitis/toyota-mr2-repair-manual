@@ -31,7 +31,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from docs_index import ANCHOR, DocsIndex  # noqa: E402
 
 IMAGE = re.compile(r"!\[[^\]]*\]\((?P<src>[^)\s]+)\)(?P<attrs>\{[^}]*\})?")
-LEGACY = re.compile(r":warning:|:material-lightbulb:|\*\*(CAUTION|HINT|NOTICE)\*\*|^\s*(?:\d+\.\s+|\*\s+)?\*?\*?(CAUTION|HINT|NOTICE):", re.M)
+LEGACY = re.compile(r":warning:|:material-lightbulb:|\*\*(CAUTION|HINT|NOTICE|EXAMPLE)\*\*|"
+                    r"^\s*(?:\d+\.\s+|\*\s+)?\*?\*?(CAUTION|HINT|NOTICE|EXAMPLE):", re.M)
 FULL_WIDTH_PX = 3000
 NUMBER = re.compile(r"\d+(?:\.\d+)?")
 # already a link, in backticks, or a page anchor: not a loose reference
