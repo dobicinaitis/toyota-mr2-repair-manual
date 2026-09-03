@@ -3,6 +3,6 @@
 
 * [Description](description.md)
 * [Precautions](precautions.md)
-* Troubleshooting
+* [Troubleshooting](troubleshooting.md)
 * Turbocharger
 * Intercooler
