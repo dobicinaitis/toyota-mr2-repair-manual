@@ -2,7 +2,7 @@
 # Turbocharger
 
 * [Description](description.md)
-* Precautions
+* [Precautions](precautions.md)
 * Troubleshooting
 * Turbocharger
 * Intercooler
