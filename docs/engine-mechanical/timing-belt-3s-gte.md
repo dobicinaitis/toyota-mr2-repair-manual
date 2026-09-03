@@ -71,7 +71,7 @@
 14. Remove throttle body. (See steps 5 to 8, 10 and 11 on pages FI-135 and 136)
 15. Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
 16. Remove cylinder head cover. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 35](cylinder-head-3s-gte.md#p-em-70))
-17. Remove spark plugs. (See page IG-7)
+17. Remove spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-7))
 
     <figure markdown="span">
       ![](images/EM8975.webp#illustration){ width="400px" }
@@ -685,7 +685,7 @@
     1. Install the gasket to the timing belt cover.
     2. Install the belt cover with the five bolts.
 
-16. Install spark plugs. (See page IG-8)
+16. Install spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-8))
 
     **Torque:** 180 kg-cm (13 ft-lb, 18 N·m)
 
@@ -769,7 +769,7 @@
 ## Adjustment of valve timing
 
 1.  Remove No.2 timing belt cover. (See [Timing belt (3S-GTE), steps 1–6, 9–12](#timing-belt-3s-gte))
-2.  Remove spark plugs. (See page IG-7)
+2.  Remove spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-7))
 3.  Check camshaft timing pulley marks.
 
     1.  Turn the crankshaft pulley, and align its groove with timing mark "0" of the No.1 timing belt cover.
@@ -974,7 +974,7 @@
 12. Reinstall hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 13. Reinstall throttle body. (See steps 2, 3 and 5 to 8 on pages FI-138 and 139)
 14. Reinstall EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 20](cylinder-head-3s-gte.md#p-em-92))
-15. Reinstall spark plugs. (See page IG-8)
+15. Reinstall spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-8))
 
     **Torque:** 180 kg-cm (13 ft-lb, 18 N·m)
 

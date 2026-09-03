@@ -21,13 +21,13 @@
 
 ## Inspection of high-tension cords
 
-(See page IG-6 or 11)
+(See [On-vehicle inspection (3S-GTE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords))
 
 **Maximum resistance:** 25 kΩ per cord
 
 ## Inspection of spark plugs (5S-FE only)
 
-(See page IG-11)
+(See [On-vehicle inspection (5S-FE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-5s-fe.md#inspection-of-high-tension-cords))
 
 **Correct electrode gap:** 1.1 mm (0.043 in.)
 
@@ -60,7 +60,7 @@
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
 2.  Remove No.1 air intake connector. (See [Intercooler, step 4](../turbocharger-system/intercooler.md#intercooler))
-3.  Disconnect high-tension cords from spark plugs. (See page IG-6)
+3.  Disconnect high-tension cords from spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords))
 4.  Remove EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 22](cylinder-head-3s-gte.md#p-em-66))
 5.  Remove throttle body. (See steps 3, 5 to 8, 10 and 11 on pages FI-135 and 136)
 6.  Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
@@ -218,7 +218,7 @@
 
     Inspect and adjust the valve clearance when the engine is cold.
 
-1.  Disconnect high-tension cords from spark plugs. (See page IG-11)
+1.  Disconnect high-tension cords from spark plugs. (See [On-vehicle inspection (5S-FE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-5s-fe.md#inspection-of-high-tension-cords))
 2.  Remove cylinder head cover. (See [Cylinder head (5S-FE) › Removal of cylinder head, step 32](cylinder-head-5s-fe.md#p-em-104))
 3.  Set No.1 cylinder to TDC/compression.
 
@@ -358,8 +358,8 @@
 [](){ #p-em-20 }
 ## Inspection and adjustment of ignition timing
 
-* 3S-GTE (See pages IG-17 and 18)
-* 5S-FE (See pages IG-21 and 22)
+* 3S-GTE (See [Distributor (3S-GTE) › Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17))
+* 5S-FE (See [Distributor (5S-FE) › Installation of distributor](../ignition-system/distributor-5s-fe.md#installation-of-distributor))
 
 **Ignition timing:** 10° BTDC @ idle (w/ terminals TE1 and E1 connected)
 
@@ -389,7 +389,7 @@
     7. Transmission in neutral range
 
 2.  Check ISC system. (See page FI-151)
-3.  Connect tachometer. (See page IG-21)
+3.  Connect tachometer. (See [Distributor (5S-FE) › Installation of distributor](../ignition-system/distributor-5s-fe.md#installation-of-distributor))
 4.  Adjust idle speed.
 
     1.  Using SST, connect terminals TE1 and E1 of the check connector.

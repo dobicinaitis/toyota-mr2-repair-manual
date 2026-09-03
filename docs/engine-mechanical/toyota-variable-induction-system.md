@@ -7,7 +7,7 @@
 
     Allow the engine to warm up to normal operating temperature.
 
-2.  Connect tachometer. (See page IG-17)
+2.  Connect tachometer. (See [Distributor (3S-GTE) › Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17))
 3.  Connect vacuum gauge.
 
     Using a 3-way connector, connect the vacuum gauge to the hose between the VSV and actuator.

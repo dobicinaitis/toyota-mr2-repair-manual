@@ -12,7 +12,7 @@
 2.  (3S-GTE) Disconnect solenoid resistor connector.
 3.  Disconnect cold start injector connector.
 4.  Disconnect distributor connector.
-5.  Remove spark plugs. (See page IG-6 or 11)
+5.  Remove spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords))
 6.  Check cylinder compression pressure.
 
     <figure markdown="span">
@@ -57,7 +57,7 @@
         * If pressure stays low, a valve may be sticking or seating is improper, or there may be leakage past the
           gasket.
 
-7.  Reinstall spark plugs. (See page IG-8 or 12)
+7.  Reinstall spark plugs. (See [On-vehicle inspection (3S-GTE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-8))
 
     **Torque:** 180 kg-cm (13 ft-lb, 18 N·m)
 

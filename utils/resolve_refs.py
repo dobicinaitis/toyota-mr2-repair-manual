@@ -38,7 +38,9 @@ PAGES = rf"[Pp]ages?\s+{CODE}(?P<more>(?:{SEP}(?:[A-Z]{{1,3}}-)?\d{{1,3}})*)"
 REF = re.compile(rf"(?P<paren>\((?P<verb>See|Refer to)\s+(?:{STEPS}\s+on\s+)?{PAGES}\))"
                  rf"|(?P<bare>(?<![\[(])(?:{STEPS.replace('?P<steps>', '?P<steps2>')}\s+on\s+)?"
                  rf"{PAGES.replace('?P<sec>', '?P<sec2>').replace('?P<num>', '?P<num2>').replace('?P<more>', '?P<more2>')})")
-TABLE_CELL = re.compile(rf"(?<=\|)\s*{CODE}(?P<more>(?:\s*,\s*\d{{1,3}})*)\s*(?=\|)")
+# A "Page" cell holds one code, or several separated by <br> when the row's cause
+# column is a <ul> of sub-causes with a page each — so <br> delimits a code like | does.
+TABLE_CELL = re.compile(rf"(?:(?<=\|)|(?<=<br>))\s*{CODE}(?P<more>(?:\s*,\s*\d{{1,3}})*)\s*(?=\||<br>)")
 PROTECTED = re.compile(r"`[^`]*`|!?\[[^\]]*\]\([^)]*\)|\[\]\(\)\{[^}]*\}")
 MD_LINK_TO_DOC = re.compile(r"\]\((?P<path>[^)#\s]+\.md)?(?:#(?P<fragment>[^)\s]+))?\)")
 
@@ -120,7 +122,11 @@ class Resolver:
             if not link:
                 self.unresolved[code].append((doc.path, line_no, match.group(0).strip()))
                 return match.group(0)
-            return f" {link} "
+            # pad against a | cell wall, but not against a <br>, which needs no spacing
+            text = match.string
+            lead = "" if text[max(0, match.start() - 4):match.start()] == "<br>" else " "
+            trail = "" if text[match.end():match.end() + 4] == "<br>" else " "
+            return f"{lead}{link}{trail}"
 
         new = REF.sub(replace_ref, line)
         if in_page_table:

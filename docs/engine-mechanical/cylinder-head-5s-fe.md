@@ -50,7 +50,7 @@
 
     4.  A/C VSV air hose from ISC valve
 
-12. Remove distributor. (See pages IG-19 and 20)
+12. Remove distributor. (See [Distributor (5S-FE)](../ignition-system/distributor-5s-fe.md#distributor-5s-fe))
 13. Remove front exhaust pipe. (See [Cylinder block (5S-FE) › Removal of engine, step 29](cylinder-block-5s-fe.md#p-em-187))
 14. Remove exhaust manifold and catalytic converter assembly.
 
@@ -1644,7 +1644,7 @@
         </figure>
 
 26. Install front exhaust pipe. (See [Cylinder block (5S-FE) › Disassembly of cylinder block, step 15](cylinder-block-5s-fe.md#p-em-197))
-27. Install distributor. (See steps 1 to 4 on page IG-21 and 22)
+27. Install distributor. (See [Distributor (5S-FE) › Installation of distributor, steps 1–4](../ignition-system/distributor-5s-fe.md#installation-of-distributor))
 28. Connect vacuum hoses.
 
     1.  A/C VSV vacuum hose from intake manifold
@@ -1678,7 +1678,7 @@
     **Capacity (w/ heater):** 13.0 liters (13.7 US qts, 11.4 Imp. qts)
 
 37. Start engine and check for leaks.
-38. Adjust ignition timing. (See steps 9 to 13 on pages IG-21 and 22)
+38. Adjust ignition timing. (See [Distributor (5S-FE) › Installation of distributor, steps 9–13](../ignition-system/distributor-5s-fe.md#installation-of-distributor))
 
     **Ignition timing:** 10° BTDC @ idle (w/ terminals TE1 and E1 connected)
 

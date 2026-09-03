@@ -2012,7 +2012,7 @@
         * New belt – 160 ± 20 lb
         * Used belt – 100 ± 20 lb
 
-    3.  Adjust the ignition timing. (See steps 9 to 13 on pages IG-21 and 22)
+    3.  Adjust the ignition timing. (See [Distributor (5S-FE) › Installation of distributor, steps 9–13](../ignition-system/distributor-5s-fe.md#installation-of-distributor))
 
         **Ignition timing:** 10° BTDC @ idle (w/ Terminals TE1 and E1 connected)
 

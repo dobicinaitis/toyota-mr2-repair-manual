@@ -50,6 +50,16 @@ nav = [
       "turbocharger-system/turbocharger.md",
       "turbocharger-system/intercooler.md",
   ] },
+  { "Ignition system" = [
+      "ignition-system/index.md",
+      "ignition-system/precautions.md",
+      "ignition-system/troubleshooting.md",
+      "ignition-system/ignition-system-circuit.md",
+      "ignition-system/on-vehicle-inspection-3s-gte.md",
+      "ignition-system/on-vehicle-inspection-5s-fe.md",
+      "ignition-system/distributor-3s-gte.md",
+      "ignition-system/distributor-5s-fe.md",
+  ] },
   { "Starting system" = [
       "starting-system/index.md",
       "starting-system/troubleshooting.md",

@@ -108,7 +108,7 @@
           ![](images/EM7894.webp#illustration){ width="400px" }
         </figure>
 
-19. Remove distributor. (See pages IG-14 and 15)
+19. Remove distributor. (See [Distributor (3S-GTE)](../ignition-system/distributor-3s-gte.md#distributor-3s-gte))
 20. Remove No.2 air tube.
 
     1.  Disconnect the following hose:
@@ -1443,7 +1443,7 @@
           ![](images/EM9048.webp#illustration){ width="400px" }
         </figure>
 
-23. Install distributor. (See steps 1 to 7 on pages IG-16 and 17)
+23. Install distributor. (See [Distributor (3S-GTE) › Installation of distributor, steps 1–7](../ignition-system/distributor-3s-gte.md#installation-of-distributor))
 24. Install exhaust manifold.
 
     1.  Install the heat insulator with the bolt and nut.
@@ -1546,7 +1546,7 @@
     **Capacity (w/ heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)
 
 39. Start engine and check for leaks.
-40. Adjust ignition timing. (See steps 9 to 13 on pages IG-17 and 18)
+40. Adjust ignition timing. (See [Distributor (3S-GTE) › Installation of distributor, steps 9–13](../ignition-system/distributor-3s-gte.md#p-ig-17))
 
     **Ignition timing:** 10° BTDC @ idle (w/ terminals TE1 and E1 connected)
 

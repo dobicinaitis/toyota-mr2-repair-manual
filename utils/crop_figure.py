@@ -11,6 +11,10 @@
 # deskewed with the angle recorded in the manifest (or estimated) before
 # cropping, the crop is trimmed to its ink and a PNG preview is written next
 # to the page's other figures in .staging.
+#
+# Pass --framed when the box takes in a printed frame line, as when one detected
+# frame holds two diagrams that belong in separate files: the line is removed the
+# way prepare_pages.py removes it from the frames it extracts itself.
 
 import argparse
 import json
@@ -60,6 +64,8 @@ def main():
     parser.add_argument("--staging", default=".staging")
     parser.add_argument("--rotate", type=int, default=0, choices=[0, 90, 180, 270],
                         help="rotate the crop clockwise (for landscape pages)")
+    parser.add_argument("--framed", action="store_true",
+                        help="the box includes a printed frame line; remove it before trimming to ink")
     parser.add_argument("--no-trim", action="store_true", help="keep the exact box instead of trimming to ink")
     parser.add_argument("--pad", type=int, default=20, help="padding kept around the ink when trimming")
     parser.add_argument("--force", action="store_true", help="overwrite an existing image")
@@ -72,6 +78,8 @@ def main():
     crop = bitmap[y0:y1, x0:x1]
     if args.rotate:
         crop = hf.rotate_multiple_of_90(crop, args.rotate)
+    if args.framed:
+        crop = hf.trim_border(crop)
     if not args.no_trim:
         crop = hf.trim_to_ink(crop, args.pad)
 

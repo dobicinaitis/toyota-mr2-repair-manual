@@ -2158,7 +2158,7 @@
         * New belt – 160 ± 20 lb
         * Used belt – 100 ± 20 lb
 
-    3.  Adjust the ignition timing. (See steps 9 to 13 on pages IG-17 and 18)
+    3.  Adjust the ignition timing. (See [Distributor (3S-GTE) › Installation of distributor, steps 9–13](../ignition-system/distributor-3s-gte.md#p-ig-17))
 
         **Ignition timing:** 10° BTDC @ idle (w/ Terminals TE1 and E1 connected)
 

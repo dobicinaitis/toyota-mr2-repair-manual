@@ -81,7 +81,7 @@
       ![](images/EM8924.webp#illustration){ width="400px" }
     </figure>
 
-14. Remove spark plugs. (See page IG-11)
+14. Remove spark plugs. (See [On-vehicle inspection (5S-FE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-5s-fe.md#inspection-of-high-tension-cords))
 15. Set No.1 cylinder to TDC/compression.
 
     1.  Turn the crankshaft pulley and align its groove with timing mark "0" of the No.1 timing belt cover.
@@ -551,7 +551,7 @@
           ![](images/EM8937.webp#illustration){ width="400px" }
         </figure>
 
-13. Install spark plugs. (See page IG-12)
+13. Install spark plugs. (See [On-vehicle inspection (5S-FE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-5s-fe.md#p-ig-12))
 
     **Torque:** 180 kg-cm (13 ft-lb, 18 N·m)
 

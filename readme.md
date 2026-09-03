@@ -113,14 +113,14 @@ Completion checklist:
         * [ ] Oil cooler (3S-GTE)
         * [ ] Oil cooler (5S-FE)
         * [ ] Oil Nozzles (3S-GTE)
-    * [ ] Ignition System
-        * [ ] Precautions
-        * [ ] Troubleshooting
-        * [ ] Ignition system circuit
-        * [ ] On-vehicle inspection (3S-GTE)
-        * [ ] On-vehicle inspection (5S-FE)
-        * [ ] Distributor (3S-GTE)
-        * [ ] Distributor (5S-FE)
+    * [x] Ignition System
+        * [x] Precautions
+        * [x] Troubleshooting
+        * [x] Ignition system circuit
+        * [x] On-vehicle inspection (3S-GTE)
+        * [x] On-vehicle inspection (5S-FE)
+        * [x] Distributor (3S-GTE)
+        * [x] Distributor (5S-FE)
     * [x] Starting System
         * [x] Troubleshooting
         * [x] Starter

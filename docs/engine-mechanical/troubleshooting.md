@@ -6,7 +6,7 @@
 | Problem          | Possible cause          | Remedy                      | Page      |
 |------------------|-------------------------|-----------------------------|-----------|
 | Engine overheats | Cooling system faulty   | Troubleshoot cooling system | CO-4      |
-|                  | Incorrect ignition timing | Reset timing              | IG-17, 22 |
+|                  | Incorrect ignition timing | Reset timing              | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 
 ## Hard starting
 
@@ -15,9 +15,9 @@
 | Engine will not crank or cranks slowly         | Starting system faulty                                                                                              | Troubleshoot starting system | [Troubleshooting](../starting-system/troubleshooting.md#troubleshooting) |
 | Engine will not start / hard to start (cranks OK) | No fuel supply to injector<ul><li>No fuel in tank</li><li>Fuel pump no working</li><li>Fuel filter clogged</li><li>Fuel line clogged or leaking</li></ul> | Troubleshoot EFI system | FI-11 |
 |                                                | EFI system problems                                                                                                 | Repair as necessary        |           |
-|                                                | Ignition problems<ul><li>Ignition coil</li><li>Igniter</li><li>Distributor</li></ul>                                | Perform spark test         | IG-5, 10  |
-|                                                | Spark plug faulty                                                                                                   | Inspect plugs              | IG-6, 11  |
-|                                                | High-tension cords disconnected or broken                                                                           | Inspect cords              | IG-6, 11  |
+|                                                | Ignition problems<ul><li>Ignition coil</li><li>Igniter</li><li>Distributor</li></ul>                                | Perform spark test         | [On-vehicle inspection (3S-GTE)](../ignition-system/on-vehicle-inspection-3s-gte.md#on-vehicle-inspection-3s-gte) |
+|                                                | Spark plug faulty                                                                                                   | Inspect plugs              | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
+|                                                | High-tension cords disconnected or broken                                                                           | Inspect cords              | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
 |                                                | Vacuum leaks<ul><li>PCV line</li><li>EGR line</li><li>Intake manifold</li><li>T-VIS valve (3S-GTE)</li><li>Throttle body</li><li>ISC valve</li><li>Brake booster line</li></ul> | Repair as necessary |  |
 |                                                | Air suction between air flow meter and throttle body                                                                | Repair as necessary        |           |
 |                                                | Low compression                                                                                                     | Check compression          | [Compression check](compression-check.md#compression-check) |
@@ -26,10 +26,10 @@
 
 | Problem                       | Possible cause                                                                                                    | Remedy                  | Page          |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------|---------------|
-| Rough idle, stalls or misses  | Spark plug faulty                                                                                                     | Inspect plugs           | IG-6, 11      |
-|                               | High-tension cord faulty                                                                                              | Inspect cords           | IG-6, 11      |
-|                               | Ignition problems<ul><li>Ignition coil</li><li>Igniter</li><li>Distributor</li></ul>                                  | Inspect coil<br>Inspect igniter<br>Inspect distributor | IG-8, 12<br>IG-9, 13<br>IG-9, 13 |
-|                               | Incorrect ignition timing                                                                                             | Reset timing            | IG-17, 22     |
+| Rough idle, stalls or misses  | Spark plug faulty                                                                                                     | Inspect plugs           | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
+|                               | High-tension cord faulty                                                                                              | Inspect cords           | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
+|                               | Ignition problems<ul><li>Ignition coil</li><li>Igniter</li><li>Distributor</li></ul>                                  | Inspect coil<br>Inspect igniter<br>Inspect distributor | [Inspection of spark plugs](../ignition-system/on-vehicle-inspection-3s-gte.md#p-ig-8)<br>[Inspection of distributor](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-distributor)<br>[Inspection of distributor](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-distributor) |
+|                               | Incorrect ignition timing                                                                                             | Reset timing            | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                               | Vacuum leaks<ul><li>PCV line</li><li>EGR line</li><li>Intake manifold</li><li>T-VIS valve (3S-GTE)</li><li>Throttle body</li><li>ISC valve</li><li>Brake booster line</li></ul> | Repair as necessary |  |
 |                               | Air suction between air flow meter and throttle body                                                                  | Repair as necessary     |               |
 |                               | Incorrect idle speed                                                                                                  | Check ISC system        | FI-148, 151   |
@@ -43,11 +43,11 @@
 
 | Problem                                | Possible cause                                                                                                    | Remedy                 | Page      |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------|-----------|
-| Engine hesitates / poor acceleration   | Spark plug faulty                                                                                                     | Inspect plug           | IG-6, 11  |
-|                                        | High-tension cord faulty                                                                                              | Inspect cords          | IG-6, 11  |
+| Engine hesitates / poor acceleration   | Spark plug faulty                                                                                                     | Inspect plug           | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
+|                                        | High-tension cord faulty                                                                                              | Inspect cords          | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
 |                                        | Vacuum leaks<ul><li>PCV line</li><li>EGR line</li><li>Intake manifold</li><li>T-VIS valve</li><li>Throttle body</li><li>ISC valve</li><li>Brake booster line</li></ul> | Repair as necessary |  |
 |                                        | Air suction between air flow meter and throttle body                                                                  | Repair as necessary    |           |
-|                                        | Incorrect ignition timing                                                                                             | Reset timing           | IG-17, 22 |
+|                                        | Incorrect ignition timing                                                                                             | Reset timing           | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                                        | Incorrect valve clearance                                                                                             | Adjust valve clearance | [Inspection and adjustment of valve clearance (3S-GTE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte) |
 |                                        | Fuel system clogged                                                                                                   | Check fuel system      |           |
 |                                        | Air cleaner clogged                                                                                                   | Check air cleaner      | [Maintenance operations](../maintenance/maintenance-operations.md#maintenance-operations) |
@@ -62,7 +62,7 @@
 | Problem                                                   | Possible cause            | Remedy              | Page      |
 |-----------------------------------------------------------|---------------------------|---------------------|-----------|
 | Engine diesels (runs after ignition switch is turned off) | EFI system problems       | Repair as necessary |           |
-|                                                           | Incorrect ignition timing | Reset timing        | IG-17, 22 |
+|                                                           | Incorrect ignition timing | Reset timing        | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                                                           | EGR system faulty         | Check EGR system    | EC-8, 24  |
 
 ## After fire, backfire
@@ -72,12 +72,12 @@
 | Muffler explosion (after fire) on deceleration only | Deceleration fuel cut system always off                                                                               | Check EFI (fuel cut) system  |             |
 | Muffler explosion (after fire) all the time         | Air cleaner clogged                                                                                                   | Check air cleaner            | [Maintenance operations](../maintenance/maintenance-operations.md#maintenance-operations) |
 |                                                     | EFI system problem                                                                                                    | Repair as necessary          |             |
-|                                                     | Incorrect ignition timing                                                                                             | Reset timing                 | IG-17, 22   |
+|                                                     | Incorrect ignition timing                                                                                             | Reset timing                 | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 | Engine backfires                                    | EFI system problem                                                                                                    | Repair as necessary          |             |
 |                                                     | Vacuum leak<ul><li>PCV line</li><li>EGR line</li><li>Intake manifold</li><li>T-VIS valve</li><li>Throttle body</li><li>ISC valve</li><li>Brake booster line</li></ul> | Check hoses and repair as necessary | |
 |                                                     | Air suction between air flow meter and throttle body                                                                  | Repair as necessary          |             |
 |                                                     | Insufficient fuel flow                                                                                                | Troubleshoot fuel system     | FI-11       |
-|                                                     | Incorrect ignition timing                                                                                             | Reset timing                 | IG-17, 22   |
+|                                                     | Incorrect ignition timing                                                                                             | Reset timing                 | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                                                     | Incorrect valve clearance                                                                                             | Adjust valve clearance       | [Inspection and adjustment of valve clearance (3S-GTE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte) |
 |                                                     | Carbon deposits in combustion chambers                                                                                | Inspect cylinder head        | [Inspection, cleaning and repair of cylinder head components](cylinder-head-3s-gte.md#p-em-74) |
 
@@ -98,10 +98,10 @@
 |-----------------------|-------------------------------------------------------------------------------------------|-------------------------------|-------------|
 | Poor gasoline mileage | Fuel leak                                                                                   | Repair as necessary           |             |
 |                       | Air cleaner clogged                                                                         | Check air cleaner             | [Maintenance operations](../maintenance/maintenance-operations.md#maintenance-operations) |
-|                       | Incorrect ignition timing                                                                   | Reset timing                  | IG-17, 22   |
+|                       | Incorrect ignition timing                                                                   | Reset timing                  | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                       | EFI system problems<ul><li>Injector faulty</li><li>Deceleration fuel cut system faulty</li></ul> | Repair as necessary      |             |
 |                       | Idle speed too high                                                                         | Check ISC system              | FI-148, 151 |
-|                       | Spark plug faulty                                                                           | Inspect plugs                 | IG-6, 11    |
+|                       | Spark plug faulty                                                                           | Inspect plugs                 | [Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-3s-gte.md#inspection-of-high-tension-cords) |
 |                       | EGR system always on                                                                        | Check EGR system              | EC-8, 24    |
 |                       | Low compression                                                                             | Check compression             | [Compression check](compression-check.md#compression-check) |
 |                       | Tires improperly inflated                                                                   | Inflate tire to proper pressure |           |
@@ -113,6 +113,6 @@
 | Problem         | Possible cause                                                                                                    | Remedy              | Page        |
 |-----------------|---------------------------------------------------------------------------------------------------------------------|---------------------|-------------|
 | Unpleasant odor | Incorrect idle speed                                                                                                  | Check ISC system    | FI-148, 151 |
-|                 | Incorrect ignition timing                                                                                             | Reset timing        | IG-17, 22   |
+|                 | Incorrect ignition timing                                                                                             | Reset timing        | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 |                 | Vacuum leaks<ul><li>PCV line</li><li>EGR line</li><li>Intake manifold</li><li>T-VIS valve</li><li>Throttle body</li><li>ISC valve</li><li>Brake booster line</li></ul> | Repair as necessary | |
 |                 | EFI system problems                                                                                                   | Repair as necessary |             |
