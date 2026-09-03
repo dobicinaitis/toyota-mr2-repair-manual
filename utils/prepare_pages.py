@@ -132,8 +132,14 @@ def process_page(doc, entries, page_number, args, previous_code):
     manifest_path = page_dir / "manifest.json"
     if manifest_path.exists() and not args.force:
         manifest = json.loads(manifest_path.read_text())
-        manifest["skipped"] = True
-        return manifest
+        # The staging directory is shared between the digitization worktrees but
+        # the illustrations belong to each worktree's own docs/ tree, so a page
+        # staged for one tree has no images in another. Reprocess when they are
+        # missing here; otherwise the cache would quietly hand back a manifest
+        # naming illustrations that this tree does not have.
+        if all((Path(args.images_dir) / f"{f['name']}.webp").exists() for f in manifest["figures"]):
+            manifest["skipped"] = True
+            return manifest
     figures_dir = page_dir / "figures"
     figures_dir.mkdir(parents=True, exist_ok=True)
     images_dir = Path(args.images_dir)
