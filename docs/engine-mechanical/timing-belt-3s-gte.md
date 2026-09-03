@@ -20,7 +20,7 @@
 3.  Remove RH engine hood side panel.
 4.  Remove suspension upper brace. (See step 8 on page EM-134)
 5.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 13 on page EM-135)
-6.  Remove intercooler. (See steps 4, 5 and 7 to 13 on pages TC-20 to 22)
+6.  Remove intercooler. (See [Intercooler, steps 4, 5, 7–13](../turbocharger-system/intercooler.md#intercooler))
 7.  Remove RH front wheel.
 8.  [](){ #p-em-27 } Remove alternator drive belt.
 
@@ -69,7 +69,7 @@
 
 13. [](){ #p-em-28 } Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
 14. Remove throttle body. (See steps 5 to 8, 10 and 11 on pages FI-135 and 136)
-15. Remove hose clamp and VTV clamp of air by-pass valve. (See steps 15 and 16 on page TC-9)
+15. Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
 16. Remove cylinder head cover. (See step 35 on page EM-70)
 17. Remove spark plugs. (See page IG-7)
 
@@ -693,7 +693,7 @@
       ![](images/EM8975.webp#illustration){ width="400px" }
     </figure>
 
-17. Install hose clamp and VTV clamp of air by-pass valve. (See steps 13 and 14 on pages TC-19)
+17. Install hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 18. Install cylinder head cover. (See step 7 on page EM-88)
 19. Install throttle body. (See steps 2, 3 and 5 to 8 on pages FI-138 and 139)
 20. Install EGR vacuum modulator and VSV. (See step 20 on page EM-92)
@@ -743,7 +743,7 @@
     </figure>
 
 25. Install RH front wheel.
-26. Install intercooler. (See steps 2 to 8, 10 and 11 on pages TC-23 to 25)
+26. Install intercooler. (See [Intercooler › Installation of intercooler, steps 2–8, 10, 11](../turbocharger-system/intercooler.md#installation-of-intercooler))
 27. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 36 pages EM-178)
 28. Install suspension upper brace. (See step 41 pages EM-179)
 29. Install RH engine hood side panel.
@@ -799,7 +799,7 @@
 
 4.  Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
 5.  Remove throttle body. (See steps 5 to 8 and 9 to 11 on pages FI-135 and 136)
-6.  Remove hose clamp and VTV clamp of air by-pass valve. (See steps 15 and 16 on page TC-9)
+6.  Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
 7.  Remove cylinder head cover. (See step 35 on page EM-70)
 8.  [](){ #p-em-43 } Adjust camshaft timing pulley timing marks.
 
@@ -971,7 +971,7 @@
     8.  Recheck the valve timing. (See [Adjustment of valve timing, step 9](#p-em-44))
 
 11. Reinstall cylinder head cover. (See step 7 on pages EM-88)
-12. Reinstall hose clamp and VTV clamp of air by-pass valve. (See steps 13 and 14 on page TC-19)
+12. Reinstall hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 13. Reinstall throttle body. (See steps 2, 3 and 5 to 8 on pages FI-138 and 139)
 14. Reinstall EGR vacuum modulator and VSV. (See step 20 on page EM-92)
 15. Reinstall spark plugs. (See page IG-8)

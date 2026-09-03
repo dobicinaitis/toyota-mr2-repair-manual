@@ -63,7 +63,7 @@
       ![](images/TC0102.webp#illustration){ width="400px" }
     </figure>
 
-5.  [](){ #p-tc-8 } Inspect impeller wheel rotation. (See step 1 on page TC-13)
+5.  [](){ #p-tc-8 } Inspect impeller wheel rotation. (See [Inspection of turbocharger, step 1](#p-tc-13))
 6.  Inspect turbocharging pressure VSV. (See page FI-165)
 7.  Inspect turbocharging pressure sensor. (See page FI-171)
 
@@ -87,10 +87,10 @@
 4.  Remove LH engine hood side panel.
 5.  Remove suspension upper brace. (See step 8 on page EM-134)
 6.  Remove air cleaner. (See step 9 on page EM-134)
-7.  Remove No.1 and No.2 air intake connectors. (See steps 4 and 5 on page TC-20)
+7.  Remove No.1 and No.2 air intake connectors. (See [Intercooler, steps 4, 5](intercooler.md#intercooler))
 8.  Disconnect transaxle control cables. (See step 29 on page EM-138)
 9.  Remove front exhaust pipe. (See steps 30 and 31 on pages EM-138 and 139)
-10. Remove idler pulley bracket and A/C compressor. (See steps 10 to 12 on page TC-21 and 22)
+10. Remove idler pulley bracket and A/C compressor. (See [Intercooler › Removal of intercooler, steps 10–12](intercooler.md#p-tc-21))
 11. Remove front engine mounting insulator. (See step 38 on page EM-141)
 12. Remove front mounting bracket and clutch release cylinder. (See step 39 on page EM-141)
 13. Remove engine compartment cooling fan. (See steps 4 and 5 on page CO-34)
@@ -296,7 +296,7 @@
 [](){ #p-tc-15 }
 ## Installation of turbocharger
 
-(See page TC-8)
+(See [On-vehicle inspection of turbocharger](#p-tc-8))
 
 !!! note "Notice"
 
@@ -496,10 +496,10 @@
 16. Install engine compartment cooling fan. (See steps 1 and 2 on page CO-36)
 17. Install front mounting bracket and clutch release cylinder. (See step 9 on pages EM-171 and 172)
 18. Install front engine mounting insulator. (See step 10 on page EM-172)
-19. Install A/C compressor and idler pulley bracket. (See steps 3 to 5 on pages TC-23 and 24)
+19. Install A/C compressor and idler pulley bracket. (See [Intercooler › Installation of intercooler, steps 3–5](intercooler.md#installation-of-intercooler))
 20. Install front exhaust pipe. (See steps 18 and 19 on pages EM-174 and 175)
 21. Connect transaxle control cables. (See step 20 on page EM-175)
-22. Install No.1 and No.2 air intake connectors. (See steps 10 and 11 on page TC-25)
+22. Install No.1 and No.2 air intake connectors. (See [Intercooler › Installation of intercooler, steps 10, 11](intercooler.md#p-tc-25))
 23. Install air cleaner. (See step 40 on page EM-179)
 24. Install suspension upper brace. (See step 41 on page EM-179)
 25. Fill engine with coolant. (See page CO-7)

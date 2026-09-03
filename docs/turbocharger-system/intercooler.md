@@ -100,7 +100,7 @@
 [](){ #p-tc-23 }
 ## Installation of intercooler
 
-(See page TC-20)
+(See [Intercooler](#intercooler))
 
 1.  Install cool air inlet.
 

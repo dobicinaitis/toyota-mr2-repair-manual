@@ -59,11 +59,11 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Remove No.1 air intake connector. (See step 4 on page TC-20)
+2.  Remove No.1 air intake connector. (See [Intercooler, step 4](../turbocharger-system/intercooler.md#intercooler))
 3.  Disconnect high-tension cords from spark plugs. (See page IG-6)
 4.  Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
 5.  Remove throttle body. (See steps 3, 5 to 8, 10 and 11 on pages FI-135 and 136)
-6.  Remove hose clamp and VTV clamp of air by-pass valve. (See steps 15 and 16 on page TC-9)
+6.  Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
 7.  Remove cylinder head cover. (See step 35 on page EM-70)
 8.  Set No.1 cylinder to TDC/compression.
 
@@ -164,11 +164,11 @@
     4.  Recheck the valve clearance.
 
 11. Reinstall cylinder head cover. (See step 7 on page EM-88)
-12. Install hose clamp and VTV clamp of air by-pass valve. (See steps 13 and 14 on page TC-19)
+12. Install hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 13. Reinstall throttle body. (See steps 2, 3, 4 to 8 and 10 on pages FI-138 and 139)
 14. Reinstall EGR vacuum modulator and VSV. (See step 20 on page EM-92)
 15. Reconnect high-tension cords from spark plugs.
-16. Reinstall No.1 air intake connector. (See step 10 on page TC-25)
+16. Reinstall No.1 air intake connector. (See [Intercooler › Installation of intercooler, step 10](../turbocharger-system/intercooler.md#p-tc-25))
 17. Connect cable to negative terminal of battery.
 
 [](){ #p-em-14 }
