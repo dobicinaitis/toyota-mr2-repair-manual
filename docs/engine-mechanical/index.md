@@ -12,5 +12,5 @@
 * [Timing belt (5S-FE)](timing-belt-5s-fe.md)
 * [Cylinder head (3S-GTE)](cylinder-head-3s-gte.md)
 * [Cylinder head (5S-FE)](cylinder-head-5s-fe.md)
-* Cylinder block (3S-GTE)
+* [Cylinder block (3S-GTE)](cylinder-block-3s-gte.md)
 * [Cylinder block (5S-FE)](cylinder-block-5s-fe.md)
