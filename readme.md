@@ -126,12 +126,12 @@ Completion checklist:
         * [x] Starter
         * [x] Starter relay
         * [x] Clutch start switch (M/T only)
-    * [ ] Charging System
-        * [ ] Precautions
-        * [ ] Troubleshooting
-        * [ ] On-vehicle inspection
-        * [ ] Alternator
-        * [ ] Ignition main relay
+    * [x] Charging System
+        * [x] Precautions
+        * [x] Troubleshooting
+        * [x] On-vehicle inspection
+        * [x] Alternator
+        * [x] Ignition main relay
     * [ ] Service Specification
         * [ ] Maintenance
         * [ ] Engine Mechanical (3S-GTE)

@@ -401,7 +401,7 @@
     </figure>
 
 4.  Install engine to engine stand for disassembly.
-5.  Remove alternator. (See page CH-6)
+5.  Remove alternator. (See [Alternator](../charging-system/alternator.md#alternator))
 6.  Remove alternator bracket.
 
     Remove the four bolts and mounting bracket.
@@ -1475,7 +1475,7 @@
       ![](images/EM9089.webp#illustration){ width="400px" }
     </figure>
 
-9.  Install alternator. (See page CH-17)
+9.  Install alternator. (See [Alternator › Assembly of alternator](../charging-system/alternator.md#p-ch-17))
 10. Remove engine stand.
 11. [](){ #p-em-215 } Install rear end plate.
 
@@ -1998,7 +1998,7 @@
 40. Start engine and check for leaks.
 41. Perform engine adjustment.
 
-    1.  Adjust the alternator drive belt. (See page CH-3)
+    1.  Adjust the alternator drive belt. (See [On-vehicle inspection](../charging-system/on-vehicle-inspection.md#on-vehicle-inspection))
 
         **Drive belt tension:**
 

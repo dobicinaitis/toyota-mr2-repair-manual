@@ -430,7 +430,7 @@
       ![](images/EM8715.webp#illustration){ width="400px" }
     </figure>
 
-5.  Remove alternator. (See page CH-6)
+5.  Remove alternator. (See [Alternator](../charging-system/alternator.md#alternator))
 6.  Remove alternator bracket.
 
     Remove the three bolts, two nuts and mounting bracket.
@@ -1551,7 +1551,7 @@
       ![](images/EM8718.webp#illustration){ width="400px" }
     </figure>
 
-11. Install alternator. (See page CH-17)
+11. Install alternator. (See [Alternator › Assembly of alternator](../charging-system/alternator.md#p-ch-17))
 
 12. Remove engine stand.
 
@@ -2144,7 +2144,7 @@
 
 46. [](){ #p-em-180 } Perform engine adjustment.
 
-    1.  Adjust the alternator drive belt. (See page CH-3)
+    1.  Adjust the alternator drive belt. (See [On-vehicle inspection](../charging-system/on-vehicle-inspection.md#on-vehicle-inspection))
 
         **Drive belt tension:**
 

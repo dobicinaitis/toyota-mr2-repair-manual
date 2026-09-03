@@ -11,7 +11,7 @@
 
 ## Inspection of battery
 
-(See steps 1 and 2 on page CH-3)
+(See [On-vehicle inspection, steps 1, 2](../charging-system/on-vehicle-inspection.md#on-vehicle-inspection))
 
 **Standard specific gravity:** 1.25 – 1.27 when fully charged at 20°C (68°F)
 
@@ -38,7 +38,7 @@
 
 ## Inspection and adjustment of alternator drive belt
 
-(See step 3 on page CH-3)
+(See [On-vehicle inspection, step 3](../charging-system/on-vehicle-inspection.md#on-vehicle-inspection))
 
 **Drive belt tension:**
 

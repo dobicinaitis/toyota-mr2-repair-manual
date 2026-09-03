@@ -57,6 +57,14 @@ nav = [
       "starting-system/starter-relay.md",
       "starting-system/clutch-start-switch-m-t-only.md",
   ] },
+  { "Charging system" = [
+      "charging-system/index.md",
+      "charging-system/precautions.md",
+      "charging-system/troubleshooting.md",
+      "charging-system/on-vehicle-inspection.md",
+      "charging-system/alternator.md",
+      "charging-system/ignition-main-relay.md",
+  ] },
 ]
 
 [[project.extra.social]]

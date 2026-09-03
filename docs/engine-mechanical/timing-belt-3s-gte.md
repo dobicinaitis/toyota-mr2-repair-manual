@@ -751,7 +751,7 @@
 31. Connect cable to negative terminal of battery.
 32. Check and adjust drive belts.
 
-    1.  Adjust the alternator drive belt. (See page CH-3)
+    1.  Adjust the alternator drive belt. (See [On-vehicle inspection](../charging-system/on-vehicle-inspection.md#on-vehicle-inspection))
 
         **Drive belt tension:**
 
