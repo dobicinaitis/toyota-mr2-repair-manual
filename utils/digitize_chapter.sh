@@ -43,6 +43,17 @@ mkdir -p logs
 done_count=0
 failed=()
 
+# .staging is a symlink to the main checkout, which is outside this worktree.
+# The scripts follow it fine, but the agent's own file reads are refused at the
+# filesystem boundary before the Read(.staging/**) permission rule is consulted,
+# so the staged OCR text and page overlays have to be allowed explicitly. Only
+# the staging directory is added, not the whole main checkout.
+staging="$(readlink -f .staging)"
+add_dir=()
+if [[ -n "$staging" && "$staging" != "$PWD/.staging" ]]; then
+    add_dir=(--add-dir "$staging")
+fi
+
 while IFS= read -r topic; do
     [[ -z "$topic" ]] && continue
     if (( limit > 0 && done_count >= limit )); then
@@ -53,7 +64,7 @@ while IFS= read -r topic; do
     echo "=== $topic ==="
 
     if ! claude -p "/digitize $topic --chapter $chapter" \
-            --permission-mode acceptEdits 2>&1 | tee "$log"; then
+            "${add_dir[@]}" --permission-mode acceptEdits 2>&1 | tee "$log"; then
         echo "FAILED: $topic (see $log)" >&2
         failed+=("$topic")
         continue
