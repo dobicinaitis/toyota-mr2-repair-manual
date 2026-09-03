@@ -2,6 +2,9 @@
   "env": {
     "MR2_DOCS_MANUAL_PATH": "<path-to-manual>.pdf"
   },
+  "attribution": {
+    "sessionUrl": false
+  },
   "permissions": {
     "allow": [
       "Bash(.venv/bin/python utils/*)",
