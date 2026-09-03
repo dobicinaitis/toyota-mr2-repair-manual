@@ -37,10 +37,15 @@ shares no mutable state with its peers. A topic is never split between agents �
 page in context.
 
 ```bash
-.venv/bin/python utils/stage_chapter.py <chapter> …    # render + OCR ahead of time (~3 s/page, no model)
 utils/worktree.sh <chapter>                            # ../mr2-<chapter> on branch digitize/<chapter>
-cd ../mr2-<chapter> && utils/digitize_chapter.sh <chapter>          # Sonnet by default
+cd ../mr2-<chapter>
+.venv/bin/python utils/stage_chapter.py <chapter>      # render + OCR ahead of time (~3 s/page, no model)
+utils/digitize_chapter.sh <chapter>                    # Sonnet by default
 ```
+
+**Stage from inside the worktree, after creating it.** `prepare_pages.py` writes the illustrations into the
+`--images-dir` of the tree it is run from, so staging in the main checkout puts them there instead — untracked
+files in the wrong tree, and the worktree has to render all of them again.
 
 `digitize_chapter.sh` runs Sonnet unless `--model` says otherwise, benchmarked against the already-digitized
 Engine tune-up, Troubleshooting and Compression check pages: same anchors, same illustrations, same values.
