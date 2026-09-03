@@ -79,7 +79,7 @@
 |                                                     | Insufficient fuel flow                                                                                                | Troubleshoot fuel system     | FI-11       |
 |                                                     | Incorrect ignition timing                                                                                             | Reset timing                 | IG-17, 22   |
 |                                                     | Incorrect valve clearance                                                                                             | Adjust valve clearance       | [Inspection and adjustment of valve clearance (3S-GTE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte) |
-|                                                     | Carbon deposits in combustion chambers                                                                                | Inspect cylinder head        | EM-74, 110  |
+|                                                     | Carbon deposits in combustion chambers                                                                                | Inspect cylinder head        | [Inspection, cleaning and repair of cylinder head components](cylinder-head-3s-gte.md#p-em-74) |
 
 ## Excessive oil consumption
 
@@ -87,8 +87,8 @@
 |-------------------------|------------------------------------|---------------------------------|--------------|
 | Excessive oil consumption | Oil leak                         | Repair as necessary             |              |
 |                         | PCV line clogged                   | Check PCV system                |              |
-|                         | Piston ring worn or damaged        | Check rings                     | EM-185, 203  |
-|                         | Valve stem and guide bushing worn  | Check valves and guide bushing  | EM-75, 111   |
+|                         | Piston ring worn or damaged        | Check rings                     | [Removal of engine](cylinder-block-5s-fe.md#p-em-185) |
+|                         | Valve stem and guide bushing worn  | Check valves and guide bushing  | [Inspection, cleaning and repair of cylinder head components](cylinder-head-3s-gte.md#p-em-75) |
 |                         | Valve stem oil seal worn           | Check seals                     |              |
 
 [](){ #p-em-9 }

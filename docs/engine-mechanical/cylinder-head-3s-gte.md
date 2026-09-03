@@ -16,7 +16,7 @@
 [](){ #p-em-63 }
 ## Removal of cylinder head
 
-(See pages EM-61 and 62)
+(See [Cylinder head (3S-GTE)](#cylinder-head-3s-gte))
 
 1.  Disconnect cable from negative terminal of battery.
 
@@ -28,10 +28,10 @@
 2.  Drain engine coolant. (See page CO-6)
 3.  Remove engine under covers.
 4.  Remove engine hood side panels.
-5.  Remove suspension upper brace. (See step 8 on page EM-134)
+5.  Remove suspension upper brace. (See [Cylinder block (3S-GTE) › Removal of engine, step 8](cylinder-block-3s-gte.md#removal-of-engine))
 6.  Disconnect accelerator cable from throttle body.
-7.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 13 on page EM-135)
-8.  Remove air cleaner cap. (See step 9 on page EM-134)
+7.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Removal of engine, step 13](cylinder-block-3s-gte.md#p-em-135))
+8.  Remove air cleaner cap. (See [Cylinder block (3S-GTE) › Removal of engine, step 9](cylinder-block-3s-gte.md#removal-of-engine))
 9.  Disconnect ground strap connector.
 
     <figure markdown="span">
@@ -62,8 +62,8 @@
       ![](images/EM9116.webp#illustration){ width="400px" }
     </figure>
 
-12. Remove intercooler. (See steps 4, 5, 7, 8 and 10 to 13 on pages TC-20 to 22)
-13. Remove front exhaust pipe. (See step 30 and 31 on pages EM-138 and 139)
+12. Remove intercooler. (See [Intercooler, steps 4, 5, 7, 8, 10–13](../turbocharger-system/intercooler.md#intercooler))
+13. Remove front exhaust pipe. (See [Cylinder block (3S-GTE) › Removal of engine, steps 30, 31](cylinder-block-3s-gte.md#p-em-138))
 14. Remove catalytic converter.
 
     1.  Remove the four bolts and RH converter stay.
@@ -91,7 +91,7 @@
           ![](images/EM7963.webp#illustration){ width="400px" }
         </figure>
 
-15. [](){ #p-em-65 } Remove turbocharger. (See steps 8, 11, 12 and 18 to 24 on pages TC-9 and 12)
+15. [](){ #p-em-65 } Remove turbocharger. (See [Turbocharger › Removal of turbocharger, steps 8, 11, 12, 18–24](../turbocharger-system/turbocharger.md#p-tc-9))
 16. Remove throttle body. (See steps 5 to 8, 10 and 11 on pages FI-135 and 136)
 17. Remove cold start injector. (See steps 2 to 4 on pages FI-99 and 100)
 18. Remove exhaust manifold.
@@ -321,8 +321,8 @@
       ![](images/EM8968.webp#illustration){ width="400px" }
     </figure>
 
-36. Remove camshaft timing pulleys. (See steps 9 to 21 on pages EM-27 to 29)
-37. Remove No.1 idler pulley. (See step 26 on page EM-31)
+36. Remove camshaft timing pulleys. (See [Timing belt (3S-GTE) › Removal of timing belt, steps 9–21](timing-belt-3s-gte.md#p-em-27))
+37. Remove No.1 idler pulley. (See [Timing belt (3S-GTE) › Removal of timing belt, step 26](timing-belt-3s-gte.md#p-em-31))
 38. Remove No.3 timing belt cover.
 
     Remove the five bolts and timing belt cover.
@@ -384,7 +384,7 @@
 [](){ #p-em-72 }
 ## Disassembly of cylinder head
 
-(See pages EM-61 and 62)
+(See [Cylinder head (3S-GTE)](#cylinder-head-3s-gte))
 
 1.  Remove valve lifters and shims.
 
@@ -633,7 +633,7 @@
         </figure>
 
     8.  [](){ #p-em-77 } Using a sharp 6 mm reamer, ream the guide bushing to obtain the standard specified
-        clearance (See page EM-75) between the guide bushing and valve stem.
+        clearance (See [Inspection, cleaning and repair of cylinder head components](#p-em-75)) between the guide bushing and valve stem.
 
         <figure markdown="span">
           ![](images/EM8174_EM7715.webp#illustration){ width="400px" }
@@ -833,7 +833,7 @@
               ![](images/EM7968.webp#illustration){ width="400px" }
             </figure>
 
-        4.  Install the bearing caps. (See step 2 on page EM-87)
+        4.  Install the bearing caps. (See [Installation of cylinder head, step 2](#p-em-87))
 
             **Torque:** 190 kg-cm (14 ft-lb, 19 N·m)
 
@@ -868,7 +868,7 @@
 
     6.  **Inspect camshaft thrust clearance**
 
-        1. Install the camshafts. (See step 2 on page EM-87)
+        1. Install the camshafts. (See [Installation of cylinder head, step 2](#p-em-87))
         2. Using a dial indicator, measure the thrust clearance while moving the camshaft back and forth.
 
         **Standard thrust clearance:** 0.120 – 0.240 mm (0.0047 – 0.0094 in.)
@@ -987,7 +987,7 @@
 [](){ #p-em-84 }
 ## Assembly of cylinder head
 
-(See pages EM-61 and 62)
+(See [Cylinder head (3S-GTE)](#cylinder-head-3s-gte))
 
 !!! tip "Hint"
 
@@ -1058,7 +1058,7 @@
 [](){ #p-em-86 }
 ## Installation of cylinder head
 
-(See pages EM-61 and 62)
+(See [Cylinder head (3S-GTE)](#cylinder-head-3s-gte))
 
 1.  Install cylinder head.
 
@@ -1161,7 +1161,7 @@
           ![](images/EM7971.webp#illustration){ width="400px" }
         </figure>
 
-3.  Adjust valve clearance. (See page EM-11)
+3.  Adjust valve clearance. (See [Engine tune-up › Inspection and adjustment of valve clearance (3S-GTE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte))
 
     Turn the camshaft and position the cam lobe upward, check and adjust the valve clearance.
 
@@ -1180,8 +1180,8 @@
       ![](images/EM8876.webp#illustration){ width="400px" }
     </figure>
 
-5.  Install No.1 idler pulley. (See step 4 on page EM-35)
-6.  Install camshaft timing pulleys. (See steps 9 to 23 on pages EM-36 to 41)
+5.  Install No.1 idler pulley. (See [Timing belt (3S-GTE) › Installation of timing belt, step 4](timing-belt-3s-gte.md#installation-of-timing-belt))
+6.  Install camshaft timing pulleys. (See [Timing belt (3S-GTE) › Installation of timing belt, steps 9–23](timing-belt-3s-gte.md#p-em-36))
 7.  Install cylinder head cover.
 
     1.  Apply seal packing to the cylinder head as shown in the figure.
@@ -1463,7 +1463,7 @@
 
 25. Install cold start injector. (See steps 1 to 3 on page FI-101)
 26. Install throttle body. (See steps 2, 3 and 4 to 8 on pages FI-138 and 139)
-27. Install turbocharger. (See steps 5 to 11, 17, 18 and 21 on pages TC-16 to 19)
+27. Install turbocharger. (See [Turbocharger › Installation of turbocharger, steps 5–11, 17, 18, 21](../turbocharger-system/turbocharger.md#p-tc-16))
 28. Install catalytic converter.
 
     1.  Install the front heat insulator with the five bolts.
@@ -1503,8 +1503,8 @@
           ![](images/EM7961.webp#illustration){ width="400px" }
         </figure>
 
-29. Install front exhaust pipe. (See steps 18 and 19 on pages EM-174 and 175)
-30. Install intercooler. (See steps 2 to 5, 7, 8, 10 and 11 on pages TC-23 to 25)
+29. Install front exhaust pipe. (See [Cylinder block (3S-GTE) › Installation of engine, steps 18, 19](cylinder-block-3s-gte.md#p-em-174))
+30. Install intercooler. (See [Intercooler › Installation of intercooler, steps 2–5, 7, 8, 10, 11](../turbocharger-system/intercooler.md#installation-of-intercooler))
 31. Install RH front engine hanger.
 
     Install the engine hanger with the three bolts.
@@ -1537,10 +1537,10 @@
         </figure>
 
 33. Connect ground strap connector.
-34. Install air cleaner cap. (See step 40 on pages EM-179)
-35. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 36 on pages EM-178)
+34. Install air cleaner cap. (See [Cylinder block (3S-GTE) › Installation of engine, step 40](cylinder-block-3s-gte.md#p-em-179))
+35. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Installation of engine, step 36](cylinder-block-3s-gte.md#p-em-178))
 36. Install accelerator cable, and adjust it.
-37. Install suspension upper brace. (See step 41 on page EM-179)
+37. Install suspension upper brace. (See [Cylinder block (3S-GTE) › Installation of engine, step 41](cylinder-block-3s-gte.md#p-em-179))
 38. Fill engine with coolant. (See page CO-7)
 
     **Capacity (w/ heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)

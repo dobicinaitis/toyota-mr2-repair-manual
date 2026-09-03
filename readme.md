@@ -13,7 +13,7 @@ Completion checklist:
         * [x] Maintenance schedule
         * [x] Maintenance operations
         * [x] General maintenance
-    * [ ] Engine Mechanical
+    * [x] Engine Mechanical
         * [x] Description (3S-GTE)
         * [x] Description (5S-FE)
         * [x] Troubleshooting
@@ -22,11 +22,11 @@ Completion checklist:
         * [x] Idle and/or 2,500 RPM HC/CO checking
         * [x] Compression check
         * [x] Timing belt (3S-GTE)
-        * [ ] Timing belt (5S-FE)
-        * [ ] Cylinder head (3S-GTE)
-        * [ ] Cylinder head (5S-FE)
-        * [ ] Cylinder block (3S-GTE)
-        * [ ] Cylinder block (5S-FE)
+        * [x] Timing belt (5S-FE)
+        * [x] Cylinder head (3S-GTE)
+        * [x] Cylinder head (5S-FE)
+        * [x] Cylinder block (3S-GTE)
+        * [x] Cylinder block (5S-FE)
     * [x] Exhaust System
         * [x] Exhaust pipes and heat insulators
     * [x] Turbocharger System

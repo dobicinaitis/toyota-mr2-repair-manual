@@ -18,8 +18,8 @@
 
 2.  Remove engine under covers.
 3.  Remove RH engine hood side panel.
-4.  Remove suspension upper brace. (See step 8 on page EM-134)
-5.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 13 on page EM-135)
+4.  Remove suspension upper brace. (See [Cylinder block (3S-GTE) › Removal of engine, step 8](cylinder-block-3s-gte.md#removal-of-engine))
+5.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Removal of engine, step 13](cylinder-block-3s-gte.md#p-em-135))
 6.  Remove intercooler. (See [Intercooler, steps 4, 5, 7–13](../turbocharger-system/intercooler.md#intercooler))
 7.  Remove RH front wheel.
 8.  [](){ #p-em-27 } Remove alternator drive belt.
@@ -67,10 +67,10 @@
       ![](images/EM8719.webp#illustration){ width="400px" }
     </figure>
 
-13. [](){ #p-em-28 } Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
+13. [](){ #p-em-28 } Remove EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 22](cylinder-head-3s-gte.md#p-em-66))
 14. Remove throttle body. (See steps 5 to 8, 10 and 11 on pages FI-135 and 136)
 15. Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
-16. Remove cylinder head cover. (See step 35 on page EM-70)
+16. Remove cylinder head cover. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 35](cylinder-head-3s-gte.md#p-em-70))
 17. Remove spark plugs. (See page IG-7)
 
     <figure markdown="span">
@@ -694,9 +694,9 @@
     </figure>
 
 17. Install hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
-18. Install cylinder head cover. (See step 7 on page EM-88)
+18. Install cylinder head cover. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 7](cylinder-head-3s-gte.md#p-em-88))
 19. Install throttle body. (See steps 2, 3 and 5 to 8 on pages FI-138 and 139)
-20. Install EGR vacuum modulator and VSV. (See step 20 on page EM-92)
+20. Install EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 20](cylinder-head-3s-gte.md#p-em-92))
 21. Install RH engine mounting bracket.
 
     Install the mounting bracket with the three bolts.
@@ -744,8 +744,8 @@
 
 25. Install RH front wheel.
 26. Install intercooler. (See [Intercooler › Installation of intercooler, steps 2–8, 10, 11](../turbocharger-system/intercooler.md#installation-of-intercooler))
-27. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 36 pages EM-178)
-28. Install suspension upper brace. (See step 41 pages EM-179)
+27. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 36 [Cylinder block (3S-GTE) › Installation of engine](cylinder-block-3s-gte.md#p-em-178))
+28. Install suspension upper brace. (See step 41 [Cylinder block (3S-GTE) › Installation of engine](cylinder-block-3s-gte.md#p-em-179))
 29. Install RH engine hood side panel.
 30. Install engine under covers.
 31. Connect cable to negative terminal of battery.
@@ -797,10 +797,10 @@
           ![](images/EM2470.webp#illustration){ width="400px" }
         </figure>
 
-4.  Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
+4.  Remove EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 22](cylinder-head-3s-gte.md#p-em-66))
 5.  Remove throttle body. (See steps 5 to 8 and 9 to 11 on pages FI-135 and 136)
 6.  Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
-7.  Remove cylinder head cover. (See step 35 on page EM-70)
+7.  Remove cylinder head cover. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 35](cylinder-head-3s-gte.md#p-em-70))
 8.  [](){ #p-em-43 } Adjust camshaft timing pulley timing marks.
 
     1.  Remove the two bolts and timing belt tensioner.
@@ -970,10 +970,10 @@
 
     8.  Recheck the valve timing. (See [Adjustment of valve timing, step 9](#p-em-44))
 
-11. Reinstall cylinder head cover. (See step 7 on pages EM-88)
+11. Reinstall cylinder head cover. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 7](cylinder-head-3s-gte.md#p-em-88))
 12. Reinstall hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 13. Reinstall throttle body. (See steps 2, 3 and 5 to 8 on pages FI-138 and 139)
-14. Reinstall EGR vacuum modulator and VSV. (See step 20 on page EM-92)
+14. Reinstall EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 20](cylinder-head-3s-gte.md#p-em-92))
 15. Reinstall spark plugs. (See page IG-8)
 
     **Torque:** 180 kg-cm (13 ft-lb, 18 N·m)

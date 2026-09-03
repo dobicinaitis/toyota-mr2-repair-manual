@@ -9,10 +9,10 @@
 
 1. Remove the timing belt.
     * 3S-GTE (See [Timing belt (3S-GTE)](../engine-mechanical/timing-belt-3s-gte.md#timing-belt-3s-gte))
-    * 5S-FE (See pages EM-47 to 52)
+    * 5S-FE (See [Timing belt (5S-FE)](../engine-mechanical/timing-belt-5s-fe.md#timing-belt-5s-fe))
 2. Install the timing belt.
     * 3S-GTE (See [Timing belt (3S-GTE) › Installation of timing belt](../engine-mechanical/timing-belt-3s-gte.md#installation-of-timing-belt))
-    * 5S-FE (See pages EM-55 to 60)
+    * 5S-FE (See [Timing belt (5S-FE) › Installation of timing belt](../engine-mechanical/timing-belt-5s-fe.md#installation-of-timing-belt))
 
 ### 2. Inspect drive belt
 

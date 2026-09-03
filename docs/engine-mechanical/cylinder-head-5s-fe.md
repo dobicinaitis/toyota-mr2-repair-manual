@@ -10,7 +10,7 @@
 [](){ #p-em-98 }
 ## Removal of cylinder head
 
-(See page EM-97)
+(See [Cylinder head (5S-FE)](#cylinder-head-5s-fe))
 
 1.  Disconnect cable from negative terminal of battery.
 
@@ -25,8 +25,8 @@
 5.  Remove suspension upper brace.
 6.  (A/T) Disconnect throttle cable from throttle body.
 7.  Disconnect accelerator cable from throttle body.
-8.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 11 on page EM-182)
-9.  Remove air cleaner cap. (See step 9 on page EM-182)
+8.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (5S-FE) › Removal of engine, step 11](cylinder-block-5s-fe.md#removal-of-engine))
+9.  Remove air cleaner cap. (See [Cylinder block (5S-FE) › Removal of engine, step 9](cylinder-block-5s-fe.md#removal-of-engine))
 10. Disconnect ground strap connector.
 
     <figure markdown="span">
@@ -51,7 +51,7 @@
     4.  A/C VSV air hose from ISC valve
 
 12. Remove distributor. (See pages IG-19 and 20)
-13. Remove front exhaust pipe. (See step 29 on page EM-187)
+13. Remove front exhaust pipe. (See [Cylinder block (5S-FE) › Removal of engine, step 29](cylinder-block-5s-fe.md#p-em-187))
 14. Remove exhaust manifold and catalytic converter assembly.
 
     1.  Disconnect the oxygen sensor (main) connector.
@@ -240,8 +240,8 @@
         </figure>
 
 25. Remove delivery pipe and injectors. (See steps 7 to 10 and 12 on pages FI-122 and 123)
-26. Remove camshaft timing pulley. (See steps 9 to 17 on pages EM-48 to 50)
-27. Remove No.1 idler pulley and tension spring. (See step 22 on page EM-52)
+26. Remove camshaft timing pulley. (See [Timing belt (5S-FE) › Removal of timing belt, steps 9–17](timing-belt-5s-fe.md#p-em-48))
+27. Remove No.1 idler pulley and tension spring. (See [Timing belt (5S-FE) › Removal of timing belt, step 22](timing-belt-5s-fe.md#p-em-52))
 28. Remove No.3 timing belt cover.
 
     Remove the four bolts and timing belt cover.
@@ -490,7 +490,7 @@
 [](){ #p-em-108 }
 ## Disassembly of cylinder head
 
-(See page EM-97)
+(See [Cylinder head (5S-FE)](#cylinder-head-5s-fe))
 
 1.  Remove valve lifters and shims.
 
@@ -737,7 +737,7 @@
         </figure>
 
     8.  [](){ #p-em-113 } Using a sharp 6 mm reamer, ream the guide bushing to obtain the standard specified clearance
-        (See page EM-111) between the guide bushing and valve stem.
+        (See [Inspection, cleaning and repair of cylinder head components](#p-em-111)) between the guide bushing and valve stem.
 
         <figure markdown="span">
           ![](images/EM3369_EM3370.webp#illustration){ width="400px" }
@@ -954,7 +954,7 @@
               ![](images/EM3371.webp#illustration){ width="400px" }
             </figure>
 
-        4.  [](){ #p-em-117 } Install the bearing caps. (See step 4 on pages EM-123 to 125)
+        4.  [](){ #p-em-117 } Install the bearing caps. (See [Installation of cylinder head, step 4](#p-em-123))
 
             **Torque:** 190 kg-cm (14 ft-lb, 19 N·m)
 
@@ -989,7 +989,7 @@
 
     7.  **Inspect camshaft thrust clearance**
 
-        1. Install the camshafts. (See step 4 on pages EM-123 to 125)
+        1. Install the camshafts. (See [Installation of cylinder head, step 4](#p-em-123))
         2. Using a dial indicator, measure the thrust clearance while moving the camshaft back and forth.
 
         **Standard thrust clearance:**
@@ -1011,7 +1011,7 @@
 
     8.  [](){ #p-em-118 } **Inspect camshaft gear backlash**
 
-        1. Install the camshafts without installing the exhaust cam sub-gear. (See step 4 on page EM-123 to 125)
+        1. Install the camshafts without installing the exhaust cam sub-gear. (See [Installation of cylinder head, step 4](#p-em-123))
         2. Using a dial indicator, measure the backlash.
 
         **Standard backlash:** 0.020 – 0.200 mm (0.0008 – 0.0079 in.)
@@ -1065,7 +1065,7 @@
 [](){ #p-em-119 }
 ## Assembly of cylinder head
 
-(See page EM-97)
+(See [Cylinder head (5S-FE)](#cylinder-head-5s-fe))
 
 !!! tip "Hint"
 
@@ -1128,7 +1128,7 @@
 [](){ #p-em-121 }
 ## Installation of cylinder head
 
-(See page EM-97)
+(See [Cylinder head (5S-FE)](#cylinder-head-5s-fe))
 
 1.  Install cylinder head.
 
@@ -1354,7 +1354,7 @@
           ![](images/EM3243.webp#illustration){ width="400px" }
         </figure>
 
-5.  Check and adjust valve clearance. (See page EM-16)
+5.  Check and adjust valve clearance. (See [Engine tune-up › Inspection and adjustment of valve clearance (5S-FE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-5s-fe))
 
     Turn the camshaft and position the cam lobe upward, and check and adjust the valve clearance.
 
@@ -1433,8 +1433,8 @@
 
     **Torque:** 80 kg-cm (69 in.-lb, 7.8 N·m)
 
-12. Install No.1 idler pulley and tension spring. (See step 4 on page EM-55)
-13. Install camshaft timing pulley. (See steps 9 to 17 on pages EM-56 to 59)
+12. Install No.1 idler pulley and tension spring. (See [Timing belt (5S-FE) › Installation of timing belt, step 4](timing-belt-5s-fe.md#installation-of-timing-belt))
+13. Install camshaft timing pulley. (See [Timing belt (5S-FE) › Installation of timing belt, steps 9–17](timing-belt-5s-fe.md#p-em-56))
 14. Install injector and delivery pipe. (See steps 1 and 3 to 6 on pages FI-125 to 127)
 15. [](){ #p-em-127 } Install intake manifold.
 
@@ -1643,7 +1643,7 @@
           ![](images/EM8746.webp#illustration){ width="400px" }
         </figure>
 
-26. Install front exhaust pipe. (See step 15 on page EM-197)
+26. Install front exhaust pipe. (See [Cylinder block (5S-FE) › Disassembly of cylinder block, step 15](cylinder-block-5s-fe.md#p-em-197))
 27. Install distributor. (See steps 1 to 4 on page IG-21 and 22)
 28. Connect vacuum hoses.
 
@@ -1667,11 +1667,11 @@
         </figure>
 
 29. Connect ground strap connector.
-30. [](){ #p-em-132 } Install air cleaner cap. (See step 35 on page EM-226)
-31. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 33 on page EM-225)
+30. [](){ #p-em-132 } Install air cleaner cap. (See [Cylinder block (5S-FE) › Installation of engine, step 35](cylinder-block-5s-fe.md#p-em-226))
+31. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (5S-FE) › Installation of engine, step 33](cylinder-block-5s-fe.md#p-em-225))
 32. Install accelerator cable, and adjust it.
 33. (A/T) Connect throttle cable, and adjust it.
-34. Install suspension upper brace. (See step 36 on page EM-226)
+34. Install suspension upper brace. (See [Cylinder block (5S-FE) › Installation of engine, step 36](cylinder-block-5s-fe.md#p-em-226))
 35. Connect cable to negative terminal of battery.
 36. Fill with engine coolant. (See page CO-7)
 

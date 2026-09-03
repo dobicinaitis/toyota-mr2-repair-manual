@@ -381,7 +381,7 @@
 
     8.  Place the engine and transaxle assembly onto the stand.
 
-41. Remove starter. (See page ST-4)
+41. Remove starter. (See [Starter › Removal of starter](../starting-system/starter.md#p-st-4))
 42. Separate engine and transaxle.
 
     * M/T (See pages MT-5 and 6)
@@ -418,8 +418,8 @@
       ![](images/EM8759.webp#illustration){ width="400px" }
     </figure>
 
-8.  Remove timing belt and pulleys. (See pages EM-49 to 53)
-9.  Remove cylinder head. (See pages EM-98 to 107)
+8.  Remove timing belt and pulleys. (See [Timing belt (5S-FE) › Removal of timing belt](timing-belt-5s-fe.md#p-em-49))
+9.  Remove cylinder head. (See [Cylinder head (5S-FE) › Removal of cylinder head](cylinder-head-5s-fe.md#removal-of-cylinder-head))
 10. Remove water pump. (See page CO-11)
 11. Remove oil pan and oil pump. (See pages LU-11 and 12)
 12. Remove oil filter. (See page LU-7)
@@ -428,7 +428,7 @@
 [](){ #p-em-193 }
 ## Disassembly of cylinder block
 
-(See page EM-181)
+(See [Cylinder block (5S-FE)](#cylinder-block-5s-fe))
 
 1.  Remove rear oil seal retainer.
 
@@ -502,7 +502,7 @@
           ![](images/EM7530.webp#illustration){ width="400px" }
         </figure>
 
-    8.  Install the connecting rod cap. (See step 6 on pages EM-213 and 214)
+    8.  Install the connecting rod cap. (See [Assembly of cylinder block, step 6](#p-em-213))
 
         **Torque:**
 
@@ -564,7 +564,7 @@
           ![](images/EM7354.webp#illustration){ width="400px" }
         </figure>
 
-    2.  Cover the connecting rod bolts. (See page EM-194)
+    2.  Cover the connecting rod bolts. (See [Disassembly of cylinder block](#p-em-194))
     3.  Push the piston, connecting rod assembly and upper bearing through the top of the cylinder block.
 
         !!! tip "Hint"
@@ -638,7 +638,7 @@
           ![](images/EM7533.webp#illustration){ width="400px" }
         </figure>
 
-    8.  [](){ #p-em-197 } Install the main bearing caps. (See step 4 on page EM-212)
+    8.  [](){ #p-em-197 } Install the main bearing caps. (See [Assembly of cylinder block, step 4](#p-em-212))
 
         **Torque:** 600 kg-cm (43 ft-lb, 59 N·m)
 
@@ -946,7 +946,7 @@
               ![](images/EM7325.webp#illustration){ width="400px" }
             </figure>
 
-        2.  [](){ #p-em-203 } Measure the cylinder bore diameter in the thrust directions. (See step 4 on page EM-200)
+        2.  [](){ #p-em-203 } Measure the cylinder bore diameter in the thrust directions. (See [Inspection of cylinder block, step 4](#p-em-200))
         3.  Subtract the piston diameter measurement from the cylinder bore diameter measurement.
 
             **Standard oil clearance:** 0.079 – 0.099 mm (0.0031 – 0.0039 in.)
@@ -1198,7 +1198,7 @@
         * STD size – 51.985 – 52.000 mm (2.0466 – 2.0472 in.)
         * U/S 0.25 – 51.745 – 51.755 mm (2.0372 – 2.0376 in.)
 
-        If the diameter is not as specified, check the oil clearance (See pages EM-193 to 197). If necessary, grind or
+        If the diameter is not as specified, check the oil clearance (See [Disassembly of cylinder block](#disassembly-of-cylinder-block)). If necessary, grind or
         replace the crankshaft.
 
         <figure markdown="span">
@@ -1219,7 +1219,7 @@
 
 ## Replacement of crankshaft oil seals
 
-(See pages EM-160 and 161)
+(See [Cylinder block (3S-GTE) › Replacement of crankshaft oil seals](cylinder-block-3s-gte.md#replacement-of-crankshaft-oil-seals))
 
 [](){ #p-em-209 }
 ## Assembly of piston and connecting rod assemblies
@@ -1293,7 +1293,7 @@
 [](){ #p-em-211 }
 ## Assembly of cylinder block
 
-(See page EM-181)
+(See [Cylinder block (5S-FE)](#cylinder-block-5s-fe))
 
 !!! tip "Hint"
 
@@ -1373,7 +1373,7 @@
         </figure>
 
     5.  Check that the crankshaft turns smoothly.
-    6.  Check the crankshaft thrust clearance. (See step 5 on page EM-195)
+    6.  Check the crankshaft thrust clearance. (See [Disassembly of cylinder block, step 5](#p-em-195))
 
 5.  Install piston and connecting rod assemblies.
 
@@ -1431,7 +1431,7 @@
         4.  [](){ #p-em-214 } Retighten the cap nuts 90° in the numerical order shown.
         5.  Check that the painted mark is now at a 90° angle to the front.
         6.  Check that the crankshaft turns smoothly.
-        7.  Check the connecting rod thrust clearance. (See step 2 on page EM-193)
+        7.  Check the connecting rod thrust clearance. (See [Disassembly of cylinder block, step 2](#disassembly-of-cylinder-block))
 
             <figure markdown="span">
               ![](images/EM7365.webp#illustration){ width="400px" }
@@ -1453,8 +1453,8 @@
 2.  Install oil filter. (See page LU-7)
 3.  Install oil pump and oil pan. (See pages LU-15 and 16)
 4.  Install water pump. (See pages CO-12 and 13)
-5.  Install cylinder head. (See pages EM-121 to 131)
-6.  Install pulleys and timing belt. (See pages EM-55 to 59)
+5.  Install cylinder head. (See [Cylinder head (5S-FE) › Installation of cylinder head](cylinder-head-5s-fe.md#installation-of-cylinder-head))
+6.  Install pulleys and timing belt. (See [Timing belt (5S-FE) › Installation of timing belt](timing-belt-5s-fe.md#installation-of-timing-belt))
 7.  Install RH engine mounting bracket.
 
     Install the mounting bracket with the four bolts.
@@ -1518,7 +1518,7 @@
     * M/T (See pages MT-5 and 6)
     * A/T (See page AT-41)
 
-2.  Install starter. (See page ST-17)
+2.  Install starter. (See [Starter › Installation of starter](../starting-system/starter.md#installation-of-starter))
 3.  Install engine and transaxle assembly in vehicle.
 
     1.  Attach the engine chain hoist to the engine hangers.

@@ -32,6 +32,11 @@ nav = [
       "engine-mechanical/idle-and-or-2-500-rpm-hc-co-checking.md",
       "engine-mechanical/compression-check.md",
       "engine-mechanical/timing-belt-3s-gte.md",
+      "engine-mechanical/timing-belt-5s-fe.md",
+      "engine-mechanical/cylinder-head-3s-gte.md",
+      "engine-mechanical/cylinder-head-5s-fe.md",
+      "engine-mechanical/cylinder-block-3s-gte.md",
+      "engine-mechanical/cylinder-block-5s-fe.md",
   ] },
   { "Exhaust system" = [
       "exhaust-system/index.md",

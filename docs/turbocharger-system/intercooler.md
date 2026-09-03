@@ -25,10 +25,10 @@
       ![](images/CO0959.webp#illustration){ width="400px" }
     </figure>
 
-6.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 13 on page EM-135)
+6.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Removal of engine, step 13](../engine-mechanical/cylinder-block-3s-gte.md#p-em-135))
 7.  [](){ #p-tc-21 } Remove engine compartment cooling fan. (See steps 4 and 5 on page CO-34)
 8.  Disconnect engine wire clamps from mount bolts of No.2 timing belt cover. (See step 12 (a) on page FI-111)
-9.  Remove RH front engine hanger. (See step 11 on page EM-64)
+9.  Remove RH front engine hanger. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 11](../engine-mechanical/cylinder-head-3s-gte.md#p-em-64))
 10. Disconnect parking brake cable from body.
 
     Remove the three clamp bolts, and disconnect the parking brake cable.
@@ -178,10 +178,10 @@
       ![](images/TC0103.webp#illustration){ width="400px" }
     </figure>
 
-6.  Install RH front engine hanger. (See step 31 on page EM-95)
+6.  Install RH front engine hanger. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 31](../engine-mechanical/cylinder-head-3s-gte.md#p-em-95))
 7.  Install engine wire clamps to mount bolts of No.2 timing belt cover. (See step 5 (b) on page FI-118)
 8.  Install engine compartment cooling fan. (See steps 1 and 2 on page CO-36)
-9.  Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 36 on page EM-178)
+9.  Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Installation of engine, step 36](../engine-mechanical/cylinder-block-3s-gte.md#p-em-178))
 10. [](){ #p-tc-25 } Install No.1 air intake connector.
 11. Install No.2 air intake connector.
 

@@ -277,7 +277,7 @@
           ![](images/EM8954.webp#illustration){ width="400px" }
         </figure>
 
-34. Remove intercooler. (See steps 8 to 12 (a) and 13 on pages TC-21 and 22)
+34. Remove intercooler. (See steps 8 to 12 (a) and 13 on [Intercooler › Removal of intercooler](../turbocharger-system/intercooler.md#p-tc-21))
 35. Remove rear engine mounting insulator.
 
     1.  Remove the through bolt holding the mounting insulator to the mounting bracket.
@@ -412,7 +412,7 @@
       ![](images/EM8946.webp#illustration){ width="400px" }
     </figure>
 
-46. Remove starter. (See page ST-4)
+46. Remove starter. (See [Starter › Removal of starter](../starting-system/starter.md#p-st-4))
 47. Separate engine and transaxle. (See pages MT-5 and 6)
 
 [](){ #p-em-144 }
@@ -443,9 +443,9 @@
 
     Remove the four bolts and mounting bracket.
 
-8.  Remove timing belt and pulleys. (See pages EM-28 to 32)
-9.  Remove turbocharger. (See pages TC-9 to 12)
-10. Remove cylinder head. (See pages EM-63 to 71)
+8.  Remove timing belt and pulleys. (See [Timing belt (3S-GTE) › Removal of timing belt](timing-belt-3s-gte.md#p-em-28))
+9.  Remove turbocharger. (See [Turbocharger › Removal of turbocharger](../turbocharger-system/turbocharger.md#p-tc-9))
+10. Remove cylinder head. (See [Cylinder head (3S-GTE) › Removal of cylinder head](cylinder-head-3s-gte.md#removal-of-cylinder-head))
 
     <figure markdown="span">
       ![](images/EM8717.webp#illustration){ width="400px" }
@@ -468,7 +468,7 @@
 [](){ #p-em-145 }
 ## Disassembly of cylinder block
 
-(See page EM-133)
+(See [Cylinder block (3S-GTE)](#cylinder-block-3s-gte))
 
 1.  Remove rear oil seal retainer.
 
@@ -540,7 +540,7 @@
           ![](images/EM7977.webp#illustration){ width="400px" }
         </figure>
 
-    8.  Install the connecting rod cap. (See step 7 on page EM-166)
+    8.  Install the connecting rod cap. (See [Assembly of cylinder block, step 7](#p-em-166))
 
         **Torque:** 680 kg-cm (49 ft-lb, 67 N·m)
 
@@ -594,7 +594,7 @@
 4.  Remove piston and connecting rod assemblies.
 
     1.  Using a ridge reamer, remove all the carbon from the top of the cylinder.
-    2.  Cover the connecting rod bolts. (See page EM-146)
+    2.  Cover the connecting rod bolts. (See [Disassembly of cylinder block](#p-em-146))
     3.  Push the piston, connecting rod assembly and upper bearing through the top of the cylinder block.
 
         <figure markdown="span">
@@ -672,7 +672,7 @@
           ![](images/EM7943.webp#illustration){ width="400px" }
         </figure>
 
-    8.  [](){ #p-em-149 } Install the main bearing caps. (See step 5 on page EM-165)
+    8.  [](){ #p-em-149 } Install the main bearing caps. (See [Assembly of cylinder block, step 5](#p-em-165))
 
         **Torque:** 600 kg-cm (43 ft-lb, 59 N·m)
 
@@ -1172,7 +1172,7 @@
         * STD size – 47.985 – 48.000 mm (1.8892 – 1.8898 in.)
         * U/S 0.25 – 47.745 – 47.755 mm (1.8797 – 1.8801 in.)
 
-        If the diameter is not as specified, check the oil clearance (See pages EM-145 to 149). If necessary,
+        If the diameter is not as specified, check the oil clearance (See [Disassembly of cylinder block](#disassembly-of-cylinder-block)). If necessary,
         grind or replace the crankshaft.
 
         <figure markdown="span">
@@ -1366,7 +1366,7 @@
 [](){ #p-em-164 }
 ## Assembly of cylinder block
 
-(See page EM-133)
+(See [Cylinder block (3S-GTE)](#cylinder-block-3s-gte))
 
 !!! tip "Hint"
 
@@ -1451,7 +1451,7 @@
 
     5.  Check that the crankshaft turns smoothly.
 
-    6.  Check the crankshaft thrust clearance. (See step 5 on page EM-147)
+    6.  Check the crankshaft thrust clearance. (See [Disassembly of cylinder block, step 5](#p-em-147))
 
 6.  Install piston and connecting rod assemblies.
 
@@ -1490,7 +1490,7 @@
 
     5.  Check that the crankshaft turns smoothly.
 
-    6.  Check the connecting rod thrust clearance. (See step 2 on page EM-145)
+    6.  Check the connecting rod thrust clearance. (See [Disassembly of cylinder block, step 2](#disassembly-of-cylinder-block))
 
 8.  Install rear oil seal retainer.
 
@@ -1525,11 +1525,11 @@
 
 5.  Install water pump. (See pages CO-12 and 13)
 
-6.  Install cylinder head. (See pages EM-86 to 95)
+6.  Install cylinder head. (See [Cylinder head (3S-GTE) › Installation of cylinder head](cylinder-head-3s-gte.md#installation-of-cylinder-head))
 
-7.  Install turbocharger. (See pages TC-16 to 19)
+7.  Install turbocharger. (See [Turbocharger › Installation of turbocharger](../turbocharger-system/turbocharger.md#p-tc-16))
 
-8.  Install pulleys and timing belt. (See pages EM-35 to 41)
+8.  Install pulleys and timing belt. (See [Timing belt (3S-GTE) › Installation of timing belt](timing-belt-3s-gte.md#installation-of-timing-belt))
 
 9.  Install RH engine mounting bracket.
 
@@ -1590,7 +1590,7 @@
 
 1.  Assemble engine and transaxle. (See pages MT-5 and 6)
 
-2.  Install starter. (See page ST-17)
+2.  Install starter. (See [Starter › Installation of starter](../starting-system/starter.md#installation-of-starter))
 
 3.  Install LH engine mounting bracket.
 
@@ -1814,7 +1814,7 @@
       ![](images/EM8951.webp#illustration){ width="400px" }
     </figure>
 
-15. Install intercooler. (See steps 2, 3 (g) and 4 to 7 on page TC-23 and 24)
+15. Install intercooler. (See steps 2, 3 (g) and 4 to 7 on [Intercooler › Installation of intercooler](../turbocharger-system/intercooler.md#installation-of-intercooler))
 
 16. Install A/C compressor and idler pulley bracket.
 

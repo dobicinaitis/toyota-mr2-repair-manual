@@ -61,10 +61,10 @@
 
 2.  Remove No.1 air intake connector. (See [Intercooler, step 4](../turbocharger-system/intercooler.md#intercooler))
 3.  Disconnect high-tension cords from spark plugs. (See page IG-6)
-4.  Remove EGR vacuum modulator and VSV. (See step 22 on page EM-66)
+4.  Remove EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 22](cylinder-head-3s-gte.md#p-em-66))
 5.  Remove throttle body. (See steps 3, 5 to 8, 10 and 11 on pages FI-135 and 136)
 6.  Remove hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Removal of turbocharger, steps 15, 16](../turbocharger-system/turbocharger.md#p-tc-9))
-7.  Remove cylinder head cover. (See step 35 on page EM-70)
+7.  Remove cylinder head cover. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 35](cylinder-head-3s-gte.md#p-em-70))
 8.  Set No.1 cylinder to TDC/compression.
 
     1. Turn the crankshaft pulley and align its groove with timing mark "0" of the No.1 timing belt cover.
@@ -163,10 +163,10 @@
 
     4.  Recheck the valve clearance.
 
-11. Reinstall cylinder head cover. (See step 7 on page EM-88)
+11. Reinstall cylinder head cover. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 7](cylinder-head-3s-gte.md#p-em-88))
 12. Install hose clamp and VTV clamp of air by-pass valve. (See [Turbocharger › Installation of turbocharger, steps 13, 14](../turbocharger-system/turbocharger.md#p-tc-19))
 13. Reinstall throttle body. (See steps 2, 3, 4 to 8 and 10 on pages FI-138 and 139)
-14. Reinstall EGR vacuum modulator and VSV. (See step 20 on page EM-92)
+14. Reinstall EGR vacuum modulator and VSV. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 20](cylinder-head-3s-gte.md#p-em-92))
 15. Reconnect high-tension cords from spark plugs.
 16. Reinstall No.1 air intake connector. (See [Intercooler › Installation of intercooler, step 10](../turbocharger-system/intercooler.md#p-tc-25))
 17. Connect cable to negative terminal of battery.
@@ -219,7 +219,7 @@
     Inspect and adjust the valve clearance when the engine is cold.
 
 1.  Disconnect high-tension cords from spark plugs. (See page IG-11)
-2.  Remove cylinder head cover. (See step 32 on page EM-104)
+2.  Remove cylinder head cover. (See [Cylinder head (5S-FE) › Removal of cylinder head, step 32](cylinder-head-5s-fe.md#p-em-104))
 3.  Set No.1 cylinder to TDC/compression.
 
     1. Turn the crankshaft pulley and align its groove with timing mark "0" of the No.1 timing belt cover.
@@ -317,7 +317,7 @@
 
     4.  Recheck the valve clearance.
 
-6.  Reinstall cylinder head cover. (See step 7 on page EM-126)
+6.  Reinstall cylinder head cover. (See [Cylinder head (5S-FE) › Installation of cylinder head, step 7](cylinder-head-5s-fe.md#p-em-126))
 7.  Reconnect high-tension cords to spark plugs.
 
 [](){ #p-em-18 }

@@ -17,8 +17,8 @@
 2.  Remove LH engine hood side panel.
 3.  Remove air cleaner.
 
-    * 3S-GTE (See step 9 on page EM-134)
-    * 5S-FE (See step 9 on page EM-182)
+    * 3S-GTE (See [Cylinder block (3S-GTE) › Removal of engine, step 9](../engine-mechanical/cylinder-block-3s-gte.md#removal-of-engine))
+    * 5S-FE (See [Cylinder block (5S-FE) › Removal of engine, step 9](../engine-mechanical/cylinder-block-5s-fe.md#removal-of-engine))
 
 4.  Remove starter.
 
@@ -618,8 +618,8 @@
 
 2.  Install air cleaner.
 
-    * 3S-GTE (See step 40 on page EM-202)
-    * 5S-FE (See step 35 on page EM-226)
+    * 3S-GTE (See [Cylinder block (5S-FE) › Inspection of piston and connecting rod assemblies, step 40](../engine-mechanical/cylinder-block-5s-fe.md#inspection-of-piston-and-connecting-rod-assemblies))
+    * 5S-FE (See [Cylinder block (5S-FE) › Installation of engine, step 35](../engine-mechanical/cylinder-block-5s-fe.md#p-em-226))
 
 3.  Install LH engine hood side panel.
 4.  Connect cable to negative terminal of battery.

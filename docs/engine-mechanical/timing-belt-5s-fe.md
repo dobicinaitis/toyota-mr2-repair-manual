@@ -18,8 +18,8 @@
 
 2.  Remove engine under covers.
 3.  Remove RH engine hood side panel.
-4.  Remove suspension upper brace. (See steps 8 on page EM-182)
-5.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 11 on page EM-182)
+4.  Remove suspension upper brace. (See [Cylinder block (5S-FE) › Removal of engine, step 8](cylinder-block-5s-fe.md#removal-of-engine))
+5.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (5S-FE) › Removal of engine, step 11](cylinder-block-5s-fe.md#removal-of-engine))
 6.  Remove RH front wheel.
 7.  [](){ #p-em-48 } Remove A/C drive belt.
 
@@ -624,7 +624,7 @@
     </figure>
 
 20. Install RH front wheel.
-21. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 33 pages EM-225)
+21. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See step 33 [Cylinder block (5S-FE) › Installation of engine](cylinder-block-5s-fe.md#p-em-225))
 22. Connect cable to negative terminal of battery.
 23. Check and adjust drive belts.
 
@@ -642,6 +642,6 @@
         * New belt – 160 ± 20 lb
         * Used belt – 100 ± 20 lb
 
-24. Install suspension upper brace. (See step 36 on page EM-226)
+24. Install suspension upper brace. (See [Cylinder block (5S-FE) › Installation of engine, step 36](cylinder-block-5s-fe.md#p-em-226))
 25. Install RH engine hood side panel.
 26. Install engine under covers.
