@@ -39,6 +39,12 @@ if [[ ! -f zensical.toml || ! -d utils ]]; then
     exit 1
 fi
 
+# Stopping this script must stop the run it is waiting on. Without this, killing
+# the loop leaves the claude process orphaned: it keeps working in the worktree,
+# writes files nobody is expecting, and the next run skips those topics because
+# their markdown now exists.
+trap 'pkill -P $$ 2>/dev/null' EXIT INT TERM
+
 mkdir -p logs
 done_count=0
 failed=()
