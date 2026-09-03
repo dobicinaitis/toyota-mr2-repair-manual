@@ -39,8 +39,12 @@ page in context.
 ```bash
 .venv/bin/python utils/stage_chapter.py <chapter> …    # render + OCR ahead of time (~3 s/page, no model)
 utils/worktree.sh <chapter>                            # ../mr2-<chapter> on branch digitize/<chapter>
-cd ../mr2-<chapter> && utils/digitize_chapter.sh <chapter>
+cd ../mr2-<chapter> && utils/digitize_chapter.sh <chapter>          # Sonnet by default
 ```
+
+`digitize_chapter.sh` runs Sonnet unless `--model` says otherwise, benchmarked against the already-digitized
+Engine tune-up, Troubleshooting and Compression check pages: same anchors, same illustrations, same values.
+Run a long or specification-dense chapter with `--model opus` if it is worth more attention.
 
 `worktree.sh` exists because `.venv`, `.staging` and `.claude/settings.local.json` are all gitignored: a plain
 `git worktree add` gives a tree where every script fails. It symlinks the first two and copies the third (which holds

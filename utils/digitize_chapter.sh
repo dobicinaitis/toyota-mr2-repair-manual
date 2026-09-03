@@ -27,7 +27,11 @@ set -uo pipefail
 chapter="${1:-}"
 shift || true
 limit=0
-model=()
+# Sonnet by default. Benchmarked against the digitized Troubleshooting, Engine
+# tune-up and Compression check pages: same page anchors, same illustrations,
+# and an identical set of values, including the shim selection charts. Pass
+# --model for a topic worth spending more on.
+model=(--model sonnet)
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --limit) limit="${2:-1}"; shift 2 ;;
@@ -37,7 +41,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "$chapter" ]]; then
-    echo "usage: $0 <chapter-slug> [--limit N] [--model NAME]" >&2
+    echo "usage: $0 <chapter-slug> [--limit N] [--model NAME]   (default model: sonnet)" >&2
     exit 1
 fi
 if [[ ! -f zensical.toml || ! -d utils ]]; then
