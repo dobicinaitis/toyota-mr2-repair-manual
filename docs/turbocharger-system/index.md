@@ -5,4 +5,4 @@
 * [Precautions](precautions.md)
 * [Troubleshooting](troubleshooting.md)
 * [Turbocharger](turbocharger.md)
-* Intercooler
+* [Intercooler](intercooler.md)
