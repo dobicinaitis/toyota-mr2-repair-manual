@@ -49,6 +49,10 @@ admonition's last paragraph — the following list items disappear into the caut
 * Label in bold, value after it: `**Correct electrode gap:** 0.8 mm (0.031 in.)`
 * Several values → bold label then a bullet list.
 * Torque: `**Torque:** 180 kg-cm (13 ft-lb, 18 N·m)` — keep every unit the manual prints, in its order.
+* The manual's narrow columns wrap a spec over two or three printed lines (label, then the metric value, then the
+  alternate units). That is wrapping, not structure: reflow it onto one line. This holds inside a table cell too —
+  `**Turbocharging pressure:** 0.50 – 0.83 kg/cm² (7.1 – 11.8 psi, 49 – 81 kPa)` between `<br>`s, not three
+  `<br>`-separated lines.
 * SST numbers, part numbers and literal switch positions in backticks: `` `09350-30020` ``, `` `PK20R8` ``.
 * Ranges use a spaced en dash: `0.15 – 0.25 mm`. Tolerances use `±`. Watch for the OCR reading `±` as `+` and `lb` as
   `Ib`.

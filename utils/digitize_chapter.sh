@@ -25,13 +25,19 @@
 set -uo pipefail
 
 chapter="${1:-}"
+shift || true
 limit=0
-if [[ "${2:-}" == "--limit" ]]; then
-    limit="${3:-1}"
-fi
+model=()
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --limit) limit="${2:-1}"; shift 2 ;;
+        --model) model=(--model "${2:?--model needs a value}"); shift 2 ;;
+        *) echo "unknown option: $1" >&2; exit 1 ;;
+    esac
+done
 
 if [[ -z "$chapter" ]]; then
-    echo "usage: $0 <chapter-slug> [--limit N]" >&2
+    echo "usage: $0 <chapter-slug> [--limit N] [--model NAME]" >&2
     exit 1
 fi
 if [[ ! -f zensical.toml || ! -d utils ]]; then
@@ -73,7 +79,7 @@ while IFS= read -r topic; do
     # list on stdin. Without it the first run swallows the remaining topics and the
     # loop exits after one iteration, whatever --limit says.
     if ! claude -p "/digitize $topic --chapter $chapter" \
-            "${add_dir[@]}" --permission-mode acceptEdits < /dev/null 2>&1 | tee "$log"; then
+            "${add_dir[@]}" "${model[@]}" --permission-mode acceptEdits < /dev/null 2>&1 | tee "$log"; then
         echo "FAILED: $topic (see $log)" >&2
         failed+=("$topic")
         continue
