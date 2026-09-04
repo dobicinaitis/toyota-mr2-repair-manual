@@ -11,6 +11,12 @@
     --md-accent-fg-color--transparent: #2891511a;
     /* custom */
     --code-bg-color-dark: #414141;
+    --footer-text-color: #b5d0c0;
+    --footer-link-hover-color: #ffffff;
+}
+
+html {
+    background-color: var(--md-primary-fg-color);
 }
 
 ::selection {
@@ -23,8 +29,23 @@
    the colored bar look */
 .md-header {
     background-color: var(--md-primary-fg-color);
-    /*background-color: rgba(32, 128, 71, 0.75);*/
     color: var(--md-primary-bg-color);
+}
+
+/* Footer colors */
+.md-footer-meta__inner {
+    background-color: var(--md-primary-fg-color);
+}
+
+/* Footer text and links */
+.md-copyright, html .md-footer-meta.md-typeset a:not(:focus, :hover), .md-social__link:not(:focus, :hover),
+html .md-footer-meta.md-typeset a:not(:focus, :hover) {
+    color: var(--footer-text-color);
+}
+
+html .md-footer-meta.md-typeset a:focus,
+html .md-footer-meta.md-typeset a:hover {
+    color: var(--footer-link-hover-color);
 }
 
 .md-grid {
@@ -77,13 +98,6 @@
     background-color: var(--code-bg-color-dark);
 }
 
-/* The "Made with Zensical" bar uses --md-default-fg-color--lightest, a light
-   overlay tint that reads as a visibly lighter gray band against the dark
-   body background; match it to the body instead */
-[data-md-color-scheme=slate] .md-footer-meta {
-    /*background-color: var(--md-default-bg-color);*/
-    background-color: #111511;
-}
 /* The manual numbers its sub-steps (a), (b), (c) under each numbered step;
    nested ordered lists reproduce that without hard-coding the letters */
 .md-typeset ol ol {
