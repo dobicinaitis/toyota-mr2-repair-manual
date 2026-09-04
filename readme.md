@@ -460,7 +460,10 @@ zensical build --clean --strict
 ### How to upgrade
 
 ```bash
-pip install --upgrade --force-reinstall zensical
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install --upgrade --force-reinstall -r requirements.txt
 ```
 
 Refer to the [Zensical documentation](https://zensical.org/docs/) for more information.
