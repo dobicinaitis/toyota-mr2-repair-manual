@@ -115,3 +115,7 @@ html .md-footer-meta.md-typeset a:hover {
     height: 0;
     width: 0;
 }
+
+.md-typeset a[id^="p-"]:empty:only-child {
+    display: none;
+}
