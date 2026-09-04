@@ -73,7 +73,7 @@
     If not, turn the crankshaft one revolution (360°) and align the mark as above.
 
     <figure markdown="span">
-      ![](images/EM8548.webp#illustration){ width="400px" }
+      ![](images/EM8548.webp#illustration){ width="80%" }
     </figure>
 
 9.  Inspect valve clearance.
@@ -90,7 +90,7 @@
         * Exhaust – 0.20 – 0.30 mm (0.008 – 0.012 in.)
 
         <figure markdown="span">
-          ![](images/EM7889.webp#illustration){ width="400px" }
+          ![](images/EM7889.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-12 } Turn the crankshaft one revolution (360°) and align the mark as above.
@@ -98,7 +98,7 @@
     3.  Check only the valves indicated as shown. Measure the valve clearance. (See procedure step (a))
 
         <figure markdown="span">
-          ![](images/EM7890.webp#illustration){ width="400px" }
+          ![](images/EM7890.webp#illustration){ width="80%" }
         </figure>
 
 10. Adjust valve clearance.
@@ -116,13 +116,13 @@
             Before pressing down the valve lifter, position its notch toward the spark plug side.
 
         <figure markdown="span">
-          ![](images/EM7855.webp#illustration){ width="400px" }
+          ![](images/EM7855.webp#illustration){ width="80%" }
         </figure>
 
         * Remove the adjusting shim with small screwdriver and magnetic finger.
 
         <figure markdown="span">
-          ![](images/EM7856.webp#illustration){ width="400px" }
+          ![](images/EM7856.webp#illustration){ width="80%" }
         </figure>
 
     2.  Determine the replacement adjusting shim size by following the formula or charts:
@@ -147,7 +147,7 @@
             3.30 mm (0.1299 in.).
 
         <figure markdown="span">
-          ![](images/EM0494.webp#illustration){ width="400px" }
+          ![](images/EM0494.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-em-13 } Install a new adjusting shim.
@@ -158,7 +158,7 @@
         **SST** `09248-55010`
 
         <figure markdown="span">
-          ![](images/EM8255.webp#illustration){ width="400px" }
+          ![](images/EM8255.webp#illustration){ width="80%" }
         </figure>
 
     4.  Recheck the valve clearance.
@@ -228,7 +228,7 @@
     If not, turn the crankshaft one revolution (360°) and align the mark as above.
 
     <figure markdown="span">
-      ![](images/EM9015.webp#illustration){ width="400px" }
+      ![](images/EM9015.webp#illustration){ width="80%" }
     </figure>
 
 4.  Inspect valve clearance.
@@ -245,14 +245,14 @@
         * Exhaust – 0.28 – 0.38 mm (0.011 – 0.015 in.)
 
         <figure markdown="span">
-          ![](images/EM3352.webp#illustration){ width="400px" }
+          ![](images/EM3352.webp#illustration){ width="80%" }
         </figure>
 
     2.  Turn the crankshaft one revolution (360°) and align the mark as above. (See procedure step 3)
     3.  Check only the valves indicated as shown. Measure the valve clearance. (See procedure step (a))
 
         <figure markdown="span">
-          ![](images/EM3353.webp#illustration){ width="400px" }
+          ![](images/EM3353.webp#illustration){ width="80%" }
         </figure>
 
 5.  Adjust valve clearance.
@@ -270,13 +270,13 @@
             Before pressing down the valve lifter, position its notch toward the spark plug side.
 
         <figure markdown="span">
-          ![](images/EM7702.webp#illustration){ width="400px" }
+          ![](images/EM7702.webp#illustration){ width="80%" }
         </figure>
 
         * [](){ #p-em-17 } Remove the adjusting shim with small screwdriver and magnetic finger.
 
         <figure markdown="span">
-          ![](images/EM7701.webp#illustration){ width="400px" }
+          ![](images/EM7701.webp#illustration){ width="80%" }
         </figure>
 
     2.  Determine the replacement adjusting shim size by following the formula or charts:
@@ -301,7 +301,7 @@
             3.30 mm (0.1299 in.).
 
         <figure markdown="span">
-          ![](images/EM0494.webp#illustration){ width="400px" }
+          ![](images/EM0494.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install a new adjusting shim.
@@ -312,7 +312,7 @@
         **SST** `09248-55010`
 
         <figure markdown="span">
-          ![](images/EM7703.webp#illustration){ width="400px" }
+          ![](images/EM7703.webp#illustration){ width="80%" }
         </figure>
 
     4.  Recheck the valve clearance.
@@ -401,7 +401,7 @@
             Decrease the rpm after the engine maintains a speed of the 1,000 – 1,300 rpm for 5 seconds.
 
         <figure markdown="span">
-          ![](images/FI5725.webp#illustration){ width="400px" }
+          ![](images/FI5725.webp#illustration){ width="80%" }
         </figure>
 
     2.  Check the idle speed.
@@ -411,7 +411,7 @@
     3.  If the idle speed is not as specified, adjust the idle speed by turning the IDLE SPEED ADJUSTING SCREW.
 
         <figure markdown="span">
-          ![](images/EM7663.webp#illustration){ width="400px" }
+          ![](images/EM7663.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-21 } Remove SST.
@@ -419,7 +419,7 @@
         **SST** `09843-18020`
 
         <figure markdown="span">
-          ![](images/FI5702.webp#illustration){ width="400px" }
+          ![](images/FI5702.webp#illustration){ width="80%" }
         </figure>
 
 5.  Further check idle speed.

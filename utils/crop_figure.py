@@ -51,7 +51,7 @@ def load_deskewed_page(doc, page_number, staging):
 
 def figure_snippet(rel_path, width_px, indent=0):
     pad = " " * indent
-    attrs = "" if width_px > FULL_WIDTH_PX else '{ width="400px" }'
+    attrs = "" if width_px > FULL_WIDTH_PX else '{ width="80%" }'
     return f'{pad}<figure markdown="span">\n{pad}  ![](images/{rel_path}#illustration){attrs}\n{pad}</figure>'
 
 

@@ -27,6 +27,11 @@
     color: var(--md-primary-bg-color);
 }
 
+.md-grid {
+    /* make the content area stretch to the full available screen space */
+    max-width: initial;
+}
+
 /* The search button follows --md-default-fg-color, which is scheme-dependent
    (dark in light mode, light in dark mode) - fine against modern's neutral
    header, but low-contrast in light mode against our colored header. Use the

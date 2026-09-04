@@ -4,7 +4,7 @@
 ## Inspection of ignition main relay
 
 <figure markdown="span">
-  ![](images/ST0824.webp#illustration){ width="400px" }
+  ![](images/ST0824.webp#illustration){ width="80%" }
 </figure>
 
 **Location:** In the engine compartment relay box.
@@ -12,7 +12,7 @@
 1.  **Inspect relay continuity**
 
     <figure markdown="span">
-      ![](images/BE0075.webp#illustration){ width="400px" }
+      ![](images/BE0075.webp#illustration){ width="80%" }
     </figure>
 
     1.  Using an ohmmeter, check that there is continuity between terminals 1 and 3.
@@ -24,7 +24,7 @@
 2.  **Inspect relay operation**
 
     <figure markdown="span">
-      ![](images/BE0076.webp#illustration){ width="400px" }
+      ![](images/BE0076.webp#illustration){ width="80%" }
     </figure>
 
     1.  Apply battery voltage across terminals 1 and 3.

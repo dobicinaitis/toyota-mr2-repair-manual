@@ -22,7 +22,7 @@
 5.  Remove No.2 air intake connector.
 
     <figure markdown="span">
-      ![](images/CO0959.webp#illustration){ width="400px" }
+      ![](images/CO0959.webp#illustration){ width="80%" }
     </figure>
 
 6.  Remove cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Removal of engine, step 13](../engine-mechanical/cylinder-block-3s-gte.md#p-em-135))
@@ -34,7 +34,7 @@
     Remove the three clamp bolts, and disconnect the parking brake cable.
 
     <figure markdown="span">
-      ![](images/TC0103.webp#illustration){ width="400px" }
+      ![](images/TC0103.webp#illustration){ width="80%" }
     </figure>
 
 11. Remove lower suspension brace.
@@ -42,7 +42,7 @@
     Remove the two bolts and suspension brace.
 
     <figure markdown="span">
-      ![](images/TC0120.webp#illustration){ width="400px" }
+      ![](images/TC0120.webp#illustration){ width="80%" }
     </figure>
 
 12. Remove idler pulley bracket and A/C compressor.
@@ -50,19 +50,19 @@
     1.  Remove the clamp nut, and disconnect the A/C hoses.
 
         <figure markdown="span">
-          ![](images/TC0119.webp#illustration){ width="400px" }
+          ![](images/TC0119.webp#illustration){ width="80%" }
         </figure>
 
     2.  Loosen the idler pulley nut and adjusting bolt, and remove the drive belt.
 
         <figure markdown="span">
-          ![](images/EM9033.webp#illustration){ width="400px" }
+          ![](images/EM9033.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-tc-22 } Disconnect the A/C compressor connector.
 
         <figure markdown="span">
-          ![](images/EM9056.webp#illustration){ width="400px" }
+          ![](images/EM9056.webp#illustration){ width="80%" }
         </figure>
 
     4.  Remove the bolt and connector clamp of the A/C compressor.
@@ -70,7 +70,7 @@
     6.  Remove the two bolts, and disconnect the A/C compressor from the engine.
 
         <figure markdown="span">
-          ![](images/TC0121.webp#illustration){ width="400px" }
+          ![](images/TC0121.webp#illustration){ width="80%" }
         </figure>
 
         !!! tip "Hint"
@@ -78,7 +78,7 @@
             Suspend the compressor to the strut rod with a string.
 
         <figure markdown="span">
-          ![](images/TC0130.webp#illustration){ width="400px" }
+          ![](images/TC0130.webp#illustration){ width="80%" }
         </figure>
 
 13. Remove intercooler.
@@ -86,7 +86,7 @@
     Remove the three bolts and intercooler.
 
     <figure markdown="span">
-      ![](images/CO0968.webp#illustration){ width="400px" }
+      ![](images/CO0968.webp#illustration){ width="80%" }
     </figure>
 
 14. Remove cool air inlet.
@@ -94,7 +94,7 @@
     Remove the three bolts and air inlet.
 
     <figure markdown="span">
-      ![](images/CO0965.webp#illustration){ width="400px" }
+      ![](images/CO0965.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-tc-23 }
@@ -107,7 +107,7 @@
     Install the air inlet with the three bolts.
 
     <figure markdown="span">
-      ![](images/CO0965.webp#illustration){ width="400px" }
+      ![](images/CO0965.webp#illustration){ width="80%" }
     </figure>
 
 2.  Install intercooler.
@@ -115,7 +115,7 @@
     Install the intercooler with the three bolts.
 
     <figure markdown="span">
-      ![](images/CO0968.webp#illustration){ width="400px" }
+      ![](images/CO0968.webp#illustration){ width="80%" }
     </figure>
 
 3.  Install A/C compressor and idler pulley bracket.
@@ -123,7 +123,7 @@
     1.  Temporarily install the A/C compressor with the two bolts.
 
         <figure markdown="span">
-          ![](images/TC0122.webp#illustration){ width="400px" }
+          ![](images/TC0122.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the idler pulley bracket with three bolts.
@@ -135,7 +135,7 @@
         * C – 250 kg-cm (18 ft-lb, 25 N·m)
 
         <figure markdown="span">
-          ![](images/EM9056.webp#illustration){ width="400px" }
+          ![](images/EM9056.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the connector clamp of the A/C compressor with the bolt.
@@ -145,19 +145,19 @@
         **Torque:** 250 kg-cm (18 ft-lb, 25 N·m)
 
         <figure markdown="span">
-          ![](images/TC0121.webp#illustration){ width="400px" }
+          ![](images/TC0121.webp#illustration){ width="80%" }
         </figure>
 
     6.  [](){ #p-tc-24 } Install the drive belt with the idler pulley nut and adjusting bolt.
 
         <figure markdown="span">
-          ![](images/EM9033.webp#illustration){ width="400px" }
+          ![](images/EM9033.webp#illustration){ width="80%" }
         </figure>
 
     7.  Install the A/C hoses with the nut.
 
         <figure markdown="span">
-          ![](images/TC0119.webp#illustration){ width="400px" }
+          ![](images/TC0119.webp#illustration){ width="80%" }
         </figure>
 
 4.  Install lower suspension brace.
@@ -167,7 +167,7 @@
     **Torque:** 740 kg-cm (54 ft-lb, 73 N·m)
 
     <figure markdown="span">
-      ![](images/TC0120.webp#illustration){ width="400px" }
+      ![](images/TC0120.webp#illustration){ width="80%" }
     </figure>
 
 5.  Install parking brake cable.
@@ -175,7 +175,7 @@
     Install the parking brake cable with the two clamps and three bolts.
 
     <figure markdown="span">
-      ![](images/TC0103.webp#illustration){ width="400px" }
+      ![](images/TC0103.webp#illustration){ width="80%" }
     </figure>
 
 6.  Install RH front engine hanger. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 31](../engine-mechanical/cylinder-head-3s-gte.md#p-em-95))
@@ -186,7 +186,7 @@
 11. Install No.2 air intake connector.
 
     <figure markdown="span">
-      ![](images/CO0959.webp#illustration){ width="400px" }
+      ![](images/CO0959.webp#illustration){ width="80%" }
     </figure>
 
 12. Connect cable to negative terminal of battery.

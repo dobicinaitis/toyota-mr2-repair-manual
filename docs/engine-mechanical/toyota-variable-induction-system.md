@@ -13,7 +13,7 @@
     Using a 3-way connector, connect the vacuum gauge to the hose between the VSV and actuator.
 
     <figure markdown="span">
-      ![](images/EM9100.webp#illustration){ width="400px" }
+      ![](images/EM9100.webp#illustration){ width="80%" }
     </figure>
 
 4.  Inspect T-VIS operation.
@@ -21,7 +21,7 @@
     1.  Check that the vacuum gauge indicates vacuum at idling.
 
         <figure markdown="span">
-          ![](images/EM9101.webp#illustration){ width="400px" }
+          ![](images/EM9101.webp#illustration){ width="80%" }
         </figure>
 
     2.  Check that the vacuum gauge indicates zero at 4,200 rpm or more.
@@ -31,5 +31,5 @@
             If regular unleaded gasoline is used, the vacuum gauge also indicates zero below 4,200 rpm.
 
         <figure markdown="span">
-          ![](images/EM9102.webp#illustration){ width="400px" }
+          ![](images/EM9102.webp#illustration){ width="80%" }
         </figure>

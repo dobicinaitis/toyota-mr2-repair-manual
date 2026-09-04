@@ -20,13 +20,13 @@
     1.  Using a screwdriver, lift up the lock claw and disconnect the holder from the ignition coil.
 
         <figure markdown="span">
-          ![](images/IG1379.webp#illustration){ width="400px" }
+          ![](images/IG1379.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-ig-15 } Disconnect the high-tension cord at the grommet. DO NOT pull on the cord.
 
         <figure markdown="span">
-          ![](images/IG1380.webp#illustration){ width="400px" }
+          ![](images/IG1380.webp#illustration){ width="80%" }
         </figure>
 
         !!! note "Notice"
@@ -41,7 +41,7 @@
 5.  **Remove distributor**
 
     <figure markdown="span">
-      ![](images/IG1364.webp#illustration){ width="400px" }
+      ![](images/IG1364.webp#illustration){ width="80%" }
     </figure>
 
     1.  Remove the two hold-down bolts, and pull out the distributor.
@@ -61,7 +61,7 @@
 3.  **Set No.1 cylinder to TDC/compression**
 
     <figure markdown="span">
-      ![](images/IG1386.webp#illustration){ width="400px" }
+      ![](images/IG1386.webp#illustration){ width="80%" }
     </figure>
 
     Turn the crankshaft clockwise, and position the slit of the intake camshaft as shown.
@@ -69,7 +69,7 @@
 4.  **Install distributor**
 
     <figure markdown="span">
-      ![](images/IG1312.webp#illustration){ width="400px" }
+      ![](images/IG1312.webp#illustration){ width="80%" }
     </figure>
 
     1.  Install a new O-ring to the housing.
@@ -77,7 +77,7 @@
     3.  Align the cutout portion of the coupling with the groove of the housing.
 
         <figure markdown="span">
-          ![](images/IG1360.webp#illustration){ width="400px" }
+          ![](images/IG1360.webp#illustration){ width="80%" }
         </figure>
 
     4.  Insert the distributor, aligning the center of the flange with that of the bolt hole on the cylinder head.
@@ -88,19 +88,19 @@
     1.  Insert the grommet portion into the terminal hole of the ignition coil.
 
         <figure markdown="span">
-          ![](images/IG1394.webp#illustration){ width="400px" }
+          ![](images/IG1394.webp#illustration){ width="80%" }
         </figure>
 
     2.  Align the spline of the ignition coil with the spline of the holder, and slide on the holder.
 
         <figure markdown="span">
-          ![](images/IG1378.webp#illustration){ width="400px" }
+          ![](images/IG1378.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-ig-17 } Check that the lock claw of the holder is by lightly pulling the holder.
 
         <figure markdown="span">
-          ![](images/IG1377.webp#illustration){ width="400px" }
+          ![](images/IG1377.webp#illustration){ width="80%" }
         </figure>
 
 6.  **Connect high-tension cords to spark plugs**
@@ -120,7 +120,7 @@
 10. **Connect tachometer**
 
     <figure markdown="span">
-      ![](images/FI5722.webp#illustration){ width="400px" }
+      ![](images/FI5722.webp#illustration){ width="80%" }
     </figure>
 
     Connect the test probe of a tachometer to terminal IG ⊖ of the check connector.
@@ -137,7 +137,7 @@
     1.  Using SST, connect terminals TE1 and E1 of the check connector.
 
         <figure markdown="span">
-          ![](images/FI5725.webp#illustration){ width="400px" }
+          ![](images/FI5725.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09843-18020`
@@ -145,7 +145,7 @@
     2.  Using a timing light, check the ignition timing.
 
         <figure markdown="span">
-          ![](images/IG1391.webp#illustration){ width="400px" }
+          ![](images/IG1391.webp#illustration){ width="80%" }
         </figure>
 
         **Ignition timing:** 10° BTDC @ idle (Transmission in neutral range)
@@ -158,7 +158,7 @@
     5.  [](){ #p-ig-18 } Remove the SST.
 
         <figure markdown="span">
-          ![](images/FI5702.webp#illustration){ width="400px" }
+          ![](images/FI5702.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09843-18020`
@@ -166,7 +166,7 @@
 12. **Further check ignition timing**
 
     <figure markdown="span">
-      ![](images/IG1384.webp#illustration){ width="400px" }
+      ![](images/IG1384.webp#illustration){ width="80%" }
     </figure>
 
     **Ignition timing:** 12 – 21° BTDC @ idle (Transmission in neutral range)

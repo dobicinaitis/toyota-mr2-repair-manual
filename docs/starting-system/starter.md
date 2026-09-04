@@ -29,7 +29,7 @@
     5. Remove the two bolts, wire clamp and starter.
 
     <figure markdown="span">
-      ![](images/ST0892.webp#illustration){ width="400px" }
+      ![](images/ST0892.webp#illustration){ width="80%" }
     </figure>
 
 ## Components
@@ -61,7 +61,7 @@
     3. (1.4 kW and 1.6 kW Types)<br>Remove the O-ring from the field frame.
 
     <figure markdown="span">
-      ![](images/ST0233.webp#illustration){ width="400px" }
+      ![](images/ST0233.webp#illustration){ width="80%" }
     </figure>
 
 2.  Remove starter housing, clutch assembly and gear(s).
@@ -69,7 +69,7 @@
     1.  Remove the two screws.
 
         <figure markdown="span">
-          ![](images/ST0406.webp#illustration){ width="400px" }
+          ![](images/ST0406.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the following parts from the magnetic switch:
@@ -82,7 +82,7 @@
         * Idler gear
 
         <figure markdown="span">
-          ![](images/ST0407.webp#illustration){ width="400px" }
+          ![](images/ST0407.webp#illustration){ width="80%" }
         </figure>
 
         (1.4 kW (Conventional) and 1.6 kW Types)
@@ -94,7 +94,7 @@
         * Idler gear
 
         <figure markdown="span">
-          ![](images/ST0408.webp#illustration){ width="400px" }
+          ![](images/ST0408.webp#illustration){ width="80%" }
         </figure>
 
 3.  Remove steel ball.
@@ -102,7 +102,7 @@
     Using a magnetic finger, remove the steel ball from the clutch shaft hole.
 
     <figure markdown="span">
-      ![](images/ST0505.webp#illustration){ width="400px" }
+      ![](images/ST0505.webp#illustration){ width="80%" }
     </figure>
 
 4.  [](){ #p-st-7 } Remove brush holder.
@@ -112,11 +112,11 @@
     3. Using a screwdriver, hold the spring back and disconnect the brush from the brush holder. Disconnect the four brushes, and remove the brush holder.
 
     <figure markdown="span">
-      ![](images/ST0235.webp#illustration){ width="400px" }
+      ![](images/ST0235.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/ST0236.webp#illustration){ width="400px" }
+      ![](images/ST0236.webp#illustration){ width="80%" }
     </figure>
 
 5.  Remove armature from field frame.
@@ -132,7 +132,7 @@
     If there is no continuity, replace the armature.
 
     <figure markdown="span">
-      ![](images/ST0012.webp#illustration){ width="400px" }
+      ![](images/ST0012.webp#illustration){ width="80%" }
     </figure>
 
 2.  Inspect commutator for ground.
@@ -142,7 +142,7 @@
     If there is continuity, replace the armature.
 
     <figure markdown="span">
-      ![](images/ST0011.webp#illustration){ width="400px" }
+      ![](images/ST0011.webp#illustration){ width="80%" }
     </figure>
 
 ### Commutator
@@ -161,7 +161,7 @@
     If the circle runout is greater than maximum, correct it on a lathe.
 
     <figure markdown="span">
-      ![](images/ST0013.webp#illustration){ width="400px" }
+      ![](images/ST0013.webp#illustration){ width="80%" }
     </figure>
 
 3.  Inspect commutator diameter.
@@ -174,7 +174,7 @@
     If the diameter is less than minimum, replace the armature.
 
     <figure markdown="span">
-      ![](images/ST0014.webp#illustration){ width="400px" }
+      ![](images/ST0014.webp#illustration){ width="80%" }
     </figure>
 
 4.  Inspect undercut depth.
@@ -187,7 +187,7 @@
     If the undercut depth is less than minimum, correct it with a hacksaw blade.
 
     <figure markdown="span">
-      ![](images/ST0040.webp#illustration){ width="400px" }
+      ![](images/ST0040.webp#illustration){ width="80%" }
     </figure>
 
 ### Field coil (field frame)
@@ -199,7 +199,7 @@
     If there is no continuity, replace the field frame.
 
     <figure markdown="span">
-      ![](images/ST0015.webp#illustration){ width="400px" }
+      ![](images/ST0015.webp#illustration){ width="80%" }
     </figure>
 
 2.  Inspect field coil for ground.
@@ -209,7 +209,7 @@
     If there is continuity, replace the field frame.
 
     <figure markdown="span">
-      ![](images/ST0016.webp#illustration){ width="400px" }
+      ![](images/ST0016.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-st-9 }
@@ -232,7 +232,7 @@
     If the length is less than minimum, replace the brush holder and field frame.
 
     <figure markdown="span">
-      ![](images/ST0018.webp#illustration){ width="400px" }
+      ![](images/ST0018.webp#illustration){ width="80%" }
     </figure>
 
 ### Brush springs
@@ -246,7 +246,7 @@
     If the installed load is not as specified, replace the brush springs.
 
     <figure markdown="span">
-      ![](images/ST0019.webp#illustration){ width="400px" }
+      ![](images/ST0019.webp#illustration){ width="80%" }
     </figure>
 
 ### Brush holder
@@ -258,7 +258,7 @@
     If there is continuity, repair or replace the brush holder.
 
     <figure markdown="span">
-      ![](images/ST0062.webp#illustration){ width="400px" }
+      ![](images/ST0062.webp#illustration){ width="80%" }
     </figure>
 
 ### Clutch and gears
@@ -278,7 +278,7 @@
     If necessary, replace the clutch assembly.
 
     <figure markdown="span">
-      ![](images/ST0507.webp#illustration){ width="400px" }
+      ![](images/ST0507.webp#illustration){ width="80%" }
     </figure>
 
 3.  [](){ #p-st-10 } If necessary, replace clutch assembly.
@@ -288,20 +288,20 @@
     1.  Mount a brass bar in a vise, and install the starter housing and clutch assembly to the brass bar.
 
         <figure markdown="span">
-          ![](images/ST0413.webp#illustration){ width="400px" }
+          ![](images/ST0413.webp#illustration){ width="80%" }
         </figure>
 
     2.  Push down the pinion gear.
     3.  Using a plastic-faced hammer, tap down the stop collar.
 
         <figure markdown="span">
-          ![](images/ST0414.webp#illustration){ width="400px" }
+          ![](images/ST0414.webp#illustration){ width="80%" }
         </figure>
 
     4.  Using a screwdriver, pry out the snap ring.
 
         <figure markdown="span">
-          ![](images/ST0415.webp#illustration){ width="400px" }
+          ![](images/ST0415.webp#illustration){ width="80%" }
         </figure>
 
     5.  Disassemble the following parts:
@@ -317,7 +317,7 @@
         * Clutch shaft
 
         <figure markdown="span">
-          ![](images/ST0851_ST0416.webp#illustration){ width="400px" }
+          ![](images/ST0851_ST0416.webp#illustration){ width="80%" }
         </figure>
 
     [](){ #p-st-11 }
@@ -332,13 +332,13 @@
         * Clutch shaft
 
         <figure markdown="span">
-          ![](images/ST0852.webp#illustration){ width="400px" }
+          ![](images/ST0852.webp#illustration){ width="80%" }
         </figure>
 
     2.  Mount a brass bar in a vise, install the starter housing and clutch assembly to the brass bar.
 
         <figure markdown="span">
-          ![](images/ST0417.webp#illustration){ width="400px" }
+          ![](images/ST0417.webp#illustration){ width="80%" }
         </figure>
 
     3.  Push down the starter housing, and install the following parts:
@@ -349,28 +349,28 @@
         * Stop collar
 
         <figure markdown="span">
-          ![](images/ST0426.webp#illustration){ width="400px" }
+          ![](images/ST0426.webp#illustration){ width="80%" }
         </figure>
 
     4.  Push down the pinion gear.
     5.  Using snap ring pliers, install a new snap ring.
 
         <figure markdown="span">
-          ![](images/ST0418.webp#illustration){ width="400px" }
+          ![](images/ST0418.webp#illustration){ width="80%" }
         </figure>
 
     6.  [](){ #p-st-12 } Using pliers, compress the snap ring.
     7.  Check that the snap ring fits correctly.
 
         <figure markdown="span">
-          ![](images/ST0419.webp#illustration){ width="400px" }
+          ![](images/ST0419.webp#illustration){ width="80%" }
         </figure>
 
     8.  Remove the starter housing and clutch assembly from the brass bar.
     9.  Using a plastic-faced hammer, tap the clutch shaft and install the stop collar onto the snap ring.
 
         <figure markdown="span">
-          ![](images/ST0420.webp#illustration){ width="400px" }
+          ![](images/ST0420.webp#illustration){ width="80%" }
         </figure>
 
 ### Bearings
@@ -382,7 +382,7 @@
     If resistance is felt or if the bearing sticks, replace the bearing.
 
     <figure markdown="span">
-      ![](images/ST0041.webp#illustration){ width="400px" }
+      ![](images/ST0041.webp#illustration){ width="80%" }
     </figure>
 
 2.  If necessary, replace bearings.
@@ -392,7 +392,7 @@
         **SST** `09286-46011`
 
         <figure markdown="span">
-          ![](images/ST0042.webp#illustration){ width="400px" }
+          ![](images/ST0042.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using SST and a press, press in a new front bearing.
@@ -406,7 +406,7 @@
     3.  Using a press, press in a new rear bearing.
 
         <figure markdown="span">
-          ![](images/ST0043.webp#illustration){ width="400px" }
+          ![](images/ST0043.webp#illustration){ width="80%" }
         </figure>
 
 [](){ #p-st-13 }
@@ -419,7 +419,7 @@
     If there is no continuity, replace the magnetic switch.
 
     <figure markdown="span">
-      ![](images/ST0137.webp#illustration){ width="400px" }
+      ![](images/ST0137.webp#illustration){ width="80%" }
     </figure>
 
 2.  Perform hold-in coil open circuit test.
@@ -429,7 +429,7 @@
     If there is no continuity, replace the magnetic switch.
 
     <figure markdown="span">
-      ![](images/ST0138.webp#illustration){ width="400px" }
+      ![](images/ST0138.webp#illustration){ width="80%" }
     </figure>
 
 ## Assembly of starter
@@ -445,7 +445,7 @@
     Apply grease to the armature bearings, and insert the armature into the field frame.
 
     <figure markdown="span">
-      ![](images/ST0237.webp#illustration){ width="400px" }
+      ![](images/ST0237.webp#illustration){ width="80%" }
     </figure>
 
 2.  Install brush holder.
@@ -458,19 +458,19 @@
             Check that positive (`+`) lead wires are not grounded.
 
         <figure markdown="span">
-          ![](images/ST0236.webp#illustration){ width="400px" }
+          ![](images/ST0236.webp#illustration){ width="80%" }
         </figure>
 
     3.  (1.4 kW and 1.6 kW Types)<br>Place a new O-ring in position on the field frame.
 
         <figure markdown="span">
-          ![](images/ST0409.webp#illustration){ width="400px" }
+          ![](images/ST0409.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-st-14 } Install the end cover with two new O-rings (1.4 kW and 1.6 kW types) and the two screws.
 
         <figure markdown="span">
-          ![](images/ST0235.webp#illustration){ width="400px" }
+          ![](images/ST0235.webp#illustration){ width="80%" }
         </figure>
 
 3.  Insert steel ball into clutch shaft hole.
@@ -479,7 +479,7 @@
     2. Insert the steel ball into the clutch shaft hole.
 
     <figure markdown="span">
-      ![](images/ST0506.webp#illustration){ width="400px" }
+      ![](images/ST0506.webp#illustration){ width="80%" }
     </figure>
 
 4.  Install gear(s).
@@ -488,7 +488,7 @@
     2.  Insert the return spring into the magnetic switch hole.
 
         <figure markdown="span">
-          ![](images/ST0244.webp#illustration){ width="400px" }
+          ![](images/ST0244.webp#illustration){ width="80%" }
         </figure>
 
     3.  Place the following parts in position on the starter housing:
@@ -499,7 +499,7 @@
         * Bearing
 
         <figure markdown="span">
-          ![](images/ST0411.webp#illustration){ width="400px" }
+          ![](images/ST0411.webp#illustration){ width="80%" }
         </figure>
 
         (1.4 kW (Conventional) and 1.6 kW Types)
@@ -509,13 +509,13 @@
         * Pinion gear
 
         <figure markdown="span">
-          ![](images/ST0412.webp#illustration){ width="400px" }
+          ![](images/ST0412.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-st-15 } Assemble the starter housing and magnetic switch with the two screws.
 
         <figure markdown="span">
-          ![](images/ST0406.webp#illustration){ width="400px" }
+          ![](images/ST0406.webp#illustration){ width="80%" }
         </figure>
 
 5.  Install field frame and armature assembly.
@@ -523,27 +523,27 @@
     1.  (1.4 kW and 1.6 kW Types)<br>Place a new O-ring in position on the field frame.
 
         <figure markdown="span">
-          ![](images/ST0410.webp#illustration){ width="400px" }
+          ![](images/ST0410.webp#illustration){ width="80%" }
         </figure>
 
     2.  Align the protrusion of the field frame with the cutout of the magnetic switch.
 
         <figure markdown="span">
-          ![](images/ST0767.webp#illustration){ width="400px" }
+          ![](images/ST0767.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/ST0716.webp#illustration){ width="400px" }
+          ![](images/ST0716.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/ST0896.webp#illustration){ width="400px" }
+          ![](images/ST0896.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-st-16 } Install the field frame and armature assembly with the two through bolts.
 
         <figure markdown="span">
-          ![](images/ST0232.webp#illustration){ width="400px" }
+          ![](images/ST0232.webp#illustration){ width="80%" }
         </figure>
 
     4.  Connect the lead wire to terminal `C`, and install the nut.
@@ -562,7 +562,7 @@
     If the pinion gear does not move, replace the magnetic switch.
 
     <figure markdown="span">
-      ![](images/ST0140.webp#illustration){ width="400px" }
+      ![](images/ST0140.webp#illustration){ width="80%" }
     </figure>
 
 2.  Perform hold-in test.
@@ -572,7 +572,7 @@
     If the pinion gear returns inward, replace the magnetic switch.
 
     <figure markdown="span">
-      ![](images/ST0141.webp#illustration){ width="400px" }
+      ![](images/ST0141.webp#illustration){ width="80%" }
     </figure>
 
 3.  Inspect plunger return.
@@ -582,7 +582,7 @@
     If the pinion gear does not return, replace the magnetic switch.
 
     <figure markdown="span">
-      ![](images/ST0142.webp#illustration){ width="400px" }
+      ![](images/ST0142.webp#illustration){ width="80%" }
     </figure>
 
 4.  Perform no-load performance test.
@@ -593,7 +593,7 @@
     **Standard amperage:** 90 A or less at 11.5 V
 
     <figure markdown="span">
-      ![](images/ST0143.webp#illustration){ width="400px" }
+      ![](images/ST0143.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-st-17 }
@@ -613,7 +613,7 @@
     5. Install the terminal cover.
 
     <figure markdown="span">
-      ![](images/ST0892.webp#illustration){ width="400px" }
+      ![](images/ST0892.webp#illustration){ width="80%" }
     </figure>
 
 2.  Install air cleaner.

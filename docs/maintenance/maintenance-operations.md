@@ -24,13 +24,13 @@
         the ribs, it should be replaced.
 
     <figure markdown="span">
-      ![](images/CH0004_CH0752.webp#illustration){ width="400px" }
+      ![](images/CH0004_CH0752.webp#illustration){ width="80%" }
     </figure>
 
 2.  Using a belt tension gauge, measure the drive belt tension.
 
     <figure markdown="span">
-      ![](images/EC0003_EC0004_EC0001.webp#illustration){ width="400px" }
+      ![](images/EC0003_EC0004_EC0001.webp#illustration){ width="80%" }
     </figure>
 
     **Belt tension gauge:**
@@ -58,7 +58,7 @@
         * After installing a new belt, run the engine for about 5 minutes and recheck the belt tension.
 
     <figure markdown="span">
-      ![](images/CH0087.webp#illustration){ width="400px" }
+      ![](images/CH0087.webp#illustration){ width="80%" }
     </figure>
 
 ### 3. Inspect air filter
@@ -72,7 +72,7 @@
     First blow from the inside thoroughly, then blow off the outside of the element.
 
     <figure markdown="span">
-      ![](images/MA0061.webp#illustration){ width="400px" }
+      ![](images/MA0061.webp#illustration){ width="80%" }
     </figure>
 
 ### 4. Replace air filter
@@ -85,13 +85,13 @@ Replace the air cleaner element with a new one.
 1.  Disconnect the spark plug cords at the rubber boot. DO NOT pull on the cords.
 
     <figure markdown="span">
-      ![](images/IG0863.webp#illustration){ width="400px" }
+      ![](images/IG0863.webp#illustration){ width="80%" }
     </figure>
 
 2.  Using a 16 mm plug wrench, remove the spark plugs.
 
     <figure markdown="span">
-      ![](images/IG0864.webp#illustration){ width="400px" }
+      ![](images/IG0864.webp#illustration){ width="80%" }
     </figure>
 
 3.  (3S-GTE)
@@ -110,7 +110,7 @@ Replace the air cleaner element with a new one.
         If adjusting the gap of a new spark plug, bend only the base of the ground electrode. DO NOT touch the tip.
 
     <figure markdown="span">
-      ![](images/IG0317_IG0151.webp#illustration){ width="400px" }
+      ![](images/IG0317_IG0151.webp#illustration){ width="80%" }
     </figure>
 
 4.  (5S-FE)
@@ -125,7 +125,7 @@ Replace the air cleaner element with a new one.
     * NGK `BKR5EYA11`
 
     <figure markdown="span">
-      ![](images/IG0657_IG0658.webp#illustration){ width="400px" }
+      ![](images/IG0657_IG0658.webp#illustration){ width="80%" }
     </figure>
 
 5.  Using a 16 mm plug wrench, install the spark plugs.
@@ -152,7 +152,7 @@ Replace the air cleaner element with a new one.
 * w/o oil filter change – 3.8 liters (4.0 US qts, 3.3 Imp. qts)
 
 <figure markdown="span">
-  ![](images/LU0884.webp#illustration){ width="400px" }
+  ![](images/LU0884.webp#illustration){ width="80%" }
 </figure>
 
 ### 7. Replace engine coolant
@@ -198,7 +198,7 @@ Replace the air cleaner element with a new one.
         Do not attempt to wash the charcoal.
 
     <figure markdown="span">
-      ![](images/EC1121.webp#illustration){ width="400px" }
+      ![](images/EC1121.webp#illustration){ width="80%" }
     </figure>
 
 3.  Reconnect the hoses to the charcoal canister.
@@ -216,7 +216,7 @@ Replace the air cleaner element with a new one.
 4.  Install the cap and check the torque limiter.
 
     <figure markdown="span">
-      ![](images/MA0379.webp#illustration){ width="400px" }
+      ![](images/MA0379.webp#illustration){ width="80%" }
     </figure>
 
 ### 10. Inspect fuel lines and connections
@@ -224,7 +224,7 @@ Replace the air cleaner element with a new one.
 Visually check the fuel lines for cracks, leakage, loose connections, deformation or tank band looseness.
 
 <figure markdown="span">
-  ![](images/MA0649.webp#illustration){ width="400px" }
+  ![](images/MA0649.webp#illustration){ width="80%" }
 </figure>
 
 ### 11. Inspect exhaust pipes and mountings
@@ -267,7 +267,7 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
     * Twists
 
     <figure markdown="span">
-      ![](images/MA0055.webp#illustration){ width="400px" }
+      ![](images/MA0055.webp#illustration){ width="80%" }
     </figure>
 
 2.  Check all clamps for tightness and connections for leakage.
@@ -286,7 +286,7 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
         is contacting the disc rotor. If so, the disc pad should be replaced.
 
     <figure markdown="span">
-      ![](images/MA0611_BR4620.webp#illustration){ width="400px" }
+      ![](images/MA0611_BR4620.webp#illustration){ width="80%" }
     </figure>
 
 2.  Check the disc for wear or runout.
@@ -302,7 +302,7 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
     * Rear – 0.10 mm (0.0039 in.)
 
     <figure markdown="span">
-      ![](images/BR4264_BR4265.webp#illustration){ width="400px" }
+      ![](images/BR4264_BR4265.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-ma-9 }
@@ -318,7 +318,7 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
     finger pressure.
 
     <figure markdown="span">
-      ![](images/SR3556_SR3807.webp#illustration){ width="400px" }
+      ![](images/SR3556_SR3807.webp#illustration){ width="80%" }
     </figure>
 
 2.  Check the steering linkage for looseness or damage.
@@ -330,7 +330,7 @@ Visually check the pipes, hangers and connections for severe corrosion, leaks or
     * Boot clamps are not loose.
 
     <figure markdown="span">
-      ![](images/MA0624.webp#illustration){ width="400px" }
+      ![](images/MA0624.webp#illustration){ width="80%" }
     </figure>
 
 ### 16. Inspect SRS airbag
@@ -352,7 +352,7 @@ If necessary, replace the pad.
     * Before disposing of the steering wheel pad, the airbag must first be deployed by using an SST (see page AB-82).
 
 <figure markdown="span">
-  ![](images/MA0259.webp#illustration){ width="400px" }
+  ![](images/MA0259.webp#illustration){ width="80%" }
 </figure>
 
 ### 17. Inspect steering gear housing oil
@@ -365,7 +365,7 @@ Check the steering gear box for oil leakage.
 Check the drive shaft boots for clamp looseness, leakage or damage.
 
 <figure markdown="span">
-  ![](images/MA0647.webp#illustration){ width="400px" }
+  ![](images/MA0647.webp#illustration){ width="80%" }
 </figure>
 
 ### 19. Inspect ball joints and dust covers
@@ -384,13 +384,13 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
     If there is play, replace the ball joint.
 
     <figure markdown="span">
-      ![](images/MA0650.webp#illustration){ width="400px" }
+      ![](images/MA0650.webp#illustration){ width="80%" }
     </figure>
 
 2.  Check the dust cover for damage.
 
     <figure markdown="span">
-      ![](images/MA0646.webp#illustration){ width="400px" }
+      ![](images/MA0646.webp#illustration){ width="80%" }
     </figure>
 
 ### 20. Check transaxle fluid
@@ -410,7 +410,7 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
     * Transaxle fluid (5S-FE): See item 21 (A)
 
     <figure markdown="span">
-      ![](images/MA0514.webp#illustration){ width="400px" }
+      ![](images/MA0514.webp#illustration){ width="80%" }
     </figure>
 
 3.  Reinstall the filler plug securely.
@@ -429,7 +429,7 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
     **Transmission fluid:** See item 21 (B)
 
     <figure markdown="span">
-      ![](images/MA0156.webp#illustration){ width="400px" }
+      ![](images/MA0156.webp#illustration){ width="80%" }
     </figure>
 
 ### 21. Replace transaxle oil (fluid)
@@ -460,7 +460,7 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
     **Capacity:** 2.6 liters (2.7 US qts, 2.3 Imp. qts)
 
     <figure markdown="span">
-      ![](images/MA0515.webp#illustration){ width="400px" }
+      ![](images/MA0515.webp#illustration){ width="80%" }
     </figure>
 
 4.  Reinstall the filler plug securely.
@@ -471,7 +471,7 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
 2.  Reinstall the drain plugs securely.
 
     <figure markdown="span">
-      ![](images/AT5924.webp#illustration){ width="400px" }
+      ![](images/AT5924.webp#illustration){ width="80%" }
     </figure>
 
 3.  With the engine OFF, add new fluid through the dipstick tube.
@@ -488,7 +488,7 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
         Do not overfill. The transmission and differential are separate units.
 
     <figure markdown="span">
-      ![](images/AT5941.webp#illustration){ width="400px" }
+      ![](images/AT5941.webp#illustration){ width="80%" }
     </figure>
 
     [](){ #p-ma-12 }
@@ -504,7 +504,7 @@ Tighten the following parts:
     **Torque:** 375 kg-cm (27 ft-lb, 37 N·m)
 
     <figure markdown="span">
-      ![](images/MA0116.webp#illustration){ width="400px" }
+      ![](images/MA0116.webp#illustration){ width="80%" }
     </figure>
 
 * Strut bar bracket-to-body mount bolts
@@ -516,7 +516,7 @@ Tighten the following parts:
     **Torque:** 1,150 kg-cm (83 ft-lb, 113 N·m)
 
 <figure markdown="span">
-  ![](images/MA0640.webp#illustration){ width="400px" }
+  ![](images/MA0640.webp#illustration){ width="80%" }
 </figure>
 
 ### 23. Body inspection

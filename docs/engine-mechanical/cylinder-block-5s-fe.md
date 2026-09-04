@@ -28,7 +28,7 @@
     Remove the two bolts, two nuts and upper brace.
 
     <figure markdown="span">
-      ![](images/EM8881.webp#illustration){ width="400px" }
+      ![](images/EM8881.webp#illustration){ width="80%" }
     </figure>
 
 9.  Remove air cleaner assembly.
@@ -39,7 +39,7 @@
     4.  Remove the three bolts and air cleaner case.
 
     <figure markdown="span">
-      ![](images/EM8882.webp#illustration){ width="400px" }
+      ![](images/EM8882.webp#illustration){ width="80%" }
     </figure>
 
 10. Disconnect accelerator cable from throttle body.
@@ -53,20 +53,20 @@
     6.  Disconnect the cable from the accelerator linkage.
 
     <figure markdown="span">
-      ![](images/EM8552.webp#illustration){ width="400px" }
+      ![](images/EM8552.webp#illustration){ width="80%" }
     </figure>
 
 12. [](){ #p-em-183 } Disconnect brake booster vacuum hose.
 13. Disconnect ground strap connector.
 
     <figure markdown="span">
-      ![](images/ground-strap-brake-booster-hose-5s-fe.webp#illustration){ width="400px" }
+      ![](images/ground-strap-brake-booster-hose-5s-fe.webp#illustration){ width="80%" }
     </figure>
 
 14. Remove check connector and vacuum sensor.
 
     <figure markdown="span">
-      ![](images/EM8554.webp#illustration){ width="400px" }
+      ![](images/EM8554.webp#illustration){ width="80%" }
     </figure>
 
 15. Remove A/C VSV.
@@ -78,13 +78,13 @@
         2. Vacuum hose from intake manifold
 
         <figure markdown="span">
-          ![](images/EM9066.webp#illustration){ width="400px" }
+          ![](images/EM9066.webp#illustration){ width="80%" }
         </figure>
 
     3.  Remove the two bolts and A/C VSV.
 
         <figure markdown="span">
-          ![](images/EM8555.webp#illustration){ width="400px" }
+          ![](images/EM8555.webp#illustration){ width="80%" }
         </figure>
 
 16. Remove water filler.
@@ -97,7 +97,7 @@
     2.  Remove the two bolts and water filler.
 
     <figure markdown="span">
-      ![](images/EM9027.webp#illustration){ width="400px" }
+      ![](images/EM9027.webp#illustration){ width="80%" }
     </figure>
 
 17. [](){ #p-em-184 } Remove charcoal canister.
@@ -106,7 +106,7 @@
     2.  Remove the two bolts and charcoal canister.
 
     <figure markdown="span">
-      ![](images/EM9028.webp#illustration){ width="400px" }
+      ![](images/EM9028.webp#illustration){ width="80%" }
     </figure>
 
 18. Remove engine relay box, and disconnect engine wire.
@@ -114,14 +114,14 @@
     1.  Remove the two bolts and relay box. Disconnect the luggage compartment striker cable.
 
         <figure markdown="span">
-          ![](images/EM8632.webp#illustration){ width="400px" }
+          ![](images/EM8632.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the upper and lower covers from the relay box.
     3.  Disconnect the positive (`+`) cable and two connectors of the engine wire from the relay box.
 
         <figure markdown="span">
-          ![](images/EM9131.webp#illustration){ width="400px" }
+          ![](images/EM9131.webp#illustration){ width="80%" }
         </figure>
 
 19. Remove ignition coil and igniter.
@@ -132,7 +132,7 @@
     4.  Remove the two bolts, the ignition coil and igniter assembly. Disconnect the noise filter.
 
     <figure markdown="span">
-      ![](images/EM8631.webp#illustration){ width="400px" }
+      ![](images/EM8631.webp#illustration){ width="80%" }
     </figure>
 
 20. [](){ #p-em-185 } Disconnect engine wire from luggage compartment.
@@ -152,13 +152,13 @@
 21. Disconnect starter cable.
 
     <figure markdown="span">
-      ![](images/EM9104.webp#illustration){ width="400px" }
+      ![](images/EM9104.webp#illustration){ width="80%" }
     </figure>
 
 22. Disconnect radiator hose from water inlet.
 
     <figure markdown="span">
-      ![](images/EM8556.webp#illustration){ width="400px" }
+      ![](images/EM8556.webp#illustration){ width="80%" }
     </figure>
 
 23. [](){ #p-em-186 } Disconnect fuel inlet hose.
@@ -168,7 +168,7 @@
         Catch leaking fuel in a container.
 
     <figure markdown="span">
-      ![](images/EM8720.webp#illustration){ width="400px" }
+      ![](images/EM8720.webp#illustration){ width="80%" }
     </figure>
 
 24. Disconnect fuel return hose.
@@ -181,23 +181,23 @@
 26. Disconnect heater hoses.
 
     <figure markdown="span">
-      ![](images/EM9029.webp#illustration){ width="400px" }
+      ![](images/EM9029.webp#illustration){ width="80%" }
     </figure>
 
 27. Disconnect transaxle control cable(s) from transaxle.
 
     <figure markdown="span">
-      ![](images/EM9067.webp#illustration){ width="400px" }
+      ![](images/EM9067.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM9030.webp#illustration){ width="400px" }
+      ![](images/EM9030.webp#illustration){ width="80%" }
     </figure>
 
 28. (A/T) Disconnect transaxle oil cooler hoses.
 
     <figure markdown="span">
-      ![](images/EM8630.webp#illustration){ width="400px" }
+      ![](images/EM8630.webp#illustration){ width="80%" }
     </figure>
 
 29. [](){ #p-em-187 } Remove front exhaust pipe.
@@ -206,19 +206,19 @@
     2.  Remove the two bolts holding the front exhaust pipe to the tailpipe. Remove the gasket.
 
         <figure markdown="span">
-          ![](images/EM9105.webp#illustration){ width="400px" }
+          ![](images/EM9105.webp#illustration){ width="80%" }
         </figure>
 
     3.  Remove the two bolts and support bracket.
 
         <figure markdown="span">
-          ![](images/EM8949.webp#illustration){ width="400px" }
+          ![](images/EM8949.webp#illustration){ width="80%" }
         </figure>
 
     4.  Using a 14 mm deep socket wrench, remove the three nuts, exhaust pipe and gasket.
 
         <figure markdown="span">
-          ![](images/EM9106.webp#illustration){ width="400px" }
+          ![](images/EM9106.webp#illustration){ width="80%" }
         </figure>
 
 30. Remove drive shaft. (See pages SA-39 to 41)
@@ -227,7 +227,7 @@
     1.  Disconnect the idler pulley bolt and adjusting bolt, and remove the drive belt.
 
         <figure markdown="span">
-          ![](images/EM8721.webp#illustration){ width="400px" }
+          ![](images/EM8721.webp#illustration){ width="80%" }
         </figure>
 
     2.  Disconnect the A/C compressor connector.
@@ -235,7 +235,7 @@
     4.  Remove the three bolts and idler pulley bracket.
 
         <figure markdown="span">
-          ![](images/EM8722_EM9115.webp#illustration){ width="400px" }
+          ![](images/EM8722_EM9115.webp#illustration){ width="80%" }
         </figure>
 
     5.  [](){ #p-em-188 } Remove the two bolts, and disconnect the A/C compressor from the engine.
@@ -245,13 +245,13 @@
             Put aside the compressor, and suspend it to the radiator support with a string.
 
         <figure markdown="span">
-          ![](images/EM8723.webp#illustration){ width="400px" }
+          ![](images/EM8723.webp#illustration){ width="80%" }
         </figure>
 
 32. Disconnect speedometer cable.
 
     <figure markdown="span">
-      ![](images/EM8724.webp#illustration){ width="400px" }
+      ![](images/EM8724.webp#illustration){ width="80%" }
     </figure>
 
 33. Remove rear engine mounting insulator.
@@ -260,7 +260,7 @@
     2.  Remove the three bolts and mounting insulator.
 
     <figure markdown="span">
-      ![](images/EM8728.webp#illustration){ width="400px" }
+      ![](images/EM8728.webp#illustration){ width="80%" }
     </figure>
 
 34. Remove front engine mounting insulator.
@@ -269,7 +269,7 @@
     2.  Remove the four bolts and mounting insulator.
 
     <figure markdown="span">
-      ![](images/EM8912.webp#illustration){ width="400px" }
+      ![](images/EM8912.webp#illustration){ width="80%" }
     </figure>
 
 35. Remove front engine mounting bracket, clutch release cylinder (M/T) and transaxle control cable (A/T).
@@ -277,19 +277,19 @@
     1.  (M/T) Remove the bolt and nut holding the clutch release cylinder to the transaxle.
 
         <figure markdown="span">
-          ![](images/EM8726.webp#illustration){ width="400px" }
+          ![](images/EM8726.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-189 } Remove the two bolts and mounting bracket and control cable bracket (A/T).
 
         <figure markdown="span">
-          ![](images/EM8913.webp#illustration){ width="400px" }
+          ![](images/EM8913.webp#illustration){ width="80%" }
         </figure>
 
     3.  (M/T) Disconnect the clutch release cylinder without disconnecting the tube.
 
         <figure markdown="span">
-          ![](images/EM8727.webp#illustration){ width="400px" }
+          ![](images/EM8727.webp#illustration){ width="80%" }
         </figure>
 
 36. Remove rear engine mounting bracket.
@@ -297,7 +297,7 @@
     Remove the three bolts and mounting bracket.
 
     <figure markdown="span">
-      ![](images/EM8911.webp#illustration){ width="400px" }
+      ![](images/EM8911.webp#illustration){ width="80%" }
     </figure>
 
 37. Remove RH engine mounting stay.
@@ -305,7 +305,7 @@
     Remove the bolt, nut and mounting stay.
 
     <figure markdown="span">
-      ![](images/EM8731.webp#illustration){ width="400px" }
+      ![](images/EM8731.webp#illustration){ width="80%" }
     </figure>
 
 38. (M/T) Remove LH engine mounting stay.
@@ -313,7 +313,7 @@
     Remove the two bolts, speedometer cable clamp and mounting stay.
 
     <figure markdown="span">
-      ![](images/EM8732.webp#illustration){ width="400px" }
+      ![](images/EM8732.webp#illustration){ width="80%" }
     </figure>
 
 39. [](){ #p-em-190 } Remove lateral control rod (M/T) and air cleaner case bracket.
@@ -322,14 +322,14 @@
     strap (from the transaxle).
 
     <figure markdown="span">
-      ![](images/EM8733.webp#illustration){ width="400px" }
+      ![](images/EM8733.webp#illustration){ width="80%" }
     </figure>
 
     (A/T) Remove the four bolts and case bracket. Disconnect the charcoal canister tube and ground strap (from the
     transaxle).
 
     <figure markdown="span">
-      ![](images/EM8734.webp#illustration){ width="400px" }
+      ![](images/EM8734.webp#illustration){ width="80%" }
     </figure>
 
 40. Remove engine and transaxle assembly from vehicle.
@@ -337,35 +337,35 @@
     1.  Attach the engine chain hoist to the engine hangers.
 
         <figure markdown="span">
-          ![](images/EM9071.webp#illustration){ width="400px" }
+          ![](images/EM9071.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the three (M/T) or four (A/T) bolts holding the LH mounting insulator to the transaxle.
 
         <figure markdown="span">
-          ![](images/EM8737.webp#illustration){ width="400px" }
+          ![](images/EM8737.webp#illustration){ width="80%" }
         </figure>
 
     3.  Remove the through bolt, nut and LH mounting insulator.
 
         <figure markdown="span">
-          ![](images/EM8736.webp#illustration){ width="400px" }
+          ![](images/EM8736.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-191 } Remove the three (M/T), two (A/T) bolts and LH mounting bracket.
 
         <figure markdown="span">
-          ![](images/EM8740.webp#illustration){ width="400px" }
+          ![](images/EM8740.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM8738.webp#illustration){ width="400px" }
+          ![](images/EM8738.webp#illustration){ width="80%" }
         </figure>
 
     5.  Remove the two nuts holding the RH mounting insulator to the mounting bracket.
 
         <figure markdown="span">
-          ![](images/EM8741.webp#illustration){ width="400px" }
+          ![](images/EM8741.webp#illustration){ width="80%" }
         </figure>
 
     6.  Remove the through bolt and RH mounting insulator.
@@ -376,7 +376,7 @@
             Make sure the engine is clear of all wiring, hoses and cables.
 
         <figure markdown="span">
-          ![](images/EM9069.webp#illustration){ width="400px" }
+          ![](images/EM9069.webp#illustration){ width="80%" }
         </figure>
 
     8.  Place the engine and transaxle assembly onto the stand.
@@ -397,7 +397,7 @@
     Remove the bolt and end plate.
 
     <figure markdown="span">
-      ![](images/EM8959.webp#illustration){ width="400px" }
+      ![](images/EM8959.webp#illustration){ width="80%" }
     </figure>
 
 4.  Install engine to engine stand for disassembly.
@@ -407,7 +407,7 @@
     Remove the four bolts and mounting bracket.
 
     <figure markdown="span">
-      ![](images/EM9089.webp#illustration){ width="400px" }
+      ![](images/EM9089.webp#illustration){ width="80%" }
     </figure>
 
 7.  Remove RH engine mounting bracket.
@@ -415,7 +415,7 @@
     Remove the four bolts and mounting bracket.
 
     <figure markdown="span">
-      ![](images/EM8759.webp#illustration){ width="400px" }
+      ![](images/EM8759.webp#illustration){ width="80%" }
     </figure>
 
 8.  Remove timing belt and pulleys. (See [Timing belt (5S-FE) › Removal of timing belt](timing-belt-5s-fe.md#p-em-49))
@@ -435,7 +435,7 @@
     Remove the six bolts, retainer and gasket.
 
     <figure markdown="span">
-      ![](images/EM7349.webp#illustration){ width="400px" }
+      ![](images/EM7349.webp#illustration){ width="80%" }
     </figure>
 
 2.  Check connecting rod thrust clearance.
@@ -450,7 +450,7 @@
     crankshaft.
 
     <figure markdown="span">
-      ![](images/EM7350.webp#illustration){ width="400px" }
+      ![](images/EM7350.webp#illustration){ width="80%" }
     </figure>
 
 3.  Remove connecting rod caps and check oil clearance.
@@ -459,7 +459,7 @@
         reassembly.
 
         <figure markdown="span">
-          ![](images/EM7351.webp#illustration){ width="400px" }
+          ![](images/EM7351.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using SST, remove the connecting rod cap nuts.
@@ -467,7 +467,7 @@
         **SST** `09011-38121`
 
         <figure markdown="span">
-          ![](images/EM7352.webp#illustration){ width="400px" }
+          ![](images/EM7352.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using a plastic-faced hammer, lightly tap the connecting rod bolts and lift off the connecting rod cap.
@@ -477,14 +477,14 @@
             Keep the lower bearing inserted with the connecting cap.
 
         <figure markdown="span">
-          ![](images/EM7528.webp#illustration){ width="400px" }
+          ![](images/EM7528.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-194 } Cover the connecting rod bolts with a short piece of hose to protect the crankshaft from
         damage.
 
         <figure markdown="span">
-          ![](images/EM7353.webp#illustration){ width="400px" }
+          ![](images/EM7353.webp#illustration){ width="80%" }
         </figure>
 
     5.  Clean crank pin and bearing.
@@ -493,13 +493,13 @@
         If the crank pin or bearing is damaged, replace the bearings. If necessary, grind or replace the crankshaft.
 
         <figure markdown="span">
-          ![](images/EM7529.webp#illustration){ width="400px" }
+          ![](images/EM7529.webp#illustration){ width="80%" }
         </figure>
 
     7.  Lay a strip of Plastigage across the crank pin.
 
         <figure markdown="span">
-          ![](images/EM7530.webp#illustration){ width="400px" }
+          ![](images/EM7530.webp#illustration){ width="80%" }
         </figure>
 
     8.  Install the connecting rod cap. (See [Assembly of cylinder block, step 6](#p-em-213))
@@ -514,13 +514,13 @@
             Do not turn the crankshaft.
 
         <figure markdown="span">
-          ![](images/EM7527.webp#illustration){ width="400px" }
+          ![](images/EM7527.webp#illustration){ width="80%" }
         </figure>
 
     9.  Remove the connecting rod cap. (See procedures (b) and (c) above)
 
         <figure markdown="span">
-          ![](images/EM7352.webp#illustration){ width="400px" }
+          ![](images/EM7352.webp#illustration){ width="80%" }
         </figure>
 
     10. [](){ #p-em-195 } Measure the Plastigage at its widest point.
@@ -547,11 +547,11 @@
             * Mark "3" – 1.492 – 1.496 mm (0.0587 – 0.0589 in.)
 
         <figure markdown="span">
-          ![](images/EM7531.webp#illustration){ width="400px" }
+          ![](images/EM7531.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM7709.webp#illustration){ width="400px" }
+          ![](images/EM7709.webp#illustration){ width="80%" }
         </figure>
 
     11. Completely remove the Plastigage.
@@ -561,7 +561,7 @@
     1.  Using a ridge reamer, remove all the carbon from the top of the cylinder.
 
         <figure markdown="span">
-          ![](images/EM7354.webp#illustration){ width="400px" }
+          ![](images/EM7354.webp#illustration){ width="80%" }
         </figure>
 
     2.  Cover the connecting rod bolts. (See [Disassembly of cylinder block](#p-em-194))
@@ -573,7 +573,7 @@
             * Arrange the piston and connecting rod assemblies in correct order.
 
         <figure markdown="span">
-          ![](images/EM7356.webp#illustration){ width="400px" }
+          ![](images/EM7356.webp#illustration){ width="80%" }
         </figure>
 
 5.  Check crankshaft thrust clearance.
@@ -589,7 +589,7 @@
     **Thrust washer thickness:** 2.440 – 2.490 mm (0.0961 – 0.0980 in.)
 
     <figure markdown="span">
-      ![](images/EM7434.webp#illustration){ width="400px" }
+      ![](images/EM7434.webp#illustration){ width="80%" }
     </figure>
 
 6.  [](){ #p-em-196 } Remove main bearing caps and check oil clearance.
@@ -597,7 +597,7 @@
     1.  Remove the main bearing cap bolts.
 
         <figure markdown="span">
-          ![](images/EM7435.webp#illustration){ width="400px" }
+          ![](images/EM7435.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using the removed main bearing cap bolts, pry the main bearing cap back and forth, and remove the main bearing
@@ -609,7 +609,7 @@
             * Arrange the main bearing caps and lower thrust washers in correct order.
 
         <figure markdown="span">
-          ![](images/EM7532.webp#illustration){ width="400px" }
+          ![](images/EM7532.webp#illustration){ width="80%" }
         </figure>
 
     3.  Lift out the crankshaft.
@@ -619,7 +619,7 @@
             Keep the upper bearing and upper thrust washers together with the cylinder block.
 
         <figure markdown="span">
-          ![](images/EM7436.webp#illustration){ width="400px" }
+          ![](images/EM7436.webp#illustration){ width="80%" }
         </figure>
 
     4.  Clean each main journal and bearing.
@@ -628,14 +628,14 @@
         If the journal or bearing is damaged, replace the bearings. If necessary, grind or replace the crankshaft.
 
         <figure markdown="span">
-          ![](images/EM7355.webp#illustration){ width="400px" }
+          ![](images/EM7355.webp#illustration){ width="80%" }
         </figure>
 
     6.  Place the crankshaft on the cylinder block.
     7.  Lay a strip of Plastigage across each journal.
 
         <figure markdown="span">
-          ![](images/EM7533.webp#illustration){ width="400px" }
+          ![](images/EM7533.webp#illustration){ width="80%" }
         </figure>
 
     8.  [](){ #p-em-197 } Install the main bearing caps. (See [Assembly of cylinder block, step 4](#p-em-212))
@@ -647,13 +647,13 @@
             Do not turn the crankshaft.
 
         <figure markdown="span">
-          ![](images/EM7437.webp#illustration){ width="400px" }
+          ![](images/EM7437.webp#illustration){ width="80%" }
         </figure>
 
     9.  Remove the main bearing caps. (See procedures (a) and (b) above)
 
         <figure markdown="span">
-          ![](images/EM7435.webp#illustration){ width="400px" }
+          ![](images/EM7435.webp#illustration){ width="80%" }
         </figure>
 
     10. Measure the Plastigage at its widest point.
@@ -701,11 +701,11 @@
         **Example:** Cylinder block "2" + Crankshaft "1" = Bearing "3"
 
         <figure markdown="span">
-          ![](images/EM7534.webp#illustration){ width="400px" }
+          ![](images/EM7534.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM7771_EM7772_EM7669.webp#illustration){ width="400px" }
+          ![](images/EM7771_EM7772_EM7669.webp#illustration){ width="80%" }
         </figure>
 
         [](){ #p-em-198 } **(Reference)**
@@ -740,7 +740,7 @@
     11. Completely remove the Plastigage.
 
         <figure markdown="span">
-          ![](images/EM7436.webp#illustration){ width="400px" }
+          ![](images/EM7436.webp#illustration){ width="80%" }
         </figure>
 
 7.  Remove crankshaft.
@@ -753,7 +753,7 @@
         Arrange the main bearing caps, bearings and thrust washers in correct order.
 
     <figure markdown="span">
-      ![](images/EM7455.webp#illustration){ width="400px" }
+      ![](images/EM7455.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-em-199 }
@@ -766,7 +766,7 @@
         Using a gasket scraper, remove all the gasket material from the top surface of the cylinder block.
 
         <figure markdown="span">
-          ![](images/EM7357.webp#illustration){ width="400px" }
+          ![](images/EM7357.webp#illustration){ width="80%" }
         </figure>
 
     2.  **Clean cylinder block**
@@ -783,7 +783,7 @@
     If warpage is greater than maximum, replace the cylinder block.
 
     <figure markdown="span">
-      ![](images/EM7359_EM8102.webp#illustration){ width="400px" }
+      ![](images/EM7359_EM8102.webp#illustration){ width="80%" }
     </figure>
 
 3.  Inspect cylinder for vertical scratches.
@@ -793,7 +793,7 @@
     If deep scratches are present, rebore all the four cylinders. If necessary, replace the cylinder block.
 
     <figure markdown="span">
-      ![](images/EM7358.webp#illustration){ width="400px" }
+      ![](images/EM7358.webp#illustration){ width="80%" }
     </figure>
 
 4.  Inspect cylinder bore diameter.
@@ -804,7 +804,7 @@
         is stamped on the top of the cylinder block.
 
     <figure markdown="span">
-      ![](images/EM8103.webp#illustration){ width="400px" }
+      ![](images/EM8103.webp#illustration){ width="80%" }
     </figure>
 
     [](){ #p-em-200 } Using a cylinder gauge, measure the cylinder bore diameter at positions A, B and C in the thrust
@@ -825,7 +825,7 @@
     If the diameter is greater than maximum, rebore all the four cylinders. If necessary, replace the cylinder block.
 
     <figure markdown="span">
-      ![](images/EM2548_EM0086.webp#illustration){ width="400px" }
+      ![](images/EM2548_EM0086.webp#illustration){ width="80%" }
     </figure>
 
 5.  Remove cylinder ridge.
@@ -833,7 +833,7 @@
     If the wear is less than 0.2 mm (0.008 in.), using a ridge reamer, grind the top of the cylinder.
 
     <figure markdown="span">
-      ![](images/EM7354.webp#illustration){ width="400px" }
+      ![](images/EM7354.webp#illustration){ width="80%" }
     </figure>
 
 ## Disassembly of piston and connecting rod assemblies
@@ -845,7 +845,7 @@
     If any movement is felt, replace the piston and pin as a set.
 
     <figure markdown="span">
-      ![](images/EM7535.webp#illustration){ width="400px" }
+      ![](images/EM7535.webp#illustration){ width="80%" }
     </figure>
 
 2.  Remove piston rings.
@@ -853,13 +853,13 @@
     1.  Using a piston ring expander, remove the two compression rings.
 
         <figure markdown="span">
-          ![](images/EM7536.webp#illustration){ width="400px" }
+          ![](images/EM7536.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-201 } Remove the two side rails and oil ring expander by hand.
 
         <figure markdown="span">
-          ![](images/EM7537.webp#illustration){ width="400px" }
+          ![](images/EM7537.webp#illustration){ width="80%" }
         </figure>
 
     !!! tip "Hint"
@@ -871,19 +871,19 @@
     1.  Using a small screwdriver, pry out the two snap rings.
 
         <figure markdown="span">
-          ![](images/EM7360.webp#illustration){ width="400px" }
+          ![](images/EM7360.webp#illustration){ width="80%" }
         </figure>
 
     2.  Gradually heat the piston to 80 – 90°C (176 – 194°F).
 
         <figure markdown="span">
-          ![](images/EM0284.webp#illustration){ width="400px" }
+          ![](images/EM0284.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using plastic-faced hammer and brass bar, lightly tap out the piston pin and remove the connecting rod.
 
         <figure markdown="span">
-          ![](images/EM2306.webp#illustration){ width="400px" }
+          ![](images/EM2306.webp#illustration){ width="80%" }
         </figure>
 
     !!! tip "Hint"
@@ -892,7 +892,7 @@
         * Arrange the pistons, pins, rings, connecting rods and bearings in correct order.
 
     <figure markdown="span">
-      ![](images/EM7456.webp#illustration){ width="400px" }
+      ![](images/EM7456.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-em-202 }
@@ -903,13 +903,13 @@
     1.  Using a gasket scraper, remove the carbon from the piston top.
 
         <figure markdown="span">
-          ![](images/EM7322.webp#illustration){ width="400px" }
+          ![](images/EM7322.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using a groove cleaner or broken ring, clean the piston ring grooves.
 
         <figure markdown="span">
-          ![](images/EM7323.webp#illustration){ width="400px" }
+          ![](images/EM7323.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using solvent and a brush, thoroughly clean the piston.
@@ -919,7 +919,7 @@
             Do not use a wire brush.
 
         <figure markdown="span">
-          ![](images/EM7324.webp#illustration){ width="400px" }
+          ![](images/EM7324.webp#illustration){ width="80%" }
         </figure>
 
 2.  Inspect piston.
@@ -943,7 +943,7 @@
             * O/S 0.50 – 87.411 – 87.441 mm (3.4414 – 3.4426 in.)
 
             <figure markdown="span">
-              ![](images/EM7325.webp#illustration){ width="400px" }
+              ![](images/EM7325.webp#illustration){ width="80%" }
             </figure>
 
         2.  [](){ #p-em-203 } Measure the cylinder bore diameter in the thrust directions. (See [Inspection of cylinder block, step 4](#p-em-200))
@@ -961,7 +961,7 @@
                 Use a piston with the same number mark as the cylinder bore diameter marked on the cylinder block.
 
             <figure markdown="span">
-              ![](images/EM8103_EM6288.webp#illustration){ width="400px" }
+              ![](images/EM8103_EM6288.webp#illustration){ width="80%" }
             </figure>
 
     2.  **Inspect piston ring groove clearance**
@@ -973,7 +973,7 @@
         If the clearance is greater than maximum, replace the piston.
 
         <figure markdown="span">
-          ![](images/EM7327.webp#illustration){ width="400px" }
+          ![](images/EM7327.webp#illustration){ width="80%" }
         </figure>
 
     3.  **Inspect piston ring end gap**
@@ -983,7 +983,7 @@
             the top of the cylinder block.
 
             <figure markdown="span">
-              ![](images/EM0224.webp#illustration){ width="400px" }
+              ![](images/EM0224.webp#illustration){ width="80%" }
             </figure>
 
         3.  [](){ #p-em-204 } Using a feeler gauge, measure the end gap.
@@ -1004,7 +1004,7 @@
             even with a new piston ring, rebore all the four cylinders or replace the cylinder block.
 
             <figure markdown="span">
-              ![](images/EM7639.webp#illustration){ width="400px" }
+              ![](images/EM7639.webp#illustration){ width="80%" }
             </figure>
 
     4.  **Inspect piston pin fit**
@@ -1012,7 +1012,7 @@
         At 60°C (140°F), you should be able to push the piston pin into the piston pin hole with your thumb.
 
         <figure markdown="span">
-          ![](images/EM7328.webp#illustration){ width="400px" }
+          ![](images/EM7328.webp#illustration){ width="80%" }
         </figure>
 
 3.  Inspect connecting rod.
@@ -1028,7 +1028,7 @@
         If bend is greater than maximum, replace the connecting rod assembly.
 
         <figure markdown="span">
-          ![](images/EM0287_EM0288.webp#illustration){ width="400px" }
+          ![](images/EM0287_EM0288.webp#illustration){ width="80%" }
         </figure>
 
         * Check for twist.
@@ -1038,7 +1038,7 @@
         If twist is greater than maximum, replace the connecting rod assembly.
 
         <figure markdown="span">
-          ![](images/EM0289_EM0290.webp#illustration){ width="400px" }
+          ![](images/EM0289_EM0290.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-205 } **Inspect piston pin oil clearance**
@@ -1048,7 +1048,7 @@
             **Bushing inside diameter:** 22.005 – 22.017 mm (0.8663 – 0.8668 in.)
 
             <figure markdown="span">
-              ![](images/EM7538.webp#illustration){ width="400px" }
+              ![](images/EM7538.webp#illustration){ width="80%" }
             </figure>
 
         2.  Using a micrometer, measure the piston pin diameter.
@@ -1056,7 +1056,7 @@
             **Piston pin diameter:** 21.997 – 22.009 mm (0.8660 – 0.8665 in.)
 
             <figure markdown="span">
-              ![](images/EM0227.webp#illustration){ width="400px" }
+              ![](images/EM0227.webp#illustration){ width="80%" }
             </figure>
 
         3.  Subtract the piston pin diameter measurement from the bushing inside diameter measurement.
@@ -1075,13 +1075,13 @@
             **SST** `09222-30010`
 
             <figure markdown="span">
-              ![](images/EM1321.webp#illustration){ width="400px" }
+              ![](images/EM1321.webp#illustration){ width="80%" }
             </figure>
 
         2.  Align the oil holes of a new bushing and the connecting rod.
 
             <figure markdown="span">
-              ![](images/EM7329.webp#illustration){ width="400px" }
+              ![](images/EM7329.webp#illustration){ width="80%" }
             </figure>
 
         3.  Using SST and a press, press in the bushing.
@@ -1092,7 +1092,7 @@
             (see step B above) between the bushing and piston pin.
 
             <figure markdown="span">
-              ![](images/EM0291.webp#illustration){ width="400px" }
+              ![](images/EM0291.webp#illustration){ width="80%" }
             </figure>
 
         5.  Check the piston pin fit at normal room temperature.
@@ -1100,7 +1100,7 @@
             Coat the piston pin with engine oil, and push it into the connecting rod with your thumb.
 
             <figure markdown="span">
-              ![](images/EM1322.webp#illustration){ width="400px" }
+              ![](images/EM1322.webp#illustration){ width="80%" }
             </figure>
 
     4.  **Inspect connecting rod bolts**
@@ -1109,7 +1109,7 @@
             end of the thread.
 
             <figure markdown="span">
-              ![](images/EM7330.webp#illustration){ width="400px" }
+              ![](images/EM7330.webp#illustration){ width="80%" }
             </figure>
 
         2.  If the cap nut cannot be turned easily, measure the outside diameter of the connecting rod bolt.
@@ -1126,7 +1126,7 @@
             If the ouside diameter is less than minimum, replace the connecting rod bolt and cap nut as a set.
 
             <figure markdown="span">
-              ![](images/EM7331.webp#illustration){ width="400px" }
+              ![](images/EM7331.webp#illustration){ width="80%" }
             </figure>
 
 [](){ #p-em-207 }
@@ -1149,7 +1149,7 @@
         (0.925 in.) from the piston head.
 
         <figure markdown="span">
-          ![](images/EM7325.webp#illustration){ width="400px" }
+          ![](images/EM7325.webp#illustration){ width="80%" }
         </figure>
 
     2.  Calculate the amount each cylinder is to be rebored as follows:
@@ -1181,7 +1181,7 @@
         If the circle runout is greater than maximum, replace the crankshaft.
 
     <figure markdown="span">
-      ![](images/EM7776.webp#illustration){ width="400px" }
+      ![](images/EM7776.webp#illustration){ width="80%" }
     </figure>
 
 2.  Inspect main journals and crank pins.
@@ -1202,7 +1202,7 @@
         replace the crankshaft.
 
         <figure markdown="span">
-          ![](images/EM3553.webp#illustration){ width="400px" }
+          ![](images/EM3553.webp#illustration){ width="80%" }
         </figure>
 
     2.  Check each main journal and crank pin for taper and out-of-round as shown.
@@ -1229,26 +1229,26 @@
     1.  Install a new snap ring on one side of the piston pin hole.
 
         <figure markdown="span">
-          ![](images/EM7458.webp#illustration){ width="400px" }
+          ![](images/EM7458.webp#illustration){ width="80%" }
         </figure>
 
     2.  Gradually heat the piston to 80 – 90°C (176 – 194°F).
 
         <figure markdown="span">
-          ![](images/EM7332.webp#illustration){ width="400px" }
+          ![](images/EM7332.webp#illustration){ width="80%" }
         </figure>
 
     3.  Coat the piston pin with engine oil.
     4.  Align the front marks of the piston and connecting rod, and push in the piston pin with your thumb.
 
         <figure markdown="span">
-          ![](images/EM7459.webp#illustration){ width="400px" }
+          ![](images/EM7459.webp#illustration){ width="80%" }
         </figure>
 
     5.  Install a new snap ring on the other side of the piston pin hole.
 
         <figure markdown="span">
-          ![](images/EM7640.webp#illustration){ width="400px" }
+          ![](images/EM7640.webp#illustration){ width="80%" }
         </figure>
 
 2.  Install piston rings.
@@ -1256,7 +1256,7 @@
     1.  Install the oil ring expander and two side rails by hand.
 
         <figure markdown="span">
-          ![](images/EM7537.webp#illustration){ width="400px" }
+          ![](images/EM7537.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-210 } Using a piston ring expander, install the two compression rings with the code mark facing
@@ -1268,7 +1268,7 @@
         * No.2 – 2N or 2T
 
         <figure markdown="span">
-          ![](images/EM7844_EM7536.webp#illustration){ width="400px" }
+          ![](images/EM7844_EM7536.webp#illustration){ width="80%" }
         </figure>
 
     3.  Position the piston rings so that the ring ends are as shown.
@@ -1278,7 +1278,7 @@
             Do not align the ring ends.
 
         <figure markdown="span">
-          ![](images/EM7081.webp#illustration){ width="400px" }
+          ![](images/EM7081.webp#illustration){ width="80%" }
         </figure>
 
 3.  Install bearings.
@@ -1287,7 +1287,7 @@
     2.  Install the bearings in the connecting rod and connecting rod cap.
 
         <figure markdown="span">
-          ![](images/EM0095.webp#illustration){ width="400px" }
+          ![](images/EM0095.webp#illustration){ width="80%" }
         </figure>
 
 [](){ #p-em-211 }
@@ -1311,13 +1311,13 @@
         * Upper bearings have an oil groove and oil holes; lower bearings do not.
 
     <figure markdown="span">
-      ![](images/EM6948.webp#illustration){ width="400px" }
+      ![](images/EM6948.webp#illustration){ width="80%" }
     </figure>
 
     1.  Align the bearing claw with the claw groove of the cylinder block, and push in the five upper bearings.
 
         <figure markdown="span">
-          ![](images/EM7438.webp#illustration){ width="400px" }
+          ![](images/EM7438.webp#illustration){ width="80%" }
         </figure>
 
     2.  Align the bearing claw with the claw groove of the main bearing cap, and push in the five lower bearings.
@@ -1327,7 +1327,7 @@
             A number is marked on each main bearing cap to indicate the installation position.
 
         <figure markdown="span">
-          ![](images/EM7439.webp#illustration){ width="400px" }
+          ![](images/EM7439.webp#illustration){ width="80%" }
         </figure>
 
 2.  Install upper thrust washers.
@@ -1336,13 +1336,13 @@
     outward.
 
     <figure markdown="span">
-      ![](images/EM7460.webp#illustration){ width="400px" }
+      ![](images/EM7460.webp#illustration){ width="80%" }
     </figure>
 
 3.  [](){ #p-em-212 } Place crankshaft on cylinder block.
 
     <figure markdown="span">
-      ![](images/EM7436.webp#illustration){ width="400px" }
+      ![](images/EM7436.webp#illustration){ width="80%" }
     </figure>
 
 4.  Install main bearing caps and lower thrust washers.
@@ -1350,7 +1350,7 @@
     1.  Install the two thrust washers on the No.3 bearing cap with the grooves facing outward.
 
         <figure markdown="span">
-          ![](images/EM7440.webp#illustration){ width="400px" }
+          ![](images/EM7440.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the five main bearing caps in their proper locations.
@@ -1360,7 +1360,7 @@
             Each bearing cap has a number and front mark.
 
         <figure markdown="span">
-          ![](images/EM7441.webp#illustration){ width="400px" }
+          ![](images/EM7441.webp#illustration){ width="80%" }
         </figure>
 
     3.  Apply a light coat of engine oil on the threads and under the heads of the main bearing caps.
@@ -1369,7 +1369,7 @@
         **Torque:** 600 kg-cm (43 ft-lb, 59 N·m)
 
         <figure markdown="span">
-          ![](images/EM7437.webp#illustration){ width="400px" }
+          ![](images/EM7437.webp#illustration){ width="80%" }
         </figure>
 
     5.  Check that the crankshaft turns smoothly.
@@ -1380,14 +1380,14 @@
     1.  Cover the connecting rod bolts with a short piece of hose to protect the crankshaft from damage.
 
         <figure markdown="span">
-          ![](images/EM2082.webp#illustration){ width="400px" }
+          ![](images/EM2082.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-213 } Using a piston ring compressor, push the correctly numbered piston and connecting rod
         assemblies into each cylinder with the front mark of the piston facing forward.
 
         <figure markdown="span">
-          ![](images/EM7442_EM1933.webp#illustration){ width="400px" }
+          ![](images/EM7442_EM1933.webp#illustration){ width="80%" }
         </figure>
 
 6.  Install connecting rod caps.
@@ -1398,7 +1398,7 @@
         2.  Install the connecting rod cap with the front mark facing forward.
 
         <figure markdown="span">
-          ![](images/EM7363.webp#illustration){ width="400px" }
+          ![](images/EM7363.webp#illustration){ width="80%" }
         </figure>
 
     2.  **Install connecting rod cap nuts**
@@ -1419,13 +1419,13 @@
             nut as a set.
 
             <figure markdown="span">
-              ![](images/EM7527.webp#illustration){ width="400px" }
+              ![](images/EM7527.webp#illustration){ width="80%" }
             </figure>
 
         3.  Mark the front of the cap nut with the paint.
 
             <figure markdown="span">
-              ![](images/EM7364.webp#illustration){ width="400px" }
+              ![](images/EM7364.webp#illustration){ width="80%" }
             </figure>
 
         4.  [](){ #p-em-214 } Retighten the cap nuts 90° in the numerical order shown.
@@ -1434,7 +1434,7 @@
         7.  Check the connecting rod thrust clearance. (See [Disassembly of cylinder block, step 2](#disassembly-of-cylinder-block))
 
             <figure markdown="span">
-              ![](images/EM7365.webp#illustration){ width="400px" }
+              ![](images/EM7365.webp#illustration){ width="80%" }
             </figure>
 
 7.  Install rear oil seal retainer.
@@ -1444,7 +1444,7 @@
     **Torque:** 95 kg-cm (82 in.-lb, 9.3 N·m)
 
     <figure markdown="span">
-      ![](images/EM7349.webp#illustration){ width="400px" }
+      ![](images/EM7349.webp#illustration){ width="80%" }
     </figure>
 
 ## Post assembly
@@ -1462,7 +1462,7 @@
     **Torque:** 620 kg-cm (45 ft-lb, 61 N·m)
 
     <figure markdown="span">
-      ![](images/EM8759.webp#illustration){ width="400px" }
+      ![](images/EM8759.webp#illustration){ width="80%" }
     </figure>
 
 8.  Install alternator bracket.
@@ -1472,7 +1472,7 @@
     **Torque:** 440 kg-cm (32 ft-lb, 43 N·m)
 
     <figure markdown="span">
-      ![](images/EM9089.webp#illustration){ width="400px" }
+      ![](images/EM9089.webp#illustration){ width="80%" }
     </figure>
 
 9.  Install alternator. (See [Alternator › Assembly of alternator](../charging-system/alternator.md#p-ch-17))
@@ -1482,7 +1482,7 @@
     **Torque:** 95 kg-cm (82 in.-lb, 9.3 N·m)
 
     <figure markdown="span">
-      ![](images/EM8959.webp#illustration){ width="400px" }
+      ![](images/EM8959.webp#illustration){ width="80%" }
     </figure>
 
 12. (M/T) Install flywheel.
@@ -1492,7 +1492,7 @@
         **Adhesive:** Part No. `08833-00070`, THREE BOND 1324 or equivalent
 
         <figure markdown="span">
-          ![](images/EM7333.webp#illustration){ width="400px" }
+          ![](images/EM7333.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the flywheel on the crankshaft.
@@ -1501,7 +1501,7 @@
         **Torque:** 900 kg-cm (65 ft-lb, 88 N·m)
 
         <figure markdown="span">
-          ![](images/EM7443.webp#illustration){ width="400px" }
+          ![](images/EM7443.webp#illustration){ width="80%" }
         </figure>
 
 13. (A/T) Install drive plate. (See procedure step 12)
@@ -1527,19 +1527,19 @@
         Tilt the transaxle downward, lower the engine and clear the LH body mounting.
 
         <figure markdown="span">
-          ![](images/EM9070.webp#illustration){ width="400px" }
+          ![](images/EM9070.webp#illustration){ width="80%" }
         </figure>
 
     3.  Keep the engine level, and align RH and LH mountings with the body mountings.
 
         <figure markdown="span">
-          ![](images/EM9042.webp#illustration){ width="400px" }
+          ![](images/EM9042.webp#illustration){ width="80%" }
         </figure>
 
     4.  Attach the RH mounting insulator to the body, and temporarily install the through bolt.
 
         <figure markdown="span">
-          ![](images/EM8742.webp#illustration){ width="400px" }
+          ![](images/EM8742.webp#illustration){ width="80%" }
         </figure>
 
     5.  Attach the RH mounting insulator to the mounting bracket, and temporarily install the two nuts.
@@ -1548,7 +1548,7 @@
         **Torque:** 530 kg-cm (38 ft-lb, 52 N·m)
 
         <figure markdown="span">
-          ![](images/EM8740.webp#illustration){ width="400px" }
+          ![](images/EM8740.webp#illustration){ width="80%" }
         </figure>
 
     7.  [](){ #p-em-217 } (A/T) Install the LH mounting bracket to the transaxle case with the three bolts. Do not
@@ -1557,13 +1557,13 @@
         **Torque:** 530 kg-cm (38 ft-lb, 52 N·m)
 
         <figure markdown="span">
-          ![](images/EM8739.webp#illustration){ width="400px" }
+          ![](images/EM8739.webp#illustration){ width="80%" }
         </figure>
 
     8.  Attach the LH mounting insulator to the body, and temporarily install the through bolt.
 
         <figure markdown="span">
-          ![](images/EM8737.webp#illustration){ width="400px" }
+          ![](images/EM8737.webp#illustration){ width="80%" }
         </figure>
 
     9.  Attach the LH mounting insulator to the mounting bracket, and install the three (M/T) or four (A/T) bolts.
@@ -1575,7 +1575,7 @@
         * C – 530 kg-cm (38 ft-lb, 52 N·m) A/T only
 
         <figure markdown="span">
-          ![](images/EM8736.webp#illustration){ width="400px" }
+          ![](images/EM8736.webp#illustration){ width="80%" }
         </figure>
 
     10. Tighten the through bolt holding the LH mounting insulator to the body.
@@ -1583,7 +1583,7 @@
         **Torque:** 800 kg-cm (58 ft-lb, 78 N·m)
 
         <figure markdown="span">
-          ![](images/EM8735.webp#illustration){ width="400px" }
+          ![](images/EM8735.webp#illustration){ width="80%" }
         </figure>
 
     11. Tighten the two nuts holding the RH mounting insulator to the mounting bracket.
@@ -1591,7 +1591,7 @@
         **Torque:** 530 kg-cm (38 ft-lb, 52 N·m)
 
         <figure markdown="span">
-          ![](images/EM8743.webp#illustration){ width="400px" }
+          ![](images/EM8743.webp#illustration){ width="80%" }
         </figure>
 
     12. Tighten the through bolt holding the RH mounting insulator to the body.
@@ -1607,7 +1607,7 @@
     **Torque:** 740 kg-cm (54 ft-lb, 73 N·m)
 
     <figure markdown="span">
-      ![](images/EM8731.webp#illustration){ width="400px" }
+      ![](images/EM8731.webp#illustration){ width="80%" }
     </figure>
 
 5.  Install lateral control rod (M/T) and air cleaner case bracket.
@@ -1618,7 +1618,7 @@
     **Torque:** 360 kg-cm (26 ft-lb, 35 N·m)
 
     <figure markdown="span">
-      ![](images/EM8733.webp#illustration){ width="400px" }
+      ![](images/EM8733.webp#illustration){ width="80%" }
     </figure>
 
     (A/T) Install the case bracket and charcoal canister tube with the four bolts, and connect the ground strap (from
@@ -1627,7 +1627,7 @@
     **Torque:** 360 kg-cm (26 ft-lb, 35 N·m)
 
     <figure markdown="span">
-      ![](images/EM8734.webp#illustration){ width="400px" }
+      ![](images/EM8734.webp#illustration){ width="80%" }
     </figure>
 
 6.  (M/T) Install LH engine mounting stay.
@@ -1644,7 +1644,7 @@
         **Torque:** 380 kg-cm (27 ft-lb, 37 N·m)
 
     <figure markdown="span">
-      ![](images/EM8732.webp#illustration){ width="400px" }
+      ![](images/EM8732.webp#illustration){ width="80%" }
     </figure>
 
 7.  Install clutch release cylinder (M/T), transaxle control bracket (A/T) and front engine mounting bracket.
@@ -1652,13 +1652,13 @@
     1.  (M/T) Place the release cylinder on the transaxle.
 
         <figure markdown="span">
-          ![](images/EM8727.webp#illustration){ width="400px" }
+          ![](images/EM8727.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-219 } (M/T) Temporarily install the bolt and nut holding the release cylinder to the transaxle.
 
         <figure markdown="span">
-          ![](images/EM9090.webp#illustration){ width="400px" }
+          ![](images/EM9090.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the control cable bracket (A/T) and mounting bracket with the two bolts.
@@ -1666,7 +1666,7 @@
         **Torque:** 790 kg-cm (57 ft-lb, 77 N·m)
 
         <figure markdown="span">
-          ![](images/EM8913.webp#illustration){ width="400px" }
+          ![](images/EM8913.webp#illustration){ width="80%" }
         </figure>
 
     4.  (M/T) Tighten the bolt and nut holding the clutch release cylinder to the tranaxle.
@@ -1674,7 +1674,7 @@
         **Torque:** 120 kg-cm (9 ft-lb, 12 N·m)
 
         <figure markdown="span">
-          ![](images/EM8726.webp#illustration){ width="400px" }
+          ![](images/EM8726.webp#illustration){ width="80%" }
         </figure>
 
 8.  Install rear engine mounting bracket.
@@ -1684,7 +1684,7 @@
     **Torque:** 790 kg-cm (57 ft-lb, 77 N·m)
 
     <figure markdown="span">
-      ![](images/EM8911.webp#illustration){ width="400px" }
+      ![](images/EM8911.webp#illustration){ width="80%" }
     </figure>
 
 9.  Install front engine mounting insulator.
@@ -1696,7 +1696,7 @@
     2.  Temporarily install the through bolt and nut holding the mounting insulator to the mounting bracket.
 
     <figure markdown="span">
-      ![](images/EM8912.webp#illustration){ width="400px" }
+      ![](images/EM8912.webp#illustration){ width="80%" }
     </figure>
 
 10. [](){ #p-em-220 } Install rear engine mounting insulator.
@@ -1704,7 +1704,7 @@
     1.  Temporarily install the mounting bracket to the body with the three bolts.
 
         <figure markdown="span">
-          ![](images/EM8728.webp#illustration){ width="400px" }
+          ![](images/EM8728.webp#illustration){ width="80%" }
         </figure>
 
     2.  Temporarily install the through bolt holding the mounting insulator to the mounting bracket.
@@ -1717,7 +1717,7 @@
         **Torque:** 800 kg-cm (58 ft-lb, 79 N·m)
 
         <figure markdown="span">
-          ![](images/EM8730.webp#illustration){ width="400px" }
+          ![](images/EM8730.webp#illustration){ width="80%" }
         </figure>
 
 11. Tighten front engine mounting through bolt.
@@ -1725,13 +1725,13 @@
     **Torque:** 800 kg-cm (58 ft-lb, 79 N·m)
 
     <figure markdown="span">
-      ![](images/EM8725.webp#illustration){ width="400px" }
+      ![](images/EM8725.webp#illustration){ width="80%" }
     </figure>
 
 12. Connect speedometer cable.
 
     <figure markdown="span">
-      ![](images/EM8724.webp#illustration){ width="400px" }
+      ![](images/EM8724.webp#illustration){ width="80%" }
     </figure>
 
 13. Install A/C compressor and idler pulley bracket.
@@ -1739,7 +1739,7 @@
     1.  Temporarily install the compressor with the two bolts.
 
         <figure markdown="span">
-          ![](images/EM9091.webp#illustration){ width="400px" }
+          ![](images/EM9091.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-221 } Install the idler pulley and bracket with the three bolts.
@@ -1751,7 +1751,7 @@
         * C – 250 kg-cm (18 ft-lb, 25 N·m)
 
         <figure markdown="span">
-          ![](images/EM8722_EM9115.webp#illustration){ width="400px" }
+          ![](images/EM8722_EM9115.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the wire clamp of the A/C compressor with the bolt.
@@ -1760,14 +1760,14 @@
         **Torque:** 280 kg-cm (20 ft-lb, 27 N·m)
 
         <figure markdown="span">
-          ![](images/EM8723.webp#illustration){ width="400px" }
+          ![](images/EM8723.webp#illustration){ width="80%" }
         </figure>
 
     5.  Connect the A/C compressor connector.
     6.  Install the drive belt with the idler pulley bolt and adjusting bolt.
 
         <figure markdown="span">
-          ![](images/EM8721.webp#illustration){ width="400px" }
+          ![](images/EM8721.webp#illustration){ width="80%" }
         </figure>
 
 14. Install drive shafts. (See pages SA-49 to 51)
@@ -1780,7 +1780,7 @@
         **Torque:** 630 kg-cm (46 ft-lb, 62 N·m)
 
         <figure markdown="span">
-          ![](images/EM9106.webp#illustration){ width="400px" }
+          ![](images/EM9106.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the support bracket with the two bolts.
@@ -1788,13 +1788,13 @@
         **Torque:** 210 kg-cm (15 ft-lb, 21 N·m)
 
         <figure markdown="span">
-          ![](images/EM8949.webp#illustration){ width="400px" }
+          ![](images/EM8949.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-222 } Place a new gasket on the rear of the front exhaust pipe.
 
         <figure markdown="span">
-          ![](images/EM9105.webp#illustration){ width="400px" }
+          ![](images/EM9105.webp#illustration){ width="80%" }
         </figure>
 
     5.  Temporarily install the two bolts holding the front exhaust pipe to the tailpipe.
@@ -1809,17 +1809,17 @@
 16. (A/T) Connect transaxle oil cooler hoses.
 
     <figure markdown="span">
-      ![](images/EM8630.webp#illustration){ width="400px" }
+      ![](images/EM8630.webp#illustration){ width="80%" }
     </figure>
 
 17. Connect transaxle control cable(s).
 
     <figure markdown="span">
-      ![](images/EM9067.webp#illustration){ width="400px" }
+      ![](images/EM9067.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM9030.webp#illustration){ width="400px" }
+      ![](images/EM9030.webp#illustration){ width="80%" }
     </figure>
 
 18. Connect fuel inlet hose to fuel filter.
@@ -1827,7 +1827,7 @@
     **Torque:** 300 kg-cm (22 ft-lb, 29 N·m)
 
     <figure markdown="span">
-      ![](images/EM8720.webp#illustration){ width="400px" }
+      ![](images/EM8720.webp#illustration){ width="80%" }
     </figure>
 
 19. [](){ #p-em-223 } Connect fuel return hose.
@@ -1835,13 +1835,13 @@
 21. Connect heater hoses.
 
     <figure markdown="span">
-      ![](images/EM9029.webp#illustration){ width="400px" }
+      ![](images/EM9029.webp#illustration){ width="80%" }
     </figure>
 
 22. Connect radiator hose to water inlet.
 
     <figure markdown="span">
-      ![](images/EM8556.webp#illustration){ width="400px" }
+      ![](images/EM8556.webp#illustration){ width="80%" }
     </figure>
 
 23. Connect starter cable.
@@ -1855,7 +1855,7 @@
         3. Engine compartment wire connector
 
         <figure markdown="span">
-          ![](images/EM9104.webp#illustration){ width="400px" }
+          ![](images/EM9104.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
@@ -1869,7 +1869,7 @@
     3.  Connect the igniter connector.
 
     <figure markdown="span">
-      ![](images/EM8631.webp#illustration){ width="400px" }
+      ![](images/EM8631.webp#illustration){ width="80%" }
     </figure>
 
 26. Connect engine wire, and install engine relay box.
@@ -1877,14 +1877,14 @@
     1.  Connect the two connectors and positive (`+`) cable of the engine wire to the relay box.
 
         <figure markdown="span">
-          ![](images/EM9131.webp#illustration){ width="400px" }
+          ![](images/EM9131.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the upper and lower covers to the relay box.
     3.  Install the relay box with the two bolts. Install the luggage compartment striker cable.
 
         <figure markdown="span">
-          ![](images/EM8632.webp#illustration){ width="400px" }
+          ![](images/EM8632.webp#illustration){ width="80%" }
         </figure>
 
 27. Install charcoal canister.
@@ -1893,7 +1893,7 @@
     2.  Connect the three hoses.
 
     <figure markdown="span">
-      ![](images/EM9028.webp#illustration){ width="400px" }
+      ![](images/EM9028.webp#illustration){ width="80%" }
     </figure>
 
 28. Install water filler.
@@ -1905,7 +1905,7 @@
         2. Coolant reservoir hose
 
     <figure markdown="span">
-      ![](images/EM9027.webp#illustration){ width="400px" }
+      ![](images/EM9027.webp#illustration){ width="80%" }
     </figure>
 
 29. [](){ #p-em-225 } Install A/C VSV.
@@ -1913,7 +1913,7 @@
     1.  Install the A/C VSV with the bolt.
 
         <figure markdown="span">
-          ![](images/EM8555.webp#illustration){ width="400px" }
+          ![](images/EM8555.webp#illustration){ width="80%" }
         </figure>
 
     2.  Connect the following hoses:
@@ -1924,7 +1924,7 @@
     3.  Connect the VSV connector.
 
         <figure markdown="span">
-          ![](images/EM9066.webp#illustration){ width="400px" }
+          ![](images/EM9066.webp#illustration){ width="80%" }
         </figure>
 
 30. Install check connector and vacuum sensor.
@@ -1932,13 +1932,13 @@
     Install the check connector and vacuum sensor with the bolt.
 
     <figure markdown="span">
-      ![](images/EM8554.webp#illustration){ width="400px" }
+      ![](images/EM8554.webp#illustration){ width="80%" }
     </figure>
 
 31. Connect brake booster vacuum hose.
 
     <figure markdown="span">
-      ![](images/ground-strap-brake-booster-hose-5s-fe.webp#illustration){ width="400px" }
+      ![](images/ground-strap-brake-booster-hose-5s-fe.webp#illustration){ width="80%" }
     </figure>
 
 32. Connect ground strap connector.
@@ -1952,7 +1952,7 @@
     6.  Install the actuator cover with the two screws.
 
     <figure markdown="span">
-      ![](images/EM8552.webp#illustration){ width="400px" }
+      ![](images/EM8552.webp#illustration){ width="80%" }
     </figure>
 
 34. [](){ #p-em-226 } Install accelerator cable, and adjust it.
@@ -1965,7 +1965,7 @@
     5.  Connect the intake air temperature sensor connector.
 
     <figure markdown="span">
-      ![](images/EM8882.webp#illustration){ width="400px" }
+      ![](images/EM8882.webp#illustration){ width="80%" }
     </figure>
 
 36. Install suspension upper brace.
@@ -1978,7 +1978,7 @@
     * Nut – 650 kg-cm (47 ft-lb, 64 N·m)
 
     <figure markdown="span">
-      ![](images/EM8881.webp#illustration){ width="400px" }
+      ![](images/EM8881.webp#illustration){ width="80%" }
     </figure>
 
 37. Connect cable to negative terminal of battery.

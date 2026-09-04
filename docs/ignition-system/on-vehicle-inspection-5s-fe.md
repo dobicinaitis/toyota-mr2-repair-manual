@@ -66,7 +66,7 @@ If the spark does not occurs, perform the test as follows:
 1.  **Disconnect high-tension cords from spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0863.webp#illustration){ width="400px" }
+      ![](images/IG0863.webp#illustration){ width="80%" }
     </figure>
 
     Disconnect the high-tension cords at rubber boot. DO NOT pull on the cords.
@@ -79,7 +79,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Remove distributor cap without disconnecting high-tension cords**
 
     <figure markdown="span">
-      ![](images/IG1244.webp#illustration){ width="400px" }
+      ![](images/IG1244.webp#illustration){ width="80%" }
     </figure>
 
 4.  **Inspect high-tension cord resistance**
@@ -101,7 +101,7 @@ If the spark does not occurs, perform the test as follows:
 2.  **Remove spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0864.webp#illustration){ width="400px" }
+      ![](images/IG0864.webp#illustration){ width="80%" }
     </figure>
 
     Using a 16 mm plug wrench, remove the spark plug.
@@ -109,7 +109,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Clean spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0152.webp#illustration){ width="400px" }
+      ![](images/IG0152.webp#illustration){ width="80%" }
     </figure>
 
     Using a spark plug cleaner or wire brush, clean the spark plug.
@@ -117,7 +117,7 @@ If the spark does not occurs, perform the test as follows:
 4.  [](){ #p-ig-12 } **Visually inspect spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0148.webp#illustration){ width="400px" }
+      ![](images/IG0148.webp#illustration){ width="80%" }
     </figure>
 
     Check the spark plug for electrode wear, thread damage and insulator damage.
@@ -132,7 +132,7 @@ If the spark does not occurs, perform the test as follows:
 5.  **Adjust electrode cap**
 
     <figure markdown="span">
-      ![](images/IG0657_IG0658.webp#illustration){ width="400px" }
+      ![](images/IG0657_IG0658.webp#illustration){ width="80%" }
     </figure>
 
     Carefully bent the outer electrode to obtain the correct electrode gap.
@@ -142,7 +142,7 @@ If the spark does not occurs, perform the test as follows:
 6.  **Install spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0864.webp#illustration){ width="400px" }
+      ![](images/IG0864.webp#illustration){ width="80%" }
     </figure>
 
     Using a 16 mm plug wrench, install the spark plug.
@@ -158,7 +158,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Inspect primary coil resistance**
 
     <figure markdown="span">
-      ![](images/IG1371.webp#illustration){ width="400px" }
+      ![](images/IG1371.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between positive (`+`) and negative (`–`) terminals.
@@ -170,7 +170,7 @@ If the spark does not occurs, perform the test as follows:
 4.  [](){ #p-ig-13 } **Inspect secondary coil resistance**
 
     <figure markdown="span">
-      ![](images/IG1372.webp#illustration){ width="400px" }
+      ![](images/IG1372.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between positive (`+`) and high-tension terminals
@@ -190,11 +190,11 @@ If the spark does not occurs, perform the test as follows:
 4.  **Inspect air gap**
 
     <figure markdown="span">
-      ![](images/IG1172.webp#illustration){ width="400px" }
+      ![](images/IG1172.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/IG1171.webp#illustration){ width="400px" }
+      ![](images/IG1171.webp#illustration){ width="80%" }
     </figure>
 
     Using SST (G1 pickup) and a feeler gauge (NE pickup), measure the air gap between the signal rotor and pickup coil
@@ -209,7 +209,7 @@ If the spark does not occurs, perform the test as follows:
 5.  **Inspect signal generator (pickup coil) resistance**
 
     <figure markdown="span">
-      ![](images/IG1173.webp#illustration){ width="400px" }
+      ![](images/IG1173.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between terminals (G1 and G⊖, NE and G⊖).

@@ -70,7 +70,7 @@ If the spark does not occurs, perform the test as follows:
 1.  **Disconnect high-tension cords from spark plugs**
 
     <figure markdown="span">
-      ![](images/IG1390.webp#illustration){ width="400px" }
+      ![](images/IG1390.webp#illustration){ width="80%" }
     </figure>
 
     Disconnect the high-tension cords at rubber boot. DO NOT pull on the cords.
@@ -83,7 +83,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Remove distributor cap without disconnecting high-tension cords**
 
     <figure markdown="span">
-      ![](images/IG1318.webp#illustration){ width="400px" }
+      ![](images/IG1318.webp#illustration){ width="80%" }
     </figure>
 
 4.  **Inspect high-tension cord resistance**
@@ -111,7 +111,7 @@ If the spark does not occurs, perform the test as follows:
 2.  **Inspect electrode**
 
     <figure markdown="span">
-      ![](images/IG0147.webp#illustration){ width="400px" }
+      ![](images/IG0147.webp#illustration){ width="80%" }
     </figure>
 
     Using a megger (insulation resistance meter), measure the insulation resistance.
@@ -127,7 +127,7 @@ If the spark does not occurs, perform the test as follows:
     [](){ #p-ig-7 } **(Simple method)**
 
     <figure markdown="span">
-      ![](images/IG0148.webp#illustration){ width="400px" }
+      ![](images/IG0148.webp#illustration){ width="80%" }
     </figure>
 
     1.  Quickly race the engine to 4,000 rpm five times.
@@ -143,7 +143,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Remove spark plugs**
 
     <figure markdown="span">
-      ![](images/IG1361.webp#illustration){ width="400px" }
+      ![](images/IG1361.webp#illustration){ width="80%" }
     </figure>
 
     Using a 16 mm plug wrench, remove the spark plug.
@@ -151,7 +151,7 @@ If the spark does not occurs, perform the test as follows:
 4.  **Visually inspect spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0316.webp#illustration){ width="400px" }
+      ![](images/IG0316.webp#illustration){ width="80%" }
     </figure>
 
     Check the spark plug for thread damage and insulator damage.
@@ -166,7 +166,7 @@ If the spark does not occurs, perform the test as follows:
 5.  **Inspect electrode cap**
 
     <figure markdown="span">
-      ![](images/IG0317.webp#illustration){ width="400px" }
+      ![](images/IG0317.webp#illustration){ width="80%" }
     </figure>
 
     **Maximum electrode gap:** 1.0 mm (0.039 in.)
@@ -183,7 +183,7 @@ If the spark does not occurs, perform the test as follows:
 6.  **Clean spark plugs**
 
     <figure markdown="span">
-      ![](images/IG0152.webp#illustration){ width="400px" }
+      ![](images/IG0152.webp#illustration){ width="80%" }
     </figure>
 
     If the electrode has traces of wet carbon, allow it to dry and then clean with a spark plug cleaner.
@@ -199,7 +199,7 @@ If the spark does not occurs, perform the test as follows:
 7.  [](){ #p-ig-8 } **Install spark plugs**
 
     <figure markdown="span">
-      ![](images/IG1361.webp#illustration){ width="400px" }
+      ![](images/IG1361.webp#illustration){ width="80%" }
     </figure>
 
     Using a 16 mm plug wrench, install the spark plug.
@@ -215,7 +215,7 @@ If the spark does not occurs, perform the test as follows:
 3.  **Inspect primary coil resistance**
 
     <figure markdown="span">
-      ![](images/IG1392.webp#illustration){ width="400px" }
+      ![](images/IG1392.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between positive (`+`) and negative (`–`) terminals.
@@ -227,7 +227,7 @@ If the spark does not occurs, perform the test as follows:
 4.  **Inspect secondary coil resistance**
 
     <figure markdown="span">
-      ![](images/IG1393.webp#illustration){ width="400px" }
+      ![](images/IG1393.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between positive (`+`) and high-tension terminals
@@ -248,11 +248,11 @@ If the spark does not occurs, perform the test as follows:
 4.  **Inspect air gap**
 
     <figure markdown="span">
-      ![](images/IG1330.webp#illustration){ width="400px" }
+      ![](images/IG1330.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/IG1329.webp#illustration){ width="400px" }
+      ![](images/IG1329.webp#illustration){ width="80%" }
     </figure>
 
     Using SST (G1 and G2 pickups) and a feeler gauge (NE pickup), measure the air gap between the signal rotor and
@@ -267,7 +267,7 @@ If the spark does not occurs, perform the test as follows:
 5.  **Inspect signal generator (pickup coil) resistance**
 
     <figure markdown="span">
-      ![](images/IG1331.webp#illustration){ width="400px" }
+      ![](images/IG1331.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, measure the resistance between terminals.

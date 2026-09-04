@@ -17,7 +17,7 @@
 2.  **Remove drive belt**
 
     <figure markdown="span">
-      ![](images/CH0885.webp#illustration){ width="400px" }
+      ![](images/CH0885.webp#illustration){ width="80%" }
     </figure>
 
     1.  Loosen the pivot bolt and adjusting lock bolt.
@@ -26,7 +26,7 @@
 3.  **Remove alternator**
 
     <figure markdown="span">
-      ![](images/CH0888.webp#illustration){ width="400px" }
+      ![](images/CH0888.webp#illustration){ width="80%" }
     </figure>
 
     1.  Disconnect the alternator connector.
@@ -50,13 +50,13 @@
     1.  Remove the nut and terminal insulator.
 
         <figure markdown="span">
-          ![](images/CH0902.webp#illustration){ width="400px" }
+          ![](images/CH0902.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the three nuts and end cover.
 
         <figure markdown="span">
-          ![](images/CH0903.webp#illustration){ width="400px" }
+          ![](images/CH0903.webp#illustration){ width="80%" }
         </figure>
 
 2.  **Remove brush holder and IC regulator**
@@ -66,13 +66,13 @@
         Remove the brush holder cover from the brush holder.
 
         <figure markdown="span">
-          ![](images/CH0906.webp#illustration){ width="400px" }
+          ![](images/CH0906.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the five screws, brush holder and IC regulator.
 
         <figure markdown="span">
-          ![](images/CH0908.webp#illustration){ width="400px" }
+          ![](images/CH0908.webp#illustration){ width="80%" }
         </figure>
 
 3.  **Remove rectifier holder**
@@ -80,13 +80,13 @@
     1.  Remove the four screws and rectifier holder.
 
         <figure markdown="span">
-          ![](images/CH0910.webp#illustration){ width="400px" }
+          ![](images/CH0910.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-ch-9 } Remove the four rubber insulators.
 
         <figure markdown="span">
-          ![](images/CH0912.webp#illustration){ width="400px" }
+          ![](images/CH0912.webp#illustration){ width="80%" }
         </figure>
 
     3.  (80 A and 100 A Types)
@@ -94,7 +94,7 @@
         Remove the seal plate.
 
         <figure markdown="span">
-          ![](images/CH0897.webp#illustration){ width="400px" }
+          ![](images/CH0897.webp#illustration){ width="80%" }
         </figure>
 
 4.  **Remove pulley**
@@ -102,7 +102,7 @@
     1.  Hold SST (A) with a torque wrench, and tighten SST (B) clockwise to the specified torque.
 
         <figure markdown="span">
-          ![](images/CH0213.webp#illustration){ width="400px" }
+          ![](images/CH0213.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09820-63010`
@@ -113,7 +113,7 @@
     3.  As shown in the figure, mount SST (C) in a vise, and install the alternator to SST (C).
 
         <figure markdown="span">
-          ![](images/CH0214_CH0215.webp#illustration){ width="400px" }
+          ![](images/CH0214_CH0215.webp#illustration){ width="80%" }
         </figure>
 
     4.  To loosen the pulley nut turn SST (A) in the direction shown in the figure.
@@ -131,13 +131,13 @@
     1.  Remove the four nuts.
 
         <figure markdown="span">
-          ![](images/CH0900.webp#illustration){ width="400px" }
+          ![](images/CH0900.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-ch-10 } Using SST, remove the rectifier end frame.
 
         <figure markdown="span">
-          ![](images/CH0901.webp#illustration){ width="400px" }
+          ![](images/CH0901.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09286-46011`
@@ -147,13 +147,13 @@
         Remove the alternator washer.
 
         <figure markdown="span">
-          ![](images/CH0896.webp#illustration){ width="400px" }
+          ![](images/CH0896.webp#illustration){ width="80%" }
         </figure>
 
 6.  **Remove rotor from drive end frame**
 
     <figure markdown="span">
-      ![](images/CH0904.webp#illustration){ width="400px" }
+      ![](images/CH0904.webp#illustration){ width="80%" }
     </figure>
 
 ## Inspection and repair of alternator
@@ -163,7 +163,7 @@
 1.  **Inspect rotor for open circuit**
 
     <figure markdown="span">
-      ![](images/CH0784.webp#illustration){ width="400px" }
+      ![](images/CH0784.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, check that there is continuity between the slip rings.
@@ -175,7 +175,7 @@
 2.  **Inspect rotor for ground**
 
     <figure markdown="span">
-      ![](images/CH0783.webp#illustration){ width="400px" }
+      ![](images/CH0783.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, check that there is no continuity between the slip ring and rotor.
@@ -185,7 +185,7 @@
 3.  [](){ #p-ch-11 } **Inspect slip rings**
 
     <figure markdown="span">
-      ![](images/CH0192.webp#illustration){ width="400px" }
+      ![](images/CH0192.webp#illustration){ width="80%" }
     </figure>
 
     1.  Check that the slip rings are not rough or scored.
@@ -205,7 +205,7 @@
 1.  **Inspect stator for open circuit**
 
     <figure markdown="span">
-      ![](images/CH0806.webp#illustration){ width="400px" }
+      ![](images/CH0806.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, check that there is continuity between the coil leads.
@@ -215,7 +215,7 @@
 2.  **Inspect stator for ground**
 
     <figure markdown="span">
-      ![](images/CH0803.webp#illustration){ width="400px" }
+      ![](images/CH0803.webp#illustration){ width="80%" }
     </figure>
 
     Using an ohmmeter, check that there is no continuity between the coil lead and drive end frame.
@@ -227,11 +227,11 @@
 1.  **Inspect exposed brush length**
 
     <figure markdown="span">
-      ![](images/CH0247.webp#illustration){ width="400px" }
+      ![](images/CH0247.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/CH0722.webp#illustration){ width="400px" }
+      ![](images/CH0722.webp#illustration){ width="80%" }
     </figure>
 
     Using scale or vernier calipers, measure the exposed brush length.
@@ -248,7 +248,7 @@
     1.  Unsolder and remove the brush and spring.
 
         <figure markdown="span">
-          ![](images/CH0248.webp#illustration){ width="400px" }
+          ![](images/CH0248.webp#illustration){ width="80%" }
         </figure>
 
     2.  Run the wire of a new brush through the hole in the brush holder, and insert the spring and brush into the
@@ -256,7 +256,7 @@
     3.  Solder the brush wire to the brush holder at specified exposed length.
 
         <figure markdown="span">
-          ![](images/CH0414.webp#illustration){ width="400px" }
+          ![](images/CH0414.webp#illustration){ width="80%" }
         </figure>
 
         **Exposed length:** 10.5 mm (0.413 in.)
@@ -270,7 +270,7 @@
 1.  **Inspect positive rectifier**
 
     <figure markdown="span">
-      ![](images/CH0808.webp#illustration){ width="400px" }
+      ![](images/CH0808.webp#illustration){ width="80%" }
     </figure>
 
     1.  Using an ohmmeter, connect one test probe to the positive (`+`) terminal and the other to each rectifier
@@ -283,7 +283,7 @@
 2.  **Inspect negative rectifier**
 
     <figure markdown="span">
-      ![](images/CH0809.webp#illustration){ width="400px" }
+      ![](images/CH0809.webp#illustration){ width="80%" }
     </figure>
 
     1.  Using an ohmmeter, connect one test probe to each negative (`–`) terminal and the other to each rectifier
@@ -298,7 +298,7 @@
 1.  **Inspect front bearing**
 
     <figure markdown="span">
-      ![](images/CH0800.webp#illustration){ width="400px" }
+      ![](images/CH0800.webp#illustration){ width="80%" }
     </figure>
 
     Check that the bearing is not rough or worn.
@@ -308,19 +308,19 @@
     1.  Remove the four screws, bearing retainer and bearing.
 
         <figure markdown="span">
-          ![](images/CH0827.webp#illustration){ width="400px" }
+          ![](images/CH0827.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using socket wrench and press, press out the bearing.
 
         <figure markdown="span">
-          ![](images/CH0390.webp#illustration){ width="400px" }
+          ![](images/CH0390.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using SST and a press, press in a new bearing.
 
         <figure markdown="span">
-          ![](images/CH0801.webp#illustration){ width="400px" }
+          ![](images/CH0801.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09608-20012` (`09608-00030`)
@@ -330,7 +330,7 @@
 3.  **Inspect rear bearing**
 
     <figure markdown="span">
-      ![](images/CH0199.webp#illustration){ width="400px" }
+      ![](images/CH0199.webp#illustration){ width="80%" }
     </figure>
 
     Check that the bearing is not rough or worn.
@@ -340,7 +340,7 @@
     1.  Using SST, remove the bearing cover and bearing.
 
         <figure markdown="span">
-          ![](images/CH0200.webp#illustration){ width="400px" }
+          ![](images/CH0200.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09820-00021`
@@ -352,7 +352,7 @@
     2.  [](){ #p-ch-14 } Using SST and a press, press in a new bearing and bearing cover.
 
         <figure markdown="span">
-          ![](images/CH0201.webp#illustration){ width="400px" }
+          ![](images/CH0201.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09285-76010`
@@ -364,7 +364,7 @@
 1.  **Install rotor to rectifier end frame**
 
     <figure markdown="span">
-      ![](images/CH0895.webp#illustration){ width="400px" }
+      ![](images/CH0895.webp#illustration){ width="80%" }
     </figure>
 
     1.  Place the rectifier end frame on the pulley.
@@ -377,25 +377,25 @@
         Place the alternator washer on the rotor.
 
         <figure markdown="span">
-          ![](images/CH0896.webp#illustration){ width="400px" }
+          ![](images/CH0896.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using a plastic-faced hammer, lightly tap in the rectifier end frame.
 
         <figure markdown="span">
-          ![](images/CH0899.webp#illustration){ width="400px" }
+          ![](images/CH0899.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the four nuts.
 
         <figure markdown="span">
-          ![](images/CH0900.webp#illustration){ width="400px" }
+          ![](images/CH0900.webp#illustration){ width="80%" }
         </figure>
 
 3.  [](){ #p-ch-15 } **Install pulley**
 
     <figure markdown="span">
-      ![](images/CH0213.webp#illustration){ width="400px" }
+      ![](images/CH0213.webp#illustration){ width="80%" }
     </figure>
 
     1.  Install the pulley to the rotor shaft by tightening the pulley nut by hand.
@@ -409,7 +409,7 @@
     4.  As shown in the figure, mount SST (C) in a vise, and install the alternator to SST (C).
 
         <figure markdown="span">
-          ![](images/CH0217.webp#illustration){ width="400px" }
+          ![](images/CH0217.webp#illustration){ width="80%" }
         </figure>
 
     5.  To torque the pulley nut turn SST (A) in the direction shown in the figure.
@@ -426,19 +426,19 @@
         Place the seal plate on the rectifier end frame.
 
         <figure markdown="span">
-          ![](images/CH0897.webp#illustration){ width="400px" }
+          ![](images/CH0897.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the four rubber insulators on the lead wires.
 
         <figure markdown="span">
-          ![](images/CH0912.webp#illustration){ width="400px" }
+          ![](images/CH0912.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the rectifier holder with the four screws.
 
         <figure markdown="span">
-          ![](images/CH0910.webp#illustration){ width="400px" }
+          ![](images/CH0910.webp#illustration){ width="80%" }
         </figure>
 
 5.  [](){ #p-ch-16 } **Install IC regulator and brush holder**
@@ -448,7 +448,7 @@
     1.  Install the brush holder cover to the brush holder.
 
         <figure markdown="span">
-          ![](images/CH0909_CH0820.webp#illustration){ width="400px" }
+          ![](images/CH0909_CH0820.webp#illustration){ width="80%" }
         </figure>
 
         !!! note "Notice"
@@ -460,13 +460,13 @@
         connector.
 
         <figure markdown="span">
-          ![](images/CH0907.webp#illustration){ width="400px" }
+          ![](images/CH0907.webp#illustration){ width="80%" }
         </figure>
 
     4.  Fit the brush holder cover.
 
         <figure markdown="span">
-          ![](images/CH0905.webp#illustration){ width="400px" }
+          ![](images/CH0905.webp#illustration){ width="80%" }
         </figure>
 
     **(80 A and 100 A Types)**
@@ -474,7 +474,7 @@
     1.  Place the IC regulator together and brush holder on the rectifier end frame.
 
         <figure markdown="span">
-          ![](images/CH0821_CH0898.webp#illustration){ width="400px" }
+          ![](images/CH0821_CH0898.webp#illustration){ width="80%" }
         </figure>
 
         !!! note "Notice"
@@ -486,7 +486,7 @@
     3.  Place the brush holder cover on the brush holder.
 
         <figure markdown="span">
-          ![](images/CH0906.webp#illustration){ width="400px" }
+          ![](images/CH0906.webp#illustration){ width="80%" }
         </figure>
 
 6.  [](){ #p-ch-17 } **Install rear end cover**
@@ -494,19 +494,19 @@
     1.  Install the end cover with the three nuts.
 
         <figure markdown="span">
-          ![](images/CH0903.webp#illustration){ width="400px" }
+          ![](images/CH0903.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the terminal insulator with the nut.
 
         <figure markdown="span">
-          ![](images/CH0902.webp#illustration){ width="400px" }
+          ![](images/CH0902.webp#illustration){ width="80%" }
         </figure>
 
 7.  **Check that rotor rotates smoothly**
 
     <figure markdown="span">
-      ![](images/CH0786.webp#illustration){ width="400px" }
+      ![](images/CH0786.webp#illustration){ width="80%" }
     </figure>
 
 ## Installation of alternator
@@ -514,7 +514,7 @@
 1.  **Install alternator**
 
     <figure markdown="span">
-      ![](images/CH0888.webp#illustration){ width="400px" }
+      ![](images/CH0888.webp#illustration){ width="80%" }
     </figure>
 
     1.  Mount the alternator on the alternator brackets with the pivot bolt and adjusting lock bolt. Do not tighten
@@ -525,7 +525,7 @@
 2.  **Install drive belt**
 
     <figure markdown="span">
-      ![](images/CH0885.webp#illustration){ width="400px" }
+      ![](images/CH0885.webp#illustration){ width="80%" }
     </figure>
 
     Adjust the drive belt tension. (See [On-vehicle inspection, step 3](on-vehicle-inspection.md#on-vehicle-inspection))

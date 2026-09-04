@@ -16,7 +16,7 @@
 6.  Check cylinder compression pressure.
 
     <figure markdown="span">
-      ![](images/EM8967.webp#illustration){ width="400px" }
+      ![](images/EM8967.webp#illustration){ width="80%" }
     </figure>
 
     1.  Insert a compression gauge into the spark plug hole.
@@ -46,7 +46,7 @@
         **Difference between each cylinder:** 1.0 kg/cm² (14 psi, 98 kPa) or less
 
         <figure markdown="span">
-          ![](images/EM7700.webp#illustration){ width="400px" }
+          ![](images/EM7700.webp#illustration){ width="80%" }
         </figure>
 
     5.  If the cylinder compression in one or more cylinders are low, pour a small amount of engine oil into the

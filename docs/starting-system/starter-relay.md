@@ -6,7 +6,7 @@
 **Location:** In the luggage compartment on the left side.
 
 <figure markdown="span">
-  ![](images/ST0891.webp#illustration){ width="400px" }
+  ![](images/ST0891.webp#illustration){ width="80%" }
 </figure>
 
 1.  Inspect relay continuity.
@@ -17,7 +17,7 @@
     If continuity is not as specified, replace the relay.
 
     <figure markdown="span">
-      ![](images/ST0770.webp#illustration){ width="400px" }
+      ![](images/ST0770.webp#illustration){ width="80%" }
     </figure>
 
 2.  Inspect relay operation.
@@ -28,5 +28,5 @@
     If operation is not as specified, replace the relay.
 
     <figure markdown="span">
-      ![](images/ST0771.webp#illustration){ width="400px" }
+      ![](images/ST0771.webp#illustration){ width="80%" }
     </figure>

@@ -6,14 +6,14 @@
     connector.
 
     <figure markdown="span">
-      ![](images/FI1522.webp#illustration){ width="400px" }
+      ![](images/FI1522.webp#illustration){ width="80%" }
     </figure>
 
 3.  With a tachometer connected to the system, connect the power source probe of the tachometer to service terminal
     +B of the engine compartment relay box.
 
     <figure markdown="span">
-      ![](images/ST0904.webp#illustration){ width="400px" }
+      ![](images/ST0904.webp#illustration){ width="80%" }
     </figure>
 
 4.  As some tachometers are not compatible with this ignition system, we recommend that you confirm the compatibility

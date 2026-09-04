@@ -77,12 +77,12 @@ topic, drop the codes; the printed pages do not exist on the site.
 
 ```markdown
 <figure markdown="span">
-  ![](images/EM8548.webp#illustration){ width="400px" }
+  ![](images/EM8548.webp#illustration){ width="80%" }
 </figure>
 ```
 
 * Indent by 4 spaces per list level when the figure belongs to a step.
-* Drop `{ width="400px" }` for images wider than 3000 px (full-width diagrams) — `lint_docs.py` enforces this.
+* Drop `{ width="80%" }` for images wider than 3000 px (full-width diagrams) — `lint_docs.py` enforces this.
 * The `#illustration` fragment drives the dark-mode inversion; it is required.
 * File names are the manual's own illustration IDs (`EM8548.webp`, `AB0014_AB0257.webp`). Hand-cropped figures get a
   descriptive kebab-case name (`shim-chart-intake.webp`).

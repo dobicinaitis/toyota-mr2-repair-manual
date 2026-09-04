@@ -28,7 +28,7 @@ following items carefully, then follow the correct procedure described in this m
    clock. To avoid erasing the memory of each memory system, never use a back-up power supply from outside the vehicle.
 
     <figure markdown="span">
-      ![](images/FI1066.webp#illustration){ width="400px" }
+      ![](images/FI1066.webp#illustration){ width="80%" }
     </figure>
 
 3. Even in cases of a minor collision where the airbag does not deploy, the front airbag sensors and the steering wheel
@@ -52,7 +52,7 @@ following items carefully, then follow the correct procedure described in this m
 ## Front airbag sensor
 
 <figure markdown="span">
-  ![](images/AB0255.webp#illustration){ width="400px" }
+  ![](images/AB0255.webp#illustration){ width="80%" }
 </figure>
 
 1. Never reuse the front airbag sensors involved in a collision when the airbag has deployed. (Replace both the left and
@@ -67,7 +67,7 @@ following items carefully, then follow the correct procedure described in this m
 ## Spiral cable (in combination switch)
 
 <figure markdown="span">
-  ![](images/AB0244.webp#illustration){ width="400px" }
+  ![](images/AB0244.webp#illustration){ width="80%" }
 </figure>
 
 The steering wheel must be fitted correctly to the steering column with the spiral cable at the neutral position;
@@ -83,7 +83,7 @@ steering wheel installation.
    some reason.)
 
     <figure markdown="span">
-      ![](images/AB0256.webp#illustration){ width="400px" }
+      ![](images/AB0256.webp#illustration){ width="80%" }
     </figure>
 
 2. Never measure the resistance of the airbag squib. (This may cause the airbag to deploy, which is very dangerous.)

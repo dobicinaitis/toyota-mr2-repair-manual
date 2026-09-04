@@ -38,7 +38,7 @@
         Never apply more than 0.83 kg/cm² (11.8 psi, 81 kPa) of pressure to the actuator.
 
     <figure markdown="span">
-      ![](images/TC0129.webp#illustration){ width="400px" }
+      ![](images/TC0129.webp#illustration){ width="80%" }
     </figure>
 
 4.  Check turbocharging pressure.
@@ -60,7 +60,7 @@
     turbocharger assembly.
 
     <figure markdown="span">
-      ![](images/TC0102.webp#illustration){ width="400px" }
+      ![](images/TC0102.webp#illustration){ width="80%" }
     </figure>
 
 5.  [](){ #p-tc-8 } Inspect impeller wheel rotation. (See [Inspection of turbocharger, step 1](#p-tc-13))
@@ -101,7 +101,7 @@
     2. Disconnect the two air by-pass hoses.
 
     <figure markdown="span">
-      ![](images/TC0104.webp#illustration){ width="400px" }
+      ![](images/TC0104.webp#illustration){ width="80%" }
     </figure>
 
 16. Remove clamps of air by-pass hose and VTV.
@@ -114,7 +114,7 @@
     2. Remove the O-ring from the air by-pass valve.
 
     <figure markdown="span">
-      ![](images/TC0196.webp#illustration){ width="400px" }
+      ![](images/TC0196.webp#illustration){ width="80%" }
     </figure>
 
 18. Remove No.4 air tube.
@@ -122,13 +122,13 @@
     1.  Remove the four bolts and air tube stay.
 
         <figure markdown="span">
-          ![](images/TC0107.webp#illustration){ width="400px" }
+          ![](images/TC0107.webp#illustration){ width="80%" }
         </figure>
 
     2.  Loosen the hose clamp, and remove the air tube.
 
         <figure markdown="span">
-          ![](images/TC0108.webp#illustration){ width="400px" }
+          ![](images/TC0108.webp#illustration){ width="80%" }
         </figure>
 
 19. Remove turbocharger heat insulator.
@@ -136,7 +136,7 @@
     Remove the three bolts and heat insulator.
 
     <figure markdown="span">
-      ![](images/TC0109.webp#illustration){ width="400px" }
+      ![](images/TC0109.webp#illustration){ width="80%" }
     </figure>
 
 20. Remove oxygen sensor.
@@ -145,7 +145,7 @@
     2. Remove the two nuts, oxygen sensor and gasket.
 
     <figure markdown="span">
-      ![](images/TC0110.webp#illustration){ width="400px" }
+      ![](images/TC0110.webp#illustration){ width="80%" }
     </figure>
 
 21. [](){ #p-tc-11 } Remove heat insulators of turbine outlet elbow.
@@ -155,7 +155,7 @@
     3. Remove the two bolts and LH heat insulator.
 
     <figure markdown="span">
-      ![](images/TC0111.webp#illustration){ width="400px" }
+      ![](images/TC0111.webp#illustration){ width="80%" }
     </figure>
 
 22. Disconnect hoses.
@@ -166,11 +166,11 @@
     4.  Oil hose from turbo oil pipe
 
         <figure markdown="span">
-          ![](images/TC0113.webp#illustration){ width="400px" }
+          ![](images/TC0113.webp#illustration){ width="80%" }
         </figure>
 
     <figure markdown="span">
-      ![](images/TC0112.webp#illustration){ width="400px" }
+      ![](images/TC0112.webp#illustration){ width="80%" }
     </figure>
 
 23. Remove turbocharger stay.
@@ -178,7 +178,7 @@
     Remove the three bolts and turbocharger stay.
 
     <figure markdown="span">
-      ![](images/TC0114.webp#illustration){ width="400px" }
+      ![](images/TC0114.webp#illustration){ width="80%" }
     </figure>
 
 24. Remove turbocharger.
@@ -187,13 +187,13 @@
         bolt gaskets.
 
         <figure markdown="span">
-          ![](images/TC0115.webp#illustration){ width="400px" }
+          ![](images/TC0115.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-tc-12 } Remove the four nuts, turbocharger and gasket.
 
         <figure markdown="span">
-          ![](images/TC0116.webp#illustration){ width="400px" }
+          ![](images/TC0116.webp#illustration){ width="80%" }
         </figure>
 
 25. Remove turbo oil pipe.
@@ -201,7 +201,7 @@
     Remove the two nuts, oil pipe and gasket.
 
     <figure markdown="span">
-      ![](images/TC0125.webp#illustration){ width="400px" }
+      ![](images/TC0125.webp#illustration){ width="80%" }
     </figure>
 
 26. Remove turbo water pipe.
@@ -209,7 +209,7 @@
     Remove the two nuts, two bolts, water pipe and gasket.
 
     <figure markdown="span">
-      ![](images/TC0118.webp#illustration){ width="400px" }
+      ![](images/TC0118.webp#illustration){ width="80%" }
     </figure>
 
 27. Remove side bearing housing plate.
@@ -217,7 +217,7 @@
     Remove the two nuts, housing plate and gasket.
 
     <figure markdown="span">
-      ![](images/TC0043.webp#illustration){ width="400px" }
+      ![](images/TC0043.webp#illustration){ width="80%" }
     </figure>
 
 28. Remove turbine outlet elbow.
@@ -225,7 +225,7 @@
     Remove the six nuts, outlet elbow and gasket.
 
     <figure markdown="span">
-      ![](images/TC0059.webp#illustration){ width="400px" }
+      ![](images/TC0059.webp#illustration){ width="80%" }
     </figure>
 
 ## Inspection of turbocharger
@@ -237,7 +237,7 @@
     If the impeller wheel does not turn or if it turns with a drag, replace the turbocharger assembly.
 
     <figure markdown="span">
-      ![](images/TC0057.webp#illustration){ width="400px" }
+      ![](images/TC0057.webp#illustration){ width="80%" }
     </figure>
 
 2.  Inspect axial play of impeller wheel.
@@ -249,7 +249,7 @@
     If the axial play is not as specified, replace the turbocharger assembly.
 
     <figure markdown="span">
-      ![](images/TC0056.webp#illustration){ width="400px" }
+      ![](images/TC0056.webp#illustration){ width="80%" }
     </figure>
 
 3.  Inspect radial play of impeller wheel.
@@ -263,7 +263,7 @@
     If the radial play is not as specified, replace the turbocharger assembly.
 
     <figure markdown="span">
-      ![](images/TC0061_TC0039.webp#illustration){ width="400px" }
+      ![](images/TC0061_TC0039.webp#illustration){ width="80%" }
     </figure>
 
 4.  Inspect air by-pass valve.
@@ -271,13 +271,13 @@
     1.  Apply vacuum to port `A`, and check that the valve is open.
 
         <figure markdown="span">
-          ![](images/TC0126.webp#illustration){ width="400px" }
+          ![](images/TC0126.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-tc-14 } In the preceding condition, apply vacuum to port `B`, and check that the valve is closed.
 
         <figure markdown="span">
-          ![](images/TC0127.webp#illustration){ width="400px" }
+          ![](images/TC0127.webp#illustration){ width="80%" }
         </figure>
 
     If operation is not as specified, replace the air by-pass valve.
@@ -290,7 +290,7 @@
     If operation is not as specified, replace the VTV.
 
     <figure markdown="span">
-      ![](images/EC0101.webp#illustration){ width="400px" }
+      ![](images/EC0101.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-tc-15 }
@@ -304,7 +304,7 @@
     the impeller wheel by hand to splash oil on the bearing.
 
 <figure markdown="span">
-  ![](images/TC0055.webp#illustration){ width="400px" }
+  ![](images/TC0055.webp#illustration){ width="80%" }
 </figure>
 
 1.  Install turbine outlet elbow.
@@ -314,7 +314,7 @@
     **Torque:** 650 kg-cm (47 ft-lb, 64 N·m)
 
     <figure markdown="span">
-      ![](images/TC0059.webp#illustration){ width="400px" }
+      ![](images/TC0059.webp#illustration){ width="80%" }
     </figure>
 
 2.  Install side bearing housing plate.
@@ -324,7 +324,7 @@
     **Torque:** 120 kg-cm (9 ft-lb, 11 N·m)
 
     <figure markdown="span">
-      ![](images/TC0043.webp#illustration){ width="400px" }
+      ![](images/TC0043.webp#illustration){ width="80%" }
     </figure>
 
 3.  Install turbo water pipe.
@@ -334,7 +334,7 @@
     **Torque:** 120 kg-cm (9 ft-lb, 11 N·m)
 
     <figure markdown="span">
-      ![](images/TC0118.webp#illustration){ width="400px" }
+      ![](images/TC0118.webp#illustration){ width="80%" }
     </figure>
 
 4.  Install turbo oil pipe.
@@ -343,7 +343,7 @@
     2. Install the gasket and oil pipe with the two nuts. Do not torque the nuts yet.
 
     <figure markdown="span">
-      ![](images/TC0124.webp#illustration){ width="400px" }
+      ![](images/TC0124.webp#illustration){ width="80%" }
     </figure>
 
 5.  [](){ #p-tc-16 } Install turbocharger.
@@ -351,13 +351,13 @@
     1.  Install a new gasket and the turbocharger with the four nuts. Do not torque the nuts.
 
         <figure markdown="span">
-          ![](images/TC0117.webp#illustration){ width="400px" }
+          ![](images/TC0117.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the oil pipe with the bolt, two new gaskets and union bolt. Do not torque the bolt and union bolt.
 
         <figure markdown="span">
-          ![](images/TC0131.webp#illustration){ width="400px" }
+          ![](images/TC0131.webp#illustration){ width="80%" }
         </figure>
 
     3.  Tighten the four nuts holding the turbocharger to the exhaust manifold.
@@ -365,7 +365,7 @@
         **Torque:** 650 kg-cm (47 ft-lb, 64 N·m)
 
         <figure markdown="span">
-          ![](images/TC0116.webp#illustration){ width="400px" }
+          ![](images/TC0116.webp#illustration){ width="80%" }
         </figure>
 
     4.  Tighten the two nuts holding the oil pipe to the turbocharger.
@@ -373,7 +373,7 @@
         **Torque:** 175 kg-cm (13 ft-lb, 17 N·m)
 
         <figure markdown="span">
-          ![](images/TC0134.webp#illustration){ width="400px" }
+          ![](images/TC0134.webp#illustration){ width="80%" }
         </figure>
 
     5.  Tighten the union bolt holding the oil pipe to the cylinder block.
@@ -381,7 +381,7 @@
         **Torque:** 525 kg-cm (38 ft-lb, 51 N·m)
 
         <figure markdown="span">
-          ![](images/TC0115.webp#illustration){ width="400px" }
+          ![](images/TC0115.webp#illustration){ width="80%" }
         </figure>
 
     6.  Tighten the union bolt holding the oil pipe to the cylinder block.
@@ -398,7 +398,7 @@
     * To cylinder block – 600 kg-cm (43 ft-lb, 59 N·m)
 
     <figure markdown="span">
-      ![](images/TC0114.webp#illustration){ width="400px" }
+      ![](images/TC0114.webp#illustration){ width="80%" }
     </figure>
 
 7.  Connect hoses.
@@ -409,11 +409,11 @@
     4.  Oil hose from turbo oil pipe
 
         <figure markdown="span">
-          ![](images/TC0113.webp#illustration){ width="400px" }
+          ![](images/TC0113.webp#illustration){ width="80%" }
         </figure>
 
     <figure markdown="span">
-      ![](images/TC0112.webp#illustration){ width="400px" }
+      ![](images/TC0112.webp#illustration){ width="80%" }
     </figure>
 
 8.  Install heat insulators of turbine outlet elbow.
@@ -423,7 +423,7 @@
     3. Install the oil dipstick gauge.
 
     <figure markdown="span">
-      ![](images/TC0111.webp#illustration){ width="400px" }
+      ![](images/TC0111.webp#illustration){ width="80%" }
     </figure>
 
 9.  Install oxygen sensor.
@@ -435,7 +435,7 @@
     2.  Connect the oxygen sensor connector.
 
     <figure markdown="span">
-      ![](images/TC0110.webp#illustration){ width="400px" }
+      ![](images/TC0110.webp#illustration){ width="80%" }
     </figure>
 
 10. [](){ #p-tc-18 } Install turbocharger heat insulator.
@@ -443,7 +443,7 @@
     Install the heat insulator with the three bolts.
 
     <figure markdown="span">
-      ![](images/TC0109.webp#illustration){ width="400px" }
+      ![](images/TC0109.webp#illustration){ width="80%" }
     </figure>
 
 11. Install No.4 air tube.
@@ -451,7 +451,7 @@
     1.  Connect the air connector and air tube to the turbocharger.
 
         <figure markdown="span">
-          ![](images/TC0108.webp#illustration){ width="400px" }
+          ![](images/TC0108.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the air tube stay with the four bolts.
@@ -459,7 +459,7 @@
         **Torque:** 195 kg-cm (14 ft-lb, 19 N·m)
 
         <figure markdown="span">
-          ![](images/TC0107.webp#illustration){ width="400px" }
+          ![](images/TC0107.webp#illustration){ width="80%" }
         </figure>
 
 12. Install air by-pass valve.
@@ -468,7 +468,7 @@
     2.  Apply soapy water on the O-ring.
 
         <figure markdown="span">
-          ![](images/TC0123.webp#illustration){ width="400px" }
+          ![](images/TC0123.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the air by-pass valve with the bolt.
@@ -476,7 +476,7 @@
         **Torque:** 195 kg-cm (14 ft-lb, 19 N·m)
 
         <figure markdown="span">
-          ![](images/TC0106.webp#illustration){ width="400px" }
+          ![](images/TC0106.webp#illustration){ width="80%" }
         </figure>
 
 13. [](){ #p-tc-19 } Install clamps of air by-pass hose and VTV.
@@ -484,7 +484,7 @@
     Install the two clamps with the bolt.
 
     <figure markdown="span">
-      ![](images/TC0104.webp#illustration){ width="400px" }
+      ![](images/TC0104.webp#illustration){ width="80%" }
     </figure>
 
 14. Connect air by-pass hoses.

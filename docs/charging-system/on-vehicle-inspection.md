@@ -4,7 +4,7 @@
 1.  **Inspect battery specific gravity and electrolyte level**
 
     <figure markdown="span">
-      ![](images/CH0609.webp#illustration){ width="400px" }
+      ![](images/CH0609.webp#illustration){ width="80%" }
     </figure>
 
     1.  Check the specific gravity of each cell.
@@ -20,7 +20,7 @@
 2.  **Check battery terminals, fusible links and fuses**
 
     <figure markdown="span">
-      ![](images/CH0793.webp#illustration){ width="400px" }
+      ![](images/CH0793.webp#illustration){ width="80%" }
     </figure>
 
     1.  Check that the battery terminals are not loose or corroded.
@@ -44,7 +44,7 @@
     1.  Visually check the drive belt for excessive wear, frayed cords etc.
 
         <figure markdown="span">
-          ![](images/CH0004_CH0752.webp#illustration){ width="400px" }
+          ![](images/CH0004_CH0752.webp#illustration){ width="80%" }
         </figure>
 
         If necessary, replace the drive belt.
@@ -57,7 +57,7 @@
     2.  Using a belt tension gauge, measure the drive belt tension.
 
         <figure markdown="span">
-          ![](images/EC0003_EC0004_EC0001.webp#illustration){ width="400px" }
+          ![](images/EC0003_EC0004_EC0001.webp#illustration){ width="80%" }
         </figure>
 
         **Belt tension gauge:**
@@ -73,7 +73,7 @@
         If the belt tension is not as specified, adjust it.
 
         <figure markdown="span">
-          ![](images/CH0087.webp#illustration){ width="400px" }
+          ![](images/CH0087.webp#illustration){ width="80%" }
         </figure>
 
         !!! tip "Hint"
@@ -87,7 +87,7 @@
 4.  [](){ #p-ch-4 } **Visually check alternator wiring and listen for abnormal noises**
 
     <figure markdown="span">
-      ![](images/CH0889.webp#illustration){ width="400px" }
+      ![](images/CH0889.webp#illustration){ width="80%" }
     </figure>
 
     1.  Check that the wiring is in good condition.
@@ -105,7 +105,7 @@
 6.  **Inspect charging circuit without load**
 
     <figure markdown="span">
-      ![](images/CH0732.webp#illustration){ width="400px" }
+      ![](images/CH0732.webp#illustration){ width="80%" }
     </figure>
 
     !!! tip "Hint"
@@ -124,7 +124,7 @@
     2.  Check the charging circuit as follows:
 
         <figure markdown="span">
-          ![](images/CH0205_CH0010.webp#illustration){ width="400px" }
+          ![](images/CH0205_CH0010.webp#illustration){ width="80%" }
         </figure>
 
         With the engine running from idling to 2,000 rpm, check the reading on the ammeter and voltmeter.
@@ -142,13 +142,13 @@
         as follows:
 
         <figure markdown="span">
-          ![](images/CH0914.webp#illustration){ width="400px" }
+          ![](images/CH0914.webp#illustration){ width="80%" }
         </figure>
 
         * With terminal F grounded, start the engine and check the voltmeter reading of terminal B.
 
         <figure markdown="span">
-          ![](images/CH0067.webp#illustration){ width="400px" }
+          ![](images/CH0067.webp#illustration){ width="80%" }
         </figure>
 
         * If the voltmeter reading is greater than standard voltage, replace the IC regulator.
@@ -157,7 +157,7 @@
 7.  **Inspect charging circuit with load**
 
     <figure markdown="span">
-      ![](images/CH0068.webp#illustration){ width="400px" }
+      ![](images/CH0068.webp#illustration){ width="80%" }
     </figure>
 
     1.  With the engine running at 2,000 rpm, turn on the high beam headlights and place the heater blower switch at
@@ -167,7 +167,7 @@
         **Standard amperage:** 30 A or more
 
         <figure markdown="span">
-          ![](images/CH0069.webp#illustration){ width="400px" }
+          ![](images/CH0069.webp#illustration){ width="80%" }
         </figure>
 
         If the ammeter reading is less than standard amperage, repair the alternator. (See [Alternator › Disassembly of alternator](alternator.md#disassembly-of-alternator))

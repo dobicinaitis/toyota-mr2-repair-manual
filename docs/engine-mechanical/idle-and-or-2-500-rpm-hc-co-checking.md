@@ -26,7 +26,7 @@
 3.  Race engine at 2,500 rpm for approx. 120 seconds.
 
     <figure markdown="span">
-      ![](images/EC0137_EM8144.webp#illustration){ width="400px" }
+      ![](images/EC0137_EM8144.webp#illustration){ width="80%" }
     </figure>
 
 4.  Insert HC/CO meter testing probe into tailpipe at least 40 cm (1.3 ft).
@@ -40,7 +40,7 @@
         regulations.
 
     <figure markdown="span">
-      ![](images/EM8777.webp#illustration){ width="400px" }
+      ![](images/EM8777.webp#illustration){ width="80%" }
     </figure>
 
 If the HC/CO concentration at 2,500 rpm does not conform to regulations, try the following procedure.

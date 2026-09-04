@@ -21,7 +21,7 @@
     7.  Be sure the cover for the positive (`+`) terminal is properly in place.
 
     <figure markdown="span">
-      ![](images/FI1066.webp#illustration){ width="400px" }
+      ![](images/FI1066.webp#illustration){ width="80%" }
     </figure>
 
 4. [](){ #p-in-5 } Check hose and wiring connectors to make sure that they are secure and correct.
@@ -34,7 +34,7 @@
     Precoated parts are bolts and nuts, etc. that are coated with a seal lock adhesive at the factory.
 
     <figure markdown="span">
-      ![](images/IN0036.webp#illustration){ width="400px" }
+      ![](images/IN0036.webp#illustration){ width="80%" }
     </figure>
 
     1. If a precoated part is retightened, loosened or caused to move in any way, it must be recoated with the specified
@@ -54,7 +54,7 @@
     a lower rating.
 
     <figure markdown="span">
-      ![](images/BE1367.webp#illustration){ width="400px" }
+      ![](images/BE1367.webp#illustration){ width="80%" }
     </figure>
 
 11. Care must be taken when jacking up and supporting the vehicle. Be sure to lift and support the vehicle at the proper
@@ -70,7 +70,7 @@
     2. To pull apart electrical connectors, pull on the connector itself, not the wires.
 
         <figure markdown="span">
-          ![](images/IN0252.webp#illustration){ width="400px" }
+          ![](images/IN0252.webp#illustration){ width="80%" }
         </figure>
 
     3. Be careful not to drop electrical components, such as sensors or relays. If they are dropped on a hard floor they
@@ -80,7 +80,7 @@
     5. To disconnect vacuum hoses, pull on the end, not the middle of the hose.
 
         <figure markdown="span">
-          ![](images/IN0253.webp#illustration){ width="400px" }
+          ![](images/IN0253.webp#illustration){ width="80%" }
         </figure>
 
     6. When steam cleaning an engine, protect the distributor, coil, air filter and VCV from water.
@@ -94,5 +94,5 @@
        the proper layout.
 
     <figure markdown="span">
-      ![](images/IN0002.webp#illustration){ width="400px" }
+      ![](images/IN0002.webp#illustration){ width="80%" }
     </figure>

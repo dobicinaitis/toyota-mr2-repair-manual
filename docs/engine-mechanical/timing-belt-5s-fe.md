@@ -26,7 +26,7 @@
     Loosen the idler pulley bolt and adjusting bolt, and remove the drive belt.
 
     <figure markdown="span">
-      ![](images/EM8721.webp#illustration){ width="400px" }
+      ![](images/EM8721.webp#illustration){ width="80%" }
     </figure>
 
 8.  Remove alternator drive belt.
@@ -34,7 +34,7 @@
     Loosen the pivot bolt, adjusting lock bolt and adjusting bolt, and remove the drive belt.
 
     <figure markdown="span">
-      ![](images/EM9088.webp#illustration){ width="400px" }
+      ![](images/EM9088.webp#illustration){ width="80%" }
     </figure>
 
 9.  Slightly jack up engine.
@@ -42,7 +42,7 @@
     Raise the engine enough to remove the weight from the engine mounting on the right side.
 
     <figure markdown="span">
-      ![](images/EM9083.webp#illustration){ width="400px" }
+      ![](images/EM9083.webp#illustration){ width="80%" }
     </figure>
 
 10. Remove RH engine mounting stay.
@@ -50,7 +50,7 @@
     Remove the bolt, nut and mounting stay.
 
     <figure markdown="span">
-      ![](images/EM8731.webp#illustration){ width="400px" }
+      ![](images/EM8731.webp#illustration){ width="80%" }
     </figure>
 
 11. Remove RH engine mounting insulator.
@@ -58,7 +58,7 @@
     Remove the through bolt, two nuts and mounting insulator.
 
     <figure markdown="span">
-      ![](images/EM8741.webp#illustration){ width="400px" }
+      ![](images/EM8741.webp#illustration){ width="80%" }
     </figure>
 
 12. [](){ #p-em-49 } Remove RH engine mounting bracket.
@@ -70,7 +70,7 @@
         Lower the jack and perform the operation with the engine fully up.
 
     <figure markdown="span">
-      ![](images/EM8748.webp#illustration){ width="400px" }
+      ![](images/EM8748.webp#illustration){ width="80%" }
     </figure>
 
 13. Remove No.2 timing belt cover.
@@ -78,7 +78,7 @@
     Remove the five bolts, timing belt cover and two gaskets.
 
     <figure markdown="span">
-      ![](images/EM8924.webp#illustration){ width="400px" }
+      ![](images/EM8924.webp#illustration){ width="80%" }
     </figure>
 
 14. Remove spark plugs. (See [On-vehicle inspection (5S-FE) › Inspection of high-tension cords](../ignition-system/on-vehicle-inspection-5s-fe.md#inspection-of-high-tension-cords))
@@ -87,7 +87,7 @@
     1.  Turn the crankshaft pulley and align its groove with timing mark "0" of the No.1 timing belt cover.
 
         <figure markdown="span">
-          ![](images/EM9072.webp#illustration){ width="400px" }
+          ![](images/EM9072.webp#illustration){ width="80%" }
         </figure>
 
     2.  Check that the hole of the camshaft timing pulley is aligned with the timing mark of the bearing cap.
@@ -95,7 +95,7 @@
         If not, turn the crankshaft one revolution (360°).
 
         <figure markdown="span">
-          ![](images/EM8925.webp#illustration){ width="400px" }
+          ![](images/EM8925.webp#illustration){ width="80%" }
         </figure>
 
 16. Remove timing belt from camshaft timing pulley.
@@ -106,20 +106,20 @@
         match the end of the No.1 timing belt cover.
 
     <figure markdown="span">
-      ![](images/EM8926.webp#illustration){ width="400px" }
+      ![](images/EM8926.webp#illustration){ width="80%" }
     </figure>
 
     1.  [](){ #p-em-50 } Loosen the mount bolt of the No.1 idler pulley and shift the pulley toward the left as far as
         it will go, temporarily tighten it.
 
         <figure markdown="span">
-          ![](images/EM9016.webp#illustration){ width="400px" }
+          ![](images/EM9016.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the timing belt from the camshaft timing pulley.
 
         <figure markdown="span">
-          ![](images/EM9017.webp#illustration){ width="400px" }
+          ![](images/EM9017.webp#illustration){ width="80%" }
         </figure>
 
 17. Remove camshaft timing pulley.
@@ -129,7 +129,7 @@
     **SST** `09249-63010` and `09278-54012`
 
     <figure markdown="span">
-      ![](images/EM8927.webp#illustration){ width="400px" }
+      ![](images/EM8927.webp#illustration){ width="80%" }
     </figure>
 
 18. Remove crankshaft pulley.
@@ -159,29 +159,29 @@
               align its groove with timing mark "0" of the No.1 timing belt cover.
 
         <figure markdown="span">
-          ![](images/EM9058.webp#illustration){ width="400px" }
+          ![](images/EM9058.webp#illustration){ width="80%" }
         </figure>
 
         [](){ #p-em-51 }
 
         <figure markdown="span">
-          ![](images/EM9018.webp#illustration){ width="400px" }
+          ![](images/EM9018.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM9019.webp#illustration){ width="400px" }
+          ![](images/EM9019.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM9020.webp#illustration){ width="400px" }
+          ![](images/EM9020.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM8928.webp#illustration){ width="400px" }
+          ![](images/EM8928.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM8929.webp#illustration){ width="400px" }
+          ![](images/EM8929.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using SST, remove the pulley.
@@ -193,7 +193,7 @@
             Remove the pulley without turning it.
 
         <figure markdown="span">
-          ![](images/EM8930.webp#illustration){ width="400px" }
+          ![](images/EM8930.webp#illustration){ width="80%" }
         </figure>
 
 19. [](){ #p-em-52 } Remove No.1 timing belt cover.
@@ -201,13 +201,13 @@
     Remove the four bolts, timing belt cover and gasket.
 
     <figure markdown="span">
-      ![](images/EM8931.webp#illustration){ width="400px" }
+      ![](images/EM8931.webp#illustration){ width="80%" }
     </figure>
 
 20. Remove timing belt guide.
 
     <figure markdown="span">
-      ![](images/EM8788.webp#illustration){ width="400px" }
+      ![](images/EM8788.webp#illustration){ width="80%" }
     </figure>
 
 21. Remove timing belt.
@@ -218,7 +218,7 @@
         timing belt and crankshaft timing pulley.
 
     <figure markdown="span">
-      ![](images/EM8750.webp#illustration){ width="400px" }
+      ![](images/EM8750.webp#illustration){ width="80%" }
     </figure>
 
 22. Remove No.1 idler pulley and tension spring.
@@ -226,7 +226,7 @@
     Remove the bolt, pulley and tension spring.
 
     <figure markdown="span">
-      ![](images/EM8787.webp#illustration){ width="400px" }
+      ![](images/EM8787.webp#illustration){ width="80%" }
     </figure>
 
 23. Remove No.2 idler pulley.
@@ -234,7 +234,7 @@
     Remove the bolt and pulley.
 
     <figure markdown="span">
-      ![](images/EM8751.webp#illustration){ width="400px" }
+      ![](images/EM8751.webp#illustration){ width="80%" }
     </figure>
 
 24. [](){ #p-em-53 } Remove crankshaft timing pulley.
@@ -246,7 +246,7 @@
         Position shop rags as shown to prevent damage.
 
     <figure markdown="span">
-      ![](images/EM8932.webp#illustration){ width="400px" }
+      ![](images/EM8932.webp#illustration){ width="80%" }
     </figure>
 
 25. Remove oil pump pulley.
@@ -256,7 +256,7 @@
     **SST** `09616-30011`
 
     <figure markdown="span">
-      ![](images/EM8753.webp#illustration){ width="400px" }
+      ![](images/EM8753.webp#illustration){ width="80%" }
     </figure>
 
 ## Inspection of timing belt components
@@ -272,7 +272,7 @@
     If there are any defects as shown in the illustrations, check the following points:
 
     <figure markdown="span">
-      ![](images/EM3336.webp#illustration){ width="400px" }
+      ![](images/EM3336.webp#illustration){ width="80%" }
     </figure>
 
     1.  Premature parting
@@ -281,26 +281,26 @@
         * Check the timing cover gasket for damage and proper installation.
 
         <figure markdown="span">
-          ![](images/EM3337.webp#illustration){ width="400px" }
+          ![](images/EM3337.webp#illustration){ width="80%" }
         </figure>
 
     2.  If the belt teeth are cracked or damaged, check to see if either camshaft or water pump is locked.
 
         <figure markdown="span">
-          ![](images/EM3338.webp#illustration){ width="400px" }
+          ![](images/EM3338.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-em-54 } If there is noticeable wear or cracks on the belt face, check to see if there are nicks on the
         side of the idler pulley lock.
 
         <figure markdown="span">
-          ![](images/EM3339.webp#illustration){ width="400px" }
+          ![](images/EM3339.webp#illustration){ width="80%" }
         </figure>
 
     4.  If there is wear or damage on only one side of the belt, check the belt guide and the alignment of each pulley.
 
         <figure markdown="span">
-          ![](images/EM3340.webp#illustration){ width="400px" }
+          ![](images/EM3340.webp#illustration){ width="80%" }
         </figure>
 
     5.  If there is noticeable wear on the belt teeth, check the timing cover for damage, and correct gasket
@@ -309,7 +309,7 @@
         If necessary, replace the timing belt.
 
         <figure markdown="span">
-          ![](images/EM3341.webp#illustration){ width="400px" }
+          ![](images/EM3341.webp#illustration){ width="80%" }
         </figure>
 
 2.  Inspect idler pulleys.
@@ -319,7 +319,7 @@
     If necessary, replace the idler pulley.
 
     <figure markdown="span">
-      ![](images/EM3295.webp#illustration){ width="400px" }
+      ![](images/EM3295.webp#illustration){ width="80%" }
     </figure>
 
 3.  Inspect tension spring.
@@ -331,7 +331,7 @@
         If the free length is not as specified, replace the tension spring.
 
         <figure markdown="span">
-          ![](images/EM7815.webp#illustration){ width="400px" }
+          ![](images/EM7815.webp#illustration){ width="80%" }
         </figure>
 
     2.  Measure the tension of the tension spring at the specified installed length.
@@ -355,7 +355,7 @@
     **Torque:** 290 kg-cm (21 ft-lb, 28 N·m)
 
     <figure markdown="span">
-      ![](images/EM8754.webp#illustration){ width="400px" }
+      ![](images/EM8754.webp#illustration){ width="80%" }
     </figure>
 
 2.  Install crankshaft timing pulley.
@@ -364,7 +364,7 @@
     2. Slide on the timing pulley, facing the flange side inward.
 
     <figure markdown="span">
-      ![](images/EM8752.webp#illustration){ width="400px" }
+      ![](images/EM8752.webp#illustration){ width="80%" }
     </figure>
 
 3.  Install No.2 idler pulley.
@@ -380,7 +380,7 @@
     2.  Check that the idler pulley moves smoothly.
 
     <figure markdown="span">
-      ![](images/EM7705_EM8755.webp#illustration){ width="400px" }
+      ![](images/EM7705_EM8755.webp#illustration){ width="80%" }
     </figure>
 
 4.  Temporarily install No.1 idler pulley and tension spring.
@@ -396,7 +396,7 @@
     4.  Check that the idler pulley moves smoothly.
 
     <figure markdown="span">
-      ![](images/EM7706_EM8933.webp#illustration){ width="400px" }
+      ![](images/EM7706_EM8933.webp#illustration){ width="80%" }
     </figure>
 
 5.  Temporarily install timing belt.
@@ -409,7 +409,7 @@
         pulley upward.
 
         <figure markdown="span">
-          ![](images/EM8934.webp#illustration){ width="400px" }
+          ![](images/EM8934.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-56 } Remove any oil or water on the crankshaft pulley, oil pump pulley, water pump pulley, No.1
@@ -423,7 +423,7 @@
             pointing in the direction of engine revolution.
 
         <figure markdown="span">
-          ![](images/EM8750.webp#illustration){ width="400px" }
+          ![](images/EM8750.webp#illustration){ width="80%" }
         </figure>
 
 6.  Install timing belt guide.
@@ -431,7 +431,7 @@
     Install the guide, facing the cup side outward.
 
     <figure markdown="span">
-      ![](images/EM8788.webp#illustration){ width="400px" }
+      ![](images/EM8788.webp#illustration){ width="80%" }
     </figure>
 
 7.  Install No.1 timing belt cover.
@@ -440,7 +440,7 @@
     2. Install the timing belt cover with the four bolts.
 
     <figure markdown="span">
-      ![](images/EM8931.webp#illustration){ width="400px" }
+      ![](images/EM8931.webp#illustration){ width="80%" }
     </figure>
 
 8.  Install crankshaft pulley.
@@ -453,7 +453,7 @@
         **Torque:** 1,100 kg-cm (80 ft-lb, 108 N·m)
 
     <figure markdown="span">
-      ![](images/EM9057.webp#illustration){ width="400px" }
+      ![](images/EM9057.webp#illustration){ width="80%" }
     </figure>
 
 9.  Install camshaft timing pulley.
@@ -470,7 +470,7 @@
             Use a torque wrench with a fulcrum length of 340 mm (13.39 in.).
 
     <figure markdown="span">
-      ![](images/EM9021.webp#illustration){ width="400px" }
+      ![](images/EM9021.webp#illustration){ width="80%" }
     </figure>
 
 10. [](){ #p-em-57 } Set No.1 cylinder to TDC/compression.
@@ -478,7 +478,7 @@
     1.  Turn the crankshaft pulley, and align its groove with timing mark "0" of the No.1 timing belt cover.
 
         <figure markdown="span">
-          ![](images/EM9072.webp#illustration){ width="400px" }
+          ![](images/EM9072.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using SST, turn the camshaft, and align the hole of the camshaft timing pulley with the timing mark of the
@@ -487,7 +487,7 @@
         **SST** `09278-54012`
 
         <figure markdown="span">
-          ![](images/EM8935.webp#illustration){ width="400px" }
+          ![](images/EM8935.webp#illustration){ width="80%" }
         </figure>
 
 11. Install timing belt.
@@ -502,11 +502,11 @@
         * Align the matchmarks of the timing belt and camshaft timing pulley.
 
     <figure markdown="span">
-      ![](images/EM9022.webp#illustration){ width="400px" }
+      ![](images/EM9022.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM8749.webp#illustration){ width="400px" }
+      ![](images/EM8749.webp#illustration){ width="80%" }
     </figure>
 
     1.  Remove any oil or water on the camshaft timing pulley, and keep it clean.
@@ -514,7 +514,7 @@
         pulley.
 
         <figure markdown="span">
-          ![](images/EM9017.webp#illustration){ width="400px" }
+          ![](images/EM9017.webp#illustration){ width="80%" }
         </figure>
 
 12. [](){ #p-em-58 } Check valve timing.
@@ -522,7 +522,7 @@
     1.  Loosen the No.1 idler pulley bolt 1/2 turn.
 
         <figure markdown="span">
-          ![](images/EM8936.webp#illustration){ width="400px" }
+          ![](images/EM8936.webp#illustration){ width="80%" }
         </figure>
 
     2.  Turn the crankshaft pulley two revolutions from TDC to TDC.
@@ -532,7 +532,7 @@
             Always turn the crankshaft clockwise.
 
         <figure markdown="span">
-          ![](images/EM9072.webp#illustration){ width="400px" }
+          ![](images/EM9072.webp#illustration){ width="80%" }
         </figure>
 
     3.  Check that each pulley aligns with the timing marks as shown in the figure.
@@ -540,7 +540,7 @@
         If the timing marks do not align, remove the timing belt and reinstall it.
 
         <figure markdown="span">
-          ![](images/EM9133.webp#illustration){ width="400px" }
+          ![](images/EM9133.webp#illustration){ width="80%" }
         </figure>
 
     4.  Torque the mount bolt of the No.1 idler pulley.
@@ -548,7 +548,7 @@
         **Torque:** 425 kg-cm (31 ft-lb, 42 N·m)
 
         <figure markdown="span">
-          ![](images/EM8937.webp#illustration){ width="400px" }
+          ![](images/EM8937.webp#illustration){ width="80%" }
         </figure>
 
 13. Install spark plugs. (See [On-vehicle inspection (5S-FE) › Inspection of spark plugs](../ignition-system/on-vehicle-inspection-5s-fe.md#p-ig-12))
@@ -561,13 +561,13 @@
     2.  Install the belt cover with the five bolts.
 
         <figure markdown="span">
-          ![](images/EM8924.webp#illustration){ width="400px" }
+          ![](images/EM8924.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-em-59 } Install the two clamps of the engine wire to each bolt.
 
         <figure markdown="span">
-          ![](images/FI5744.webp#illustration){ width="400px" }
+          ![](images/FI5744.webp#illustration){ width="80%" }
         </figure>
 
 15. Install RH engine mounting bracket.
@@ -581,7 +581,7 @@
         Lower the jack and perform the operation with the engine fully up.
 
     <figure markdown="span">
-      ![](images/EM8748.webp#illustration){ width="400px" }
+      ![](images/EM8748.webp#illustration){ width="80%" }
     </figure>
 
 16. Install RH engine mounting insulator.
@@ -594,7 +594,7 @@
     * Through bolt – 800 kg-cm (58 ft-lb, 78 N·m)
 
     <figure markdown="span">
-      ![](images/EM8741.webp#illustration){ width="400px" }
+      ![](images/EM8741.webp#illustration){ width="80%" }
     </figure>
 
 17. Install RH engine mounting stay.
@@ -604,7 +604,7 @@
     **Torque:** 740 kg-cm (54 ft-lb, 73 N·m)
 
     <figure markdown="span">
-      ![](images/EM8731.webp#illustration){ width="400px" }
+      ![](images/EM8731.webp#illustration){ width="80%" }
     </figure>
 
 18. Install alternator drive belt.
@@ -612,7 +612,7 @@
     Install the drive belt with the adjusting bolt, lock bolt and pivot bolt.
 
     <figure markdown="span">
-      ![](images/EM9088.webp#illustration){ width="400px" }
+      ![](images/EM9088.webp#illustration){ width="80%" }
     </figure>
 
 19. [](){ #p-em-60 } Install A/C drive belt.
@@ -620,7 +620,7 @@
     Install the drive belt with the adjusting bolt and idler pulley bolt.
 
     <figure markdown="span">
-      ![](images/EM8721.webp#illustration){ width="400px" }
+      ![](images/EM8721.webp#illustration){ width="80%" }
     </figure>
 
 20. Install RH front wheel.

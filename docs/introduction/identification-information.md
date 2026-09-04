@@ -7,7 +7,7 @@ The vehicle identification number is stamped on the cowl panel. This number has 
 identification number plate and certification regulation label.
 
 <figure markdown="span">
-  ![](images/IN0301.webp#illustration){ width="400px" }
+  ![](images/IN0301.webp#illustration){ width="80%" }
 </figure>
 
 A. Vehicle Identification Number
@@ -21,5 +21,5 @@ C. Certification Regulation Label
 The engine serial number is stamped on the rear of the cylinder block.
 
 <figure markdown="span">
-  ![](images/IN0146_IN0100.webp#illustration){ width="400px" }
+  ![](images/IN0146_IN0100.webp#illustration){ width="80%" }
 </figure>

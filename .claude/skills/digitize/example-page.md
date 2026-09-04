@@ -83,7 +83,7 @@ Converted:
     If not, turn the crankshaft one revolution (360°) and align the mark as above.
 
     <figure markdown="span">
-      ![](images/EM8548.webp#illustration){ width="400px" }
+      ![](images/EM8548.webp#illustration){ width="80%" }
     </figure>
 
 9.  Inspect valve clearance.
@@ -100,7 +100,7 @@ Converted:
         * Exhaust – 0.20 – 0.30 mm (0.008 – 0.012 in.)
 
     <figure markdown="span">
-      ![](images/EM7889.webp#illustration){ width="400px" }
+      ![](images/EM7889.webp#illustration){ width="80%" }
     </figure>
 ```
 

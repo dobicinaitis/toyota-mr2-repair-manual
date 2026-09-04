@@ -30,7 +30,7 @@
 10. Disconnect ground strap connector.
 
     <figure markdown="span">
-      ![](images/EM8553.webp#illustration){ width="400px" }
+      ![](images/EM8553.webp#illustration){ width="80%" }
     </figure>
 
 11. Disconnect vacuum hoses.
@@ -39,13 +39,13 @@
     2.  Vacuum sensor hose from intake manifold
 
         <figure markdown="span">
-          ![](images/EM9077.webp#illustration){ width="400px" }
+          ![](images/EM9077.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-em-99 } A/C VSV vacuum hose from intake manifold
 
         <figure markdown="span">
-          ![](images/EM9066.webp#illustration){ width="400px" }
+          ![](images/EM9066.webp#illustration){ width="80%" }
         </figure>
 
     4.  A/C VSV air hose from ISC valve
@@ -57,7 +57,7 @@
     1.  Disconnect the oxygen sensor (main) connector.
 
         <figure markdown="span">
-          ![](images/EM8746.webp#illustration){ width="400px" }
+          ![](images/EM8746.webp#illustration){ width="80%" }
         </figure>
 
     2.  (CALIF. only) Disconnect the sub-oxygen sensor connector.
@@ -65,13 +65,13 @@
     4.  Remove the two bolts, two nuts and catalytic converter stay.
 
         <figure markdown="span">
-          ![](images/EM8956.webp#illustration){ width="400px" }
+          ![](images/EM8956.webp#illustration){ width="80%" }
         </figure>
 
     5.  Remove the six nuts, the exhaust manifold and catalytic converter assembly.
 
         <figure markdown="span">
-          ![](images/EM8922.webp#illustration){ width="400px" }
+          ![](images/EM8922.webp#illustration){ width="80%" }
         </figure>
 
 15. Separate exhaust manifold and catalytic converter.
@@ -90,11 +90,11 @@
     10. Catalytic converter
 
     <figure markdown="span">
-      ![](images/EM7759.webp#illustration){ width="400px" }
+      ![](images/EM7759.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM7811.webp#illustration){ width="400px" }
+      ![](images/EM7811.webp#illustration){ width="80%" }
     </figure>
 
 16. Remove water outlet and housing.
@@ -109,13 +109,13 @@
         and cylinder head.
 
         <figure markdown="span">
-          ![](images/EM9023.webp#illustration){ width="400px" }
+          ![](images/EM9023.webp#illustration){ width="80%" }
         </figure>
 
     3.  Disconnect the following hoses:
 
         <figure markdown="span">
-          ![](images/EM9024.webp#illustration){ width="400px" }
+          ![](images/EM9024.webp#illustration){ width="80%" }
         </figure>
 
         1.  Water filler hose
@@ -126,13 +126,13 @@
         6.  Two EVAP BVSV vacuum hoses
 
         <figure markdown="span">
-          ![](images/EM8622.webp#illustration){ width="400px" }
+          ![](images/EM8622.webp#illustration){ width="80%" }
         </figure>
 
     4.  Remove the two bolts, the water outlet, housing assembly and gasket.
 
         <figure markdown="span">
-          ![](images/EM8962.webp#illustration){ width="400px" }
+          ![](images/EM8962.webp#illustration){ width="80%" }
         </figure>
 
 17. [](){ #p-em-101 } Remove water by-pass pipe.
@@ -140,7 +140,7 @@
     1.  Remove the bolt, two nuts and oil cooler heat protector.
 
         <figure markdown="span">
-          ![](images/EM8557.webp#illustration){ width="400px" }
+          ![](images/EM8557.webp#illustration){ width="80%" }
         </figure>
 
     2.  Disconnect the following hoses:
@@ -150,13 +150,13 @@
         3.  Two oil cooler water by-pass hoses
 
         <figure markdown="span">
-          ![](images/EM8960.webp#illustration){ width="400px" }
+          ![](images/EM8960.webp#illustration){ width="80%" }
         </figure>
 
     3.  Remove the two bolts, two nuts, water by-pass pipe and gasket.
 
         <figure markdown="span">
-          ![](images/EM8958.webp#illustration){ width="400px" }
+          ![](images/EM8958.webp#illustration){ width="80%" }
         </figure>
 
     4.  Remove the O-ring from the water by-pass hose.
@@ -167,7 +167,7 @@
 21. Remove EGR valve and vacuum modulator.
 
     <figure markdown="span">
-      ![](images/EM8923.webp#illustration){ width="400px" }
+      ![](images/EM8923.webp#illustration){ width="80%" }
     </figure>
 
     1.  (CALIF. only) Disconnect EGR gas temperature sensor connector.
@@ -180,7 +180,7 @@
         modulator, vacuum hoses assembly and gasket.
 
         <figure markdown="span">
-          ![](images/EM8756.webp#illustration){ width="400px" }
+          ![](images/EM8756.webp#illustration){ width="80%" }
         </figure>
 
 22. Remove fuel pressure VSV.
@@ -188,7 +188,7 @@
     1.  Disconnect the VSV connector.
 
         <figure markdown="span">
-          ![](images/EM8745.webp#illustration){ width="400px" }
+          ![](images/EM8745.webp#illustration){ width="80%" }
         </figure>
 
     2.  Disconnect the following hoses:
@@ -199,7 +199,7 @@
     3.  Remove the two bolts and VSV. Disconnect the ground strap.
 
         <figure markdown="span">
-          ![](images/EM8963.webp#illustration){ width="400px" }
+          ![](images/EM8963.webp#illustration){ width="80%" }
         </figure>
 
 23. Remove EGR VSV.
@@ -207,7 +207,7 @@
     1.  Disconnect the VSV connector.
 
         <figure markdown="span">
-          ![](images/EM8789.webp#illustration){ width="400px" }
+          ![](images/EM8789.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the bolt and VSV.
@@ -217,26 +217,26 @@
     1.  Disconnect the alternator connector and wire.
 
         <figure markdown="span">
-          ![](images/EM9084.webp#illustration){ width="400px" }
+          ![](images/EM9084.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-103 } Disconnect the two wire clamps from the wire brackets.
 
         <figure markdown="span">
-          ![](images/EM9025.webp#illustration){ width="400px" }
+          ![](images/EM9025.webp#illustration){ width="80%" }
         </figure>
 
     3.  Disconnect the clip of the engine wire from the LH accelerator bracket.
     4.  Remove the two bolts and manifold stay.
 
         <figure markdown="span">
-          ![](images/EM8757.webp#illustration){ width="400px" }
+          ![](images/EM8757.webp#illustration){ width="80%" }
         </figure>
 
     5.  Remove the six bolts, two nuts, intake manifold and gasket.
 
         <figure markdown="span">
-          ![](images/EM9026.webp#illustration){ width="400px" }
+          ![](images/EM9026.webp#illustration){ width="80%" }
         </figure>
 
 25. Remove delivery pipe and injectors. (See steps 7 to 10 and 12 on pages FI-122 and 123)
@@ -253,11 +253,11 @@
         * Do not allow the belt to come into contact with oil, water or dust.
 
     <figure markdown="span">
-      ![](images/EM8790.webp#illustration){ width="400px" }
+      ![](images/EM8790.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM8758.webp#illustration){ width="400px" }
+      ![](images/EM8758.webp#illustration){ width="80%" }
     </figure>
 
 29. [](){ #p-em-104 } Remove RH front engine hanger.
@@ -265,7 +265,7 @@
     Remove the two bolts and engine hanger.
 
     <figure markdown="span">
-      ![](images/EM8964.webp#illustration){ width="400px" }
+      ![](images/EM8964.webp#illustration){ width="80%" }
     </figure>
 
 30. Remove LH front engine hanger.
@@ -278,7 +278,7 @@
     Remove the four nuts, grommets, head cover and gasket.
 
     <figure markdown="span">
-      ![](images/EM3241.webp#illustration){ width="400px" }
+      ![](images/EM3241.webp#illustration){ width="80%" }
     </figure>
 
     !!! tip "Hint"
@@ -287,7 +287,7 @@
         minimizes any possibility of oil leakage from reuse grommets.
 
     <figure markdown="span">
-      ![](images/EM7704.webp#illustration){ width="400px" }
+      ![](images/EM7704.webp#illustration){ width="80%" }
     </figure>
 
 33. Remove camshafts.
@@ -309,7 +309,7 @@
             lifters evenly.
 
         <figure markdown="span">
-          ![](images/EM3242.webp#illustration){ width="400px" }
+          ![](images/EM3242.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-105 } Secure the exhaust camshaft sub-gear to drive gear with a service bolt.
@@ -326,13 +326,13 @@
             eliminated by the above operation.
 
         <figure markdown="span">
-          ![](images/EM3243.webp#illustration){ width="400px" }
+          ![](images/EM3243.webp#illustration){ width="80%" }
         </figure>
 
     3.  Remove the two bolts and rear bearing cap.
 
         <figure markdown="span">
-          ![](images/EM3513.webp#illustration){ width="400px" }
+          ![](images/EM3513.webp#illustration){ width="80%" }
         </figure>
 
     4.  Uniformly loosen and remove the six bolts on the No.1, No.2 and No.4 bearing cap in several passes in the
@@ -343,7 +343,7 @@
             Do not remove the No.3 bearing cap bolts at this stage.
 
         <figure markdown="span">
-          ![](images/EM3514.webp#illustration){ width="400px" }
+          ![](images/EM3514.webp#illustration){ width="80%" }
         </figure>
 
     5.  Remove the No.1, No.2 and No.4 bearing caps.
@@ -362,13 +362,13 @@
             Do not pry on or attempt to force the camshaft with a tool or other objects.
 
         <figure markdown="span">
-          ![](images/EM3515.webp#illustration){ width="400px" }
+          ![](images/EM3515.webp#illustration){ width="80%" }
         </figure>
 
     7.  Remove the No.3 bearing cap and exhaust camshaft.
 
         <figure markdown="span">
-          ![](images/EM3516.webp#illustration){ width="400px" }
+          ![](images/EM3516.webp#illustration){ width="80%" }
         </figure>
 
     **B. Remove intake camshaft**
@@ -383,7 +383,7 @@
     2.  [](){ #p-em-106 } Remove the two bolts, front bearing cap and oil seal.
 
         <figure markdown="span">
-          ![](images/EM3517.webp#illustration){ width="400px" }
+          ![](images/EM3517.webp#illustration){ width="80%" }
         </figure>
 
     3.  Uniformly loosen and remove the bolts on the No.1, No.3 and No.4 bearing cap in several passes in the
@@ -394,7 +394,7 @@
             Do not remove the No.2 bearing cap bolts at this stage.
 
         <figure markdown="span">
-          ![](images/EM3518.webp#illustration){ width="400px" }
+          ![](images/EM3518.webp#illustration){ width="80%" }
         </figure>
 
     4.  Remove the No.1, No.3 and No.4 bearing caps.
@@ -413,13 +413,13 @@
             Do not pry on or attempt to force the camshaft with a tool or other objects.
 
         <figure markdown="span">
-          ![](images/EM3519.webp#illustration){ width="400px" }
+          ![](images/EM3519.webp#illustration){ width="80%" }
         </figure>
 
     6.  Remove the No.2 bearing cap and camshaft.
 
         <figure markdown="span">
-          ![](images/EM3222.webp#illustration){ width="400px" }
+          ![](images/EM3222.webp#illustration){ width="80%" }
         </figure>
 
 34. Disassemble exhaust camshaft.
@@ -438,13 +438,13 @@
             Be careful not to damage the camshaft.
 
         <figure markdown="span">
-          ![](images/EM3223.webp#illustration){ width="400px" }
+          ![](images/EM3223.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-107 } Using snap ring pliers, remove the snap ring.
 
         <figure markdown="span">
-          ![](images/EM3224.webp#illustration){ width="400px" }
+          ![](images/EM3224.webp#illustration){ width="80%" }
         </figure>
 
     5.  Remove the following parts:
@@ -454,7 +454,7 @@
         3. Camshaft gear spring
 
         <figure markdown="span">
-          ![](images/EM3225.webp#illustration){ width="400px" }
+          ![](images/EM3225.webp#illustration){ width="80%" }
         </figure>
 
 35. Remove cylinder head.
@@ -468,7 +468,7 @@
             Head warpage or cracking could result from removing bolts in the incorrect order.
 
         <figure markdown="span">
-          ![](images/EM7557_EM7558.webp#illustration){ width="400px" }
+          ![](images/EM7557_EM7558.webp#illustration){ width="80%" }
         </figure>
 
     2.  Lift the cylinder head from the dowels on the cylinder block, and place the cylinder head on wooden blocks
@@ -484,7 +484,7 @@
             Be careful not to damage the cylinder head and cylinder block surfaces of the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM8961.webp#illustration){ width="400px" }
+          ![](images/EM8961.webp#illustration){ width="80%" }
         </figure>
 
 [](){ #p-em-108 }
@@ -499,11 +499,11 @@
         Arrange the valve lifters and shims in correct order.
 
     <figure markdown="span">
-      ![](images/EM3248.webp#illustration){ width="400px" }
+      ![](images/EM3248.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM2232.webp#illustration){ width="400px" }
+      ![](images/EM2232.webp#illustration){ width="80%" }
     </figure>
 
 2.  Remove valves.
@@ -513,7 +513,7 @@
         **SST** `09202-70010`
 
         <figure markdown="span">
-          ![](images/EM3309.webp#illustration){ width="400px" }
+          ![](images/EM3309.webp#illustration){ width="80%" }
         </figure>
 
     2.  Remove the spring retainer, valve spring, valve and spring seat.
@@ -523,13 +523,13 @@
             Arrange the valves, valve springs, spring seats and spring retainers in correct order.
 
         <figure markdown="span">
-          ![](images/EM2106.webp#illustration){ width="400px" }
+          ![](images/EM2106.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using needle-nose pliers, remove the oil seal.
 
         <figure markdown="span">
-          ![](images/EM3221.webp#illustration){ width="400px" }
+          ![](images/EM3221.webp#illustration){ width="80%" }
         </figure>
 
 [](){ #p-em-109 }
@@ -541,13 +541,13 @@
         carbon from the piston top surface.
 
         <figure markdown="span">
-          ![](images/EM8559.webp#illustration){ width="400px" }
+          ![](images/EM8559.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using a gasket scraper, remove all the gasket material from the top surface of the cylinder block.
 
         <figure markdown="span">
-          ![](images/EM8558.webp#illustration){ width="400px" }
+          ![](images/EM8558.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using compressed air, blow carbon and oil from the bolt holes.
@@ -567,7 +567,7 @@
             Be careful not to scratch the cylinder block contact surface.
 
         <figure markdown="span">
-          ![](images/EM3304.webp#illustration){ width="400px" }
+          ![](images/EM3304.webp#illustration){ width="80%" }
         </figure>
 
     2.  **Clean combustion chambers**
@@ -579,7 +579,7 @@
             Be careful not to scratch the cylinder block contact surface.
 
         <figure markdown="span">
-          ![](images/EM3302.webp#illustration){ width="400px" }
+          ![](images/EM3302.webp#illustration){ width="80%" }
         </figure>
 
     3.  **Clean valve guide bushings**
@@ -587,7 +587,7 @@
         Using a valve guide bushing brush and solvent, clean all the guide bushings.
 
         <figure markdown="span">
-          ![](images/EM3364.webp#illustration){ width="400px" }
+          ![](images/EM3364.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-110 } **Clean cylinder head**
@@ -595,7 +595,7 @@
         Using a soft brush and solvent, thoroughly clean the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM3301.webp#illustration){ width="400px" }
+          ![](images/EM3301.webp#illustration){ width="80%" }
         </figure>
 
 3.  Inspect cylinder head.
@@ -613,7 +613,7 @@
         If warpage is greater than maximum, replace the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM3318_EM3319_EM3320.webp#illustration){ width="400px" }
+          ![](images/EM3318_EM3319_EM3320.webp#illustration){ width="80%" }
         </figure>
 
     2.  **Inspect for cracks**
@@ -624,7 +624,7 @@
         If cracked, replace the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM3321.webp#illustration){ width="400px" }
+          ![](images/EM3321.webp#illustration){ width="80%" }
         </figure>
 
 4.  Clean valves.
@@ -633,7 +633,7 @@
     2.  Using a wire brush, thoroughly clean the valve.
 
         <figure markdown="span">
-          ![](images/EM0580.webp#illustration){ width="400px" }
+          ![](images/EM0580.webp#illustration){ width="80%" }
         </figure>
 
 5.  [](){ #p-em-111 } Inspect valve stems and guide bushings.
@@ -643,7 +643,7 @@
         **Bushing inside diameter:** 6.010 – 6.030 mm (0.2366 – 0.2374 in.)
 
         <figure markdown="span">
-          ![](images/EM3365_EM3366.webp#illustration){ width="400px" }
+          ![](images/EM3365_EM3366.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using a micrometer, measure the diameter of the valve stem.
@@ -654,7 +654,7 @@
         * Exhaust – 5.965 – 5.980 mm (0.2348 – 0.2354 in.)
 
         <figure markdown="span">
-          ![](images/EM0963_EM0964.webp#illustration){ width="400px" }
+          ![](images/EM0963_EM0964.webp#illustration){ width="80%" }
         </figure>
 
     3.  Subtract the valve stem diameter measurement from the guide bushing inside diameter measurement.
@@ -687,13 +687,13 @@
             Be careful not damage to the valve lifter hole.
 
         <figure markdown="span">
-          ![](images/EM5335.webp#illustration){ width="400px" }
+          ![](images/EM5335.webp#illustration){ width="80%" }
         </figure>
 
     2.  Gradually heat the cylinder head to 80 – 100°C (176 – 212°F).
 
         <figure markdown="span">
-          ![](images/EM3345.webp#illustration){ width="400px" }
+          ![](images/EM3345.webp#illustration){ width="80%" }
         </figure>
 
     3.  [](){ #p-em-112 } Using SST and a hammer, tap out the guide bushing.
@@ -701,13 +701,13 @@
         **SST** `09201-70010`
 
         <figure markdown="span">
-          ![](images/EM3367.webp#illustration){ width="400px" }
+          ![](images/EM3367.webp#illustration){ width="80%" }
         </figure>
 
     4.  Using a caliper gauge, measure the bushing bore diameter of the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM3305.webp#illustration){ width="400px" }
+          ![](images/EM3305.webp#illustration){ width="80%" }
         </figure>
 
     5.  Select a new guide bushing (STD size or O/S 0.05).
@@ -733,14 +733,14 @@
         **SST** `09201-70010`
 
         <figure markdown="span">
-          ![](images/EM7825.webp#illustration){ width="400px" }
+          ![](images/EM7825.webp#illustration){ width="80%" }
         </figure>
 
     8.  [](){ #p-em-113 } Using a sharp 6 mm reamer, ream the guide bushing to obtain the standard specified clearance
         (See [Inspection, cleaning and repair of cylinder head components](#p-em-111)) between the guide bushing and valve stem.
 
         <figure markdown="span">
-          ![](images/EM3369_EM3370.webp#illustration){ width="400px" }
+          ![](images/EM3369_EM3370.webp#illustration){ width="80%" }
         </figure>
 
 7.  Inspect and grind valves.
@@ -751,7 +751,7 @@
         **Valve face angle:** 44.5°
 
         <figure markdown="span">
-          ![](images/EM0254_EM0180.webp#illustration){ width="400px" }
+          ![](images/EM0254_EM0180.webp#illustration){ width="80%" }
         </figure>
 
     3.  Check the valve head margin thickness.
@@ -763,7 +763,7 @@
         If the margin thickness is less than minimum, replace the valve.
 
         <figure markdown="span">
-          ![](images/EM0181.webp#illustration){ width="400px" }
+          ![](images/EM0181.webp#illustration){ width="80%" }
         </figure>
 
     4.  Check the valve overall length.
@@ -781,7 +781,7 @@
         If the overall length is less than minimum, replace the valve.
 
         <figure markdown="span">
-          ![](images/EM2534.webp#illustration){ width="400px" }
+          ![](images/EM2534.webp#illustration){ width="80%" }
         </figure>
 
     5.  Check the surface of the valve stem tip for wear.
@@ -793,7 +793,7 @@
             Do not grind off more than the minimum.
 
         <figure markdown="span">
-          ![](images/EM0255.webp#illustration){ width="400px" }
+          ![](images/EM0255.webp#illustration){ width="80%" }
         </figure>
 
 8.  [](){ #p-em-114 } Inspect and clean valve seats.
@@ -801,7 +801,7 @@
     1.  Using a 45° carbide cutter, resurface the valve seats. Remove only enough metal to clean the seats.
 
         <figure markdown="span">
-          ![](images/EM3300.webp#illustration){ width="400px" }
+          ![](images/EM3300.webp#illustration){ width="80%" }
         </figure>
 
     2.  Check the valve seating position.
@@ -810,7 +810,7 @@
         seat. Do not rotate the valve.
 
         <figure markdown="span">
-          ![](images/EM0183_EM0635.webp#illustration){ width="400px" }
+          ![](images/EM0183_EM0635.webp#illustration){ width="80%" }
         </figure>
 
     3.  Check the valve face and seat for the following:
@@ -826,19 +826,19 @@
         1.  If the seating is too high on the valve face, use 30° and 45° cutters to correct the seat.
 
             <figure markdown="span">
-              ![](images/EM0185.webp#illustration){ width="400px" }
+              ![](images/EM0185.webp#illustration){ width="80%" }
             </figure>
 
         2.  If the seating is too low on the valve face, use 75° and 45° cutters to correct the seat.
 
             <figure markdown="span">
-              ![](images/EM0186.webp#illustration){ width="400px" }
+              ![](images/EM0186.webp#illustration){ width="80%" }
             </figure>
 
     4.  [](){ #p-em-115 } Hand-lap the valve and valve seat with an abrasive compound.
 
         <figure markdown="span">
-          ![](images/EM3303.webp#illustration){ width="400px" }
+          ![](images/EM3303.webp#illustration){ width="80%" }
         </figure>
 
     5.  After hand-lapping, clean the valve and valve seat.
@@ -852,7 +852,7 @@
         If squareness is greater than maximum, replace the valve spring.
 
         <figure markdown="span">
-          ![](images/EM0988.webp#illustration){ width="400px" }
+          ![](images/EM0988.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using vernier calipers, measure the free length of the valve spring.
@@ -862,7 +862,7 @@
         If the free length is not as specified, replace the valve spring.
 
         <figure markdown="span">
-          ![](images/EM0801.webp#illustration){ width="400px" }
+          ![](images/EM0801.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using a spring tester, measure the tension of the valve spring at the specified installed length.
@@ -872,7 +872,7 @@
         If the installed tension is not as specified, replace the valve spring.
 
         <figure markdown="span">
-          ![](images/EM0281.webp#illustration){ width="400px" }
+          ![](images/EM0281.webp#illustration){ width="80%" }
         </figure>
 
 10. Inspect camshafts and bearings.
@@ -887,7 +887,7 @@
         If the circle runout is greater than maximum, replace the camshaft.
 
         <figure markdown="span">
-          ![](images/EM1628.webp#illustration){ width="400px" }
+          ![](images/EM1628.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-116 } **Inspect cam lobes**
@@ -907,7 +907,7 @@
         If the cam lobe height is greater than minimum, replace the camshaft.
 
         <figure markdown="span">
-          ![](images/EM2011.webp#illustration){ width="400px" }
+          ![](images/EM2011.webp#illustration){ width="80%" }
         </figure>
 
     3.  **Inspect camshaft journals**
@@ -919,7 +919,7 @@
         If the journal diameter is not as specified, check the oil clearance.
 
         <figure markdown="span">
-          ![](images/EM2538.webp#illustration){ width="400px" }
+          ![](images/EM2538.webp#illustration){ width="80%" }
         </figure>
 
     4.  **Inspect camshaft bearings**
@@ -929,7 +929,7 @@
         If the bearings are damaged, replace the bearing caps and cylinder head as a set.
 
         <figure markdown="span">
-          ![](images/EM7780.webp#illustration){ width="400px" }
+          ![](images/EM7780.webp#illustration){ width="80%" }
         </figure>
 
     5.  **Inspect camshaft gear spring**
@@ -941,7 +941,7 @@
         If the free distance is not as specified, replace the gear spring.
 
         <figure markdown="span">
-          ![](images/EM3322.webp#illustration){ width="400px" }
+          ![](images/EM3322.webp#illustration){ width="80%" }
         </figure>
 
     6.  **Inspect camshaft journal oil clearance**
@@ -951,7 +951,7 @@
         3.  Lay a strip of Plastigage across each of the camshaft journals.
 
             <figure markdown="span">
-              ![](images/EM3371.webp#illustration){ width="400px" }
+              ![](images/EM3371.webp#illustration){ width="80%" }
             </figure>
 
         4.  [](){ #p-em-117 } Install the bearing caps. (See [Installation of cylinder head, step 4](#p-em-123))
@@ -963,13 +963,13 @@
                 Do not turn the camshaft.
 
             <figure markdown="span">
-              ![](images/EM7524.webp#illustration){ width="400px" }
+              ![](images/EM7524.webp#illustration){ width="80%" }
             </figure>
 
         5.  Remove the bearing caps.
 
             <figure markdown="span">
-              ![](images/EM7525.webp#illustration){ width="400px" }
+              ![](images/EM7525.webp#illustration){ width="80%" }
             </figure>
 
         6.  Measure the Plastigage at its widest point.
@@ -982,7 +982,7 @@
             caps and cylinder head as a set.
 
             <figure markdown="span">
-              ![](images/EM3310.webp#illustration){ width="400px" }
+              ![](images/EM3310.webp#illustration){ width="80%" }
             </figure>
 
         7. Completely remove the Plastigage.
@@ -1006,7 +1006,7 @@
         caps and cylinder head as a set.
 
         <figure markdown="span">
-          ![](images/EM3307.webp#illustration){ width="400px" }
+          ![](images/EM3307.webp#illustration){ width="80%" }
         </figure>
 
     8.  [](){ #p-em-118 } **Inspect camshaft gear backlash**
@@ -1021,7 +1021,7 @@
         If the backlash is greater than maximum, replace the camshafts.
 
         <figure markdown="span">
-          ![](images/EM3308.webp#illustration){ width="400px" }
+          ![](images/EM3308.webp#illustration){ width="80%" }
         </figure>
 
 11. Inspect valve lifters and lifter bores.
@@ -1031,7 +1031,7 @@
         **Lifter bore diameter:** 28.000 – 28.021 mm (1.1024 – 1.1032 in.)
 
         <figure markdown="span">
-          ![](images/EM3372.webp#illustration){ width="400px" }
+          ![](images/EM3372.webp#illustration){ width="80%" }
         </figure>
 
     2.  Using a micrometer, measure the lifter diameter.
@@ -1039,7 +1039,7 @@
         **Lifter diameter:** 27.975 – 27.985 mm (1.1014 – 1.1018 in.)
 
         <figure markdown="span">
-          ![](images/EM2196.webp#illustration){ width="400px" }
+          ![](images/EM2196.webp#illustration){ width="80%" }
         </figure>
 
     3.  Subtract the lifter diameter measurement from the lifter bore diameter measurement.
@@ -1059,7 +1059,7 @@
     If warpage is greater than maximum, replace the manifold.
 
     <figure markdown="span">
-      ![](images/EM3324.webp#illustration){ width="400px" }
+      ![](images/EM3324.webp#illustration){ width="80%" }
     </figure>
 
 [](){ #p-em-119 }
@@ -1084,11 +1084,11 @@
             The intake valve oil seal is brown and the exhaust valve oil seal is black.
 
         <figure markdown="span">
-          ![](images/EM7710.webp#illustration){ width="400px" }
+          ![](images/EM7710.webp#illustration){ width="80%" }
         </figure>
 
         <figure markdown="span">
-          ![](images/EM2312.webp#illustration){ width="400px" }
+          ![](images/EM2312.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the following parts:
@@ -1099,7 +1099,7 @@
         4. Spring retainer
 
         <figure markdown="span">
-          ![](images/EM7559.webp#illustration){ width="400px" }
+          ![](images/EM7559.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using SST, compress the valve spring and place the two keepers around the valve stem.
@@ -1107,13 +1107,13 @@
         **SST** `09202-70010`
 
         <figure markdown="span">
-          ![](images/EM3309.webp#illustration){ width="400px" }
+          ![](images/EM3309.webp#illustration){ width="80%" }
         </figure>
 
     4.  [](){ #p-em-120 } Using a plastic-faced hammer, lightly tap the valve stem tip to assure proper fit.
 
         <figure markdown="span">
-          ![](images/EM3306.webp#illustration){ width="400px" }
+          ![](images/EM3306.webp#illustration){ width="80%" }
         </figure>
 
 2.  Install valve lifters and shims.
@@ -1122,7 +1122,7 @@
     2.  Check that the valve lifter rotates smoothly by hand.
 
         <figure markdown="span">
-          ![](images/EM3248.webp#illustration){ width="400px" }
+          ![](images/EM3248.webp#illustration){ width="80%" }
         </figure>
 
 [](){ #p-em-121 }
@@ -1143,7 +1143,7 @@
         2.  Place the cylinder head in position on the cylinder head gasket.
 
         <figure markdown="span">
-          ![](images/EM8560.webp#illustration){ width="400px" }
+          ![](images/EM8560.webp#illustration){ width="80%" }
         </figure>
 
     2.  **Install cylinder head bolts**
@@ -1165,19 +1165,19 @@
             bolt.
 
             <figure markdown="span">
-              ![](images/EM7560_EM7558.webp#illustration){ width="400px" }
+              ![](images/EM7560_EM7558.webp#illustration){ width="80%" }
             </figure>
 
         3.  Mark the front of the cylinder head bolt head with paint.
 
             <figure markdown="span">
-              ![](images/EM7561.webp#illustration){ width="400px" }
+              ![](images/EM7561.webp#illustration){ width="80%" }
             </figure>
 
         4.  Retighten the cylinder head bolts 90° in the numerical order shown.
 
             <figure markdown="span">
-              ![](images/EM7562.webp#illustration){ width="400px" }
+              ![](images/EM7562.webp#illustration){ width="80%" }
             </figure>
 
         5.  Check that the painted mark is now at a 90° angle to front.
@@ -1192,7 +1192,7 @@
         **Torque:** 400 kg-cm (29 ft-lb, 39 N·m)
 
     <figure markdown="span">
-      ![](images/EM4768.webp#illustration){ width="400px" }
+      ![](images/EM4768.webp#illustration){ width="80%" }
     </figure>
 
 3.  Assemble exhaust camshaft.
@@ -1204,7 +1204,7 @@
             Be careful not to damage the camshaft.
 
         <figure markdown="span">
-          ![](images/EM3222.webp#illustration){ width="400px" }
+          ![](images/EM3222.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the following parts:
@@ -1218,13 +1218,13 @@
             Align the pins on the gears with the spring ends.
 
         <figure markdown="span">
-          ![](images/EM7625_EM7758.webp#illustration){ width="400px" }
+          ![](images/EM7625_EM7758.webp#illustration){ width="80%" }
         </figure>
 
     3.  Using snap ring pliers, install the snap ring.
 
         <figure markdown="span">
-          ![](images/EM3224.webp#illustration){ width="400px" }
+          ![](images/EM3224.webp#illustration){ width="80%" }
         </figure>
 
     4.  Insert a service bolt (A) into the service hole of the camshaft sub-gear.
@@ -1236,7 +1236,7 @@
             Be careful not to damage the camshaft.
 
         <figure markdown="span">
-          ![](images/EM3226.webp#illustration){ width="400px" }
+          ![](images/EM3226.webp#illustration){ width="80%" }
         </figure>
 
 4.  [](){ #p-em-123 } Install camshafts.
@@ -1259,7 +1259,7 @@
             lifters evenly.
 
         <figure markdown="span">
-          ![](images/EM3520.webp#illustration){ width="400px" }
+          ![](images/EM3520.webp#illustration){ width="80%" }
         </figure>
 
     3.  Apply seal packing to the No.1 bearing cap as shown.
@@ -1267,13 +1267,13 @@
         **Seal packing:** Part No. `08826-00080` or equivalent
 
         <figure markdown="span">
-          ![](images/EM3373.webp#illustration){ width="400px" }
+          ![](images/EM3373.webp#illustration){ width="80%" }
         </figure>
 
     4.  Install the bearing caps in their proper locations.
 
         <figure markdown="span">
-          ![](images/EM7727.webp#illustration){ width="400px" }
+          ![](images/EM7727.webp#illustration){ width="80%" }
         </figure>
 
     5.  Apply a light coat of engine oil on the threads and under the heads of the bearing cap bolts.
@@ -1282,13 +1282,13 @@
         **Torque:** 190 kg-cm (14 ft-lb, 19 N·m)
 
         <figure markdown="span">
-          ![](images/EM3280.webp#illustration){ width="400px" }
+          ![](images/EM3280.webp#illustration){ width="80%" }
         </figure>
 
     7.  [](){ #p-em-124 } Apply MP grease to a new oil seal lip.
 
         <figure markdown="span">
-          ![](images/EM0050.webp#illustration){ width="400px" }
+          ![](images/EM0050.webp#illustration){ width="80%" }
         </figure>
 
     8.  Using SST, tap in the oil seal.
@@ -1296,7 +1296,7 @@
         **SST** `09223-46011`
 
         <figure markdown="span">
-          ![](images/EM3253.webp#illustration){ width="400px" }
+          ![](images/EM3253.webp#illustration){ width="80%" }
         </figure>
 
     **B. Install exhaust camshaft**
@@ -1309,7 +1309,7 @@
             lifters evenly.
 
         <figure markdown="span">
-          ![](images/EM3254.webp#illustration){ width="400px" }
+          ![](images/EM3254.webp#illustration){ width="80%" }
         </figure>
 
     2.  Apply MP grease to the thrust portion of the camshaft.
@@ -1322,7 +1322,7 @@
             marks.
 
         <figure markdown="span">
-          ![](images/EM3255.webp#illustration){ width="400px" }
+          ![](images/EM3255.webp#illustration){ width="80%" }
         </figure>
 
     5.  Turn the intake camshaft clockwise or counterclockwise little by little until the exhaust camshaft sits in the
@@ -1336,7 +1336,7 @@
     6.  Install the bearing caps in their proper location.
 
         <figure markdown="span">
-          ![](images/EM7665.webp#illustration){ width="400px" }
+          ![](images/EM7665.webp#illustration){ width="80%" }
         </figure>
 
     7.  [](){ #p-em-125 } Apply a light coat of engine oil on the threads and under the heads of bearing cap bolts.
@@ -1345,13 +1345,13 @@
         **Torque:** 190 kg-cm (14 ft-lb, 19 N·m)
 
         <figure markdown="span">
-          ![](images/EM7664.webp#illustration){ width="400px" }
+          ![](images/EM7664.webp#illustration){ width="80%" }
         </figure>
 
     9.  Remove the service bolt (B).
 
         <figure markdown="span">
-          ![](images/EM3243.webp#illustration){ width="400px" }
+          ![](images/EM3243.webp#illustration){ width="80%" }
         </figure>
 
 5.  Check and adjust valve clearance. (See [Engine tune-up › Inspection and adjustment of valve clearance (5S-FE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-5s-fe))
@@ -1371,13 +1371,13 @@
         **Seal packing:** Part No. `08826-00080` or equivalent
 
         <figure markdown="span">
-          ![](images/EM7797.webp#illustration){ width="400px" }
+          ![](images/EM7797.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the two semi-circular plugs to the cylinder head.
 
         <figure markdown="span">
-          ![](images/EM9085.webp#illustration){ width="400px" }
+          ![](images/EM9085.webp#illustration){ width="80%" }
         </figure>
 
 7.  [](){ #p-em-126 } Install cylinder head cover.
@@ -1388,7 +1388,7 @@
         **Seal packing:** Part No. `08826-00080` or equivalent
 
         <figure markdown="span">
-          ![](images/EM9086.webp#illustration){ width="400px" }
+          ![](images/EM9086.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the gasket to the head cover.
@@ -1402,7 +1402,7 @@
             its original position.
 
         <figure markdown="span">
-          ![](images/EM3241.webp#illustration){ width="400px" }
+          ![](images/EM3241.webp#illustration){ width="80%" }
         </figure>
 
 8.  Install oil pressure switch.
@@ -1412,7 +1412,7 @@
     **Adhesive:** Part No. `08833-00080`, THREE BOND 1324 or equivalent
 
     <figure markdown="span">
-      ![](images/EM8964.webp#illustration){ width="400px" }
+      ![](images/EM8964.webp#illustration){ width="80%" }
     </figure>
 
 9.  Install RH front engine hanger.
@@ -1443,7 +1443,7 @@
         **Torque:** 195 kg-cm (14 ft-lb, 19 N·m)
 
         <figure markdown="span">
-          ![](images/EM9026.webp#illustration){ width="400px" }
+          ![](images/EM9026.webp#illustration){ width="80%" }
         </figure>
 
     2.  Install the manifold stay with the two bolts.
@@ -1454,20 +1454,20 @@
         * 14 mm head bolt – 425 kg-cm (31 ft-lb, 42 N·m)
 
         <figure markdown="span">
-          ![](images/EM8757.webp#illustration){ width="400px" }
+          ![](images/EM8757.webp#illustration){ width="80%" }
         </figure>
 
     3.  Connect the two wire clamps to the wire bracket.
     4.  Connect the wire clamp to the accelerator bracket.
 
         <figure markdown="span">
-          ![](images/EM9025.webp#illustration){ width="400px" }
+          ![](images/EM9025.webp#illustration){ width="80%" }
         </figure>
 
     5.  Connect the alternator connector and wire.
 
         <figure markdown="span">
-          ![](images/EM9084.webp#illustration){ width="400px" }
+          ![](images/EM9084.webp#illustration){ width="80%" }
         </figure>
 
 16. Install EGR VSV.
@@ -1476,7 +1476,7 @@
     2.  Connect the VSV connector.
 
         <figure markdown="span">
-          ![](images/EM8789.webp#illustration){ width="400px" }
+          ![](images/EM8789.webp#illustration){ width="80%" }
         </figure>
 
 17. [](){ #p-em-128 } Install fuel pressure VSV.
@@ -1484,7 +1484,7 @@
     1.  Install the VSV with the two bolts. Connect the ground strap.
 
         <figure markdown="span">
-          ![](images/EM8963.webp#illustration){ width="400px" }
+          ![](images/EM8963.webp#illustration){ width="80%" }
         </figure>
 
     2.  Connect the following hoses:
@@ -1495,7 +1495,7 @@
     3.  Connect the VSV connector.
 
         <figure markdown="span">
-          ![](images/EM8745.webp#illustration){ width="400px" }
+          ![](images/EM8745.webp#illustration){ width="80%" }
         </figure>
 
 18. Install EGR valve and vacuum modulator.
@@ -1510,7 +1510,7 @@
     2.  Install the EGR modulator to the clamp.
 
         <figure markdown="span">
-          ![](images/EM8756.webp#illustration){ width="400px" }
+          ![](images/EM8756.webp#illustration){ width="80%" }
         </figure>
 
     3.  Connect the following hoses:
@@ -1522,7 +1522,7 @@
     4.  (CALIF. only) Connect the EGR gas temperature sensor connector.
 
         <figure markdown="span">
-          ![](images/EM8923.webp#illustration){ width="400px" }
+          ![](images/EM8923.webp#illustration){ width="80%" }
         </figure>
 
 19. Install cold start injector. (See steps 1 and 3 on page FI-104)
@@ -1537,7 +1537,7 @@
         **Torque (nut):** 95 kg-cm (82 in.-lb, 9.3 N·m)
 
         <figure markdown="span">
-          ![](images/EM8957.webp#illustration){ width="400px" }
+          ![](images/EM8957.webp#illustration){ width="80%" }
         </figure>
 
     4.  Connect the following hoses:
@@ -1547,13 +1547,13 @@
         3. Two oil cooler water by-pass hoses
 
         <figure markdown="span">
-          ![](images/EM8960.webp#illustration){ width="400px" }
+          ![](images/EM8960.webp#illustration){ width="80%" }
         </figure>
 
     5.  Install the oil cooler heat protector with the bolt and two nuts.
 
         <figure markdown="span">
-          ![](images/EM8557.webp#illustration){ width="400px" }
+          ![](images/EM8557.webp#illustration){ width="80%" }
         </figure>
 
 23. Install water outlet and housing.
@@ -1563,7 +1563,7 @@
         **Torque:** 150 kg-cm (11 ft-lb, 15 N·m)
 
         <figure markdown="span">
-          ![](images/EM8962.webp#illustration){ width="400px" }
+          ![](images/EM8962.webp#illustration){ width="80%" }
         </figure>
 
     2.  Connect the following hoses:
@@ -1577,7 +1577,7 @@
         7. ISC water by-pass hose
 
         <figure markdown="span">
-          ![](images/EM9024.webp#illustration){ width="400px" }
+          ![](images/EM9024.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the fuel inlet hose (with the return tube) from the water outlet and cylinder head.
@@ -1588,7 +1588,7 @@
         * Cold start injector time switch connector
 
         <figure markdown="span">
-          ![](images/EM9023.webp#illustration){ width="400px" }
+          ![](images/EM9023.webp#illustration){ width="80%" }
         </figure>
 
 24. Assemble exhaust manifold and catalytic converter.
@@ -1610,11 +1610,11 @@
     10. Five bolts
 
     <figure markdown="span">
-      ![](images/EM7811.webp#illustration){ width="400px" }
+      ![](images/EM7811.webp#illustration){ width="80%" }
     </figure>
 
     <figure markdown="span">
-      ![](images/EM7759.webp#illustration){ width="400px" }
+      ![](images/EM7759.webp#illustration){ width="80%" }
     </figure>
 
 25. Install exhaust manifold and catalytic converter assembly.
@@ -1624,7 +1624,7 @@
         **Torque:** 500 kg-cm (36 ft-lb, 49 N·m)
 
         <figure markdown="span">
-          ![](images/EM8922.webp#illustration){ width="400px" }
+          ![](images/EM8922.webp#illustration){ width="80%" }
         </figure>
 
     2.  [](){ #p-em-131 } Install the catalytic converter stay with the two bolts and two new nuts.
@@ -1632,7 +1632,7 @@
         **Torque:** 425 kg-cm (31 ft-lb, 42 N·m)
 
         <figure markdown="span">
-          ![](images/EM8956.webp#illustration){ width="400px" }
+          ![](images/EM8956.webp#illustration){ width="80%" }
         </figure>
 
     3.  Install the manifold upper heat insulator with the six bolts.
@@ -1640,7 +1640,7 @@
     5.  (CALIF. only) Connect the sub-oxygen sensor connector.
 
         <figure markdown="span">
-          ![](images/EM8746.webp#illustration){ width="400px" }
+          ![](images/EM8746.webp#illustration){ width="80%" }
         </figure>
 
 26. Install front exhaust pipe. (See [Cylinder block (5S-FE) › Disassembly of cylinder block, step 15](cylinder-block-5s-fe.md#p-em-197))
@@ -1651,19 +1651,19 @@
     2.  A/C VSV air hose from ISC valve
 
         <figure markdown="span">
-          ![](images/EM9066.webp#illustration){ width="400px" }
+          ![](images/EM9066.webp#illustration){ width="80%" }
         </figure>
 
     3.  Vacuum sensor hose from intake manifold
 
         <figure markdown="span">
-          ![](images/EM9077.webp#illustration){ width="400px" }
+          ![](images/EM9077.webp#illustration){ width="80%" }
         </figure>
 
     4.  Brake booster vacuum hose from intake manifold
 
         <figure markdown="span">
-          ![](images/EM8553.webp#illustration){ width="400px" }
+          ![](images/EM8553.webp#illustration){ width="80%" }
         </figure>
 
 29. Connect ground strap connector.

@@ -2,7 +2,7 @@
 # Precautions for vehicles with audio and anti-theft systems
 
 <figure markdown="span">
-  ![](images/BE2826.webp#illustration){ width="400px" }
+  ![](images/BE2826.webp#illustration){ width="80%" }
 </figure>
 
 Audio Systems displaying the sign "ANTI-THEFT SYSTEM" shown on the left has a built-in anti-theft system which makes the audio system soundless if stolen.

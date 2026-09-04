@@ -24,7 +24,7 @@
 5.  [](){ #p-ig-20 } **Remove distributor**
 
     <figure markdown="span">
-      ![](images/IG1365.webp#illustration){ width="400px" }
+      ![](images/IG1365.webp#illustration){ width="80%" }
     </figure>
 
     1.  Remove the hold-down bolt and pull out the distributor.
@@ -44,7 +44,7 @@
 3.  **Set No.1 cylinder to TDC/compression**
 
     <figure markdown="span">
-      ![](images/IG1385_IG6428.webp#illustration){ width="400px" }
+      ![](images/IG1385_IG6428.webp#illustration){ width="80%" }
     </figure>
 
     Turn the crankshaft clockwise, and position the slit of the intake camshaft as shown.
@@ -52,7 +52,7 @@
 4.  **Install distributor**
 
     <figure markdown="span">
-      ![](images/IG1105.webp#illustration){ width="400px" }
+      ![](images/IG1105.webp#illustration){ width="80%" }
     </figure>
 
     1.  Install a new O-ring to the housing.
@@ -60,7 +60,7 @@
     3.  Align the cutout portion of the coupling with the groove of the housing.
 
         <figure markdown="span">
-          ![](images/IG1389.webp#illustration){ width="400px" }
+          ![](images/IG1389.webp#illustration){ width="80%" }
         </figure>
 
     4.  Insert the distributor, aligning the center of the flange with that of the bolt hole on the cylinder head.
@@ -81,7 +81,7 @@
 10. **Connect tachometer**
 
     <figure markdown="span">
-      ![](images/FI5722.webp#illustration){ width="400px" }
+      ![](images/FI5722.webp#illustration){ width="80%" }
     </figure>
 
     Connect the test probe of a tachometer to terminal IG ⊖ of the check connector.
@@ -98,7 +98,7 @@
     1.  Using SST, connect terminals TE1 and E1 of the check connector.
 
         <figure markdown="span">
-          ![](images/FI5725.webp#illustration){ width="400px" }
+          ![](images/FI5725.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09843-18020`
@@ -110,7 +110,7 @@
     2.  Using a timing light, check the ignition timing.
 
         <figure markdown="span">
-          ![](images/IG1388.webp#illustration){ width="400px" }
+          ![](images/IG1388.webp#illustration){ width="80%" }
         </figure>
 
         **Ignition timing:** 10° BTDC @ idle (Transmission in neutral range)
@@ -123,7 +123,7 @@
     5.  Remove the SST.
 
         <figure markdown="span">
-          ![](images/FI5702.webp#illustration){ width="400px" }
+          ![](images/FI5702.webp#illustration){ width="80%" }
         </figure>
 
         **SST** `09843-18020`
@@ -131,7 +131,7 @@
 12. **Further check ignition timing**
 
     <figure markdown="span">
-      ![](images/IG1387.webp#illustration){ width="400px" }
+      ![](images/IG1387.webp#illustration){ width="80%" }
     </figure>
 
     **Ignition timing:** 13 – 22° BTDC @ idle (Transmission in neutral range)
