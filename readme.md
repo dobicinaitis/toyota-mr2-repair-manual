@@ -104,15 +104,15 @@ Completion checklist:
             * [ ] Radiator cooling fans (w/ A/C)
             * [ ] Radiator cooling fan (w/o A/C)
             * [ ] Engine compartment cooling fan (3S-GTE)
-    * [ ] Lubrication System
-        * [ ] Description
-        * [ ] Troubleshooting
-        * [ ] Oil pressure check
-        * [ ] Replacement of engine oil and oil filter
-        * [ ] Oil pump
-        * [ ] Oil cooler (3S-GTE)
-        * [ ] Oil cooler (5S-FE)
-        * [ ] Oil Nozzles (3S-GTE)
+    * [x] Lubrication System
+        * [x] Description
+        * [x] Troubleshooting
+        * [x] Oil pressure check
+        * [x] Replacement of engine oil and oil filter
+        * [x] Oil pump
+        * [x] Oil cooler (3S-GTE)
+        * [x] Oil cooler (5S-FE)
+        * [x] Oil Nozzles (3S-GTE)
     * [x] Ignition System
         * [x] Precautions
         * [x] Troubleshooting

@@ -21,7 +21,7 @@
 3.  Remove engine hood side panels.
 4.  Remove engine under covers.
 5.  Drain engine coolant. (See page CO-6)
-6.  Drain engine oil. (See page LU-7)
+6.  Drain engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 7.  Drain transaxle oil.
 8.  Remove suspension upper brace.
 
@@ -421,9 +421,9 @@
 8.  Remove timing belt and pulleys. (See [Timing belt (5S-FE) › Removal of timing belt](timing-belt-5s-fe.md#p-em-49))
 9.  Remove cylinder head. (See [Cylinder head (5S-FE) › Removal of cylinder head](cylinder-head-5s-fe.md#removal-of-cylinder-head))
 10. Remove water pump. (See page CO-11)
-11. Remove oil pan and oil pump. (See pages LU-11 and 12)
-12. Remove oil filter. (See page LU-7)
-13. Remove oil cooler. (See page LU-24)
+11. Remove oil pan and oil pump. (See [Oil pump › Removal of oil pump](../lubrication-system/oil-pump.md#p-lu-11))
+12. Remove oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
+13. Remove oil cooler. (See [Oil cooler (5S-FE) › Removal of oil cooler](../lubrication-system/oil-cooler-5s-fe.md#p-lu-24))
 
 [](){ #p-em-193 }
 ## Disassembly of cylinder block
@@ -1449,9 +1449,9 @@
 
 ## Post assembly
 
-1.  Install oil cooler. (See page LU-25)
-2.  Install oil filter. (See page LU-7)
-3.  Install oil pump and oil pan. (See pages LU-15 and 16)
+1.  Install oil cooler. (See [Oil cooler (5S-FE) › Installation of oil cooler](../lubrication-system/oil-cooler-5s-fe.md#installation-of-oil-cooler))
+2.  Install oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
+3.  Install oil pump and oil pan. (See [Oil pump › Installation of oil pump](../lubrication-system/oil-pump.md#installation-of-oil-pump))
 4.  Install water pump. (See pages CO-12 and 13)
 5.  Install cylinder head. (See [Cylinder head (5S-FE) › Installation of cylinder head](cylinder-head-5s-fe.md#installation-of-cylinder-head))
 6.  Install pulleys and timing belt. (See [Timing belt (5S-FE) › Installation of timing belt](timing-belt-5s-fe.md#installation-of-timing-belt))
@@ -1986,7 +1986,7 @@
 
     **Capacity (w/ Heater):** 13.0 liters (13.7 US qts, 11.4 Imp. qts)
 
-39. Fill with engine oil. (See page LU-8)
+39. Fill with engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#p-lu-8))
 
     **Capacity:**
 

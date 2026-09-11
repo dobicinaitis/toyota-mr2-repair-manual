@@ -137,7 +137,7 @@ Replace the air cleaner element with a new one.
 [](){ #p-ma-6 }
 ### 6. Replace engine oil and oil filter
 
-(See page LU-7)
+(See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 
 **Oil grade:** API grade SG, multigrade viscosity and fuel-efficient oil
 

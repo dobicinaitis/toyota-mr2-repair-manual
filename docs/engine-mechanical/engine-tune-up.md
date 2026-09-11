@@ -7,7 +7,7 @@
 
 ## Inspection of engine oil
 
-(See steps 1 and 2 on page LU-6)
+(See [Oil pressure check, steps 1, 2](../lubrication-system/oil-pressure-check.md#oil-pressure-check))
 
 ## Inspection of battery
 

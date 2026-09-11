@@ -209,7 +209,7 @@
       ![](images/EM8970.webp#illustration){ width="80%" }
     </figure>
 
-27. Remove oil cooler. (See steps 7 to 10 on pages LU-18 and 19)
+27. Remove oil cooler. (See [Oil cooler (3S-GTE), steps 7–10](../lubrication-system/oil-cooler-3s-gte.md#oil-cooler-3s-gte))
 28. Remove water by-pass pipe.
 
     1.  Disconnect the following hoses:
@@ -1323,7 +1323,7 @@
               ![](images/EM9132.webp#illustration){ width="80%" }
             </figure>
 
-15. Install oil cooler. (See steps 2 to 4 on pages LU-21 and 22)
+15. Install oil cooler. (See [Oil cooler (3S-GTE) › Installation of oil cooler, steps 2–4](../lubrication-system/oil-cooler-3s-gte.md#p-lu-21))
 16. Install oil pressure switch.
 
     Apply adhesive to two or three threads.

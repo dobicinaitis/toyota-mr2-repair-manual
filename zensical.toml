@@ -50,6 +50,17 @@ nav = [
       "turbocharger-system/turbocharger.md",
       "turbocharger-system/intercooler.md",
   ] },
+  { "Lubrication system" = [
+      "lubrication-system/index.md",
+      "lubrication-system/description.md",
+      "lubrication-system/troubleshooting.md",
+      "lubrication-system/oil-pressure-check.md",
+      "lubrication-system/replacement-of-engine-oil-and-oil-filter.md",
+      "lubrication-system/oil-pump.md",
+      "lubrication-system/oil-cooler-3s-gte.md",
+      "lubrication-system/oil-cooler-5s-fe.md",
+      "lubrication-system/oil-nozzles-3s-gte.md",
+  ] },
   { "Ignition system" = [
       "ignition-system/index.md",
       "ignition-system/precautions.md",

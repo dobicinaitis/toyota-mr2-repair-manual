@@ -70,6 +70,10 @@ Per page:
    .venv/bin/python utils/crop_figure.py <page> --box x0,y0,x1,y1 --id <kebab-name> --images-dir docs/<chapter>/images
    ```
    `Read` the printed preview path and adjust the box once if needed. The script prints the `<figure>` snippet to use.
+
+   A box that runs along a printed frame — one box holding two diagrams, or an edge a little outside the frame — is
+   moved inside that frame first, so the line does not end up as a rule along the finished image; the script says so
+   when it does. Pass `--keep-frame` for a figure whose own border has to stay, such as a table cropped whole.
 6. For dense numeric content (spec tables, charts), confirm the values first:
    ```bash
    .venv/bin/python utils/zoom.py <page> --box x0,y0,x1,y1 --ocr

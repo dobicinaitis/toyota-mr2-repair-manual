@@ -21,7 +21,7 @@
 3.  Remove engine hood side panels.
 4.  Remove engine under covers.
 5.  Drain engine coolant. (See page CO-6)
-6.  Drain engine oil. (See page LU-7)
+6.  Drain engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 7.  Drain transaxle oil.
 8.  Remove suspension upper brace.
 
@@ -452,9 +452,9 @@
     </figure>
 
 11. Remove water pump. (See page CO-11)
-12. Remove oil pan and oil pump. (See pages LU-11 and 12)
-13. Remove oil filter. (See page LU-7)
-14. Remove oil cooler. (See page LU-19)
+12. Remove oil pan and oil pump. (See [Oil pump › Removal of oil pump](../lubrication-system/oil-pump.md#p-lu-11))
+13. Remove oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
+14. Remove oil cooler. (See [Oil cooler (3S-GTE) › Removal of oil cooler](../lubrication-system/oil-cooler-3s-gte.md#p-lu-19))
 15. Remove knock sensor.
 
     Using SST, remove the knock sensor.
@@ -790,7 +790,7 @@
       ![](images/EM8172.webp#illustration){ width="80%" }
     </figure>
 
-8.  Remove oil nozzles. (See page LU-26)
+8.  Remove oil nozzles. (See [Oil nozzles (3S-GTE)](../lubrication-system/oil-nozzles-3s-gte.md#oil-nozzles-3s-gte))
 
 [](){ #p-em-151 }
 ## Inspection of cylinder block
@@ -1374,7 +1374,7 @@
     * Before installing the parts, apply new engine oil to all sliding and rotating surfaces.
     * Replace all gaskets, O-rings and oil seals with new parts.
 
-1.  Install oil nozzles. (See page LU-14)
+1.  Install oil nozzles. (See [Oil pump › Replacement of oil pump oil seal](../lubrication-system/oil-pump.md#replacement-of-oil-pump-oil-seal))
 
 2.  Install main bearings.
 
@@ -1517,11 +1517,11 @@
       ![](images/EM7871.webp#illustration){ width="80%" }
     </figure>
 
-2.  Install oil cooler. (See pages LU-21 and 22)
+2.  Install oil cooler. (See [Oil cooler (3S-GTE) › Installation of oil cooler](../lubrication-system/oil-cooler-3s-gte.md#p-lu-21))
 
-3.  Install oil filter. (See page LU-7)
+3.  Install oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 
-4.  Install oil pump and oil pan. (See pages LU-15 and 16)
+4.  Install oil pump and oil pan. (See [Oil pump › Installation of oil pump](../lubrication-system/oil-pump.md#installation-of-oil-pump))
 
 5.  Install water pump. (See pages CO-12 and 13)
 
@@ -2131,7 +2131,7 @@
 
     **Capacity (w/ Heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)
 
-44. Fill with engine oil. (See page LU-8)
+44. Fill with engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#p-lu-8))
 
     **Capacity:**
 
