@@ -377,6 +377,99 @@ def strip_edge_slivers(image, max_scan=8, min_blank=12, max_ink_ratio=0.5):
     return image[top:height - bottom, left:width - right]
 
 
+def clip_box_to_frame_interior(bitmap, box_px, probe=100, segments=20, min_span=0.85,
+                               max_thickness=32, gap=(8, 48), slack=6, clearance=4):
+    """
+    Shrink a crop box past a printed frame line running along one of its edges.
+    A box drawn on or just outside a printed box keeps that frame as ordinary ink, and
+    trim_to_ink then crops right down to it, so the line survives as a rule along the
+    finished illustration — which is what the eye catches on the page.
+    A rule at the edge of the box is only a frame when the same line carries on outside
+    the box at both ends: a diagram's own full-width bar (the "OIL PAN" of a lubrication
+    circuit, a table's outer border) stops inside the crop, a page frame does not. That
+    one test is what separates them; nothing in the crop alone can.
+    :param bitmap: the whole (deskewed) page, grayscale
+    :param box_px: (x0, y0, x1, y1) crop box in pixels
+    :param probe: how far in from each edge of the box a frame line is looked for
+    :param segments: number of buckets an edge is split into to test that a line runs its length
+    :param min_span: fraction of those buckets the line must reach
+    :param max_thickness: thickest run of rows still taken for a rule
+    :param gap: the window outside the box, in pixels from its edge, searched for the line's ends
+    :param slack: pixels of tolerance across the line, for the scan's leftover slant
+    :param clearance: pixels taken past the line, so its soft edge goes with it
+    :return: the box, with each edge that sat on a frame line moved just inside it
+    """
+    ink = bitmap < INK_THRESHOLD
+    height, width = ink.shape[:2]
+    x0, y0, x1, y1 = box_px
+
+    def rule_depth(band):
+        """How deep the leading edge of band has to be cut to clear a rule, or 0 for none."""
+        depth, side = band.shape
+        if depth < 4 or side < segments:
+            return 0
+        cuts = np.linspace(0, side, segments + 1).astype(int)
+        masks = np.zeros(depth, dtype=np.int64)
+        for i in range(segments):
+            masks |= band[:, cuts[i]:cuts[i + 1]].any(axis=1).astype(np.int64) << i
+        needed = min_span * segments
+        speckle = max(2, round(side * 0.005))
+        for start in range(depth):
+            if masks[start] == 0:
+                continue
+            reached = 0
+            # the scan leaves a rule slanted over several rows, so it is the rows taken
+            # together, not any one of them, that have to reach across the edge
+            for end in range(start, min(start + max_thickness, depth)):
+                reached |= int(masks[end])
+                if reached.bit_count() < needed:
+                    continue
+                # reaching across only means the slant has been picked up far enough to
+                # recognise; the rest of it is still ahead, out to the blank behind
+                while (end + 1 < depth and end - start + 1 < max_thickness
+                       and band[end + 1].sum() > speckle):
+                    end += 1
+                return min(end + 1 + clearance, depth)
+        return 0
+
+    def carries_on(along, across, horizontal):
+        """True when the rule, held in the across band, has ink just beyond an end of along."""
+        near, far = gap
+        lo, hi = along
+        limit = width if horizontal else height
+        ends = (slice(max(0, lo - far), max(0, lo - near)),
+                slice(min(limit, hi + near), min(limit, hi + far)))
+        band = slice(max(0, across[0]), min(height if horizontal else width, across[1]))
+        # one end is enough: a box taking in half of a printed frame meets the other end of
+        # the line at the frame's own corner, where it turns instead of carrying on
+        for end in ends:
+            part = ink[band, end] if horizontal else ink[end, band]
+            if part.size and part.any():
+                return True
+        return False
+
+    # the sides of a printed box meet at its corners, so a rule looks like it stops with the
+    # box until the neighbouring side has been cut back past the corner; settle the four of
+    # them rather than deciding each once
+    for _ in range(4):
+        before = (x0, y0, x1, y1)
+        depth = rule_depth(ink[y0:min(y0 + probe, y1), x0:x1])
+        if depth and carries_on((x0, x1), (y0 - slack, y0 + depth + slack), True):
+            y0 += depth
+        depth = rule_depth(ink[max(y0, y1 - probe):y1, x0:x1][::-1])
+        if depth and carries_on((x0, x1), (y1 - depth - slack, y1 + slack), True):
+            y1 -= depth
+        depth = rule_depth(ink[y0:y1, x0:min(x0 + probe, x1)].T)
+        if depth and carries_on((y0, y1), (x0 - slack, x0 + depth + slack), False):
+            x0 += depth
+        depth = rule_depth(ink[y0:y1, max(x0, x1 - probe):x1].T[::-1])
+        if depth and carries_on((y0, y1), (x1 - depth - slack, x1 + slack), False):
+            x1 -= depth
+        if (x0, y0, x1, y1) == before:
+            break
+    return x0, y0, x1, y1
+
+
 def trim_to_ink(image, pad=20):
     """Crop an image to the bounding box of its ink plus padding."""
     ink = np.argwhere(image < INK_THRESHOLD)

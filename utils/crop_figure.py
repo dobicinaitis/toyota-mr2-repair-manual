@@ -12,9 +12,10 @@
 # cropping, the crop is trimmed to its ink and a PNG preview is written next
 # to the page's other figures in .staging.
 #
-# Pass --framed when the box takes in a printed frame line, as when one detected
-# frame holds two diagrams that belong in separate files: the line is removed the
-# way prepare_pages.py removes it from the frames it extracts itself.
+# A box drawn on or just outside a printed frame is moved inside it first, so the frame
+# does not end up as a rule along the finished illustration; --keep-frame turns that off.
+# Pass --framed when the box is drawn on the line of a frame that prepare_pages.py itself
+# detected, as when one such frame holds two diagrams that belong in separate files.
 
 import argparse
 import json
@@ -49,6 +50,25 @@ def load_deskewed_page(doc, page_number, staging):
     return bitmap, skew
 
 
+def matching_frame(bitmap, box_px, tolerance_pct=0.5):
+    """
+    The printed frame the box was drawn on, if there is one.
+    A box traced around a frame is a box for the illustration inside it, and cutting that
+    out along the frame's own corners — as prepare_pages.py does — levels the scan's slant,
+    which slicing an axis-aligned box out of a slanted frame cannot.
+    :param bitmap: the (deskewed) page, grayscale
+    :param box_px: (x0, y0, x1, y1) crop box in pixels
+    :param tolerance_pct: how far, in percent of the page, each edge may sit from the frame's
+    :return: the Frame, or None
+    """
+    height, width = bitmap.shape[:2]
+    slack = (tolerance_pct / 100 * width, tolerance_pct / 100 * height)
+    for frame in hf.find_frames(bitmap):
+        if all(abs(a - b) <= slack[i % 2] for i, (a, b) in enumerate(zip(box_px, frame.bbox_px))):
+            return frame
+    return None
+
+
 def figure_snippet(rel_path, width_px, indent=0):
     pad = " " * indent
     attrs = "" if width_px > FULL_WIDTH_PX else '{ width="80%" }'
@@ -66,6 +86,8 @@ def main():
                         help="rotate the crop clockwise (for landscape pages)")
     parser.add_argument("--framed", action="store_true",
                         help="the box includes a printed frame line; remove it before trimming to ink")
+    parser.add_argument("--keep-frame", action="store_true",
+                        help="keep a printed frame line the box runs along instead of cropping inside it")
     parser.add_argument("--no-trim", action="store_true", help="keep the exact box instead of trimming to ink")
     parser.add_argument("--pad", type=int, default=20, help="padding kept around the ink when trimming")
     parser.add_argument("--force", action="store_true", help="overwrite an existing image")
@@ -74,12 +96,24 @@ def main():
 
     doc = mm.open_manual(args.pdf)
     bitmap, skew = load_deskewed_page(doc, args.page, args.staging)
-    x0, y0, x1, y1 = hf.pct_to_px(args.box, bitmap.shape)
-    crop = bitmap[y0:y1, x0:x1]
+    box = hf.pct_to_px(args.box, bitmap.shape)
+    frame = None if args.keep_frame else matching_frame(bitmap, box)
+    if frame is not None:
+        print(f"box traced around a printed frame at {frame.bbox_pct}; cutting inside it")
+        crop = hf.trim_border(hf.extract_frame(bitmap, frame))
+    else:
+        if not args.keep_frame:
+            clipped = hf.clip_box_to_frame_interior(bitmap, box)
+            if clipped != box:
+                print(f"frame line along the box: {hf.px_to_pct(box, bitmap.shape)}"
+                      f" -> {hf.px_to_pct(clipped, bitmap.shape)}")
+                box = clipped
+        x0, y0, x1, y1 = box
+        crop = bitmap[y0:y1, x0:x1]
+        if args.framed:
+            crop = hf.trim_border(crop)
     if args.rotate:
         crop = hf.rotate_multiple_of_90(crop, args.rotate)
-    if args.framed:
-        crop = hf.trim_border(crop)
     if not args.no_trim:
         crop = hf.trim_to_ink(crop, args.pad)
 
