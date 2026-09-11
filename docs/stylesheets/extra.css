@@ -119,3 +119,16 @@ html .md-footer-meta.md-typeset a:hover {
 .md-typeset a[id^="p-"]:empty:only-child {
     display: none;
 }
+
+/* Move the search bar to the right on wide screens */
+@media screen and (min-width: 76.25em) {
+    [dir="ltr"] .md-header__source {
+        margin-left: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .md-header__source {
+        width: auto;
+    }
+}
