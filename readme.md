@@ -4,6 +4,8 @@
 
 Digitized version of the 1991 Toyota MR2 repair manual.
 
+Published version: https://mr2.dobicinaitis.dev
+
 Completion checklist:
 
 * [ ] Volume 1
