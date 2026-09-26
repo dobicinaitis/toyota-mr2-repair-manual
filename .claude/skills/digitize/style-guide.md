@@ -98,6 +98,15 @@ land on that heading), or inline at the start of the paragraph or list item wher
 4. [](){ #p-in-5 } Check hose and wiring connectors …
 ```
 
+**Never on its own line before a list item** — only a heading tolerates that. Put on its own line, the anchor either
+gets swallowed into the previous item's body as a lazy-continuation paragraph (with everything after it, including
+any indented figure, then rendered as a raw code block instead of parsed) or, with a blank line kept before the
+item, starts a whole new list that the browser numbers from 1 regardless of the source markdown's own number.
+`lint_docs.py` catches both. Fix either by moving the anchor inline after the marker (`5.  [](){ #p-co-18 } …`).
+
+Before a table, always leave a blank line — with none, the anchor's paragraph swallows the whole table as a
+lazy-continuation and it never renders as a table at all, just literal `| A | B |` text. `lint_docs.py` catches this.
+
 Codes increase by one per page within a file. Never inside a table or an admonition.
 
 ## References

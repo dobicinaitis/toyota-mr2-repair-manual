@@ -20,7 +20,7 @@
 2.  Remove engine hood.
 3.  Remove engine hood side panels.
 4.  Remove engine under covers.
-5.  Drain engine coolant. (See page CO-6)
+5.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 6.  Drain engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 7.  Drain transaxle oil.
 8.  Remove suspension upper brace.
@@ -250,7 +250,7 @@
           ![](images/EM8921_EM8920.webp#illustration)
         </figure>
 
-32. Remove engine compartment cooling fan. (See steps 4 and 5 on page CO-34)
+32. Remove engine compartment cooling fan. (See [Engine compartment cooling fan (3S-GTE) › Removal of engine compartment cooling fan, steps 4, 5](../cooling-system/electric-cooling-fans/engine-compartment-cooling-fan-3s-gte.md#removal-of-engine-compartment-cooling-fan))
 33. Remove idler pulley bracket and A/C compressor without disconnecting hoses.
 
     1.  Disconnect the idler pulley bolt and adjusting bolt, and remove the drive belt.
@@ -451,7 +451,7 @@
       ![](images/EM8717.webp#illustration){ width="80%" }
     </figure>
 
-11. Remove water pump. (See page CO-11)
+11. Remove water pump. (See [Water pump › Removal of water pump](../cooling-system/water-pump.md#removal-of-water-pump))
 12. Remove oil pan and oil pump. (See [Oil pump › Removal of oil pump](../lubrication-system/oil-pump.md#p-lu-11))
 13. Remove oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 14. Remove oil cooler. (See [Oil cooler (3S-GTE) › Removal of oil cooler](../lubrication-system/oil-cooler-3s-gte.md#p-lu-19))
@@ -1523,7 +1523,7 @@
 
 4.  Install oil pump and oil pan. (See [Oil pump › Installation of oil pump](../lubrication-system/oil-pump.md#installation-of-oil-pump))
 
-5.  Install water pump. (See pages CO-12 and 13)
+5.  Install water pump. (See [Water pump › Inspection of water pump](../cooling-system/water-pump.md#inspection-of-water-pump))
 
 6.  Install cylinder head. (See [Cylinder head (3S-GTE) › Installation of cylinder head](cylinder-head-3s-gte.md#installation-of-cylinder-head))
 
@@ -1855,7 +1855,7 @@
           ![](images/EM9033.webp#illustration){ width="80%" }
         </figure>
 
-17. Install engine compartment cooling fan. (See steps 1 and 2 on page CO-36)
+17. Install engine compartment cooling fan. (See [Engine compartment cooling fan (3S-GTE) › Installation of engine compartment cooling fan, steps 1, 2](../cooling-system/electric-cooling-fans/engine-compartment-cooling-fan-3s-gte.md#installation-of-engine-compartment-cooling-fan))
 
 18. Install front exhaust pipe.
 
@@ -2127,7 +2127,7 @@
 
 42. Connect cable to negative terminal of battery.
 
-43. Fill with engine coolant. (See page CO-7)
+43. Fill with engine coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 
     **Capacity (w/ Heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)
 

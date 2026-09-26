@@ -81,6 +81,7 @@ git merge digitize/<chapter> …
 ```bash
 .venv/bin/python utils/lint_docs.py --fix                  # nav, checklist and glossary are generated
 .venv/bin/python utils/lint_docs.py --ocr-audit .staging
+.venv/bin/python utils/lint_docs.py --border-audit          # leftover frame lines around illustrations
 .venv/bin/python utils/verify_topic.py --all
 .venv/bin/python utils/resolve_refs.py
 .venv/bin/zensical build --clean --strict

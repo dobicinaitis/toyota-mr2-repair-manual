@@ -6,6 +6,7 @@
 #     python utils/lint_docs.py                          # lint all of docs/
 #     python utils/lint_docs.py docs/engine-mechanical/engine-tune-up.md
 #     python utils/lint_docs.py --ocr-audit .staging     # also cross-check numbers against the OCR text
+#     python utils/lint_docs.py --border-audit           # also scan illustrations for a leftover frame line
 #     python utils/lint_docs.py --fix                    # regenerate generated files (glossary)
 #
 # Checks:
@@ -17,6 +18,8 @@
 #   - a blank line closes every admonition (without it the following blocks are swallowed)
 #   - every docs/**/*.md is in the nav and vice versa
 #   - --ocr-audit: every number in a page's text appears in that page's OCR text (warnings only)
+#   - --border-audit: no illustration still carries a residual frame-line fragment near an edge
+#     (needs opencv/numpy, not installed in CI; warnings only)
 
 import argparse
 import json
@@ -152,6 +155,25 @@ class Linter:
                 last_anchor = code
             if re.search(r"\[\]\(\)\{\s*#p-", line) and not ANCHOR.search(line):
                 self.error(path, number, f"malformed page anchor: {stripped}")
+            # a standalone anchor line is only valid before a heading; before a list item it
+            # breaks that item's numbering and swallows its body into a raw block (no blank
+            # line before the item) or renders the whole new list starting at "1" (blank line) —
+            # either way the anchor belongs inline, right after the item's own marker
+            if ANCHOR.fullmatch(stripped):
+                next_line = number
+                while next_line < len(doc.lines) and not doc.lines[next_line].strip():
+                    next_line += 1
+                if next_line < len(doc.lines) and re.match(r"^\s*(\d+\.|[-*+])\s", doc.lines[next_line]):
+                    self.error(path, number,
+                               "page anchor on its own line directly above a list item; move it inline "
+                               f"right after the marker instead: {doc.lines[next_line].strip()[:60]}")
+                # unlike a list item, a table only needs a blank line before it — but with none,
+                # the anchor's paragraph swallows the whole table as a lazy-continuation and it
+                # never renders as a table at all
+                if number < len(doc.lines) and doc.lines[number].strip().startswith("|"):
+                    self.error(path, number,
+                               "page anchor directly above a table with no blank line swallows the table "
+                               "into a text paragraph; add a blank line before it")
 
             # images
             for match in IMAGE.finditer(line):
@@ -274,6 +296,32 @@ class Linter:
                 if missing:
                     self.warn(f"docs/{doc.path}", start, f"{code}: numbers not found in OCR: {', '.join(missing)}")
 
+    def border_audit(self):
+        """
+        Illustrations that still carry a residual frame-line fragment near an edge — the
+        same detectors utils/helper_functions.py uses to clean a crop, run read-only against
+        the images already committed to docs/.
+        """
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import cv2
+        import numpy as np
+        import helper_functions as hf
+        for images_dir in self.index.docs_dir.rglob("images"):
+            for image in sorted(images_dir.glob("*.webp")):
+                bgra = cv2.imread(str(image), cv2.IMREAD_UNCHANGED)
+                if bgra is None or bgra.ndim < 3 or bgra.shape[2] < 4:
+                    continue
+                gray = np.where(bgra[:, :, 3] > 0, 0, 255).astype(np.uint8)
+                top, bottom, left, right = hf.detect_solid_border(gray, allow_fallback=False)
+                height, width = gray.shape
+                found = {s: v for s, v in zip(("top", "bottom", "left", "right"),
+                                              (top, bottom, left, right)) if v}
+                for side, offset in hf.detect_edge_slivers(gray[top:height - bottom, left:width - right]).items():
+                    found[side] = found.get(side, 0) + offset
+                if found:
+                    sides = ", ".join(f"{s} ({v}px)" for s, v in found.items())
+                    self.warn(str(image), 0, f"residual frame-line fragment on {sides}")
+
     @staticmethod
     def _normalise(text):
         return re.sub(r"[–—]", "-", text)
@@ -316,6 +364,9 @@ def main():
     parser.add_argument("--docs", default="docs")
     parser.add_argument("--config", default="zensical.toml")
     parser.add_argument("--ocr-audit", metavar="STAGING", help="cross-check numbers against staged OCR text")
+    parser.add_argument("--border-audit", action="store_true",
+                        help="scan illustrations for a residual frame-line fragment near an edge "
+                             "(needs opencv/numpy; not run in CI)")
     parser.add_argument("--fix", action="store_true",
                         help="regenerate generated files and apply the mechanical text conventions")
     args = parser.parse_args()
@@ -346,6 +397,8 @@ def main():
         linter.lint_nav()
     if args.ocr_audit:
         linter.ocr_audit(args.ocr_audit)
+    if args.border_audit:
+        linter.border_audit()
 
     for warning in linter.warnings:
         print(f"warning: {warning}")

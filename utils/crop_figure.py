@@ -112,6 +112,8 @@ def main():
         crop = bitmap[y0:y1, x0:x1]
         if args.framed:
             crop = hf.trim_border(crop)
+        elif not args.keep_frame:
+            crop = hf.strip_edge_slivers(crop)
     if args.rotate:
         crop = hf.rotate_multiple_of_90(crop, args.rotate)
     if not args.no_trim:

@@ -16,7 +16,7 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Drain engine coolant. (See page CO-6)
+2.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 3.  Remove engine under covers.
 4.  Remove RH engine hood side panel.
 5.  Remove No.1 air intake connector. (See [Intercooler, step 4](../turbocharger-system/intercooler.md#intercooler))
@@ -167,7 +167,7 @@
 7.  Install No.1 air intake connector. (See [Intercooler › Installation of intercooler, step 10](../turbocharger-system/intercooler.md#p-tc-25))
 8.  Install RH engine hood side panel.
 9.  Connect cable to negative terminal of battery.
-10. Fill with engine coolant. (See page CO-7)
+10. Fill with engine coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 11. Start engine and check for leaks.
 12. Check engine oil level. (See [Oil pressure check](oil-pressure-check.md#oil-pressure-check))
 13. Install engine under covers.

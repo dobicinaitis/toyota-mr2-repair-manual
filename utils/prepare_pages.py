@@ -65,23 +65,17 @@ def find_steps(tsv, shape):
     return steps
 
 
-def edge_ink(image, gutter=12):
+def edge_ink(image):
     """
-    Sides of an extracted illustration that still carry ink hard against the edge with a
-    blank gutter behind it — what a frame line looks like when trimming missed it.
+    Sides of an extracted illustration that still carry a residual frame-line fragment —
+    what trim_border missed, using the same detectors it cleans with.
     :return: names of the offending sides
     """
-    ink = image < hf.INK_THRESHOLD
-    sides = {"left": ink.mean(axis=0), "right": ink.mean(axis=0)[::-1],
-             "top": ink.mean(axis=1), "bottom": ink.mean(axis=1)[::-1]}
-    found = []
-    for name, profile in sides.items():
-        n = 0
-        while n < len(profile) and n < 25 and profile[n] > 0:
-            n += 1
-        if 0 < n <= 8 and profile[n:n + gutter].max() == 0:
-            found.append(name)
-    return found
+    top, bottom, left, right = hf.detect_solid_border(image, allow_fallback=False)
+    height, width = image.shape[:2]
+    found = set(hf.detect_edge_slivers(image[top:height - bottom, left:width - right]))
+    found |= {s for s, v in zip(("top", "bottom", "left", "right"), (top, bottom, left, right)) if v}
+    return sorted(found)
 
 
 def nearest_step(frame_box, steps):

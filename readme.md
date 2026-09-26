@@ -92,18 +92,18 @@ Completion checklist:
             * [ ] Sub-oxygen sensor (5S-FE Calif. only)
             * [ ] Electronic controlled unit (ECU)
             * [ ] Fuel cut RPM
-    * [ ] Cooling System
-        * [ ] Description
-        * [ ] Troubleshooting
-        * [ ] Engine coolant check
-        * [ ] Replacement of engine coolant
-        * [ ] Water pump
-        * [ ] Thermostat
-        * [ ] Radiator
-        * [ ] Electric cooling fans
-            * [ ] Radiator cooling fans (w/ A/C)
-            * [ ] Radiator cooling fan (w/o A/C)
-            * [ ] Engine compartment cooling fan (3S-GTE)
+    * [x] Cooling System
+        * [x] Description
+        * [x] Troubleshooting
+        * [x] Engine coolant check
+        * [x] Replacement of engine coolant
+        * [x] Water pump
+        * [x] Thermostat
+        * [x] Radiator
+        * [x] Electric cooling fans
+            * [x] Radiator cooling fans (w/ A/C)
+            * [x] Radiator cooling fan (w/o A/C)
+            * [x] Engine compartment cooling fan (3S-GTE)
     * [x] Lubrication System
         * [x] Description
         * [x] Troubleshooting

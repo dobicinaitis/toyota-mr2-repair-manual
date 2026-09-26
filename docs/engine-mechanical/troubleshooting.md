@@ -5,7 +5,7 @@
 
 | Problem          | Possible cause          | Remedy                      | Page      |
 |------------------|-------------------------|-----------------------------|-----------|
-| Engine overheats | Cooling system faulty   | Troubleshoot cooling system | CO-4      |
+| Engine overheats | Cooling system faulty   | Troubleshoot cooling system | [Troubleshooting](../cooling-system/troubleshooting.md#troubleshooting) |
 |                  | Incorrect ignition timing | Reset timing              | [Installation of distributor](../ignition-system/distributor-3s-gte.md#p-ig-17) |
 
 ## Hard starting
@@ -35,7 +35,7 @@
 |                               | Incorrect idle speed                                                                                                  | Check ISC system        | FI-148, 151   |
 |                               | Incorrect valve clearance                                                                                             | Adjust valve clearance  | [Inspection and adjustment of valve clearance (3S-GTE)](engine-tune-up.md#inspection-and-adjustment-of-valve-clearance-3s-gte) |
 |                               | EFI system problems                                                                                                   | Repair as necessary     |               |
-|                               | Engine overheats                                                                                                      | Check cooling system    | CO-4          |
+|                               | Engine overheats                                                                                                      | Check cooling system    | [Troubleshooting](../cooling-system/troubleshooting.md#troubleshooting) |
 |                               | Low compression                                                                                                       | Check compression       | [Compression check](compression-check.md#compression-check) |
 
 [](){ #p-em-7 }
@@ -53,7 +53,7 @@
 |                                        | Air cleaner clogged                                                                                                   | Check air cleaner      | [Maintenance operations](../maintenance/maintenance-operations.md#maintenance-operations) |
 |                                        | EFI system problems                                                                                                   | Repair as necessary    |           |
 |                                        | Emission control system problem (cold engine)<ul><li>EGR system always on</li></ul>                                   | Check EGR system       | EC-8, 24  |
-|                                        | Engine overheats                                                                                                      | Check cooling system   | CO-4      |
+|                                        | Engine overheats                                                                                                      | Check cooling system   | [Troubleshooting](../cooling-system/troubleshooting.md#troubleshooting) |
 |                                        | Low compression                                                                                                       | Check compression      | [Compression check](compression-check.md#compression-check) |
 
 [](){ #p-em-8 }

@@ -20,7 +20,7 @@
 2.  Remove engine hood.
 3.  Remove engine hood side panels.
 4.  Remove engine under covers.
-5.  Drain engine coolant. (See page CO-6)
+5.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 6.  Drain engine oil. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 7.  Drain transaxle oil.
 8.  Remove suspension upper brace.
@@ -420,7 +420,7 @@
 
 8.  Remove timing belt and pulleys. (See [Timing belt (5S-FE) › Removal of timing belt](timing-belt-5s-fe.md#p-em-49))
 9.  Remove cylinder head. (See [Cylinder head (5S-FE) › Removal of cylinder head](cylinder-head-5s-fe.md#removal-of-cylinder-head))
-10. Remove water pump. (See page CO-11)
+10. Remove water pump. (See [Water pump › Removal of water pump](../cooling-system/water-pump.md#removal-of-water-pump))
 11. Remove oil pan and oil pump. (See [Oil pump › Removal of oil pump](../lubrication-system/oil-pump.md#p-lu-11))
 12. Remove oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 13. Remove oil cooler. (See [Oil cooler (5S-FE) › Removal of oil cooler](../lubrication-system/oil-cooler-5s-fe.md#p-lu-24))
@@ -1452,7 +1452,7 @@
 1.  Install oil cooler. (See [Oil cooler (5S-FE) › Installation of oil cooler](../lubrication-system/oil-cooler-5s-fe.md#installation-of-oil-cooler))
 2.  Install oil filter. (See [Replacement of engine oil and oil filter](../lubrication-system/replacement-of-engine-oil-and-oil-filter.md#replacement-of-engine-oil-and-oil-filter))
 3.  Install oil pump and oil pan. (See [Oil pump › Installation of oil pump](../lubrication-system/oil-pump.md#installation-of-oil-pump))
-4.  Install water pump. (See pages CO-12 and 13)
+4.  Install water pump. (See [Water pump › Inspection of water pump](../cooling-system/water-pump.md#inspection-of-water-pump))
 5.  Install cylinder head. (See [Cylinder head (5S-FE) › Installation of cylinder head](cylinder-head-5s-fe.md#installation-of-cylinder-head))
 6.  Install pulleys and timing belt. (See [Timing belt (5S-FE) › Installation of timing belt](timing-belt-5s-fe.md#installation-of-timing-belt))
 7.  Install RH engine mounting bracket.
@@ -1982,7 +1982,7 @@
     </figure>
 
 37. Connect cable to negative terminal of battery.
-38. Fill with engine coolant. (See page CO-7)
+38. Fill with engine coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 
     **Capacity (w/ Heater):** 13.0 liters (13.7 US qts, 11.4 Imp. qts)
 

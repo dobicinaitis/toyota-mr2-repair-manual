@@ -25,7 +25,7 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Drain engine coolant. (See page CO-6)
+2.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 3.  Remove engine under covers.
 4.  Remove engine hood side panels.
 5.  Remove suspension upper brace. (See [Cylinder block (3S-GTE) › Removal of engine, step 8](cylinder-block-3s-gte.md#removal-of-engine))
@@ -1541,7 +1541,7 @@
 35. Install cruise control actuator (w/ cruise control system) and accelerator linkage. (See [Cylinder block (3S-GTE) › Installation of engine, step 36](cylinder-block-3s-gte.md#p-em-178))
 36. Install accelerator cable, and adjust it.
 37. Install suspension upper brace. (See [Cylinder block (3S-GTE) › Installation of engine, step 41](cylinder-block-3s-gte.md#p-em-179))
-38. Fill engine with coolant. (See page CO-7)
+38. Fill engine with coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 
     **Capacity (w/ heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)
 

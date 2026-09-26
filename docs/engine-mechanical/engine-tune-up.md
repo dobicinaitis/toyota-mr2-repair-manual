@@ -3,7 +3,7 @@
 
 ## Inspection of engine coolant
 
-(See steps 1 and 2 on page CO-4)
+(See [Troubleshooting, steps 1, 2](../cooling-system/troubleshooting.md#troubleshooting))
 
 ## Inspection of engine oil
 

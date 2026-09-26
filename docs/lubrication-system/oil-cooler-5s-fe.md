@@ -16,7 +16,7 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Drain engine coolant. (See page CO-6)
+2.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 3.  Remove engine under covers.
 4.  Remove front exhaust pipe. (See [Cylinder block (5S-FE) › Removal of engine, step 29](../engine-mechanical/cylinder-block-5s-fe.md#p-em-187))
 5.  Remove exhaust manifold and catalytic converter assembly. (See [Cylinder head (5S-FE) › Removal of cylinder head, step 14](../engine-mechanical/cylinder-head-5s-fe.md#p-em-99))
@@ -116,7 +116,7 @@
 5.  Install exhaust manifold and catalytic converter assembly. (See [Cylinder head (5S-FE) › Installation of cylinder head, step 25](../engine-mechanical/cylinder-head-5s-fe.md#p-em-130))
 6.  Install front exhaust pipe. (See [Cylinder block (5S-FE) › Installation of engine, step 15](../engine-mechanical/cylinder-block-5s-fe.md#p-em-221))
 7.  Connect cable to negative terminal of battery.
-8.  Fill with engine coolant. (See page CO-7)
+8.  Fill with engine coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 9.  Start engine and check for leaks.
 10. Check engine oil level. (See [Oil pressure check](oil-pressure-check.md#oil-pressure-check))
 11. Install engine under covers.

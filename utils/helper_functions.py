@@ -304,20 +304,25 @@ def extract_frame(image, frame):
     return binary
 
 
-def trim_border(image, max_scan=40, ink_ratio=0.5, pad=4):
+def detect_solid_border(image, max_scan=40, ink_ratio=0.5, pad=4, max_passes=3, allow_fallback=True):
     """
-    Remove the residual frame line around a levelled illustration.
+    How far trim_border's solid-border scan would cut in from each side.
     Walks inward from each side while rows/columns are mostly ink, then pads a little.
+    Iterated because the levelling warp can split one physical frame line into two separate
+    solid bands, which a single pass only catches the first of; only the first pass falls
+    back to a minimum pad when no line is found at all, so an image that never had a solid
+    border to begin with loses nothing to the extra passes.
     :param image: grayscale illustration including its border line
-    :param max_scan: maximum pixels to scan per side
+    :param max_scan: maximum pixels to scan per side, per pass
     :param ink_ratio: a row/column with more ink than this is considered part of the border
-    :param pad: extra pixels removed after the border line
-    :return: cropped image
+    :param pad: extra pixels removed after the border line (or the fallback on pass 1)
+    :param max_passes: at most this many bands are removed per side
+    :param allow_fallback: trim a minimum pad on pass 1 even when no line is found — right for
+    cropping (a warp always leaves a little antialiasing fuzz), wrong for a caller that wants
+    to know whether a genuine border line is still there
+    :return: (top, bottom, left, right) total pixels to remove
     """
-    ink = image < INK_THRESHOLD
-    height, width = ink.shape
-
-    def edge(profile, limit):
+    def edge(profile, limit, use_fallback):
         offset = 0
         # skip a possible thin white gap left by the contour approximation, then the line
         while offset < limit and profile[offset] > ink_ratio:
@@ -330,54 +335,83 @@ def trim_border(image, max_scan=40, ink_ratio=0.5, pad=4):
                 offset = gap
                 while offset < limit and profile[offset] > ink_ratio:
                     offset += 1
+        if offset == 0:
+            return pad if use_fallback else 0
         return min(offset + pad, limit)
 
-    rows = ink.mean(axis=1)
-    cols = ink.mean(axis=0)
-    top = edge(rows, min(max_scan, height // 4))
-    bottom = edge(rows[::-1], min(max_scan, height // 4))
-    left = edge(cols, min(max_scan, width // 4))
-    right = edge(cols[::-1], min(max_scan, width // 4))
+    total = [0, 0, 0, 0]
+    view = image
+    for pass_number in range(max_passes):
+        ink = view < INK_THRESHOLD
+        height, width = ink.shape
+        use_fallback = allow_fallback and pass_number == 0
+        t = edge(ink.mean(axis=1), min(max_scan, height // 4), use_fallback)
+        b = edge(ink.mean(axis=1)[::-1], min(max_scan, height // 4), use_fallback)
+        l = edge(ink.mean(axis=0), min(max_scan, width // 4), use_fallback)
+        r = edge(ink.mean(axis=0)[::-1], min(max_scan, width // 4), use_fallback)
+        if t == b == l == r == 0:
+            break
+        total[0] += t
+        total[1] += b
+        total[2] += l
+        total[3] += r
+        view = view[t:height - b, l:width - r]
+    return tuple(total)
+
+
+def trim_border(image, max_scan=40, ink_ratio=0.5, pad=4, max_passes=3):
+    """Remove the residual frame line around a levelled illustration."""
+    top, bottom, left, right = detect_solid_border(image, max_scan, ink_ratio, pad, max_passes)
+    height, width = image.shape[:2]
     return strip_edge_slivers(image[top:height - bottom, left:width - right])
 
 
-def strip_edge_slivers(image, max_scan=8, min_blank=12, max_ink_ratio=0.5):
+def detect_edge_slivers(image, max_scan=30, min_blank=12, max_ink_ratio=0.5, blank_ratio=0.01):
     """
-    Remove what is left of a frame line after trimming: a few pixels of ink hard against
-    an edge, with a clear white gutter just inside it. The frames are not perfectly
-    rectangular, so the perspective warp can leave a fragment of one side behind — too
-    little ink for trim_border's threshold, but visible as a hairline along the edge
-    (and, inverted, as a white line in dark mode).
+    Which sides of image carry a thin residual frame-line fragment, and how many pixels deep:
+    a few pixels of ink hard against an edge, with a clear white gutter just inside it. The
+    frames are not perfectly rectangular, so the perspective warp can leave a fragment of one
+    side behind — too little ink for trim_border's threshold, but visible as a hairline along
+    the edge (and, inverted, as a white line in dark mode).
     :param image: grayscale illustration
-    :param max_scan: at most this many pixels are stripped from a side
+    :param max_scan: at most this many pixels are considered part of a sliver
     :param min_blank: the gutter inside the sliver must be at least this wide
     :param max_ink_ratio: leave anything denser than this alone; a real border is trim_border's job
-    :return: cropped image
+    :param blank_ratio: a row/column with less ink than this counts as blank (scans carry a
+    tiny noise floor that never hits exact zero)
+    :return: {side: pixels} for each side carrying a sliver
     """
     ink = image < INK_THRESHOLD
     height, width = ink.shape
 
     def sliver(profile, limit):
         offset = 0
-        while offset < min(max_scan, limit) and profile[offset] > 0:
+        while offset < min(max_scan, limit) and profile[offset] > blank_ratio:
             offset += 1
         if offset == 0 or offset >= min(max_scan, limit):
             return 0
         if profile[:offset].max() > max_ink_ratio:
             return 0
         gutter = profile[offset:offset + min_blank]
-        return offset if len(gutter) == min_blank and gutter.max() == 0 else 0
+        return offset if len(gutter) == min_blank and gutter.max() <= blank_ratio else 0
 
     rows = ink.mean(axis=1)
     cols = ink.mean(axis=0)
-    top = sliver(rows, height // 4)
-    bottom = sliver(rows[::-1], height // 4)
-    left = sliver(cols, width // 4)
-    right = sliver(cols[::-1], width // 4)
+    sides = {"top": (rows, height // 4), "bottom": (rows[::-1], height // 4),
+             "left": (cols, width // 4), "right": (cols[::-1], width // 4)}
+    return {name: off for name, (profile, limit) in sides.items() if (off := sliver(profile, limit))}
+
+
+def strip_edge_slivers(image, max_scan=30, min_blank=12, max_ink_ratio=0.5, blank_ratio=0.01):
+    """Crop away any residual frame-line fragment detect_edge_slivers finds. See its docstring."""
+    found = detect_edge_slivers(image, max_scan, min_blank, max_ink_ratio, blank_ratio)
+    height, width = image.shape[:2]
+    top, bottom = found.get("top", 0), found.get("bottom", 0)
+    left, right = found.get("left", 0), found.get("right", 0)
     return image[top:height - bottom, left:width - right]
 
 
-def clip_box_to_frame_interior(bitmap, box_px, probe=100, segments=20, min_span=0.85,
+def clip_box_to_frame_interior(bitmap, box_px, probe=150, segments=20, min_span=0.85,
                                max_thickness=32, gap=(8, 48), slack=6, clearance=4):
     """
     Shrink a crop box past a printed frame line running along one of its edges.
@@ -390,7 +424,9 @@ def clip_box_to_frame_interior(bitmap, box_px, probe=100, segments=20, min_span=
     one test is what separates them; nothing in the crop alone can.
     :param bitmap: the whole (deskewed) page, grayscale
     :param box_px: (x0, y0, x1, y1) crop box in pixels
-    :param probe: how far in from each edge of the box a frame line is looked for
+    :param probe: how far in from each edge of the box a frame line is looked for — wide
+    enough that a hand-estimated box (its edge a percent or two off the true frame) still
+    finds the line, not just one nudged a few pixels by the deskew warp
     :param segments: number of buckets an edge is split into to test that a line runs its length
     :param min_span: fraction of those buckets the line must reach
     :param max_thickness: thickest run of rows still taken for a rule

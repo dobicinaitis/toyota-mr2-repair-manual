@@ -157,7 +157,7 @@ Replace the air cleaner element with a new one.
 
 ### 7. Replace engine coolant
 
-(See page CO-5)
+(See [Replacement of engine coolant](../cooling-system/replacement-of-engine-coolant.md#replacement-of-engine-coolant))
 
 !!! tip "Hint"
 
@@ -491,9 +491,8 @@ Check the drive shaft boots for clamp looseness, leakage or damage.
       ![](images/AT5941.webp#illustration){ width="80%" }
     </figure>
 
-    [](){ #p-ma-12 }
-
-6.  Recheck the fluid level with the normal temperature (70 – 80°C (158 – 176°F)) and add as necessary.
+6.  [](){ #p-ma-12 } Recheck the fluid level with the normal temperature (70 – 80°C (158 – 176°F)) and add as
+    necessary.
 
 ### 22. Tighten bolts and nuts on chassis and body
 

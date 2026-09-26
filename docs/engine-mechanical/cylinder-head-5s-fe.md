@@ -19,7 +19,7 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Drain engine coolant. (See page CO-6)
+2.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 3.  Remove engine under covers.
 4.  Remove engine hood side panels.
 5.  Remove suspension upper brace.
@@ -1673,7 +1673,7 @@
 33. (A/T) Connect throttle cable, and adjust it.
 34. Install suspension upper brace. (See [Cylinder block (5S-FE) › Installation of engine, step 36](cylinder-block-5s-fe.md#p-em-226))
 35. Connect cable to negative terminal of battery.
-36. Fill with engine coolant. (See page CO-7)
+36. Fill with engine coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 
     **Capacity (w/ heater):** 13.0 liters (13.7 US qts, 11.4 Imp. qts)
 

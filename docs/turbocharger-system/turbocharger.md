@@ -82,7 +82,7 @@
         Work must be started after approx. 20 seconds or longer from the time the ignition switch is turned to the
         `LOCK` position and the negative (`–`) terminal cable is disconnected from the battery.
 
-2.  Drain engine coolant. (See page CO-6)
+2.  Drain engine coolant. (See [Replacement of engine coolant › Drainage of engine coolant](../cooling-system/replacement-of-engine-coolant.md#drainage-of-engine-coolant))
 3.  Remove engine under covers.
 4.  Remove LH engine hood side panel.
 5.  Remove suspension upper brace. (See [Cylinder block (3S-GTE) › Removal of engine, step 8](../engine-mechanical/cylinder-block-3s-gte.md#removal-of-engine))
@@ -93,7 +93,7 @@
 10. Remove idler pulley bracket and A/C compressor. (See [Intercooler › Removal of intercooler, steps 10–12](intercooler.md#p-tc-21))
 11. Remove front engine mounting insulator. (See [Cylinder block (3S-GTE) › Removal of engine, step 38](../engine-mechanical/cylinder-block-3s-gte.md#p-em-141))
 12. Remove front mounting bracket and clutch release cylinder. (See [Cylinder block (3S-GTE) › Removal of engine, step 39](../engine-mechanical/cylinder-block-3s-gte.md#p-em-141))
-13. Remove engine compartment cooling fan. (See steps 4 and 5 on page CO-34)
+13. Remove engine compartment cooling fan. (See [Engine compartment cooling fan (3S-GTE) › Removal of engine compartment cooling fan, steps 4, 5](../cooling-system/electric-cooling-fans/engine-compartment-cooling-fan-3s-gte.md#removal-of-engine-compartment-cooling-fan))
 14. Remove catalytic converter. (See [Cylinder head (3S-GTE) › Removal of cylinder head, step 14](../engine-mechanical/cylinder-head-3s-gte.md#p-em-64))
 15. Disconnect air by-pass hoses.
 
@@ -493,7 +493,7 @@
     2. Install the air by-pass hose and VTV to the clamps.
 
 15. Install catalytic converter. (See [Cylinder head (3S-GTE) › Installation of cylinder head, step 28](../engine-mechanical/cylinder-head-3s-gte.md#p-em-94))
-16. Install engine compartment cooling fan. (See steps 1 and 2 on page CO-36)
+16. Install engine compartment cooling fan. (See [Engine compartment cooling fan (3S-GTE) › Installation of engine compartment cooling fan, steps 1, 2](../cooling-system/electric-cooling-fans/engine-compartment-cooling-fan-3s-gte.md#installation-of-engine-compartment-cooling-fan))
 17. Install front mounting bracket and clutch release cylinder. (See [Cylinder block (3S-GTE) › Installation of engine, step 9](../engine-mechanical/cylinder-block-3s-gte.md#p-em-171))
 18. Install front engine mounting insulator. (See [Cylinder block (3S-GTE) › Installation of engine, step 10](../engine-mechanical/cylinder-block-3s-gte.md#p-em-172))
 19. Install A/C compressor and idler pulley bracket. (See [Intercooler › Installation of intercooler, steps 3–5](intercooler.md#installation-of-intercooler))
@@ -502,7 +502,7 @@
 22. Install No.1 and No.2 air intake connectors. (See [Intercooler › Installation of intercooler, steps 10, 11](intercooler.md#p-tc-25))
 23. Install air cleaner. (See [Cylinder block (3S-GTE) › Installation of engine, step 40](../engine-mechanical/cylinder-block-3s-gte.md#p-em-179))
 24. Install suspension upper brace. (See [Cylinder block (3S-GTE) › Installation of engine, step 41](../engine-mechanical/cylinder-block-3s-gte.md#p-em-179))
-25. Fill engine with coolant. (See page CO-7)
+25. Fill engine with coolant. (See [Replacement of engine coolant › Refill of engine coolant](../cooling-system/replacement-of-engine-coolant.md#refill-of-engine-coolant))
 
     **Capacity (w/ heater):** 13.6 liters (14.4 US qts, 12.0 Imp. qts)
 
